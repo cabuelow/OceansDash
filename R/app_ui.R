@@ -5,14 +5,17 @@
 #' @import shiny
 #' @noRd
 app_ui <- function(request) {
-  tagList(
-    # Leave this function for adding external resources
-    golem_add_external_resources(),
-    # Your application UI logic
-    fluidPage(
-      h1("Oceans MEL Dashboard")
-    )
-  )
+  # Your application UI logic
+  shiny::navbarPage(golem_add_external_resources(), # Leave this function for adding external resources
+                    id = "navbar",
+                    title = span(img(src = "www/wwf-logo.jpeg", style="padding-right:5px", height = 40), "Oceans MEL Dashboard"),
+                    windowTitle = "Oceans MEL Dashboard",
+                    theme = bslib::bs_theme(version = 5,
+                                            bootswatch = "flatly",
+                                            "border-width" = "0px",
+                                            "enable-rounded" = TRUE), #https://rstudio.github.io/bslib/articles/bslib.html#custom
+                    selected = "Main",
+                    shiny::tabPanel("Main"))
 }
 
 #' Add external Resources to the Application

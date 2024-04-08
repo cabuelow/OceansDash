@@ -10,8 +10,7 @@ Authors@R: c(
            family = "Brown",
            role = c("aut", "cre"),
            email = "c.j.brown@utas.edu.au"))
-Description: The Oceans Dashboard displays indicator time-series data to monitor progress
-towards goals for nature, people, and climate.
+Description: The Oceans Dashboard displays indicator time-series data to monitor progress towards goals for nature, people, and climate.
 License: MIT LICENSE
 Imports: 
     config (>= 0.3.2),
@@ -19,6 +18,6 @@ Imports:
     shiny (>= 1.8.0)
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.1.1
+RoxygenNote: 7.3.1
 URL: https://github.com/cabuelow/OceansDash
 BugReports: https://github.com/cabuelow/OceansDash/issues
