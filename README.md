@@ -1,10 +1,10 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# Oceans Monitoring, Evaluation & Learning Dashboard
+# Oceans Montioring Evaluation & Learning Dashboard
 
-The Oceans Dashboard displays indicator time-series data to monitor progress
-towards goals for nature, people, and climate.
+The Oceans Dashboard displays indicator time-series data to monitor
+progress towards goals for nature, people, and climate.
 
 ## Installation
 
