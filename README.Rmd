@@ -36,9 +36,11 @@ Please note however, that the above download and installation is not required if
 
 ## Development TODO
 
--[] Finish WWF updates, listed below
--[] Get data
--[] Start drafting manual for updating, etc.
+- Finish WWF updates, listed below
+
+- Get data
+
+- Start drafting manual for updating, etc.
 
 **WWF requests**:
 
