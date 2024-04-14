@@ -18,6 +18,7 @@ Imports:
     golem (>= 0.4.1),
     magrittr,
     patchwork,
+    pkgload,
     shiny (>= 1.8.0),
     tidyr,
     tmap
