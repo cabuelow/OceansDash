@@ -1,0 +1,19 @@
+---
+title: "OceansDash"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{OceansDash}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(OceansDash)
+```

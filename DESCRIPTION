@@ -2,22 +2,33 @@ Package: OceansDash
 Title: Oceans Dashboard
 Version: 0.0.0.9000
 Authors@R: c(
-    person(given = "Christina",
-           family = "Buelow",
-           role = c("aut", "cre"),
-           email = "christinabuelow@gmail.com"),
-        person(given = "Christopher",
-           family = "Brown",
-           role = c("aut", "cre"),
-           email = "c.j.brown@utas.edu.au"))
-Description: The Oceans Dashboard displays indicator time-series data to monitor progress towards goals for nature, people, and climate.
+    person("Christina", "Buelow", , "christinabuelow@gmail.com", role = c("aut", "cre")),
+    person("Christopher", "Brown", , "c.j.brown@utas.edu.au", role = c("aut", "cre"))
+  )
+Description: The Oceans Dashboard displays indicator time-series data to
+    monitor progress towards goals for nature, people, and climate.
 License: MIT LICENSE
+URL: https://github.com/cabuelow/OceansDash
+BugReports: https://github.com/cabuelow/OceansDash/issues
 Imports: 
+    bslib,
     config (>= 0.3.2),
+    dplyr,
+    ggplot2,
     golem (>= 0.4.1),
-    shiny (>= 1.8.0)
+    magrittr,
+    patchwork,
+    shiny (>= 1.8.0),
+    tidyr,
+    tmap
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.3.1
-URL: https://github.com/cabuelow/OceansDash
-BugReports: https://github.com/cabuelow/OceansDash/issues
+Depends: 
+    R (>= 2.10)
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+VignetteBuilder: knitr

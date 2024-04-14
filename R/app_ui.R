@@ -4,9 +4,10 @@
 #'     DO NOT REMOVE.
 #' @import shiny
 #' @noRd
+
 app_ui <- function(request) {
   # Your application UI logic
-  shiny::navbarPage(golem_add_external_resources(), # Leave this function for adding external resources
+  navbarPage(golem_add_external_resources(), # Leave this function for adding external resources
                     id = "navbar",
                     title = span(img(src = "www/wwf-logo.jpeg", style="padding-right:5px", height = 40), "Oceans MEL Dashboard"),
                     windowTitle = "Oceans MEL Dashboard",
@@ -15,7 +16,9 @@ app_ui <- function(request) {
                                             "border-width" = "0px",
                                             "enable-rounded" = TRUE), #https://rstudio.github.io/bslib/articles/bslib.html#custom
                     selected = "Main",
-                    shiny::tabPanel("Main"))
+                    tabPanel("Main",
+                             mod_main_ui("main_1")),
+                    tabPanel("Information"))
 }
 
 #' Add external Resources to the Application

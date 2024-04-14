@@ -1,0 +1,441 @@
+"Year","Region","Type","Indicator","Value"
+2020,"Arctic","Baseline_2020","Marine_Red_List",0.0287577520124614
+2020,"Arctic","Baseline_2020","Marine_Living_Planet",0.0551435014465824
+2020,"Arctic","Baseline_2020","Fisheries_Stock_Condition",0.024608773435466
+2020,"Arctic","Baseline_2020","Habitat_Condition",0.0655705799115822
+2020,"Arctic","Baseline_2020","Effective_Protection",0.0690705278422683
+2020,"Arctic","Baseline_2020","Small_Scale_Fisheries_Rights",0.0142800022382289
+2020,"Arctic","Baseline_2020","Wealth_Relative_Index",0.0265972640365362
+2020,"Arctic","Baseline_2020","Human_Development_Index",0.0127531650243327
+2020,"Arctic","Baseline_2020","Climate_Adaptation_Plans",0.0814640038879588
+2020,"Arctic","Baseline_2020","Habitat_Carbon_Storage",0.0710182401351631
+2020,"Arctic","Baseline_2020","Carbon_Under_Effective_Protection",0.0243619472719729
+2020,"Eastern Pacific","Baseline_2020","Marine_Red_List",0.0788305135443807
+2020,"Eastern Pacific","Baseline_2020","Marine_Living_Planet",0.0456614735303447
+2020,"Eastern Pacific","Baseline_2020","Fisheries_Stock_Condition",0.00420595335308462
+2020,"Eastern Pacific","Baseline_2020","Habitat_Condition",0.0708530468167737
+2020,"Eastern Pacific","Baseline_2020","Effective_Protection",0.0795467417687178
+2020,"Eastern Pacific","Baseline_2020","Small_Scale_Fisheries_Rights",0.0414546335814521
+2020,"Eastern Pacific","Baseline_2020","Wealth_Relative_Index",0.0857827715342864
+2020,"Eastern Pacific","Baseline_2020","Human_Development_Index",0.0753307864302769
+2020,"Eastern Pacific","Baseline_2020","Climate_Adaptation_Plans",0.0448516341391951
+2020,"Eastern Pacific","Baseline_2020","Habitat_Carbon_Storage",6.24773325398564e-05
+2020,"Eastern Pacific","Baseline_2020","Carbon_Under_Effective_Protection",0.066805558744818
+2020,"Southwest Indian Ocean","Baseline_2020","Marine_Red_List",0.04089769218117
+2020,"Southwest Indian Ocean","Baseline_2020","Marine_Living_Planet",0.0956833345349878
+2020,"Southwest Indian Ocean","Baseline_2020","Fisheries_Stock_Condition",0.0327920719282702
+2020,"Southwest Indian Ocean","Baseline_2020","Habitat_Condition",0.0544066024711356
+2020,"Southwest Indian Ocean","Baseline_2020","Effective_Protection",0.00246136845089495
+2020,"Southwest Indian Ocean","Baseline_2020","Small_Scale_Fisheries_Rights",0.0413724326295778
+2020,"Southwest Indian Ocean","Baseline_2020","Wealth_Relative_Index",0.00458311666734517
+2020,"Southwest Indian Ocean","Baseline_2020","Human_Development_Index",0.0895045359153301
+2020,"Southwest Indian Ocean","Baseline_2020","Climate_Adaptation_Plans",0.0810064353048802
+2020,"Southwest Indian Ocean","Baseline_2020","Habitat_Carbon_Storage",0.0475316574098542
+2020,"Southwest Indian Ocean","Baseline_2020","Carbon_Under_Effective_Protection",0.0417646779678762
+2020,"Western Pacific","Baseline_2020","Marine_Red_List",0.0883017404004932
+2020,"Western Pacific","Baseline_2020","Marine_Living_Planet",0.0453334156190977
+2020,"Western Pacific","Baseline_2020","Fisheries_Stock_Condition",0.0954503649147228
+2020,"Western Pacific","Baseline_2020","Habitat_Condition",0.059414202044718
+2020,"Western Pacific","Baseline_2020","Effective_Protection",0.0477795971091837
+2020,"Western Pacific","Baseline_2020","Small_Scale_Fisheries_Rights",0.0368845450924709
+2020,"Western Pacific","Baseline_2020","Wealth_Relative_Index",0.0442200074205175
+2020,"Western Pacific","Baseline_2020","Human_Development_Index",0.0374462775886059
+2020,"Western Pacific","Baseline_2020","Climate_Adaptation_Plans",0.0812389509519562
+2020,"Western Pacific","Baseline_2020","Habitat_Carbon_Storage",0.0220118885161355
+2020,"Western Pacific","Baseline_2020","Carbon_Under_Effective_Protection",0.0788195834029466
+2020,"Arctic","Target_2030","Marine_Red_List",0.988093456858769
+2020,"Arctic","Target_2030","Marine_Living_Planet",0.935514127090573
+2020,"Arctic","Target_2030","Fisheries_Stock_Condition",0.977907863212749
+2020,"Arctic","Target_2030","Habitat_Condition",0.857831947458908
+2020,"Arctic","Target_2030","Effective_Protection",0.951691907504573
+2020,"Arctic","Target_2030","Small_Scale_Fisheries_Rights",0.830488949548453
+2020,"Arctic","Target_2030","Wealth_Relative_Index",0.959784969128668
+2020,"Arctic","Target_2030","Human_Development_Index",0.933023038925603
+2020,"Arctic","Target_2030","Climate_Adaptation_Plans",0.958868464222178
+2020,"Arctic","Target_2030","Habitat_Carbon_Storage",0.875963307544589
+2020,"Arctic","Target_2030","Carbon_Under_Effective_Protection",0.82057292885147
+2020,"Eastern Pacific","Target_2030","Marine_Red_List",0.809111299877986
+2020,"Eastern Pacific","Target_2030","Marine_Living_Planet",0.914526680391282
+2020,"Eastern Pacific","Target_2030","Fisheries_Stock_Condition",0.93856068123132
+2020,"Eastern Pacific","Target_2030","Habitat_Condition",0.829422729462385
+2020,"Eastern Pacific","Target_2030","Effective_Protection",0.843281587166712
+2020,"Eastern Pacific","Target_2030","Small_Scale_Fisheries_Rights",0.827761212689802
+2020,"Eastern Pacific","Target_2030","Wealth_Relative_Index",0.824379851995036
+2020,"Eastern Pacific","Target_2030","Human_Development_Index",0.818968132184818
+2020,"Eastern Pacific","Target_2030","Climate_Adaptation_Plans",0.887966337520629
+2020,"Eastern Pacific","Target_2030","Habitat_Carbon_Storage",0.922554200654849
+2020,"Eastern Pacific","Target_2030","Carbon_Under_Effective_Protection",0.886978548299521
+2020,"Southwest Indian Ocean","Target_2030","Marine_Red_List",0.905621097609401
+2020,"Southwest Indian Ocean","Target_2030","Marine_Living_Planet",0.820584936533123
+2020,"Southwest Indian Ocean","Target_2030","Fisheries_Stock_Condition",0.92810136275366
+2020,"Southwest Indian Ocean","Target_2030","Habitat_Condition",0.992604846507311
+2020,"Southwest Indian Ocean","Target_2030","Effective_Protection",0.86363620152697
+2020,"Southwest Indian Ocean","Target_2030","Small_Scale_Fisheries_Rights",0.84660681989044
+2020,"Southwest Indian Ocean","Target_2030","Wealth_Relative_Index",0.912189596751705
+2020,"Southwest Indian Ocean","Target_2030","Human_Development_Index",0.876793927559629
+2020,"Southwest Indian Ocean","Target_2030","Climate_Adaptation_Plans",0.95089503172785
+2020,"Southwest Indian Ocean","Target_2030","Habitat_Carbon_Storage",0.870359581848607
+2020,"Southwest Indian Ocean","Target_2030","Carbon_Under_Effective_Protection",0.996991395996883
+2020,"Western Pacific","Target_2030","Marine_Red_List",0.978483808878809
+2020,"Western Pacific","Target_2030","Marine_Living_Planet",0.979964994080365
+2020,"Western Pacific","Target_2030","Fisheries_Stock_Condition",0.998853955324739
+2020,"Western Pacific","Target_2030","Habitat_Condition",0.980459809023887
+2020,"Western Pacific","Target_2030","Effective_Protection",0.846325157070532
+2020,"Western Pacific","Target_2030","Small_Scale_Fisheries_Rights",0.893192490050569
+2020,"Western Pacific","Target_2030","Wealth_Relative_Index",0.841306277923286
+2020,"Western Pacific","Target_2030","Human_Development_Index",0.854876728914678
+2020,"Western Pacific","Target_2030","Climate_Adaptation_Plans",0.925844226311892
+2020,"Western Pacific","Target_2030","Habitat_Carbon_Storage",0.822227084869519
+2020,"Western Pacific","Target_2030","Carbon_Under_Effective_Protection",0.978610222879797
+2021,"Arctic","Baseline_2020","Marine_Red_List",0.0287577520124614
+2021,"Arctic","Baseline_2020","Marine_Living_Planet",0.0551435014465824
+2021,"Arctic","Baseline_2020","Fisheries_Stock_Condition",0.024608773435466
+2021,"Arctic","Baseline_2020","Habitat_Condition",0.0655705799115822
+2021,"Arctic","Baseline_2020","Effective_Protection",0.0690705278422683
+2021,"Arctic","Baseline_2020","Small_Scale_Fisheries_Rights",0.0142800022382289
+2021,"Arctic","Baseline_2020","Wealth_Relative_Index",0.0265972640365362
+2021,"Arctic","Baseline_2020","Human_Development_Index",0.0127531650243327
+2021,"Arctic","Baseline_2020","Climate_Adaptation_Plans",0.0814640038879588
+2021,"Arctic","Baseline_2020","Habitat_Carbon_Storage",0.0710182401351631
+2021,"Arctic","Baseline_2020","Carbon_Under_Effective_Protection",0.0243619472719729
+2021,"Eastern Pacific","Baseline_2020","Marine_Red_List",0.0788305135443807
+2021,"Eastern Pacific","Baseline_2020","Marine_Living_Planet",0.0456614735303447
+2021,"Eastern Pacific","Baseline_2020","Fisheries_Stock_Condition",0.00420595335308462
+2021,"Eastern Pacific","Baseline_2020","Habitat_Condition",0.0708530468167737
+2021,"Eastern Pacific","Baseline_2020","Effective_Protection",0.0795467417687178
+2021,"Eastern Pacific","Baseline_2020","Small_Scale_Fisheries_Rights",0.0414546335814521
+2021,"Eastern Pacific","Baseline_2020","Wealth_Relative_Index",0.0857827715342864
+2021,"Eastern Pacific","Baseline_2020","Human_Development_Index",0.0753307864302769
+2021,"Eastern Pacific","Baseline_2020","Climate_Adaptation_Plans",0.0448516341391951
+2021,"Eastern Pacific","Baseline_2020","Habitat_Carbon_Storage",6.24773325398564e-05
+2021,"Eastern Pacific","Baseline_2020","Carbon_Under_Effective_Protection",0.066805558744818
+2021,"Southwest Indian Ocean","Baseline_2020","Marine_Red_List",0.04089769218117
+2021,"Southwest Indian Ocean","Baseline_2020","Marine_Living_Planet",0.0956833345349878
+2021,"Southwest Indian Ocean","Baseline_2020","Fisheries_Stock_Condition",0.0327920719282702
+2021,"Southwest Indian Ocean","Baseline_2020","Habitat_Condition",0.0544066024711356
+2021,"Southwest Indian Ocean","Baseline_2020","Effective_Protection",0.00246136845089495
+2021,"Southwest Indian Ocean","Baseline_2020","Small_Scale_Fisheries_Rights",0.0413724326295778
+2021,"Southwest Indian Ocean","Baseline_2020","Wealth_Relative_Index",0.00458311666734517
+2021,"Southwest Indian Ocean","Baseline_2020","Human_Development_Index",0.0895045359153301
+2021,"Southwest Indian Ocean","Baseline_2020","Climate_Adaptation_Plans",0.0810064353048802
+2021,"Southwest Indian Ocean","Baseline_2020","Habitat_Carbon_Storage",0.0475316574098542
+2021,"Southwest Indian Ocean","Baseline_2020","Carbon_Under_Effective_Protection",0.0417646779678762
+2021,"Western Pacific","Baseline_2020","Marine_Red_List",0.0883017404004932
+2021,"Western Pacific","Baseline_2020","Marine_Living_Planet",0.0453334156190977
+2021,"Western Pacific","Baseline_2020","Fisheries_Stock_Condition",0.0954503649147228
+2021,"Western Pacific","Baseline_2020","Habitat_Condition",0.059414202044718
+2021,"Western Pacific","Baseline_2020","Effective_Protection",0.0477795971091837
+2021,"Western Pacific","Baseline_2020","Small_Scale_Fisheries_Rights",0.0368845450924709
+2021,"Western Pacific","Baseline_2020","Wealth_Relative_Index",0.0442200074205175
+2021,"Western Pacific","Baseline_2020","Human_Development_Index",0.0374462775886059
+2021,"Western Pacific","Baseline_2020","Climate_Adaptation_Plans",0.0812389509519562
+2021,"Western Pacific","Baseline_2020","Habitat_Carbon_Storage",0.0220118885161355
+2021,"Western Pacific","Baseline_2020","Carbon_Under_Effective_Protection",0.0788195834029466
+2021,"Arctic","Target_2030","Marine_Red_List",0.988093456858769
+2021,"Arctic","Target_2030","Marine_Living_Planet",0.935514127090573
+2021,"Arctic","Target_2030","Fisheries_Stock_Condition",0.977907863212749
+2021,"Arctic","Target_2030","Habitat_Condition",0.857831947458908
+2021,"Arctic","Target_2030","Effective_Protection",0.951691907504573
+2021,"Arctic","Target_2030","Small_Scale_Fisheries_Rights",0.830488949548453
+2021,"Arctic","Target_2030","Wealth_Relative_Index",0.959784969128668
+2021,"Arctic","Target_2030","Human_Development_Index",0.933023038925603
+2021,"Arctic","Target_2030","Climate_Adaptation_Plans",0.958868464222178
+2021,"Arctic","Target_2030","Habitat_Carbon_Storage",0.875963307544589
+2021,"Arctic","Target_2030","Carbon_Under_Effective_Protection",0.82057292885147
+2021,"Eastern Pacific","Target_2030","Marine_Red_List",0.809111299877986
+2021,"Eastern Pacific","Target_2030","Marine_Living_Planet",0.914526680391282
+2021,"Eastern Pacific","Target_2030","Fisheries_Stock_Condition",0.93856068123132
+2021,"Eastern Pacific","Target_2030","Habitat_Condition",0.829422729462385
+2021,"Eastern Pacific","Target_2030","Effective_Protection",0.843281587166712
+2021,"Eastern Pacific","Target_2030","Small_Scale_Fisheries_Rights",0.827761212689802
+2021,"Eastern Pacific","Target_2030","Wealth_Relative_Index",0.824379851995036
+2021,"Eastern Pacific","Target_2030","Human_Development_Index",0.818968132184818
+2021,"Eastern Pacific","Target_2030","Climate_Adaptation_Plans",0.887966337520629
+2021,"Eastern Pacific","Target_2030","Habitat_Carbon_Storage",0.922554200654849
+2021,"Eastern Pacific","Target_2030","Carbon_Under_Effective_Protection",0.886978548299521
+2021,"Southwest Indian Ocean","Target_2030","Marine_Red_List",0.905621097609401
+2021,"Southwest Indian Ocean","Target_2030","Marine_Living_Planet",0.820584936533123
+2021,"Southwest Indian Ocean","Target_2030","Fisheries_Stock_Condition",0.92810136275366
+2021,"Southwest Indian Ocean","Target_2030","Habitat_Condition",0.992604846507311
+2021,"Southwest Indian Ocean","Target_2030","Effective_Protection",0.86363620152697
+2021,"Southwest Indian Ocean","Target_2030","Small_Scale_Fisheries_Rights",0.84660681989044
+2021,"Southwest Indian Ocean","Target_2030","Wealth_Relative_Index",0.912189596751705
+2021,"Southwest Indian Ocean","Target_2030","Human_Development_Index",0.876793927559629
+2021,"Southwest Indian Ocean","Target_2030","Climate_Adaptation_Plans",0.95089503172785
+2021,"Southwest Indian Ocean","Target_2030","Habitat_Carbon_Storage",0.870359581848607
+2021,"Southwest Indian Ocean","Target_2030","Carbon_Under_Effective_Protection",0.996991395996883
+2021,"Western Pacific","Target_2030","Marine_Red_List",0.978483808878809
+2021,"Western Pacific","Target_2030","Marine_Living_Planet",0.979964994080365
+2021,"Western Pacific","Target_2030","Fisheries_Stock_Condition",0.998853955324739
+2021,"Western Pacific","Target_2030","Habitat_Condition",0.980459809023887
+2021,"Western Pacific","Target_2030","Effective_Protection",0.846325157070532
+2021,"Western Pacific","Target_2030","Small_Scale_Fisheries_Rights",0.893192490050569
+2021,"Western Pacific","Target_2030","Wealth_Relative_Index",0.841306277923286
+2021,"Western Pacific","Target_2030","Human_Development_Index",0.854876728914678
+2021,"Western Pacific","Target_2030","Climate_Adaptation_Plans",0.925844226311892
+2021,"Western Pacific","Target_2030","Habitat_Carbon_Storage",0.822227084869519
+2021,"Western Pacific","Target_2030","Carbon_Under_Effective_Protection",0.978610222879797
+2022,"Arctic","Baseline_2020","Marine_Red_List",0.0287577520124614
+2022,"Arctic","Baseline_2020","Marine_Living_Planet",0.0551435014465824
+2022,"Arctic","Baseline_2020","Fisheries_Stock_Condition",0.024608773435466
+2022,"Arctic","Baseline_2020","Habitat_Condition",0.0655705799115822
+2022,"Arctic","Baseline_2020","Effective_Protection",0.0690705278422683
+2022,"Arctic","Baseline_2020","Small_Scale_Fisheries_Rights",0.0142800022382289
+2022,"Arctic","Baseline_2020","Wealth_Relative_Index",0.0265972640365362
+2022,"Arctic","Baseline_2020","Human_Development_Index",0.0127531650243327
+2022,"Arctic","Baseline_2020","Climate_Adaptation_Plans",0.0814640038879588
+2022,"Arctic","Baseline_2020","Habitat_Carbon_Storage",0.0710182401351631
+2022,"Arctic","Baseline_2020","Carbon_Under_Effective_Protection",0.0243619472719729
+2022,"Eastern Pacific","Baseline_2020","Marine_Red_List",0.0788305135443807
+2022,"Eastern Pacific","Baseline_2020","Marine_Living_Planet",0.0456614735303447
+2022,"Eastern Pacific","Baseline_2020","Fisheries_Stock_Condition",0.00420595335308462
+2022,"Eastern Pacific","Baseline_2020","Habitat_Condition",0.0708530468167737
+2022,"Eastern Pacific","Baseline_2020","Effective_Protection",0.0795467417687178
+2022,"Eastern Pacific","Baseline_2020","Small_Scale_Fisheries_Rights",0.0414546335814521
+2022,"Eastern Pacific","Baseline_2020","Wealth_Relative_Index",0.0857827715342864
+2022,"Eastern Pacific","Baseline_2020","Human_Development_Index",0.0753307864302769
+2022,"Eastern Pacific","Baseline_2020","Climate_Adaptation_Plans",0.0448516341391951
+2022,"Eastern Pacific","Baseline_2020","Habitat_Carbon_Storage",6.24773325398564e-05
+2022,"Eastern Pacific","Baseline_2020","Carbon_Under_Effective_Protection",0.066805558744818
+2022,"Southwest Indian Ocean","Baseline_2020","Marine_Red_List",0.04089769218117
+2022,"Southwest Indian Ocean","Baseline_2020","Marine_Living_Planet",0.0956833345349878
+2022,"Southwest Indian Ocean","Baseline_2020","Fisheries_Stock_Condition",0.0327920719282702
+2022,"Southwest Indian Ocean","Baseline_2020","Habitat_Condition",0.0544066024711356
+2022,"Southwest Indian Ocean","Baseline_2020","Effective_Protection",0.00246136845089495
+2022,"Southwest Indian Ocean","Baseline_2020","Small_Scale_Fisheries_Rights",0.0413724326295778
+2022,"Southwest Indian Ocean","Baseline_2020","Wealth_Relative_Index",0.00458311666734517
+2022,"Southwest Indian Ocean","Baseline_2020","Human_Development_Index",0.0895045359153301
+2022,"Southwest Indian Ocean","Baseline_2020","Climate_Adaptation_Plans",0.0810064353048802
+2022,"Southwest Indian Ocean","Baseline_2020","Habitat_Carbon_Storage",0.0475316574098542
+2022,"Southwest Indian Ocean","Baseline_2020","Carbon_Under_Effective_Protection",0.0417646779678762
+2022,"Western Pacific","Baseline_2020","Marine_Red_List",0.0883017404004932
+2022,"Western Pacific","Baseline_2020","Marine_Living_Planet",0.0453334156190977
+2022,"Western Pacific","Baseline_2020","Fisheries_Stock_Condition",0.0954503649147228
+2022,"Western Pacific","Baseline_2020","Habitat_Condition",0.059414202044718
+2022,"Western Pacific","Baseline_2020","Effective_Protection",0.0477795971091837
+2022,"Western Pacific","Baseline_2020","Small_Scale_Fisheries_Rights",0.0368845450924709
+2022,"Western Pacific","Baseline_2020","Wealth_Relative_Index",0.0442200074205175
+2022,"Western Pacific","Baseline_2020","Human_Development_Index",0.0374462775886059
+2022,"Western Pacific","Baseline_2020","Climate_Adaptation_Plans",0.0812389509519562
+2022,"Western Pacific","Baseline_2020","Habitat_Carbon_Storage",0.0220118885161355
+2022,"Western Pacific","Baseline_2020","Carbon_Under_Effective_Protection",0.0788195834029466
+2022,"Arctic","Target_2030","Marine_Red_List",0.988093456858769
+2022,"Arctic","Target_2030","Marine_Living_Planet",0.935514127090573
+2022,"Arctic","Target_2030","Fisheries_Stock_Condition",0.977907863212749
+2022,"Arctic","Target_2030","Habitat_Condition",0.857831947458908
+2022,"Arctic","Target_2030","Effective_Protection",0.951691907504573
+2022,"Arctic","Target_2030","Small_Scale_Fisheries_Rights",0.830488949548453
+2022,"Arctic","Target_2030","Wealth_Relative_Index",0.959784969128668
+2022,"Arctic","Target_2030","Human_Development_Index",0.933023038925603
+2022,"Arctic","Target_2030","Climate_Adaptation_Plans",0.958868464222178
+2022,"Arctic","Target_2030","Habitat_Carbon_Storage",0.875963307544589
+2022,"Arctic","Target_2030","Carbon_Under_Effective_Protection",0.82057292885147
+2022,"Eastern Pacific","Target_2030","Marine_Red_List",0.809111299877986
+2022,"Eastern Pacific","Target_2030","Marine_Living_Planet",0.914526680391282
+2022,"Eastern Pacific","Target_2030","Fisheries_Stock_Condition",0.93856068123132
+2022,"Eastern Pacific","Target_2030","Habitat_Condition",0.829422729462385
+2022,"Eastern Pacific","Target_2030","Effective_Protection",0.843281587166712
+2022,"Eastern Pacific","Target_2030","Small_Scale_Fisheries_Rights",0.827761212689802
+2022,"Eastern Pacific","Target_2030","Wealth_Relative_Index",0.824379851995036
+2022,"Eastern Pacific","Target_2030","Human_Development_Index",0.818968132184818
+2022,"Eastern Pacific","Target_2030","Climate_Adaptation_Plans",0.887966337520629
+2022,"Eastern Pacific","Target_2030","Habitat_Carbon_Storage",0.922554200654849
+2022,"Eastern Pacific","Target_2030","Carbon_Under_Effective_Protection",0.886978548299521
+2022,"Southwest Indian Ocean","Target_2030","Marine_Red_List",0.905621097609401
+2022,"Southwest Indian Ocean","Target_2030","Marine_Living_Planet",0.820584936533123
+2022,"Southwest Indian Ocean","Target_2030","Fisheries_Stock_Condition",0.92810136275366
+2022,"Southwest Indian Ocean","Target_2030","Habitat_Condition",0.992604846507311
+2022,"Southwest Indian Ocean","Target_2030","Effective_Protection",0.86363620152697
+2022,"Southwest Indian Ocean","Target_2030","Small_Scale_Fisheries_Rights",0.84660681989044
+2022,"Southwest Indian Ocean","Target_2030","Wealth_Relative_Index",0.912189596751705
+2022,"Southwest Indian Ocean","Target_2030","Human_Development_Index",0.876793927559629
+2022,"Southwest Indian Ocean","Target_2030","Climate_Adaptation_Plans",0.95089503172785
+2022,"Southwest Indian Ocean","Target_2030","Habitat_Carbon_Storage",0.870359581848607
+2022,"Southwest Indian Ocean","Target_2030","Carbon_Under_Effective_Protection",0.996991395996883
+2022,"Western Pacific","Target_2030","Marine_Red_List",0.978483808878809
+2022,"Western Pacific","Target_2030","Marine_Living_Planet",0.979964994080365
+2022,"Western Pacific","Target_2030","Fisheries_Stock_Condition",0.998853955324739
+2022,"Western Pacific","Target_2030","Habitat_Condition",0.980459809023887
+2022,"Western Pacific","Target_2030","Effective_Protection",0.846325157070532
+2022,"Western Pacific","Target_2030","Small_Scale_Fisheries_Rights",0.893192490050569
+2022,"Western Pacific","Target_2030","Wealth_Relative_Index",0.841306277923286
+2022,"Western Pacific","Target_2030","Human_Development_Index",0.854876728914678
+2022,"Western Pacific","Target_2030","Climate_Adaptation_Plans",0.925844226311892
+2022,"Western Pacific","Target_2030","Habitat_Carbon_Storage",0.822227084869519
+2022,"Western Pacific","Target_2030","Carbon_Under_Effective_Protection",0.978610222879797
+2023,"Arctic","Baseline_2020","Marine_Red_List",0.0287577520124614
+2023,"Arctic","Baseline_2020","Marine_Living_Planet",0.0551435014465824
+2023,"Arctic","Baseline_2020","Fisheries_Stock_Condition",0.024608773435466
+2023,"Arctic","Baseline_2020","Habitat_Condition",0.0655705799115822
+2023,"Arctic","Baseline_2020","Effective_Protection",0.0690705278422683
+2023,"Arctic","Baseline_2020","Small_Scale_Fisheries_Rights",0.0142800022382289
+2023,"Arctic","Baseline_2020","Wealth_Relative_Index",0.0265972640365362
+2023,"Arctic","Baseline_2020","Human_Development_Index",0.0127531650243327
+2023,"Arctic","Baseline_2020","Climate_Adaptation_Plans",0.0814640038879588
+2023,"Arctic","Baseline_2020","Habitat_Carbon_Storage",0.0710182401351631
+2023,"Arctic","Baseline_2020","Carbon_Under_Effective_Protection",0.0243619472719729
+2023,"Eastern Pacific","Baseline_2020","Marine_Red_List",0.0788305135443807
+2023,"Eastern Pacific","Baseline_2020","Marine_Living_Planet",0.0456614735303447
+2023,"Eastern Pacific","Baseline_2020","Fisheries_Stock_Condition",0.00420595335308462
+2023,"Eastern Pacific","Baseline_2020","Habitat_Condition",0.0708530468167737
+2023,"Eastern Pacific","Baseline_2020","Effective_Protection",0.0795467417687178
+2023,"Eastern Pacific","Baseline_2020","Small_Scale_Fisheries_Rights",0.0414546335814521
+2023,"Eastern Pacific","Baseline_2020","Wealth_Relative_Index",0.0857827715342864
+2023,"Eastern Pacific","Baseline_2020","Human_Development_Index",0.0753307864302769
+2023,"Eastern Pacific","Baseline_2020","Climate_Adaptation_Plans",0.0448516341391951
+2023,"Eastern Pacific","Baseline_2020","Habitat_Carbon_Storage",6.24773325398564e-05
+2023,"Eastern Pacific","Baseline_2020","Carbon_Under_Effective_Protection",0.066805558744818
+2023,"Southwest Indian Ocean","Baseline_2020","Marine_Red_List",0.04089769218117
+2023,"Southwest Indian Ocean","Baseline_2020","Marine_Living_Planet",0.0956833345349878
+2023,"Southwest Indian Ocean","Baseline_2020","Fisheries_Stock_Condition",0.0327920719282702
+2023,"Southwest Indian Ocean","Baseline_2020","Habitat_Condition",0.0544066024711356
+2023,"Southwest Indian Ocean","Baseline_2020","Effective_Protection",0.00246136845089495
+2023,"Southwest Indian Ocean","Baseline_2020","Small_Scale_Fisheries_Rights",0.0413724326295778
+2023,"Southwest Indian Ocean","Baseline_2020","Wealth_Relative_Index",0.00458311666734517
+2023,"Southwest Indian Ocean","Baseline_2020","Human_Development_Index",0.0895045359153301
+2023,"Southwest Indian Ocean","Baseline_2020","Climate_Adaptation_Plans",0.0810064353048802
+2023,"Southwest Indian Ocean","Baseline_2020","Habitat_Carbon_Storage",0.0475316574098542
+2023,"Southwest Indian Ocean","Baseline_2020","Carbon_Under_Effective_Protection",0.0417646779678762
+2023,"Western Pacific","Baseline_2020","Marine_Red_List",0.0883017404004932
+2023,"Western Pacific","Baseline_2020","Marine_Living_Planet",0.0453334156190977
+2023,"Western Pacific","Baseline_2020","Fisheries_Stock_Condition",0.0954503649147228
+2023,"Western Pacific","Baseline_2020","Habitat_Condition",0.059414202044718
+2023,"Western Pacific","Baseline_2020","Effective_Protection",0.0477795971091837
+2023,"Western Pacific","Baseline_2020","Small_Scale_Fisheries_Rights",0.0368845450924709
+2023,"Western Pacific","Baseline_2020","Wealth_Relative_Index",0.0442200074205175
+2023,"Western Pacific","Baseline_2020","Human_Development_Index",0.0374462775886059
+2023,"Western Pacific","Baseline_2020","Climate_Adaptation_Plans",0.0812389509519562
+2023,"Western Pacific","Baseline_2020","Habitat_Carbon_Storage",0.0220118885161355
+2023,"Western Pacific","Baseline_2020","Carbon_Under_Effective_Protection",0.0788195834029466
+2023,"Arctic","Target_2030","Marine_Red_List",0.988093456858769
+2023,"Arctic","Target_2030","Marine_Living_Planet",0.935514127090573
+2023,"Arctic","Target_2030","Fisheries_Stock_Condition",0.977907863212749
+2023,"Arctic","Target_2030","Habitat_Condition",0.857831947458908
+2023,"Arctic","Target_2030","Effective_Protection",0.951691907504573
+2023,"Arctic","Target_2030","Small_Scale_Fisheries_Rights",0.830488949548453
+2023,"Arctic","Target_2030","Wealth_Relative_Index",0.959784969128668
+2023,"Arctic","Target_2030","Human_Development_Index",0.933023038925603
+2023,"Arctic","Target_2030","Climate_Adaptation_Plans",0.958868464222178
+2023,"Arctic","Target_2030","Habitat_Carbon_Storage",0.875963307544589
+2023,"Arctic","Target_2030","Carbon_Under_Effective_Protection",0.82057292885147
+2023,"Eastern Pacific","Target_2030","Marine_Red_List",0.809111299877986
+2023,"Eastern Pacific","Target_2030","Marine_Living_Planet",0.914526680391282
+2023,"Eastern Pacific","Target_2030","Fisheries_Stock_Condition",0.93856068123132
+2023,"Eastern Pacific","Target_2030","Habitat_Condition",0.829422729462385
+2023,"Eastern Pacific","Target_2030","Effective_Protection",0.843281587166712
+2023,"Eastern Pacific","Target_2030","Small_Scale_Fisheries_Rights",0.827761212689802
+2023,"Eastern Pacific","Target_2030","Wealth_Relative_Index",0.824379851995036
+2023,"Eastern Pacific","Target_2030","Human_Development_Index",0.818968132184818
+2023,"Eastern Pacific","Target_2030","Climate_Adaptation_Plans",0.887966337520629
+2023,"Eastern Pacific","Target_2030","Habitat_Carbon_Storage",0.922554200654849
+2023,"Eastern Pacific","Target_2030","Carbon_Under_Effective_Protection",0.886978548299521
+2023,"Southwest Indian Ocean","Target_2030","Marine_Red_List",0.905621097609401
+2023,"Southwest Indian Ocean","Target_2030","Marine_Living_Planet",0.820584936533123
+2023,"Southwest Indian Ocean","Target_2030","Fisheries_Stock_Condition",0.92810136275366
+2023,"Southwest Indian Ocean","Target_2030","Habitat_Condition",0.992604846507311
+2023,"Southwest Indian Ocean","Target_2030","Effective_Protection",0.86363620152697
+2023,"Southwest Indian Ocean","Target_2030","Small_Scale_Fisheries_Rights",0.84660681989044
+2023,"Southwest Indian Ocean","Target_2030","Wealth_Relative_Index",0.912189596751705
+2023,"Southwest Indian Ocean","Target_2030","Human_Development_Index",0.876793927559629
+2023,"Southwest Indian Ocean","Target_2030","Climate_Adaptation_Plans",0.95089503172785
+2023,"Southwest Indian Ocean","Target_2030","Habitat_Carbon_Storage",0.870359581848607
+2023,"Southwest Indian Ocean","Target_2030","Carbon_Under_Effective_Protection",0.996991395996883
+2023,"Western Pacific","Target_2030","Marine_Red_List",0.978483808878809
+2023,"Western Pacific","Target_2030","Marine_Living_Planet",0.979964994080365
+2023,"Western Pacific","Target_2030","Fisheries_Stock_Condition",0.998853955324739
+2023,"Western Pacific","Target_2030","Habitat_Condition",0.980459809023887
+2023,"Western Pacific","Target_2030","Effective_Protection",0.846325157070532
+2023,"Western Pacific","Target_2030","Small_Scale_Fisheries_Rights",0.893192490050569
+2023,"Western Pacific","Target_2030","Wealth_Relative_Index",0.841306277923286
+2023,"Western Pacific","Target_2030","Human_Development_Index",0.854876728914678
+2023,"Western Pacific","Target_2030","Climate_Adaptation_Plans",0.925844226311892
+2023,"Western Pacific","Target_2030","Habitat_Carbon_Storage",0.822227084869519
+2023,"Western Pacific","Target_2030","Carbon_Under_Effective_Protection",0.978610222879797
+2024,"Arctic","Baseline_2020","Marine_Red_List",0.0287577520124614
+2024,"Arctic","Baseline_2020","Marine_Living_Planet",0.0551435014465824
+2024,"Arctic","Baseline_2020","Fisheries_Stock_Condition",0.024608773435466
+2024,"Arctic","Baseline_2020","Habitat_Condition",0.0655705799115822
+2024,"Arctic","Baseline_2020","Effective_Protection",0.0690705278422683
+2024,"Arctic","Baseline_2020","Small_Scale_Fisheries_Rights",0.0142800022382289
+2024,"Arctic","Baseline_2020","Wealth_Relative_Index",0.0265972640365362
+2024,"Arctic","Baseline_2020","Human_Development_Index",0.0127531650243327
+2024,"Arctic","Baseline_2020","Climate_Adaptation_Plans",0.0814640038879588
+2024,"Arctic","Baseline_2020","Habitat_Carbon_Storage",0.0710182401351631
+2024,"Arctic","Baseline_2020","Carbon_Under_Effective_Protection",0.0243619472719729
+2024,"Eastern Pacific","Baseline_2020","Marine_Red_List",0.0788305135443807
+2024,"Eastern Pacific","Baseline_2020","Marine_Living_Planet",0.0456614735303447
+2024,"Eastern Pacific","Baseline_2020","Fisheries_Stock_Condition",0.00420595335308462
+2024,"Eastern Pacific","Baseline_2020","Habitat_Condition",0.0708530468167737
+2024,"Eastern Pacific","Baseline_2020","Effective_Protection",0.0795467417687178
+2024,"Eastern Pacific","Baseline_2020","Small_Scale_Fisheries_Rights",0.0414546335814521
+2024,"Eastern Pacific","Baseline_2020","Wealth_Relative_Index",0.0857827715342864
+2024,"Eastern Pacific","Baseline_2020","Human_Development_Index",0.0753307864302769
+2024,"Eastern Pacific","Baseline_2020","Climate_Adaptation_Plans",0.0448516341391951
+2024,"Eastern Pacific","Baseline_2020","Habitat_Carbon_Storage",6.24773325398564e-05
+2024,"Eastern Pacific","Baseline_2020","Carbon_Under_Effective_Protection",0.066805558744818
+2024,"Southwest Indian Ocean","Baseline_2020","Marine_Red_List",0.04089769218117
+2024,"Southwest Indian Ocean","Baseline_2020","Marine_Living_Planet",0.0956833345349878
+2024,"Southwest Indian Ocean","Baseline_2020","Fisheries_Stock_Condition",0.0327920719282702
+2024,"Southwest Indian Ocean","Baseline_2020","Habitat_Condition",0.0544066024711356
+2024,"Southwest Indian Ocean","Baseline_2020","Effective_Protection",0.00246136845089495
+2024,"Southwest Indian Ocean","Baseline_2020","Small_Scale_Fisheries_Rights",0.0413724326295778
+2024,"Southwest Indian Ocean","Baseline_2020","Wealth_Relative_Index",0.00458311666734517
+2024,"Southwest Indian Ocean","Baseline_2020","Human_Development_Index",0.0895045359153301
+2024,"Southwest Indian Ocean","Baseline_2020","Climate_Adaptation_Plans",0.0810064353048802
+2024,"Southwest Indian Ocean","Baseline_2020","Habitat_Carbon_Storage",0.0475316574098542
+2024,"Southwest Indian Ocean","Baseline_2020","Carbon_Under_Effective_Protection",0.0417646779678762
+2024,"Western Pacific","Baseline_2020","Marine_Red_List",0.0883017404004932
+2024,"Western Pacific","Baseline_2020","Marine_Living_Planet",0.0453334156190977
+2024,"Western Pacific","Baseline_2020","Fisheries_Stock_Condition",0.0954503649147228
+2024,"Western Pacific","Baseline_2020","Habitat_Condition",0.059414202044718
+2024,"Western Pacific","Baseline_2020","Effective_Protection",0.0477795971091837
+2024,"Western Pacific","Baseline_2020","Small_Scale_Fisheries_Rights",0.0368845450924709
+2024,"Western Pacific","Baseline_2020","Wealth_Relative_Index",0.0442200074205175
+2024,"Western Pacific","Baseline_2020","Human_Development_Index",0.0374462775886059
+2024,"Western Pacific","Baseline_2020","Climate_Adaptation_Plans",0.0812389509519562
+2024,"Western Pacific","Baseline_2020","Habitat_Carbon_Storage",0.0220118885161355
+2024,"Western Pacific","Baseline_2020","Carbon_Under_Effective_Protection",0.0788195834029466
+2024,"Arctic","Target_2030","Marine_Red_List",0.988093456858769
+2024,"Arctic","Target_2030","Marine_Living_Planet",0.935514127090573
+2024,"Arctic","Target_2030","Fisheries_Stock_Condition",0.977907863212749
+2024,"Arctic","Target_2030","Habitat_Condition",0.857831947458908
+2024,"Arctic","Target_2030","Effective_Protection",0.951691907504573
+2024,"Arctic","Target_2030","Small_Scale_Fisheries_Rights",0.830488949548453
+2024,"Arctic","Target_2030","Wealth_Relative_Index",0.959784969128668
+2024,"Arctic","Target_2030","Human_Development_Index",0.933023038925603
+2024,"Arctic","Target_2030","Climate_Adaptation_Plans",0.958868464222178
+2024,"Arctic","Target_2030","Habitat_Carbon_Storage",0.875963307544589
+2024,"Arctic","Target_2030","Carbon_Under_Effective_Protection",0.82057292885147
+2024,"Eastern Pacific","Target_2030","Marine_Red_List",0.809111299877986
+2024,"Eastern Pacific","Target_2030","Marine_Living_Planet",0.914526680391282
+2024,"Eastern Pacific","Target_2030","Fisheries_Stock_Condition",0.93856068123132
+2024,"Eastern Pacific","Target_2030","Habitat_Condition",0.829422729462385
+2024,"Eastern Pacific","Target_2030","Effective_Protection",0.843281587166712
+2024,"Eastern Pacific","Target_2030","Small_Scale_Fisheries_Rights",0.827761212689802
+2024,"Eastern Pacific","Target_2030","Wealth_Relative_Index",0.824379851995036
+2024,"Eastern Pacific","Target_2030","Human_Development_Index",0.818968132184818
+2024,"Eastern Pacific","Target_2030","Climate_Adaptation_Plans",0.887966337520629
+2024,"Eastern Pacific","Target_2030","Habitat_Carbon_Storage",0.922554200654849
+2024,"Eastern Pacific","Target_2030","Carbon_Under_Effective_Protection",0.886978548299521
+2024,"Southwest Indian Ocean","Target_2030","Marine_Red_List",0.905621097609401
+2024,"Southwest Indian Ocean","Target_2030","Marine_Living_Planet",0.820584936533123
+2024,"Southwest Indian Ocean","Target_2030","Fisheries_Stock_Condition",0.92810136275366
+2024,"Southwest Indian Ocean","Target_2030","Habitat_Condition",0.992604846507311
+2024,"Southwest Indian Ocean","Target_2030","Effective_Protection",0.86363620152697
+2024,"Southwest Indian Ocean","Target_2030","Small_Scale_Fisheries_Rights",0.84660681989044
+2024,"Southwest Indian Ocean","Target_2030","Wealth_Relative_Index",0.912189596751705
+2024,"Southwest Indian Ocean","Target_2030","Human_Development_Index",0.876793927559629
+2024,"Southwest Indian Ocean","Target_2030","Climate_Adaptation_Plans",0.95089503172785
+2024,"Southwest Indian Ocean","Target_2030","Habitat_Carbon_Storage",0.870359581848607
+2024,"Southwest Indian Ocean","Target_2030","Carbon_Under_Effective_Protection",0.996991395996883
+2024,"Western Pacific","Target_2030","Marine_Red_List",0.978483808878809
+2024,"Western Pacific","Target_2030","Marine_Living_Planet",0.979964994080365
+2024,"Western Pacific","Target_2030","Fisheries_Stock_Condition",0.998853955324739
+2024,"Western Pacific","Target_2030","Habitat_Condition",0.980459809023887
+2024,"Western Pacific","Target_2030","Effective_Protection",0.846325157070532
+2024,"Western Pacific","Target_2030","Small_Scale_Fisheries_Rights",0.893192490050569
+2024,"Western Pacific","Target_2030","Wealth_Relative_Index",0.841306277923286
+2024,"Western Pacific","Target_2030","Human_Development_Index",0.854876728914678
+2024,"Western Pacific","Target_2030","Climate_Adaptation_Plans",0.925844226311892
+2024,"Western Pacific","Target_2030","Habitat_Carbon_Storage",0.822227084869519
+2024,"Western Pacific","Target_2030","Carbon_Under_Effective_Protection",0.978610222879797

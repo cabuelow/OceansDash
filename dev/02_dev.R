@@ -14,19 +14,26 @@
 # Engineering
 
 ## Dependencies ----
-## Amend DESCRIPTION with dependencies read from package code parsing
-## install.packages('attachment') # if needed.
-attachment::att_amend_desc()
+## Add one line by package you want to add as dependency
+usethis::use_package("shiny")
+usethis::use_package("golem")
+usethis::use_package("config")
+usethis::use_package("dplyr") # using tidyverse as a dependency is discouraged as it is a meta-package
+usethis::use_package("ggplot2")
+usethis::use_package("tidyr")
+usethis::use_package("patchwork")
+usethis::use_package("shiny")
+usethis::use_package("tmap")
+usethis::use_package("magrittr")
 
 ## Add modules ----
 ## Create a module infrastructure in R/
-golem::add_module(name = "name_of_module1", with_test = TRUE) # Name of the module
-golem::add_module(name = "name_of_module2", with_test = TRUE) # Name of the module
+golem::add_module(name = "main") # Name of the module
 
 ## Add helper functions ----
 ## Creates fct_* and utils_*
-golem::add_fct("helpers", with_test = TRUE)
-golem::add_utils("helpers", with_test = TRUE)
+golem::add_fct("helpers")
+golem::add_utils("helpers")
 
 ## External resources
 ## Creates .js and .css files at inst/app/www
@@ -36,8 +43,8 @@ golem::add_css_file("custom")
 golem::add_sass_file("custom")
 
 ## Add internal datasets ----
-## If you have data in your package
-usethis::use_data_raw(name = "my_dataset", open = FALSE)
+## DO NOT OVERWRITE
+usethis::use_data_raw(name = "make-sysdata", open = FALSE)
 
 ## Tests ----
 ## Add one line by test you want to create
