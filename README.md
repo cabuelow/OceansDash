@@ -24,4 +24,5 @@ run_app()
 
 Please note however, that the above download and installation is not
 required if you simply want to use the Oceans Dashboard. The latest
-version will always be available on the [Shiny Server]()
+version will always be available on the [Shiny
+Server](https://cbuelow.shinyapps.io/oceans-dashboard-prototype_v2/)
