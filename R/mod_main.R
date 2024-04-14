@@ -13,23 +13,37 @@ mod_main_ui <- function(id){
   tagList(
     sidebarLayout(
       sidebarPanel(
-        tmap::tmapOutput(nsMain("map")),
+        fluidPage(
+          fluidRow(
+        tmap::tmapOutput(nsMain("map"))),
+        fluidRow(
+          column(6,
         HTML("<h6><strong>Select Region</strong></h6>"),
-        checkboxGroupInput(nsMain("region"), label = NULL, choices = list("Arctic" = 1, "Eastern Pacific" = 2, "South-west Indian Ocean" = 3, "Western Pacific" = 4), selected = NULL),
+        checkboxGroupInput(nsMain("region"), label = NULL, choices = list("Arctic" = 1, "Eastern Pacific" = 2, "South-west Indian Ocean" = 3, "Western Pacific" = 4), selected = NULL)),
+        column(6,
         HTML("<h6><strong>Select Country</strong></h6>"),
-        checkboxGroupInput(nsMain("country"), label = NULL, choices = Countrylist, selected = NULL)
-      ),
+        checkboxGroupInput(nsMain("country"), label = NULL, choices = Countrylist, selected = NULL)))),
+      width = 6),
       mainPanel(
+        fluidPage(
         tabsetPanel(id = "indicator", type = "pills",
                     tabPanel("Nature", value = 1,
-                    checkboxGroupInput(nsMain("people"), label = h5("Choose indicator"), choices = list("Small Scale Fisheries Rights" = 1, "Wealth Relative Index" = 2, "Human Development Index" = 3), selected = NULL),
+                             fluidRow(
+                               column(width = 6,
+                             HTML("<h6><strong>Choose indicator</strong></h6>"),
+                    checkboxGroupInput(nsMain("people"), label = NULL, choices = list("Small Scale Fisheries Rights" = 1, "Wealth Relative Index" = 2, "Human Development Index" = 3), selected = NULL)),
+                    column(width = 6,
                     checkboxInput(nsMain("people_base"), label = "Show Regional baseline(s) (2020)?", value = FALSE),
-                    checkboxInput(nsMain("people_targ"), label = "Show Regional target(s) (2030)?", value = FALSE),
-                    plotOutput(nsMain('ppl_plot'))),
-                    tabPanel("People", value = 2),
-                    tabPanel("Climate", value = 3)
-      )
-    )
+                    checkboxInput(nsMain("people_targ"), label = "Show Regional target(s) (2030)?", value = FALSE)
+                             )),
+                    fluidRow(
+                    plotOutput(nsMain('ppl_plot'), width = "100%", height = "650px"))),
+                    tabPanel("People", value = 2,
+                             fluidPage()),
+                    tabPanel("Climate", value = 3,
+                             fluidPage())
+      )),
+    width = 6)
   )
   )
 }
