@@ -60,28 +60,28 @@ mod_main_server <- function(id){
 
     mapdat <- reactive({
       if(!is.null(input$region) & !is.null(input$country)){
-        countrypolys <- World |> dplyr::filter(name %in% dplyr::filter(country_names, number %in% c(input$country))$country)
+        countrypolys <- eez |> dplyr::filter(UNION %in% dplyr::filter(country_names, number %in% c(input$country))$country)
         regionpolys <- regions |> dplyr::filter(Region %in% dplyr::filter(region_names, number %in% c(input$region))$region)
         list(countrypolys, regionpolys)
       }else if(!is.null(input$region)){
         regionpolys <- regions |> dplyr::filter(Region %in% dplyr::filter(region_names, number %in% c(input$region))$region)
         list(regionpolys)
       }else if(!is.null(input$country)){
-        countrypolys <- World |> dplyr::filter(name %in% dplyr::filter(country_names, number %in% c(input$country))$country)
+        countrypolys <- eez |> dplyr::filter(UNION %in% dplyr::filter(country_names, number %in% c(input$country))$country)
         list(countrypolys)
-      }else{
-        list(World)
       }
     })
 
     # Sidebar ----------------------------------------------------------
     # Sidebar Map
     output$map <- tmap::renderTmap({
-      if(length(mapdat())>1){
+      if(length(mapdat())==0){
+        tmap::qtm()
+      }else if(length(mapdat())>1){
         alldat <- rbind(dplyr::select(mapdat()[[2]], geom), dplyr::select(mapdat()[[1]], geom))
-        tmap::qtm(mapdat()[[2]], fill = 'Region', polygons.alpha = 0.5, fill.legend.show = F, bbox = sf::st_bbox(alldat)) + tmap::qtm(mapdat()[[1]], fill = 'name', polygons.alpha = 0.5, fill.legend.show = F, bbox = sf::st_bbox(alldat))}else if(ncol(mapdat()[[1]])>2){
-          tmap::qtm(mapdat()[[1]], fill = 'name', polygons.alpha = 0.5, fill.legend.show = F)
-        }else{
+        tmap::qtm(mapdat()[[2]], fill = 'Region', polygons.alpha = 0.5, fill.legend.show = F, bbox = sf::st_bbox(alldat)) + tmap::qtm(mapdat()[[1]], fill = 'UNION', polygons.alpha = 0.5, fill.legend.show = F, bbox = sf::st_bbox(alldat))}else if(ncol(mapdat()[[1]])>2){
+          tmap::qtm(mapdat()[[1]], fill = 'UNION', polygons.alpha = 0.5, fill.legend.show = F)
+        }else if(!is.null(mapdat()[[1]])){
           tmap::qtm(mapdat()[[1]], fill = 'Region', polygons.alpha = 0.5, fill.legend.show = F)
         }
     })
