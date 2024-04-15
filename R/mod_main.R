@@ -38,7 +38,8 @@ mod_main_ui <- function(id){
                                         checkboxInput(nsMain("people_targ"), label = "Target (year 2030)?", value = FALSE)
                                  )),
                                fluidRow(
-                                 plotly::plotlyOutput(nsMain('ppl_plot'), width = "100%", height = "650px"))),
+                                 plotly::plotlyOutput(nsMain('ppl_plot'), width = "100%", height = "650px")),
+                                   downloadButton(nsMain('download_dat'), label = 'Data', class = "btn-danger; btn-sm")),
                       tabPanel("People", value = 2,
                                fluidPage()),
                       tabPanel("Climate", value = 3,
@@ -116,10 +117,20 @@ mod_main_server <- function(id){
           }
         }
       })
-    })
 
+      # Download -------------------------------------------------------
+      output$download_dat <- downloadHandler(
+        filename = function() {
+          paste("data-", Sys.Date(), ".csv", sep="")
+        },
+        content = function(file) {
+          write.csv(indppl()[[1]], file)
+        }
+      )
+
+    })
   })
-}
+  }
 
 ## To be copied in the UI
 # mod_main_ui("main_1")
