@@ -5,6 +5,8 @@ account: cbuelow
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 11757147
-bundleId: 8494258
+bundleId: 8494689
 url: https://cbuelow.shinyapps.io/OceansDash/
 version: 1
+asMultiple: FALSE
+asStatic: FALSE
