@@ -39,8 +39,8 @@ mod_main_ui <- function(id){
                                  )),
                                fluidRow(
                                  plotly::plotlyOutput(nsMain('ppl_plot'), width = "100%", height = "650px") |>
-                                   shinycssloaders::withSpinner(color="cyan3")),
-                                   downloadButton(nsMain('download_dat'), label = 'Data', class = "btn-danger; btn-sm")),
+                                   shinycssloaders::withSpinner(color="#0dc5c1")),
+                               downloadButton(nsMain('download_dat'), label = 'Data', class = "btn-danger; btn-sm")),
                       tabPanel("People", value = 2,
                                fluidPage()),
                       tabPanel("Climate", value = 3,
@@ -131,7 +131,7 @@ mod_main_server <- function(id){
 
     })
   })
-  }
+}
 
 ## To be copied in the UI
 # mod_main_ui("main_1")
