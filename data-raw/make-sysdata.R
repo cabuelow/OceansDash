@@ -12,12 +12,12 @@ indicators <- read.csv(file.path('data-raw', 'indicators.csv'))
 base_targets <- read.csv(file.path("data-raw", "base_targets.csv"))
 
 # read in and wrangle spatial data -------------------------------------------------
-World <- st_read(file.path('data-raw', 'world.gpkg')) |> mutate(name = as.character(name)) |> mutate(name = ifelse(name == 'United States', 'Alaska', name)) |> filter(name != 'Antarctica')
+World <- st_read(file.path('data-raw', 'world.gpkg')) |> mutate(name = as.character(name)) |> mutate(name = ifelse(name == 'United States', 'Alaska', name)) |> mutate(name = ifelse(name == 'Solomon Is.', 'Solomon Islands', name)) |> filter(name != 'Antarctica')
 regions <- st_read(file.path('data-raw', 'regions.gpkg'))
 
 # make extras for widgets, etc -------------------------------------------------
-Region <- c('Arctic', rep('Eastern Pacific', 5), rep('Southwest Indian Ocean', 3), rep('Western Pacific',3))
-Country <- c('Alaska', 'Mexico', 'Colombia', 'Ecuador', 'Peru', 'Chile', 'Madagascar', 'Mozambique', 'Tanzania', 'Papua New Guinea', 'Indonesia', 'Fiji')
+Region <- c('Arctic', rep('Eastern Pacific', 5), rep('Southwest Indian Ocean', 3), rep('Western Pacific',4))
+Country <- c('Alaska', 'Mexico', 'Colombia', 'Ecuador', 'Peru', 'Chile', 'Madagascar', 'Mozambique', 'Tanzania', 'Papua New Guinea', 'Indonesia', 'Fiji', 'Solomon Islands')
 Countrylist <- 1:length(Country)
 names(Countrylist) <- Country
 country_names <- data.frame(number = c(1:length(Country)), country = Country)

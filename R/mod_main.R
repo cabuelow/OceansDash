@@ -30,11 +30,11 @@ mod_main_ui <- function(id){
                     tabPanel("Nature", value = 1,
                              fluidRow(
                                column(width = 6,
-                             HTML("<h6><strong>Choose indicator</strong></h6>"),
+                             HTML("<h6><strong>Choose Nature Positive Indicator(s)</strong></h6>"),
                     checkboxGroupInput(nsMain("people"), label = NULL, choices = list("Small Scale Fisheries Rights" = 1, "Wealth Relative Index" = 2, "Human Development Index" = 3), selected = NULL)),
                     column(width = 6,
-                    checkboxInput(nsMain("people_base"), label = "Show Regional baseline(s) (2020)?", value = FALSE),
-                    checkboxInput(nsMain("people_targ"), label = "Show Regional target(s) (2030)?", value = FALSE)
+                    checkboxInput(nsMain("people_base"), label = "Show Country baseline(s) (2020)?", value = FALSE),
+                    checkboxInput(nsMain("people_targ"), label = "Show Country target(s) (2030)?", value = FALSE)
                              )),
                     fluidRow(
                     plotOutput(nsMain('ppl_plot'), width = "100%", height = "650px"))),
@@ -90,8 +90,8 @@ mod_main_server <- function(id){
       indppl <- reactive({
         country_indppl <- indicators |> dplyr::filter(Indicator_category == 'People' & Country %in% dplyr::filter(country_names, number %in% c(input$country))$country & Indicator %in% dplyr::filter(ppl_indnames, number %in% c(input$people))$ind) |> dplyr::mutate(RegionCountry = Country)
         region_indppl <- indicators |> dplyr::filter(Indicator_category == 'People' & Region %in% dplyr::filter(region_names, number %in% c(input$region))$region & Indicator %in% dplyr::filter(ppl_indnames, number %in% c(input$people))$ind) |> dplyr::mutate(RegionCountry = Region)
-        baseline <- base_targets |> dplyr::filter(Type == 'Baseline_2020' & Region %in% dplyr::filter(region_names, number %in% c(input$region))$region & Indicator %in% dplyr::filter(ppl_indnames, number %in% c(input$people))$ind)
-        targets <- base_targets |> dplyr::filter(Type == 'Target_2030' & Region %in% dplyr::filter(region_names, number %in% c(input$region))$region & Indicator %in% dplyr::filter(ppl_indnames, number %in% c(input$people))$ind)
+        baseline <- base_targets |> dplyr::filter(Type == 'Baseline_2020' & Country %in% dplyr::filter(country_names, number %in% c(input$country))$country & Indicator %in% dplyr::filter(ppl_indnames, number %in% c(input$people))$ind)
+        targets <- base_targets |> dplyr::filter(Type == 'Target_2030' & Country %in% dplyr::filter(country_names, number %in% c(input$country))$country & Indicator %in% dplyr::filter(ppl_indnames, number %in% c(input$people))$ind)
         indicators <- dplyr::bind_rows(country_indppl, region_indppl)
         if(input$people_base == TRUE && input$people_targ == TRUE){
           list(indicators, baseline, targets)
@@ -109,9 +109,9 @@ mod_main_server <- function(id){
           if(length(indppl()) == 1){
             ggplot2::ggplot(indppl()[[1]]) + ggplot2::aes(x = Year, y = Value, col = RegionCountry) + ggplot2::geom_point() + ggplot2::geom_smooth() + ggplot2::facet_wrap(~Indicator, ncol = 1, scales = 'free') + ggplot2::ylab('Standardised indicator value') + ggplot2::xlab('Year') + ggplot2::scale_color_manual(values = col_pal) + ggplot2::theme_classic() + ggplot2::theme(text = ggplot2::element_text(size = 20), legend.title = ggplot2::element_blank())}
           else if(length(indppl()) == 2){
-            ggplot2::ggplot() + ggplot2::geom_point(data = indppl()[[1]], ggplot2::aes(x = Year, y = Value, col = RegionCountry)) + ggplot2::geom_smooth(data = indppl()[[1]], ggplot2::aes(x = Year, y = Value, col = RegionCountry)) + ggplot2::geom_line(data = indppl()[[2]], ggplot2::aes(x = Year, y = Value, col = Region), size = 2, alpha = 0.5, linetype = 'dashed') + ggplot2::facet_wrap(~Indicator, ncol = 1, scales = 'free') + ggplot2::ylab('Standardised indicator value') + ggplot2::xlab('Year') + ggplot2::scale_color_manual(values = col_pal) + ggplot2::theme_classic() + ggplot2::theme(text = ggplot2::element_text(size = 20), legend.title = ggplot2::element_blank())
+            ggplot2::ggplot() + ggplot2::geom_point(data = indppl()[[1]], ggplot2::aes(x = Year, y = Value, col = RegionCountry)) + ggplot2::geom_smooth(data = indppl()[[1]], ggplot2::aes(x = Year, y = Value, col = RegionCountry)) + ggplot2::geom_line(data = indppl()[[2]], ggplot2::aes(x = Year, y = Value, col = Country), size = 2, alpha = 0.5, linetype = 'dashed') + ggplot2::facet_wrap(~Indicator, ncol = 1, scales = 'free') + ggplot2::ylab('Standardised indicator value') + ggplot2::xlab('Year') + ggplot2::scale_color_manual(values = col_pal) + ggplot2::theme_classic() + ggplot2::theme(text = ggplot2::element_text(size = 20), legend.title = ggplot2::element_blank())
           }else if(length(indppl()) == 3){
-            ggplot2::ggplot() + ggplot2::geom_point(data = indppl()[[1]], ggplot2::aes(x = Year, y = Value, col = RegionCountry)) + ggplot2::geom_smooth(data = indppl()[[1]], ggplot2::aes(x = Year, y = Value, col = RegionCountry)) + ggplot2::geom_line(data = indppl()[[2]], ggplot2::aes(x = Year, y = Value, col = Region), size = 2, alpha = 0.5, linetype = 'dashed') + ggplot2::geom_line(data = indppl()[[3]], ggplot2::aes(x = Year, y = Value, col = Region), size = 2, alpha = 0.5, linetype = 'dashed') + ggplot2::facet_wrap(~Indicator, ncol = 1, scales = 'free') + ggplot2::ylab('Standardised indicator value') + ggplot2::xlab('Year') + ggplot2::scale_color_manual(values = col_pal) + ggplot2::theme_classic() + ggplot2::theme(text = ggplot2::element_text(size = 20), legend.title = ggplot2::element_blank())
+            ggplot2::ggplot() + ggplot2::geom_point(data = indppl()[[1]], ggplot2::aes(x = Year, y = Value, col = RegionCountry)) + ggplot2::geom_smooth(data = indppl()[[1]], ggplot2::aes(x = Year, y = Value, col = RegionCountry)) + ggplot2::geom_line(data = indppl()[[2]], ggplot2::aes(x = Year, y = Value, col = Country), size = 2, alpha = 0.5, linetype = 'dashed') + ggplot2::geom_line(data = indppl()[[3]], ggplot2::aes(x = Year, y = Value, col = Country), size = 2, alpha = 0.5, linetype = 'dashed') + ggplot2::facet_wrap(~Indicator, ncol = 1, scales = 'free') + ggplot2::ylab('Standardised indicator value') + ggplot2::xlab('Year') + ggplot2::scale_color_manual(values = col_pal) + ggplot2::theme_classic() + ggplot2::theme(text = ggplot2::element_text(size = 20), legend.title = ggplot2::element_blank())
           }
         }
       })
