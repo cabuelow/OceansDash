@@ -33,8 +33,40 @@ Server](https://cbuelow.shinyapps.io/OceansDash/)
 
 ## Development TODO
 
-- Finish WWF updates
+- Modularise the tabPanel (Nature, Climate, People) ui and server logic
+  as it is the same across tabPanels (just different indicators)
+
+- Turn plotting and wrangling code that is repeated within the app into
+  ‘business logic’ functions - either as functions (fct) or utilities
+  (utils)
+
+- The app is quite slow when subsetting data for different
+  countries/regions to plot - see if can improve
+
+- Finish WWF requests:
+
+  - Consider using a more user-friendly widget for selecting
+    regions/countries, some [inspiration
+    here](https://dreamrs.github.io/shinyWidgets/) - maybe the boostrap
+    select picker would be better than what we currently have?
+
+  - Add [tooltips or a
+    popover](https://shiny.posit.co/blog/posts/bslib-tooltips/) with
+    definitions/datasources for each indicator selected. Not straight
+    forward, a [potential solution
+    here](Tooltips%20for%20checkable%20boxes:%20https://stackoverflow.com/questions/61112013/shiny-tooltip-for-each-check-able-box-basic)
+
+  - Mapping
+
+    - Change name of basemap layers to Gray Canvas, Street Map, Topo Map
+    - Add Ocean basemap.
+    - If these features don’t slow down the app, can you add:
+      - MPAs from the WDPA data set (only when countries are selected)
+      - Coastal ecosystems such as mangroves, coral reefs, saltmarshes,
+        seagrass (when countries are selected)
+
 - Get real data and integrate
+
 - Start drafting manual for updating, etc.
 
 ## Instructions for contributing
