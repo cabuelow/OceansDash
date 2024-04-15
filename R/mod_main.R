@@ -38,7 +38,8 @@ mod_main_ui <- function(id){
                                         checkboxInput(nsMain("people_targ"), label = "Target (year 2030)?", value = FALSE)
                                  )),
                                fluidRow(
-                                 plotly::plotlyOutput(nsMain('ppl_plot'), width = "100%", height = "650px")),
+                                 plotly::plotlyOutput(nsMain('ppl_plot'), width = "100%", height = "650px") |>
+                                   shinycssloaders::withSpinner(color="#0dc5c1")),
                                    downloadButton(nsMain('download_dat'), label = 'Data', class = "btn-danger; btn-sm")),
                       tabPanel("People", value = 2,
                                fluidPage()),
