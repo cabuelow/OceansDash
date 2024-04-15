@@ -24,6 +24,7 @@ usethis::use_package("tidyr")
 usethis::use_package("patchwork")
 usethis::use_package("shiny")
 usethis::use_package("tmap")
+usethis::use_package("plotly")
 
 ## Add modules ----
 ## Create a module infrastructure in R/

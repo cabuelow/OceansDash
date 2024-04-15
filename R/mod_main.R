@@ -15,36 +15,37 @@ mod_main_ui <- function(id){
       sidebarPanel(
         fluidPage(
           fluidRow(
-        tmap::tmapOutput(nsMain("map"))),
-        fluidRow(
-          column(6,
-        HTML("<h6><strong>Select Region</strong></h6>"),
-        checkboxGroupInput(nsMain("region"), label = NULL, choices = list("Arctic" = 1, "Eastern Pacific" = 2, "South-west Indian Ocean" = 3, "Western Pacific" = 4), selected = NULL)),
-        column(6,
-        HTML("<h6><strong>Select Country</strong></h6>"),
-        checkboxGroupInput(nsMain("country"), label = NULL, choices = Countrylist, selected = NULL)))),
-      width = 6),
+            tmap::tmapOutput(nsMain("map"))),
+          fluidRow(
+            column(6,
+                   HTML("<h6><strong>Select Region</strong></h6>"),
+                   checkboxGroupInput(nsMain("region"), label = NULL, choices = list("Arctic" = 1, "Eastern Pacific" = 2, "South-west Indian Ocean" = 3, "Western Pacific" = 4), selected = NULL)),
+            column(6,
+                   HTML("<h6><strong>Select Country</strong></h6>"),
+                   checkboxGroupInput(nsMain("country"), label = NULL, choices = Countrylist, selected = NULL)))),
+        width = 6),
       mainPanel(
         fluidPage(
-        tabsetPanel(id = "indicator", type = "pills",
-                    tabPanel("Nature", value = 1,
-                             fluidRow(
-                               column(width = 6,
-                             HTML("<h6><strong>Choose Nature Positive Indicator(s)</strong></h6>"),
-                    checkboxGroupInput(nsMain("people"), label = NULL, choices = list("Small Scale Fisheries Rights" = 1, "Wealth Relative Index" = 2, "Human Development Index" = 3), selected = NULL)),
-                    column(width = 6,
-                    checkboxInput(nsMain("people_base"), label = "Show Country baseline(s) (2020)?", value = FALSE),
-                    checkboxInput(nsMain("people_targ"), label = "Show Country target(s) (2030)?", value = FALSE)
-                             )),
-                    fluidRow(
-                    plotOutput(nsMain('ppl_plot'), width = "100%", height = "650px"))),
-                    tabPanel("People", value = 2,
-                             fluidPage()),
-                    tabPanel("Climate", value = 3,
-                             fluidPage())
-      )),
-    width = 6)
-  )
+          tabsetPanel(id = "indicator", type = "pills",
+                      tabPanel("Nature", value = 1,
+                               fluidRow(
+                                 column(width = 6,
+                                        HTML("<h6><strong>Choose Nature Positive Indicator(s)</strong></h6>"),
+                                        checkboxGroupInput(nsMain("people"), label = NULL, choices = list("Small Scale Fisheries Rights" = 1, "Wealth Relative Index" = 2, "Human Development Index" = 3), selected = NULL)),
+                                 column(width = 6,
+                                        HTML("<h6><strong>Display Country baseline and target values?</strong></h6>"),
+                                        checkboxInput(nsMain("people_base"), label = "Baseline (year 2020)", value = FALSE),
+                                        checkboxInput(nsMain("people_targ"), label = "Target (year 2030)?", value = FALSE)
+                                 )),
+                               fluidRow(
+                                 plotly::plotlyOutput(nsMain('ppl_plot'), width = "100%", height = "650px"))),
+                      tabPanel("People", value = 2,
+                               fluidPage()),
+                      tabPanel("Climate", value = 3,
+                               fluidPage())
+          )),
+        width = 6)
+    )
   )
 }
 
@@ -93,18 +94,18 @@ mod_main_server <- function(id){
         baseline <- base_targets |> dplyr::filter(Type == 'Baseline_2020' & Country %in% dplyr::filter(country_names, number %in% c(input$country))$country & Indicator %in% dplyr::filter(ppl_indnames, number %in% c(input$people))$ind)
         targets <- base_targets |> dplyr::filter(Type == 'Target_2030' & Country %in% dplyr::filter(country_names, number %in% c(input$country))$country & Indicator %in% dplyr::filter(ppl_indnames, number %in% c(input$people))$ind)
         indicators <- dplyr::bind_rows(country_indppl, region_indppl)
-        if(input$people_base == TRUE && input$people_targ == TRUE){
+        if(input$people_base == TRUE && input$people_targ == TRUE && !is.null(input$country)){
           list(indicators, baseline, targets)
-        }else if(input$people_base == TRUE){
+        }else if(input$people_base == TRUE && !is.null(input$country)){
           list(indicators, baseline)
-        }else if(input$people_targ == TRUE){
+        }else if(input$people_targ == TRUE && !is.null(input$country)){
           list(indicators, targets)
         }else{
           list(indicators)
         }
       })
 
-      output$ppl_plot <- renderPlot({
+      output$ppl_plot <- plotly::renderPlotly({
         if(nrow(indppl()[[1]])>0){
           if(length(indppl()) == 1){
             ggplot2::ggplot(indppl()[[1]]) + ggplot2::aes(x = Year, y = Value, col = RegionCountry) + ggplot2::geom_point() + ggplot2::geom_smooth() + ggplot2::facet_wrap(~Indicator, ncol = 1, scales = 'free') + ggplot2::ylab('Standardised indicator value') + ggplot2::xlab('Year') + ggplot2::scale_color_manual(values = col_pal) + ggplot2::theme_classic() + ggplot2::theme(text = ggplot2::element_text(size = 20), legend.title = ggplot2::element_blank())}
