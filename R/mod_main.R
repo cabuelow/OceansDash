@@ -77,7 +77,7 @@ mod_main_server <- function(id){
     # Sidebar Map
     output$map <- tmap::renderTmap({
       if(length(mapdat())==0){
-        tmap::qtm()
+        tmap::qtm(regions, borders = NULL)
       }else if(length(mapdat())>1){
         alldat <- rbind(dplyr::select(mapdat()[[2]], geom), dplyr::select(mapdat()[[1]], geom))
         tmap::qtm(mapdat()[[2]], fill = 'Region', polygons.alpha = 0.5, fill.legend.show = F, bbox = sf::st_bbox(alldat)) + tmap::qtm(mapdat()[[1]], fill = 'UNION', polygons.alpha = 0.5, fill.legend.show = F, bbox = sf::st_bbox(alldat))}else if(ncol(mapdat()[[1]])>2){
