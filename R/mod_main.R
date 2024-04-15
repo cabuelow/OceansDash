@@ -39,7 +39,7 @@ mod_main_ui <- function(id){
                                  )),
                                fluidRow(
                                  plotly::plotlyOutput(nsMain('ppl_plot'), width = "100%", height = "650px") |>
-                                   shinycssloaders::withSpinner(color="#0dc5c1")),
+                                   shinycssloaders::withSpinner(color="cyan3")),
                                    downloadButton(nsMain('download_dat'), label = 'Data', class = "btn-danger; btn-sm")),
                       tabPanel("People", value = 2,
                                fluidPage()),
