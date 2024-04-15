@@ -18,7 +18,8 @@ app_ui <- function(request) {
                     selected = "Main",
                     tabPanel("Main",
                              mod_main_ui("main_1")),
-                    tabPanel("Information"))
+                    tabPanel("Information",
+                             HTML('What (if any) info do we want here?')))
 }
 
 #' Add external Resources to the Application

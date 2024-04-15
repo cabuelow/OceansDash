@@ -5,7 +5,7 @@ library(sf)
 # make colour palette -------------------------------------------------
 col_pal <- c("#000000","#004949","#009292","#ff6db6","#ffb6db",
              "#490092","#006ddb","#b66dff","#6db6ff","#b6dbff",
-             "#920000","#924900","#db6d00","#24ff24","#ffff6d", 'grey23')
+             "#920000","#924900","#db6d00","#24ff24","#ffff6d", "#000099", 'grey23')
 
 # read in and wrangle data -------------------------------------------------
 indicators <- read.csv(file.path('data-raw', 'indicators.csv'))
