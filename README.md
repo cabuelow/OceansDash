@@ -41,7 +41,7 @@ Server](https://cbuelow.shinyapps.io/OceansDash/)
   (utils)
 
 - The app is quite slow when subsetting data for different
-  countries/regions to plot - see if can improve
+  countries/regions to plot, see if can improve
 
 - Finish WWF requests:
 

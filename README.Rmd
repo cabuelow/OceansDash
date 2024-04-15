@@ -40,7 +40,7 @@ Please note however, that the above download and installation is not required if
 
 - Modularise the tabPanel (Nature, Climate, People) ui and server logic as it is the same across tabPanels (just different indicators)
 - Turn plotting and wrangling code that is repeated within the app into 'business logic' functions - either as functions (fct) or utilities (utils)
-- The app is quite slow when subsetting data for different countries/regions to plot - see if can improve
+- The app is quite slow when subsetting data for different countries/regions to plot, see if can improve
 
 - Finish WWF requests:
 
