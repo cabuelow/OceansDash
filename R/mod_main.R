@@ -38,6 +38,7 @@ mod_main_ui <- function(id){
                                         checkboxInput(nsMain("people_targ"), label = "Target (year 2030)?", value = FALSE)
                                  )),
                                fluidRow(
+                                 span(textOutput(nsMain('ppl_text')), style="color:red"),
                                  plotly::plotlyOutput(nsMain('ppl_plot'), width = "100%", height = "650px") |>
                                    shinycssloaders::withSpinner(color="#0dc5c1")),
                                downloadButton(nsMain('download_dat'), label = 'Data', class = "btn-danger; btn-sm")),
@@ -106,6 +107,10 @@ mod_main_server <- function(id){
           list(indicators)
         }
       })
+
+      output$ppl_text <- renderText(
+        if(nrow(indppl()[[1]])==0){'Please choose Region(s) or Country(s) from panels on the left and Indicators to display from above'}
+      )
 
       output$ppl_plot <- plotly::renderPlotly({
         if(nrow(indppl()[[1]])>0){
