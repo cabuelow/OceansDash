@@ -38,6 +38,6 @@ Please note however, that the above download and installation is not required if
 
 - Finish WWF updates
 
-- Get real data
+- Get real data and integrate
 
 - Start drafting manual for updating, etc.
