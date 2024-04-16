@@ -43,7 +43,7 @@ golem::add_css_file("custom")
 golem::add_sass_file("custom")
 
 ## Add internal datasets ----
-## DO NOT OVERWRITE THIS! Just edit 'data-raw/make-sysdata.R' directly
+## DO NOT RUN IT WILL OVERWRITE 'data-raw/make-sysdata.R' ! Just edit 'data-raw/make-sysdata.R' directly
 #usethis::use_data_raw(name = "make-sysdata", open = FALSE)
 
 ## Tests ----
