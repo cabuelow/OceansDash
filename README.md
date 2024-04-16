@@ -46,12 +46,6 @@ Server](https://cbuelow.shinyapps.io/OceansDash/)
   ‘business logic’ functions - either as functions (fct) or utilities
   (utils)
 
-- Add [tooltips or a
-  popover](https://shiny.posit.co/blog/posts/bslib-tooltips/) with
-  definitions/datasources for each indicator selected. Not straight
-  forward, a [potential solution
-  here](https://stackoverflow.com/questions/61112013/shiny-tooltip-for-each-check-able-box-basic)
-
 - Mapping - *to complete when have fully integrated all data into the
   app*
 
