@@ -18,10 +18,10 @@ mod_main_ui <- function(id){
             tmap::tmapOutput(nsMain("map"))),
           fluidRow(
             column(6,
-                   HTML("<h6><strong>Select Region</strong></h6>"),
+                   HTML("<h6><strong>Select Region(s)</strong></h6>"),
                    shinyWidgets::virtualSelectInput(nsMain("region"), label = NULL, choices = c("Arctic", "Eastern Pacific", "Southwest Indian Ocean", "Western Pacific"), selected = NULL, multiple = T)),
             column(6,
-                   HTML("<h6><strong>Select Country</strong></h6>"),
+                   HTML("<h6><strong>Select Country(s)</strong></h6>"),
                    shinyWidgets::virtualSelectInput(nsMain("country"), label = NULL, choices = list('Arctic' = 'Alaska', "Eastern Pacific" = c('Mexico', 'Colombia', 'Ecuador', 'Peru', 'Chile'), "South-west Indian Ocean" = c('Madagascar', 'Mozambique', 'Tanzania'), "Western Pacific" = c('Papua New Guinea', 'Indonesia', 'Fiji', 'Solomon Islands')), selected = NULL, multiple = T)))),
         width = 6),
       mainPanel(

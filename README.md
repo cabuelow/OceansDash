@@ -36,38 +36,31 @@ Server](https://cbuelow.shinyapps.io/OceansDash/)
 - Modularise the tabPanel (Nature, Climate, People) ui and server logic
   as it is the same across tabPanels (just different indicators)
 
+- Get real data and integrate
+
+- Tune server to improve speed
+
+- Start drafting manual for updating, etc.
+
 - Turn plotting and wrangling code that is repeated within the app into
   ‘business logic’ functions - either as functions (fct) or utilities
   (utils)
 
-- The app is quite slow when subsetting data for different
-  countries/regions to plot, see if can improve
+- Add [tooltips or a
+  popover](https://shiny.posit.co/blog/posts/bslib-tooltips/) with
+  definitions/datasources for each indicator selected. Not straight
+  forward, a [potential solution
+  here](https://stackoverflow.com/questions/61112013/shiny-tooltip-for-each-check-able-box-basic)
 
-- Finish WWF requests:
+- Mapping - *to complete when have fully integrated all data into the
+  app*
 
-  - Consider using a more user-friendly widget for selecting
-    regions/countries, some [inspiration
-    here](https://dreamrs.github.io/shinyWidgets/) - maybe the boostrap
-    select picker would be better than what we currently have?
-
-  - Add [tooltips or a
-    popover](https://shiny.posit.co/blog/posts/bslib-tooltips/) with
-    definitions/datasources for each indicator selected. Not straight
-    forward, a [potential solution
-    here](https://stackoverflow.com/questions/61112013/shiny-tooltip-for-each-check-able-box-basic)
-
-  - Mapping
-
-    - Change name of basemap layers to Gray Canvas, Street Map, Topo Map
-    - Add Ocean basemap.
-    - If these features don’t slow down the app, can you add:
-      - MPAs from the WDPA data set (only when countries are selected)
-      - Coastal ecosystems such as mangroves, coral reefs, saltmarshes,
-        seagrass (when countries are selected)
-
-- Get real data and integrate
-
-- Start drafting manual for updating, etc.
+  - Change name of basemap layers to Gray Canvas, Street Map, Topo Map
+  - Add Ocean basemap.
+  - If these features don’t slow down the app, can you add:
+    - MPAs from the WDPA data set (only when countries are selected)
+    - Coastal ecosystems such as mangroves, coral reefs, saltmarshes,
+      seagrass (when countries are selected)
 
 ## Instructions for contributing
 
@@ -89,7 +82,10 @@ these instructions:
 
 If you are further developing {OceansDash}, start by:
 
-1.  Opening the **‘dev/02_dev.R’** script.
+1.  Opening your local {OceansDash} github repo by double-clicking on
+    the .Rproj file `OceansDash.Rproj`
+
+2.  Opening the **‘dev/02_dev.R’** script.
 
 - This is where you can:
   - 1)  add packages,
@@ -102,14 +98,14 @@ If you are further developing {OceansDash}, start by:
         [Read more
         here](https://engineering-shiny.org/build-app-golem.html)
 
-2.  Opening the **‘data-raw/make-sysdata.R’** script.
+3.  Opening the **‘data-raw/make-sysdata.R’** script.
 
 - Here you can import and wrangle data to be used internally by the app.
   Make sure to add it to the ‘sysdata.rda’ at the bottom of the script.
   Run through all lines of code in the script to update all internal
   datasets and overwrite the current ‘sysdata.rda’.
 
-3.  Opening the **‘R/’** folder.
+4.  Opening the **‘R/’** folder.
 
 - Here you will find the following R scripts and files:
   - 1)  The `app_ui.R` and `app_server.R` files that serve to provide
@@ -119,14 +115,14 @@ If you are further developing {OceansDash}, start by:
 
   - 3)  The `sysdata.rda` file created via Step 2 above
 
-4.  Once you have made changes to any of the above, you can run the
+5.  Once you have made changes to any of the above, you can run the
     development version of the app via:
 
 ``` r
 golem::run_dev
 ```
 
-5.  If you want to deploy the app to a shinyapps.io server, run the
+6.  If you want to deploy the app to a shinyapps.io server, run the
     development version as above and hit ‘Publish’ on the top right
     corner of the app as it is running.
 
