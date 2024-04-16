@@ -16,6 +16,7 @@
 ## Dependencies ----
 ## Add one line by package you want to add as dependency
 usethis::use_package("shiny")
+usethis::use_package("shinyWidgets")
 usethis::use_package("golem")
 usethis::use_package("config")
 usethis::use_package("dplyr") # using tidyverse as a dependency is discouraged as it is a meta-package
