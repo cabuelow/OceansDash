@@ -138,3 +138,7 @@ to use them [here](https://engineering-shiny.org/build-app-golem.html)*
 ## Tips and Tricks
 
 TODO: here add any tips/tricks for editing/developing app
+
+- Declare packages that functions belong to explicitly with `::`,
+  e.g. `dplyr::mutate` or you will get an error that it can’t find the
+  function
