@@ -46,7 +46,7 @@ Please note however, that the above download and installation is not required if
 
   - Consider using a more user-friendly widget for selecting regions/countries, some [inspiration here](https://dreamrs.github.io/shinyWidgets/) - maybe the boostrap select picker would be better than what we currently have?
   
-  - Add [tooltips or a popover](https://shiny.posit.co/blog/posts/bslib-tooltips/) with definitions/datasources for each indicator selected. Not straight forward, a [potential solution here](Tooltips for checkable boxes: https://stackoverflow.com/questions/61112013/shiny-tooltip-for-each-check-able-box-basic)
+  - Add [tooltips or a popover](https://shiny.posit.co/blog/posts/bslib-tooltips/) with definitions/datasources for each indicator selected. Not straight forward, a [potential solution here](https://stackoverflow.com/questions/61112013/shiny-tooltip-for-each-check-able-box-basic)
   
   - Mapping
     - Change name of basemap layers to Gray Canvas, Street Map, Topo Map

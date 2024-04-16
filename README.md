@@ -54,7 +54,7 @@ Server](https://cbuelow.shinyapps.io/OceansDash/)
     popover](https://shiny.posit.co/blog/posts/bslib-tooltips/) with
     definitions/datasources for each indicator selected. Not straight
     forward, a [potential solution
-    here](Tooltips%20for%20checkable%20boxes:%20https://stackoverflow.com/questions/61112013/shiny-tooltip-for-each-check-able-box-basic)
+    here](https://stackoverflow.com/questions/61112013/shiny-tooltip-for-each-check-able-box-basic)
 
   - Mapping
 
