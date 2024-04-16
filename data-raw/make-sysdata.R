@@ -18,7 +18,7 @@ Countrylist <- 1:length(Country)
 names(Countrylist) <- Country
 country_names <- data.frame(number = c(1:length(Country)), country = Country)
 region_names <- data.frame(number = c(1:4), region = unique(indicators$Region))
-ppl_indnames <- data.frame(number = c(1:3), ind = c("Small_Scale_Fisheries_Rights", "Wealth_Relative_Index", "Human_Development_Index"))
+ppl_indnames <- data.frame(number = c("Small Scale Fisheries Rights", "Wealth Relative Index", "Human Development Index"), ind = c("Small_Scale_Fisheries_Rights", "Wealth_Relative_Index", "Human_Development_Index"))
 
 # read in and wrangle spatial data -------------------------------------------------
 #World <- st_read(file.path('data-raw', 'world.gpkg')) |> mutate(name = as.character(name)) |> mutate(name = ifelse(name == 'United States', 'Alaska', name)) |> mutate(name = ifelse(name == 'Solomon Is.', 'Solomon Islands', name)) |> filter(name != 'Antarctica')

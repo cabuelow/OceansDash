@@ -19,10 +19,10 @@ mod_main_ui <- function(id){
           fluidRow(
             column(6,
                    HTML("<h6><strong>Select Region</strong></h6>"),
-                   checkboxGroupInput(nsMain("region"), label = NULL, choices = list("Arctic" = 1, "Eastern Pacific" = 2, "South-west Indian Ocean" = 3, "Western Pacific" = 4), selected = NULL)),
+                   shinyWidgets::virtualSelectInput(nsMain("region"), label = NULL, choices = c("Arctic", "Eastern Pacific", "Southwest Indian Ocean", "Western Pacific"), selected = NULL, multiple = T)),
             column(6,
                    HTML("<h6><strong>Select Country</strong></h6>"),
-                   checkboxGroupInput(nsMain("country"), label = NULL, choices = Countrylist, selected = NULL)))),
+                   shinyWidgets::virtualSelectInput(nsMain("country"), label = NULL, choices = list('Arctic' = 'Alaska', "Eastern Pacific" = c('Mexico', 'Colombia', 'Ecuador', 'Peru', 'Chile'), "South-west Indian Ocean" = c('Madagascar', 'Mozambique', 'Tanzania'), "Western Pacific" = c('Papua New Guinea', 'Indonesia', 'Fiji', 'Solomon Islands')), selected = NULL, multiple = T)))),
         width = 6),
       mainPanel(
         fluidPage(
@@ -31,7 +31,7 @@ mod_main_ui <- function(id){
                                fluidRow(
                                  column(width = 6,
                                         HTML("<h6><strong>Choose Nature Positive Indicator(s)</strong></h6>"),
-                                        checkboxGroupInput(nsMain("people"), label = NULL, choices = list("Small Scale Fisheries Rights" = 1, "Wealth Relative Index" = 2, "Human Development Index" = 3), selected = NULL)),
+                                        shinyWidgets::virtualSelectInput(nsMain("people"), label = NULL, choices = c("Small Scale Fisheries Rights", "Wealth Relative Index", "Human Development Index"), selected = c("Small Scale Fisheries Rights", "Wealth Relative Index", "Human Development Index"), multiple = T)),
                                  column(width = 6,
                                         HTML("<h6><strong>Display Country baseline and target values?</strong></h6>"),
                                         checkboxInput(nsMain("people_base"), label = "Baseline (year 2020)", value = FALSE),
@@ -61,14 +61,14 @@ mod_main_server <- function(id){
 
     mapdat <- reactive({
       if(!is.null(input$region) & !is.null(input$country)){
-        countrypolys <- eez |> dplyr::filter(UNION %in% dplyr::filter(country_names, number %in% c(input$country))$country)
-        regionpolys <- regions |> dplyr::filter(Region %in% dplyr::filter(region_names, number %in% c(input$region))$region)
+        countrypolys <- eez |> dplyr::filter(UNION %in% dplyr::filter(country_names, country %in% c(input$country))$country)
+        regionpolys <- regions |> dplyr::filter(Region %in% dplyr::filter(region_names, region %in% c(input$region))$region)
         list(countrypolys, regionpolys)
       }else if(!is.null(input$region)){
-        regionpolys <- regions |> dplyr::filter(Region %in% dplyr::filter(region_names, number %in% c(input$region))$region)
+        regionpolys <- regions |> dplyr::filter(Region %in% dplyr::filter(region_names, region %in% c(input$region))$region)
         list(regionpolys)
       }else if(!is.null(input$country)){
-        countrypolys <- eez |> dplyr::filter(UNION %in% dplyr::filter(country_names, number %in% c(input$country))$country)
+        countrypolys <- eez |> dplyr::filter(UNION %in% dplyr::filter(country_names, country %in% c(input$country))$country)
         list(countrypolys)
       }
     })
@@ -92,10 +92,10 @@ mod_main_server <- function(id){
     observeEvent({input$indicator == 1}, {
 
       indppl <- reactive({
-        country_indppl <- indicators |> dplyr::filter(Indicator_category == 'People' & Country %in% dplyr::filter(country_names, number %in% c(input$country))$country & Indicator %in% dplyr::filter(ppl_indnames, number %in% c(input$people))$ind) |> dplyr::mutate(RegionCountry = Country)
-        region_indppl <- indicators |> dplyr::filter(Indicator_category == 'People' & Region %in% dplyr::filter(region_names, number %in% c(input$region))$region & Indicator %in% dplyr::filter(ppl_indnames, number %in% c(input$people))$ind) |> dplyr::mutate(RegionCountry = Region)
-        baseline <- base_targets |> dplyr::filter(Type == 'Baseline_2020' & Country %in% dplyr::filter(country_names, number %in% c(input$country))$country & Indicator %in% dplyr::filter(ppl_indnames, number %in% c(input$people))$ind)
-        targets <- base_targets |> dplyr::filter(Type == 'Target_2030' & Country %in% dplyr::filter(country_names, number %in% c(input$country))$country & Indicator %in% dplyr::filter(ppl_indnames, number %in% c(input$people))$ind)
+        country_indppl <- indicators |> dplyr::filter(Indicator_category == 'People' & Country %in% dplyr::filter(country_names, country %in% c(input$country))$country & Indicator %in% dplyr::filter(ppl_indnames, number %in% c(input$people))$ind) |> dplyr::mutate(RegionCountry = Country)
+        region_indppl <- indicators |> dplyr::filter(Indicator_category == 'People' & Region %in% dplyr::filter(region_names, region %in% c(input$region))$region & Indicator %in% dplyr::filter(ppl_indnames, number %in% c(input$people))$ind) |> dplyr::mutate(RegionCountry = Region)
+        baseline <- base_targets |> dplyr::filter(Type == 'Baseline_2020' & Country %in% dplyr::filter(country_names, country %in% c(input$country))$country & Indicator %in% dplyr::filter(ppl_indnames, number %in% c(input$people))$ind)
+        targets <- base_targets |> dplyr::filter(Type == 'Target_2030' & Country %in% dplyr::filter(country_names, country %in% c(input$country))$country & Indicator %in% dplyr::filter(ppl_indnames, number %in% c(input$people))$ind)
         indicators <- dplyr::bind_rows(country_indppl, region_indppl)
         if(input$people_base == TRUE && input$people_targ == TRUE && !is.null(input$country)){
           list(indicators, baseline, targets)
