@@ -40,6 +40,9 @@ Server](https://cbuelow.shinyapps.io/OceansDash/)
     ‘climate’, ‘people’
   - Also need to fix hack with saving country/region to global env….
 
+- See if can eliminate the ‘region’ dropdown but plot still plot
+  regional average if all countries in a region are selected
+
 - Get real data and integrate
 
 - Tune server to improve speed
@@ -53,6 +56,9 @@ Server](https://cbuelow.shinyapps.io/OceansDash/)
 - Mapping - *to complete when have fully integrated all data into the
   app*
 
+  - Just use countries (rather than EEZs) for selecting regions and
+    countries
+  - Try EEZ layer as a bsemap
   - Change name of basemap layers to Gray Canvas, Street Map, Topo Map
   - Add Ocean basemap.
   - If these features don’t slow down the app, can you add:
