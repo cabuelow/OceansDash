@@ -36,6 +36,10 @@ Server](https://cbuelow.shinyapps.io/OceansDash/)
 - Modularise the tabPanel (Nature, Climate, People) ui and server logic
   as it is the same across tabPanels (just different indicators)
 
+  - This is partially complete - cannot figure out mod_ind_timeseries
+    cannot be called from within mod_main…
+  - Also need to fix hack with saving country/region to global env….
+
 - Get real data and integrate
 
 - Tune server to improve speed
@@ -126,8 +130,6 @@ app development, but you can find more information on what they do/how
 to use them [here](https://engineering-shiny.org/build-app-golem.html)*
 
 ## Tips and Tricks
-
-TODO: here add any tips/tricks for editing/developing app
 
 - Declare packages that functions belong to explicitly with `::`,
   e.g. `dplyr::mutate` or you will get an error that it can’t find the

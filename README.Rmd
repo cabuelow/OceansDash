@@ -39,6 +39,8 @@ Please note however, that the above download and installation is not required if
 ## Development TODO
 
 - Modularise the tabPanel (Nature, Climate, People) ui and server logic as it is the same across tabPanels (just different indicators)
+  - This is partially complete - cannot figure out mod_ind_timeseries cannot be called from within mod_main...
+  - Also need to fix hack with saving country/region to global env....
 
 - Get real data and integrate
 - Tune server to improve speed
@@ -94,8 +96,6 @@ golem::run_dev
 *As you can see, there are many other files in the {OceansDash} package that are not discussed here. Those not mentioned are not neccesary for app development, but you can find more information on what they do/how to use them [here](https://engineering-shiny.org/build-app-golem.html)*
 
 ## Tips and Tricks
-
-TODO: here add any tips/tricks for editing/developing app
 
 - Declare packages that functions belong to explicitly with `::`, e.g. `dplyr::mutate` or you will get an error that it can't find the function
 
