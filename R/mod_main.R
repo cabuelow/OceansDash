@@ -48,7 +48,7 @@ mod_main_server <- function(id){
   moduleServer(id, function(input, output, session){
     ns <- session$ns
 
-    country <<- reactive({input$country}) # storing in global env b/c don't know of an alternative...TODO
+    country <<- reactive({input$country}) # storing in global env b/c don't know of an alternative...TODO fix
     region <<- reactive({input$region})
 
     mapdat <- reactive({
@@ -78,8 +78,6 @@ mod_main_server <- function(id){
           tmap::qtm(mapdat()[[1]], fill = 'Region', polygons.alpha = 0.5, fill.legend.show = F)
         }
     })
-
-    #mod_ind_timeseries_server("ind_timeseries_1", input$country, input$region, natposindicator_choices = c("Small Scale Fisheries Rights", "Wealth Relative Index", "Human Development Index"))
 
      #Observing tabpanels --------------------------------------------------------------------
     #observeEvent(input$indicator, {

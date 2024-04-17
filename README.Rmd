@@ -40,6 +40,7 @@ Please note however, that the above download and installation is not required if
 
 - Modularise the tabPanel (Nature, Climate, People) ui and server logic as it is the same across tabPanels (just different indicators)
   - This is partially complete - cannot figure out mod_ind_timeseries cannot be called from within mod_main...
+  - Also need to integrate server parameters for filtering 'nature', 'climate', 'people'
   - Also need to fix hack with saving country/region to global env....
 
 - Get real data and integrate

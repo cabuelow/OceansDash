@@ -38,6 +38,8 @@ Server](https://cbuelow.shinyapps.io/OceansDash/)
 
   - This is partially complete - cannot figure out mod_ind_timeseries
     cannot be called from within mod_main…
+  - Also need to integrate server parameters for filtering ‘nature’,
+    ‘climate’, ‘people’
   - Also need to fix hack with saving country/region to global env….
 
 - Get real data and integrate
