@@ -30,6 +30,7 @@ usethis::use_package("plotly")
 ## Add modules ----
 ## Create a module infrastructure in R/
 golem::add_module(name = "main") # Name of the module
+golem::add_module(name = "ind_timeseries") # Name of the module
 
 ## Add helper functions ----
 ## Creates fct_* and utils_*

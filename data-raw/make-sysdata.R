@@ -14,16 +14,16 @@ base_targets <- read.csv(file.path("data-raw", "base_targets.csv"))
 # make extras for widgets, etc -------------------------------------------------
 Region <- c('Arctic', rep('Eastern Pacific', 5), rep('Southwest Indian Ocean', 3), rep('Western Pacific',4))
 Country <- c('Alaska', 'Mexico', 'Colombia', 'Ecuador', 'Peru', 'Chile', 'Madagascar', 'Mozambique', 'Tanzania', 'Papua New Guinea', 'Indonesia', 'Fiji', 'Solomon Islands')
-Countrylist <- 1:length(Country)
-names(Countrylist) <- Country
 country_names <- data.frame(number = c(1:length(Country)), country = Country)
 region_names <- data.frame(number = c(1:4), region = unique(indicators$Region))
-ppl_indnames <- data.frame(number = c("Small Scale Fisheries Rights", "Wealth Relative Index", "Human Development Index"), ind = c("Small_Scale_Fisheries_Rights", "Wealth_Relative_Index", "Human_Development_Index"))
+indnames <- data.frame(text = c("Small Scale Fisheries Rights", "Wealth Relative Index", "Human Development Index", "Marine Red List", "Marine Living Planet", "Fisheries Stock Condition", "Habitat Condition", "Effective Protection", "Climate Adaptation Plans", "Habitat Carbon Storage", "Carbon Under Effective Protection"), ind = c("Small_Scale_Fisheries_Rights", "Wealth_Relative_Index", "Human_Development_Index", "Marine_Red_List", "Marine_Living_Planet", "Fisheries_Stock_Condition", "Habitat_Condition", "Effective_Protection", "Climate_Adaptation_Plans", "Habitat_Carbon_Storage", "Carbon_Under_Effective_Protection"))
 
 # read in and wrangle spatial data -------------------------------------------------
 #World <- st_read(file.path('data-raw', 'world.gpkg')) |> mutate(name = as.character(name)) |> mutate(name = ifelse(name == 'United States', 'Alaska', name)) |> mutate(name = ifelse(name == 'Solomon Is.', 'Solomon Islands', name)) |> filter(name != 'Antarctica')
 regions <- st_read(file.path('data-raw', 'EEZ_Land_v3_202030_sub_regions.gpkg'))
 eez <- st_read(file.path('data-raw', 'EEZ_Land_v3_202030_sub.gpkg'))
+
+# timeseries module nature positive parameters -------------------------------------------------
 
 # add data to sysdata.rda -------------------------------------------------
 usethis::use_data(indicators,
@@ -31,9 +31,8 @@ usethis::use_data(indicators,
                   eez,
                   regions,
                   col_pal,
-                  Countrylist,
                   country_names,
                   region_names,
-                  ppl_indnames,
+                  indnames,
                   overwrite = TRUE, internal = T)
 

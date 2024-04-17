@@ -9,44 +9,33 @@
 #' @importFrom shiny NS tagList
 
 mod_main_ui <- function(id){
-  nsMain <- NS(id)
+  ns <- NS(id)
   tagList(
     sidebarLayout(
       sidebarPanel(
         fluidPage(
           fluidRow(
-            tmap::tmapOutput(nsMain("map"))),
+            tmap::tmapOutput(ns("map"))),
           fluidRow(
             column(6,
                    HTML("<h6><strong>Select Region(s)</strong></h6>"),
-                   shinyWidgets::virtualSelectInput(nsMain("region"), label = NULL, choices = c("Arctic", "Eastern Pacific", "Southwest Indian Ocean", "Western Pacific"), selected = NULL, multiple = T)),
+                   shinyWidgets::virtualSelectInput(ns("region"), label = NULL, choices = c("Arctic", "Eastern Pacific", "Southwest Indian Ocean", "Western Pacific"), selected = NULL, multiple = T)),
             column(6,
                    HTML("<h6><strong>Select Country(s)</strong></h6>"),
-                   shinyWidgets::virtualSelectInput(nsMain("country"), label = NULL, choices = list('Arctic' = 'Alaska', "Eastern Pacific" = c('Mexico', 'Colombia', 'Ecuador', 'Peru', 'Chile'), "South-west Indian Ocean" = c('Madagascar', 'Mozambique', 'Tanzania'), "Western Pacific" = c('Papua New Guinea', 'Indonesia', 'Fiji', 'Solomon Islands')), selected = NULL, multiple = T)))),
+                   shinyWidgets::virtualSelectInput(ns("country"), label = NULL, choices = list('Arctic' = 'Alaska', "Eastern Pacific" = c('Mexico', 'Colombia', 'Ecuador', 'Peru', 'Chile'), "South-west Indian Ocean" = c('Madagascar', 'Mozambique', 'Tanzania'), "Western Pacific" = c('Papua New Guinea', 'Indonesia', 'Fiji', 'Solomon Islands')), selected = NULL, multiple = T)))),
         width = 6),
       mainPanel(
         fluidPage(
           tabsetPanel(id = "indicator", type = "pills",
-                      tabPanel("Nature", value = 1,
-                               fluidRow(
-                                 column(width = 6,
-                                        HTML("<h6><strong>Choose Nature Positive Indicator(s)</strong></h6>"),
-                                        shinyWidgets::virtualSelectInput(nsMain("people"), label = NULL, choices = c("Small Scale Fisheries Rights", "Wealth Relative Index", "Human Development Index"), selected = c("Small Scale Fisheries Rights", "Wealth Relative Index", "Human Development Index"), multiple = T)),
-                                 column(width = 6,
-                                        HTML("<h6><strong>Display Country baseline and target values?</strong></h6>"),
-                                        checkboxInput(nsMain("people_base"), label = "Baseline (year 2020)", value = FALSE),
-                                        checkboxInput(nsMain("people_targ"), label = "Target (year 2030)?", value = FALSE)
-                                 )),
-                               fluidRow(
-                                 span(textOutput(nsMain('ppl_text')), style="color:red"),
-                                 plotly::plotlyOutput(nsMain('ppl_plot'), width = "100%", height = "650px") |>
-                                   shinycssloaders::withSpinner(color="#0dc5c1")),
-                               downloadButton(nsMain('download_dat'), label = 'Data', class = "btn-danger; btn-sm")),
-                      tabPanel("People", value = 2,
-                               fluidPage()),
-                      tabPanel("Climate", value = 3,
-                               fluidPage())
-          )),
+                      tabPanel("Nature", value = "Nature", mod_ind_timeseries_ui("ind_timeseries_1", natposindicator_choices = c("Marine Red List", "Marine Living Planet", "Fisheries Stock Condition", "Habitat Condition", "Effective Protection"))),
+                      tabPanel("Climate", value = "Climate",
+                               #mod_ind_timeseries_ui("ind_timeseries_1", natposindicator_choices = c("Climate Adaptation Plans", "Habitat Carbon Storage", "Carbon Under Effective Protection"))
+                               ),
+                     tabPanel("People", value = "People",
+                              #mod_ind_timeseries_ui("ind_timeseries_1", natposindicator_choices = c("Small Scale Fisheries Rights", "Wealth Relative Index", "Human Development Index"))
+                              )
+                     )
+          ),
         width = 6)
     )
   )
@@ -58,6 +47,9 @@ mod_main_ui <- function(id){
 mod_main_server <- function(id){
   moduleServer(id, function(input, output, session){
     ns <- session$ns
+
+    country <<- reactive({input$country}) # storing in global env b/c don't know of an alternative...TODO
+    region <<- reactive({input$region})
 
     mapdat <- reactive({
       if(!is.null(input$region) & !is.null(input$country)){
@@ -87,54 +79,19 @@ mod_main_server <- function(id){
         }
     })
 
-    # Main panel ----------------------------------------------------------
+    #mod_ind_timeseries_server("ind_timeseries_1", input$country, input$region, natposindicator_choices = c("Small Scale Fisheries Rights", "Wealth Relative Index", "Human Development Index"))
 
-    observeEvent({input$indicator == 1}, {
+     #Observing tabpanels --------------------------------------------------------------------
+    #observeEvent(input$indicator, {
+     # if(input$indicator == 'Nature') {
+      #  mod_ind_timeseries_server("ind_timeseries_1", input$country, input$region, tabPanel = 'Nature')
+      #}#else if(input$indicator == 'Climate') {
+       # mod_ind_timeseries_server("ind_timeseries_1", input$country, input$region, tabPanel = 'Climate')
+      #}else if(input$indicator == 'People') {
+       # mod_ind_timeseries_server("ind_timeseries_1", input$country, input$region, tabPanel = 'People')
+      #}
+    #})
 
-      indppl <- reactive({
-        country_indppl <- indicators |> dplyr::filter(Indicator_category == 'People' & Country %in% dplyr::filter(country_names, country %in% c(input$country))$country & Indicator %in% dplyr::filter(ppl_indnames, number %in% c(input$people))$ind) |> dplyr::mutate(RegionCountry = Country)
-        region_indppl <- indicators |> dplyr::filter(Indicator_category == 'People' & Region %in% dplyr::filter(region_names, region %in% c(input$region))$region & Indicator %in% dplyr::filter(ppl_indnames, number %in% c(input$people))$ind) |> dplyr::mutate(RegionCountry = Region)
-        baseline <- base_targets |> dplyr::filter(Type == 'Baseline_2020' & Country %in% dplyr::filter(country_names, country %in% c(input$country))$country & Indicator %in% dplyr::filter(ppl_indnames, number %in% c(input$people))$ind)
-        targets <- base_targets |> dplyr::filter(Type == 'Target_2030' & Country %in% dplyr::filter(country_names, country %in% c(input$country))$country & Indicator %in% dplyr::filter(ppl_indnames, number %in% c(input$people))$ind)
-        indicators <- dplyr::bind_rows(country_indppl, region_indppl)
-        if(input$people_base == TRUE && input$people_targ == TRUE && !is.null(input$country)){
-          list(indicators, baseline, targets)
-        }else if(input$people_base == TRUE && !is.null(input$country)){
-          list(indicators, baseline)
-        }else if(input$people_targ == TRUE && !is.null(input$country)){
-          list(indicators, targets)
-        }else{
-          list(indicators)
-        }
-      })
-
-      output$ppl_text <- renderText(
-        if(nrow(indppl()[[1]])==0){'Please choose Region(s) or Country(s) from panels on the left and Indicators to display from above'}
-      )
-
-      output$ppl_plot <- plotly::renderPlotly({
-        if(nrow(indppl()[[1]])>0){
-          if(length(indppl()) == 1){
-            ggplot2::ggplot(indppl()[[1]]) + ggplot2::aes(x = Year, y = Value, col = RegionCountry) + ggplot2::geom_point() + ggplot2::geom_smooth() + ggplot2::facet_wrap(~Indicator, ncol = 1, scales = 'free') + ggplot2::ylab('Standardised indicator value') + ggplot2::xlab('Year') + ggplot2::scale_color_manual(values = col_pal, name = NULL) + ggplot2::theme_classic() + ggplot2::theme(text = ggplot2::element_text(size = 13))}
-          else if(length(indppl()) == 2){
-            ggplot2::ggplot() + ggplot2::geom_point(data = indppl()[[1]], ggplot2::aes(x = Year, y = Value, col = RegionCountry)) + ggplot2::geom_smooth(data = indppl()[[1]], ggplot2::aes(x = Year, y = Value, col = RegionCountry)) + ggplot2::geom_line(data = indppl()[[2]], ggplot2::aes(x = Year, y = Value, col = Country), size = 2, alpha = 0.5, linetype = 'dashed') + ggplot2::facet_wrap(~Indicator, ncol = 1, scales = 'free') + ggplot2::ylab('Standardised indicator value') + ggplot2::xlab('Year') + ggplot2::scale_color_manual(values = col_pal, name = NULL) + ggplot2::theme_classic() + ggplot2::theme(text = ggplot2::element_text(size = 13))
-          }else if(length(indppl()) == 3){
-            ggplot2::ggplot() + ggplot2::geom_point(data = indppl()[[1]], ggplot2::aes(x = Year, y = Value, col = RegionCountry)) + ggplot2::geom_smooth(data = indppl()[[1]], ggplot2::aes(x = Year, y = Value, col = RegionCountry)) + ggplot2::geom_line(data = indppl()[[2]], ggplot2::aes(x = Year, y = Value, col = Country), size = 2, alpha = 0.5, linetype = 'dashed') + ggplot2::geom_line(data = indppl()[[3]], ggplot2::aes(x = Year, y = Value, col = Country), size = 2, alpha = 0.5, linetype = 'dashed') + ggplot2::facet_wrap(~Indicator, ncol = 1, scales = 'free') + ggplot2::ylab('Standardised indicator value') + ggplot2::xlab('Year') + ggplot2::scale_color_manual(values = col_pal, name = NULL) + ggplot2::theme_classic() + ggplot2::theme(text = ggplot2::element_text(size = 13))
-          }
-        }
-      })
-
-      # Download -------------------------------------------------------
-      output$download_dat <- downloadHandler(
-        filename = function() {
-          paste("data-", Sys.Date(), ".csv", sep="")
-        },
-        content = function(file) {
-          write.csv(indppl()[[1]], file)
-        }
-      )
-
-    })
   })
 }
 
