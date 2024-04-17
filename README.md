@@ -6,9 +6,7 @@
 The Oceans Dashboard displays indicator time-series data to monitor
 progress towards goals for nature, people, and climate.
 
-[Installation](#installation) \| [Development TODO](#development-todo)
-\| [Instructions for contributing](#instructions-for-contributing) \|
-[Navigating and editing OceansDash](#navigating-and-editing-oceansdash)
+## [Installation](#installation) \| [Development TODO](#development-todo) \| [Instructions for contributing](#instructions-for-contributing) \| [Navigating and editing OceansDash](#navigating-and-editing-oceansdash)
 
 ## Installation
 
