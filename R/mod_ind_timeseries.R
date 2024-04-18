@@ -72,7 +72,7 @@ mod_ind_timeseries_server <- function(id, country, region, tabPanel){
     # Download -------------------------------------------------------
     output$download_dat <- downloadHandler(
       filename = function() {
-        paste("data-", Sys.Date(), ".csv", sep="")
+        paste("data-", tabPanel, "-", Sys.Date(), ".csv", sep="")
       },
       content = function(file) {
         write.csv(ind()[[1]], file)
