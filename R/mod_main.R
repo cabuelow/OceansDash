@@ -28,10 +28,8 @@ mod_main_ui <- function(id){
         fluidPage(
           tabsetPanel(id = ns("indicator"), type = "pills",
                       tabPanel("Nature", value = "Nature", mod_ind_timeseries_ui(ns("ind_timeseries_nature"), natposindicator_choices = c("Marine Red List", "Marine Living Planet", "Fisheries Stock Condition", "Habitat Condition", "Effective Protection"))),
-                      tabPanel("Climate", value = "Climate",
-                               mod_ind_timeseries_ui(ns("ind_timeseries_climate"), natposindicator_choices = c("Climate Adaptation Plans", "Habitat Carbon Storage", "Carbon Under Effective Protection"))),
-                      tabPanel("People", value = "People",
-                               mod_ind_timeseries_ui(ns("ind_timeseries_people"), natposindicator_choices = c("Small Scale Fisheries Rights", "Wealth Relative Index", "Human Development Index"))))
+                      tabPanel("Climate", value = "Climate", mod_ind_timeseries_ui(ns("ind_timeseries_climate"), natposindicator_choices = c("Climate Adaptation Plans", "Habitat Carbon Storage", "Carbon Under Effective Protection"))),
+                      tabPanel("People", value = "People", mod_ind_timeseries_ui(ns("ind_timeseries_people"), natposindicator_choices = c("Small Scale Fisheries Rights", "Wealth Relative Index", "Human Development Index"))))
         ),
         width = 6)
     )
