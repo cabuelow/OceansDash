@@ -84,7 +84,7 @@ golem::run_dev
 
 - See if can eliminate the 'region' dropdown but plot still plot regional average if all countries in a region are selected
 - Get real data and integrate
-- Tune server to improve speed
+- Tune server to improve speed - it seems to be the mapping filtering that is slowing things down, not the timeseries filtering
 - Start drafting manual for updating, etc.
 
 - Turn plotting and wrangling code that is repeated within the app into 'business logic' functions - either as functions (fct) or utilities (utils)

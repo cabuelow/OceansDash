@@ -111,7 +111,8 @@ to use them [here](https://engineering-shiny.org/build-app-golem.html)*
 
 - Get real data and integrate
 
-- Tune server to improve speed
+- Tune server to improve speed - it seems to be the mapping filtering
+  that is slowing things down, not the timeseries filtering
 
 - Start drafting manual for updating, etc.
 
