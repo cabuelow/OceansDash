@@ -6,7 +6,7 @@
 The Oceans Dashboard displays indicator time-series data to monitor
 progress towards goals for nature, people, and climate.
 
-## [Installation](#installation) \| [Development TODO](#development-todo) \| [Instructions for contributing](#instructions-for-contributing) \| [Navigating and editing OceansDash](#navigating-and-editing-oceansdash)
+## [Installation](#installation) \| [Instructions for contributing](#instructions-for-contributing) \| [Navigating and editing OceansDash](#navigating-and-editing-oceansdash) \| [Development TODO](#development-todo)
 
 ## Installation
 
@@ -28,43 +28,6 @@ Please note however, that the above download and installation is not
 required if you simply want to use the Oceans Dashboard. The latest
 version is available on the [Shiny
 Server](https://cbuelow.shinyapps.io/OceansDash/)
-
-## Development TODO
-
-- Modularise the tabPanel (Nature, Climate, People) ui and server logic
-  as it is the same across tabPanels (just different indicators)
-
-  - This is partially complete - cannot figure out mod_ind_timeseries
-    cannot be called from within mod_main…
-  - Also need to integrate server parameters for filtering ‘nature’,
-    ‘climate’, ‘people’
-  - Also need to fix hack with saving country/region to global env….
-
-- See if can eliminate the ‘region’ dropdown but plot still plot
-  regional average if all countries in a region are selected
-
-- Get real data and integrate
-
-- Tune server to improve speed
-
-- Start drafting manual for updating, etc.
-
-- Turn plotting and wrangling code that is repeated within the app into
-  ‘business logic’ functions - either as functions (fct) or utilities
-  (utils)
-
-- Mapping - *to complete when have fully integrated all data into the
-  app*
-
-  - Just use countries (rather than EEZs) for selecting regions and
-    countries
-  - Try EEZ layer as a bsemap
-  - Change name of basemap layers to Gray Canvas, Street Map, Topo Map
-  - Add Ocean basemap.
-  - If these features don’t slow down the app, can you add:
-    - MPAs from the WDPA data set (only when countries are selected)
-    - Coastal ecosystems such as mangroves, coral reefs, saltmarshes,
-      seagrass (when countries are selected)
 
 ## Instructions for contributing
 
@@ -140,3 +103,40 @@ to use them [here](https://engineering-shiny.org/build-app-golem.html)*
 - Declare packages that functions belong to explicitly with `::`,
   e.g. `dplyr::mutate` or you will get an error that it can’t find the
   function
+
+## Development TODO
+
+- Modularise the tabPanel (Nature, Climate, People) ui and server logic
+  as it is the same across tabPanels (just different indicators)
+
+  - This is partially complete - cannot figure out mod_ind_timeseries
+    cannot be called from within mod_main…
+  - Also need to integrate server parameters for filtering ‘nature’,
+    ‘climate’, ‘people’
+  - Also need to fix hack with saving country/region to global env….
+
+- See if can eliminate the ‘region’ dropdown but plot still plot
+  regional average if all countries in a region are selected
+
+- Get real data and integrate
+
+- Tune server to improve speed
+
+- Start drafting manual for updating, etc.
+
+- Turn plotting and wrangling code that is repeated within the app into
+  ‘business logic’ functions - either as functions (fct) or utilities
+  (utils)
+
+- Mapping - *to complete when have fully integrated all data into the
+  app*
+
+  - Just use countries (rather than EEZs) for selecting regions and
+    countries
+  - Try EEZ layer as a bsemap
+  - Change name of basemap layers to Gray Canvas, Street Map, Topo Map
+  - Add Ocean basemap.
+  - If these features don’t slow down the app, can you add:
+    - MPAs from the WDPA data set (only when countries are selected)
+    - Coastal ecosystems such as mangroves, coral reefs, saltmarshes,
+      seagrass (when countries are selected)
