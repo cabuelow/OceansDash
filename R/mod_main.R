@@ -26,16 +26,13 @@ mod_main_ui <- function(id){
         width = 6),
       mainPanel(
         fluidPage(
-          tabsetPanel(id = "indicator", type = "pills",
-                      tabPanel("Nature", value = "Nature", mod_ind_timeseries_ui("ind_timeseries_1", natposindicator_choices = c("Marine Red List", "Marine Living Planet", "Fisheries Stock Condition", "Habitat Condition", "Effective Protection"))),
+          tabsetPanel(id = ns("indicator"), type = "pills",
+                      tabPanel("Nature", value = "Nature", mod_ind_timeseries_ui(ns("ind_timeseries_nature"), natposindicator_choices = c("Marine Red List", "Marine Living Planet", "Fisheries Stock Condition", "Habitat Condition", "Effective Protection"))),
                       tabPanel("Climate", value = "Climate",
-                               #mod_ind_timeseries_ui("ind_timeseries_1", natposindicator_choices = c("Climate Adaptation Plans", "Habitat Carbon Storage", "Carbon Under Effective Protection"))
-                               ),
-                     tabPanel("People", value = "People",
-                              #mod_ind_timeseries_ui("ind_timeseries_1", natposindicator_choices = c("Small Scale Fisheries Rights", "Wealth Relative Index", "Human Development Index"))
-                              )
-                     )
-          ),
+                               mod_ind_timeseries_ui(ns("ind_timeseries_climate"), natposindicator_choices = c("Climate Adaptation Plans", "Habitat Carbon Storage", "Carbon Under Effective Protection"))),
+                      tabPanel("People", value = "People",
+                               mod_ind_timeseries_ui(ns("ind_timeseries_people"), natposindicator_choices = c("Small Scale Fisheries Rights", "Wealth Relative Index", "Human Development Index"))))
+        ),
         width = 6)
     )
   )
@@ -47,9 +44,6 @@ mod_main_ui <- function(id){
 mod_main_server <- function(id){
   moduleServer(id, function(input, output, session){
     ns <- session$ns
-
-    country <<- reactive({input$country}) # storing in global env b/c don't know of an alternative...TODO fix
-    region <<- reactive({input$region})
 
     mapdat <- reactive({
       if(!is.null(input$region) & !is.null(input$country)){
@@ -79,16 +73,20 @@ mod_main_server <- function(id){
         }
     })
 
-     #Observing tabpanels --------------------------------------------------------------------
-    #observeEvent(input$indicator, {
-     # if(input$indicator == 'Nature') {
-      #  mod_ind_timeseries_server("ind_timeseries_1", input$country, input$region, tabPanel = 'Nature')
-      #}#else if(input$indicator == 'Climate') {
-       # mod_ind_timeseries_server("ind_timeseries_1", input$country, input$region, tabPanel = 'Climate')
-      #}else if(input$indicator == 'People') {
-       # mod_ind_timeseries_server("ind_timeseries_1", input$country, input$region, tabPanel = 'People')
-      #}
-    #})
+    #Observing tabpanels --------------------------------------------------------------------
+
+    country <- reactive({input$country})
+    region <- reactive({input$region})
+
+    observeEvent(input$indicator,{
+      if(input$indicator == "Nature") {
+        mod_ind_timeseries_server("ind_timeseries_nature", country, region, "Nature")
+      }else if(input$indicator == 'Climate') {
+        mod_ind_timeseries_server("ind_timeseries_climate", country, region, "Climate")
+      }else if(input$indicator == 'People') {
+        mod_ind_timeseries_server("ind_timeseries_people", country, region, "People")
+      }
+    })
 
   })
 }

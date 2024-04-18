@@ -106,15 +106,6 @@ to use them [here](https://engineering-shiny.org/build-app-golem.html)*
 
 ## Development TODO
 
-- Modularise the tabPanel (Nature, Climate, People) ui and server logic
-  as it is the same across tabPanels (just different indicators)
-
-  - This is partially complete - cannot figure out mod_ind_timeseries
-    cannot be called from within mod_main…
-  - Also need to integrate server parameters for filtering ‘nature’,
-    ‘climate’, ‘people’
-  - Also need to fix hack with saving country/region to global env….
-
 - See if can eliminate the ‘region’ dropdown but plot still plot
   regional average if all countries in a region are selected
 

@@ -8,18 +8,18 @@
 app_ui <- function(request) {
   # Your application UI logic
   navbarPage(golem_add_external_resources(), # Leave this function for adding external resources
-                    id = "navbar",
-                    title = span(img(src = "www/wwf-logo.jpeg", style="padding-right:5px", height = 40), "Oceans MEL Dashboard"),
-                    windowTitle = "Oceans MEL Dashboard",
-                    theme = bslib::bs_theme(version = 5,
-                                            bootswatch = "flatly",
-                                            "border-width" = "0px",
-                                            "enable-rounded" = TRUE), #https://rstudio.github.io/bslib/articles/bslib.html#custom
-                    selected = "Main",
-                    tabPanel("Main",
-                             mod_main_ui("main_1")),
-                    tabPanel("Information",
-                             HTML('What (if any) info do we want here?')))
+             id = "navbar",
+             title = span(img(src = "www/wwf-logo.jpeg", style="padding-right:5px", height = 40), "Oceans MEL Dashboard"),
+             windowTitle = "Oceans MEL Dashboard",
+             theme = bslib::bs_theme(version = 5,
+                                     bootswatch = "flatly",
+                                     "border-width" = "0px",
+                                     "enable-rounded" = TRUE), #https://rstudio.github.io/bslib/articles/bslib.html#custom
+             selected = "Main",
+             tabPanel("Main",
+                      mod_main_ui("main_1")),
+             tabPanel("Information",
+                      HTML('What (if any) info do we want here?')))
 }
 
 #' Add external Resources to the Application

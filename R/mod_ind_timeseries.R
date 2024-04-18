@@ -32,13 +32,13 @@ mod_ind_timeseries_ui <- function(id, natposindicator_choices){
 #' ind_timeseries Server Functions
 #'
 #' @noRd
-mod_ind_timeseries_server <- function(id, country, region){
+mod_ind_timeseries_server <- function(id, country, region, tabPanel){
   moduleServer( id, function(input, output, session){
     ns <- session$ns
 
     ind <- reactive({
-      country_ind <- indicators |> dplyr::filter(Indicator_category == 'Nature' & Country %in% dplyr::filter(country_names, country %in% c(country()))$country & Indicator %in% dplyr::filter(indnames, text %in% c(input$natpos_indicator))$ind) |> dplyr::mutate(RegionCountry = Country)
-      region_ind <- indicators |> dplyr::filter(Indicator_category == 'Nature' & Region %in% dplyr::filter(region_names, region %in% c(region()))$region & Indicator %in% dplyr::filter(indnames, text %in% c(input$natpos_indicator))$ind) |> dplyr::mutate(RegionCountry = Region)
+      country_ind <- indicators |> dplyr::filter(Indicator_category == !!rlang::enquo(tabPanel) & Country %in% dplyr::filter(country_names, country %in% c(country()))$country & Indicator %in% dplyr::filter(indnames, text %in% c(input$natpos_indicator))$ind) |> dplyr::mutate(RegionCountry = Country)
+      region_ind <- indicators |> dplyr::filter(Indicator_category == !!rlang::enquo(tabPanel) & Region %in% dplyr::filter(region_names, region %in% c(region()))$region & Indicator %in% dplyr::filter(indnames, text %in% c(input$natpos_indicator))$ind) |> dplyr::mutate(RegionCountry = Region)
       baseline <- base_targets |> dplyr::filter(Type == 'Baseline_2020' & Country %in% dplyr::filter(country_names, country %in% c(country()))$country & Indicator %in% dplyr::filter(indnames, text %in% c(input$natpos_indicator))$ind)
       targets <- base_targets |> dplyr::filter(Type == 'Target_2030' & Country %in% dplyr::filter(country_names, country %in% c(country()))$country & Indicator %in% dplyr::filter(indnames, text %in% c(input$natpos_indicator))$ind)
       indicators <- dplyr::bind_rows(country_ind, region_ind)
