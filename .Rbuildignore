@@ -10,3 +10,5 @@ $run_dev.*
 ^\.gitlab-ci\.yml$
 ^app\.R$
 ^rsconnect$
+^doc$
+^Meta$

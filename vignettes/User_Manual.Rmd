@@ -1,8 +1,8 @@
 ---
-title: "OceansDash"
+title: "User_Manual"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{OceansDash}
+  %\VignetteIndexEntry{User_Manual}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---

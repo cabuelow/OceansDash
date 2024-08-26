@@ -27,11 +27,17 @@ If you wish to run the Oceans Dashboard offline, you can install the development
 devtools::install_github("cabuelow/OceansDash")
 ```
 
-and run the application using:
+run the application using:
 
 ``` r
 library(OceansDash)
 run_app()
+```
+
+and access the user manual:
+
+``` r
+vignette('User_Manual', package='OceansDash')
 ```
 
 Please note however, that the above download and installation is not required if you simply want to use the Oceans Dashboard. The latest version is available on the [Shiny Server](https://cbuelow.shinyapps.io/OceansDash/)

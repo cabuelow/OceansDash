@@ -55,7 +55,7 @@ usethis::use_test("app")
 # Documentation
 
 ## Vignette ----
-usethis::use_vignette("OceansDash")
+usethis::use_vignette("User_Manual")
 devtools::build_vignettes()
 
 ## Code Coverage----
