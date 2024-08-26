@@ -57,6 +57,7 @@ usethis::use_test("app")
 ## Vignette ----
 usethis::use_vignette("User_Manual")
 devtools::build_vignettes()
+vignette('User_Manual', package='OceansDash') # review changes after building
 
 ## Code Coverage----
 ## Set the code coverage service ("codecov" or "coveralls")
