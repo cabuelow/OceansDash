@@ -69,7 +69,7 @@ If you are further developing {OceansDash}, start by:
 5. Once you have made changes to any of the above, you can run the development version of the app via:
 
 ``` r
-golem::run_dev
+golem::run_dev()
 ```
 
 6. If you want to deploy the app to a shinyapps.io server, run the development version as above and hit 'Publish' on the top right corner of the app as it is running.
@@ -78,11 +78,10 @@ golem::run_dev
 
 ## Tips and Tricks
 
-- Declare packages that functions belong to explicitly with `::`, e.g. `dplyr::mutate` or you will get an error that it can't find the function
+- Declare packages that functions belong to explicitly with `::`, e.g. `dplyr::mutate` or you will get an error message saying that the function cannot be found
 
 ## Development TODO
 
-- See if can eliminate the 'region' dropdown but plot still plot regional average if all countries in a region are selected
 - Get real data and integrate
 - Tune server to improve speed - it seems to be the mapping filtering that is slowing things down, not the timeseries filtering
 - Start drafting manual for updating, etc.
