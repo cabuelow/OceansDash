@@ -1,5 +1,5 @@
 ---
-title: "User_Manual"
+title: "Manual for using and maintaining the Oceans Monitoring, Evaluation & Learning Dashboard"
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{User_Manual}
@@ -14,6 +14,60 @@ knitr::opts_chunk$set(
 )
 ```
 
-```{r setup}
+
+The Oceans Dashboard is an interactive application that displays indicator time-series data to monitor progress towards goals for nature, people, and climate. It has been developed as an R package {OceansDash} to facilitate robust documentation and long-term maintenance of the application. 
+
+You can run the application locally via:
+
+``` r
 library(OceansDash)
+run_app()
 ```
+
+## Table of contents
+
+This manual provides instructions for:
+
+1) editing the application user-interface and server code base [**here**](#instructions-for-editing-the-application-user-interface-and-server-codebase), and
+2) updating indicator data displayed in the application [**here**](#instructions-for-updating-indicator-data-displayed-in-the-application).
+
+## Instructions for editing the application user-interface and server codebase
+
+To begin editing or updating the application:
+
+1. [Fork and clone](https://happygitwithr.com/fork-and-clone) the [github repository](https://github.com/cabuelow/OceansDash) or, if you already have a local {OceansDash} github repository, navigate to the folder on your computer and double-click on the .Rproj file `OceansDash.Rproj`
+2. Start a new [development branch](https://happygitwithr.com/git-branches.html?q=branch#create-a-new-branch) in github
+3. Make edits to scripts and files - pull, commit and push regularly to your development branch. Click [**here**](#making-edits) for more information on how to edit.
+4. When your edits are complete, make a [pull request](https://happygitwithr.com/pr-extend.html?q=pull%20request#pr-extend) and merge with the remote github repository if there are no conflicts.
+
+### Making edits
+
+There are three main folders to be aware of to edit...
+
+*As you can see, there are many other files in the {OceansDash} package that are not discussed here. Those not mentioned are not neccesary for app development, but you can find more information on what they do/how to use them [here](https://engineering-shiny.org/build-app-golem.html)*
+
+2. Opening the **'dev/02_dev.R'** script. 
+- This is where you can: 
+  - A) add packages, 
+  - B) add modules, and 
+  - C) add ‘business’ logic (as opposed to application logic) in the form of of functions (add_fct) or utilities (add_utils) - the latter being smaller functions that will be used several times. [Read more here](https://engineering-shiny.org/build-app-golem.html)
+
+3. Opening the **'data-raw/make-sysdata.R'** script.
+- Here you can import and wrangle data to be used internally by the app. Make sure to add it to the 'sysdata.rda' at the bottom of the script. Run through all lines of code in the script to update all internal datasets and overwrite the current 'sysdata.rda'.
+
+4. Opening the **'R/'** folder.
+- Here you will find the following R scripts and files:
+  - A) The `app_ui.R` and `app_server.R` files that serve to provide the main app structure and integrate modules,
+  - B) Any modules (aka 'sub-apps', e.g., `mod_main.R`), and
+  - C) The `sysdata.rda` file created via Step 2 above
+  
+5. Once you have made changes to any of the above, you can test your edits by runinng the development version of the app via:
+
+``` r
+golem::run_dev()
+```
+
+6. If you want to deploy the app to a shinyapps.io server, run the development version as above and hit 'Publish' on the top right corner of the app as it is running.
+
+## Instructions for updating indicator data displayed in the application
+
