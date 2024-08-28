@@ -23,8 +23,6 @@ indnames <- data.frame(text = c("Small Scale Fisheries Rights", "Wealth Relative
 regions <- st_read(file.path('data-raw', 'EEZ_Land_v3_202030_sub_regions.gpkg'))
 eez <- st_read(file.path('data-raw', 'EEZ_Land_v3_202030_sub.gpkg'))
 
-# timeseries module nature positive parameters -------------------------------------------------
-
 # add data to sysdata.rda -------------------------------------------------
 usethis::use_data(indicators,
                   base_targets,
