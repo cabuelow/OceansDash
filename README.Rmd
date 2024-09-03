@@ -102,4 +102,3 @@ golem::run_dev()
     - If these features don’t slow down the app, can you add:
         - MPAs from the WDPA data set (only when countries are selected)
         - Coastal ecosystems such as mangroves, coral reefs, saltmarshes, seagrass (when countries are selected)
-  
