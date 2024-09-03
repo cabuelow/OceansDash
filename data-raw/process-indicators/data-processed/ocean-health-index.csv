@@ -1,16 +1,4 @@
 "Country","Year","Indicator","Value"
-"Mexico",2020,"Marine_Living_Planet",0.291788840432599
-"United States",2020,"Marine_Living_Planet",2.59604747400616
-"Peru",2020,"Marine_Living_Planet",0.836746568052242
-"Chile",2020,"Marine_Living_Planet",0.910938378413166
-"Ecuador",2020,"Marine_Living_Planet",0.406811612089558
-"Mozambique",2020,"Marine_Living_Planet",0.135552265973537
-"Papua New Guinea",2020,"Marine_Living_Planet",213.102867458147
-"Solomon Islands",2020,"Marine_Living_Planet",0.660780000031388
-"Colombia",2020,"Marine_Living_Planet",38.7747901213163
-"Fiji",2020,"Marine_Living_Planet",0.227125953900343
-"Indonesia",2020,"Marine_Living_Planet",1.58822380877478
-"Tanzania, United Republic Of",2020,"Marine_Living_Planet",0.486564906584438
 "Solomon Islands",2020,"Habitat_Carbon_Storage",74.55
 "Papua New Guinea",2020,"Habitat_Carbon_Storage",71.68
 "Fiji",2020,"Habitat_Carbon_Storage",80.26
@@ -1163,18 +1151,3 @@
 "Tanzania",2023,"Marine_Red_List",-0.01
 "Indonesia",2023,"Marine_Red_List",-0.02
 "Chile",2023,"Marine_Red_List",0
-"Chile",2020,"Small_Scale_Fisheries_Rights",5
-"Chile",2022,"Small_Scale_Fisheries_Rights",5
-"Colombia",2020,"Small_Scale_Fisheries_Rights",5
-"Colombia",2022,"Small_Scale_Fisheries_Rights",5
-"Ecuador",2020,"Small_Scale_Fisheries_Rights",5
-"Ecuador",2022,"Small_Scale_Fisheries_Rights",5
-"Indonesia",2022,"Small_Scale_Fisheries_Rights",5
-"Madagascar",2020,"Small_Scale_Fisheries_Rights",3
-"Mexico",2020,"Small_Scale_Fisheries_Rights",5
-"Mexico",2022,"Small_Scale_Fisheries_Rights",5
-"Peru",2020,"Small_Scale_Fisheries_Rights",5
-"Peru",2022,"Small_Scale_Fisheries_Rights",5
-"Solomon Islands",2020,"Small_Scale_Fisheries_Rights",4
-"Solomon Islands",2022,"Small_Scale_Fisheries_Rights",5
-"Tanzania",2022,"Small_Scale_Fisheries_Rights",5
