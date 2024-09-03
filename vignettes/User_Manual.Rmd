@@ -1,6 +1,9 @@
 ---
 title: "Manual for using and maintaining the Oceans Monitoring, Evaluation & Learning Dashboard"
-output: rmarkdown::html_vignette
+output: 
+rmarkdown::html_vignette:
+   toc: true
+    number_sections: false
 vignette: >
   %\VignetteIndexEntry{User_Manual}
   %\VignetteEngine{knitr::rmarkdown}
@@ -53,7 +56,7 @@ There are three main folders to be aware of to edit...
   - C) add ‘business’ logic (as opposed to application logic) in the form of of functions (add_fct) or utilities (add_utils) - the latter being smaller functions that will be used several times. [Read more here](https://engineering-shiny.org/build-app-golem.html)
 
 3. Opening the **'data-raw/make-sysdata.R'** script.
-- Here you can import and wrangle data to be used internally by the app. Make sure to add it to the 'sysdata.rda' at the bottom of the script. Run through all lines of code in the script to update all internal datasets and overwrite the current 'sysdata.rda'.
+- Here you can import and wrangle processed indicator data to be used internally by the app. Make sure to add it to the 'sysdata.rda' at the bottom of the script. Run through all lines of code in the script to update all internal datasets and overwrite the current 'sysdata.rda'.
 
 4. Opening the **'R/'** folder.
 - Here you will find the following R scripts and files:
@@ -61,7 +64,7 @@ There are three main folders to be aware of to edit...
   - B) Any modules (aka 'sub-apps', e.g., `mod_main.R`), and
   - C) The `sysdata.rda` file created via Step 2 above
   
-5. Once you have made changes to any of the above, you can test your edits by runinng the development version of the app via:
+5. Once you have made changes to any of the above, you can test your edits by running the development version of the app via:
 
 ``` r
 golem::run_dev()
@@ -71,3 +74,71 @@ golem::run_dev()
 
 ## Instructions for updating indicator data displayed in the application
 
+All scripts for processing indicator data are located in the **'data-raw/process-indicators/'** folder. Instructions for downloading data and processing the indicators are provided below, organised such that indicators derived from the same data source are described together.
+
+#### Indicators derived from the Ocean Health Index: Marine Red List | Fisheries Stock Condition (OHI Fisheries (subgoal) indicator) | Habitat Condition (OHI Habitat (subgoal) indicator) | Carbon storage (OHI Carbon storage indicator)
+
+The *Marine Red List*, *Fisheries Stock Condition*, *Habitat Condition*, and *Carbon Storage* indicators are all sourced from the [Ocean Health Index](https://oceanhealthindex.org/).
+
+Note that data is not available for Alaska.
+
+Citation: Ocean Health Index. 2024. ohi-global version: Global scenarios data for Ocean Health Index, [August 26, 2024]. National Center for Ecological Analysis and Synthesis, University of California, Santa Barbara. Available at: https://github.com/OHI-Science/ohi-global/releases
+
+The *Marine Red List* indicator is the [Ocean Health Index Biodiversity (Species sub-goal) indicator](https://oceanhealthindex.org/global-scores/goal-scores/biodiversity/species/). A high score indicates that most native marine species in a country are not identified as threatened or vulnerable by the IUCN which monitors the status of many species.
+
+The *Fisheries Stock Condition* indicator is the [Ocean Health Index Food Provision (Wild Caught Fisheries subgoal) indicator](https://oceanhealthindex.org/global-scores/goal-scores/food-provision/wild-caught-fisheries/). It measures ability to sustainably maximize wild-caught fisheries.
+
+The *Habitat Condition* indicator is the [Ocean Health Index Biodiversity (Habitat sub-goal) indicator](https://oceanhealthindex.org/goals/biodiversity/habitats/). This goal assesses the condition of marine habitats that are particularly important in supporting large numbers of marine species. The status of each habitat is its current condition relative to its reference condition, which is often based on historical area. A score of 1 indicates that the condition equals or exceeds the reference point. The subgoal score is then calculated by combining the habitat scores for each region.
+
+The *Carbon Storage* indicator is the [Ocean Health Index Carbon storage indicator](https://oceanhealthindex.org/global-scores/goal-scores/carbon-storage/). It captures the ability of coastal habitats to store carbon given the amount of carbon they store and their health.
+
+To update these indicators:
+1) download the most recent indicator scores [here](https://oceanhealthindex.org/global-scores/data-download/),
+2) place the downloaded folder in **'data-raw/process-indicators/data-downloaded/ocean-health-index'**,
+3) run the R script **'data-raw/process-indicators/scripts/ocean-health-index.R'** to process the indicator,
+4) if you are updating other indicators, do that first before then running the R script **'data-raw/process-indicators/export-processed-indicators.R'**.
+
+#### Ecosystem indicators
+
+Ecosystem extent and carbon storage under effective protection are calculated for mangroves, saltmarsh, and coral reef ecosystems (with the exception of carbon storage for coral reefs as global data is not currently available). Global mapping of seagrass and kelp forest ecosystem extent is not of high enough resolution to estimate their effective protection, but can be included when data becomes available.
+
+To update these indicators, 
+1) download and clean the World Database of Protected Areas....
+2) 
+
+Download data: ....
+
+#### Marine Living Planet Index
+
+The *Marine Living Planet Index* measures trends in marine species populations through time. Index values represent the average rate of change in populations. It is calculated for marine species in each country via the following [*Living Planet Index*](https://www.livingplanetindex.org/) methodology.
+
+Citation: LPI 2024. Living Planet Index database. 2024. < www.livingplanetindex.org/>. Downloaded on 30 August 2024
+
+To update this indicator: 
+1) download the most recent data [**here**](https://www.livingplanetindex.org/data_portal),
+2) place the downloaded data folder in: **'data-raw/process-indicators/data-downloaded/marine-living-planet-index'**,
+3) run the R script **'data-raw/process-indicators/scripts/marine-living-planet-index.R'** to process the indicator for each country,
+4) if you are updating other indicators, do that first before then running an R script that combines all of the processed indicators into a single dataframe that can be used in the dashboard application: **'data-raw/process-indicators/export-processed-indicators.R'**.
+
+#### Small-scale fisheries rights
+
+Degree of application of a legal/regulatory/policy/institutional framework which recognizes and protects access rights for small-scale fisheries that is updated biannually. The indicator score refers to the level of implementation: 1 (lowest) to 5 (highest).
+
+Note there is no data available for Alaska, Mozambique, Papua New Guinea, or Madagascar.
+
+Citation: Data from multiple sources compiled by the UN – processed by Our World in Data. “14.b.1 - Degree of application of a legal/regulatory/policy/institutional framework which recognizes and protects access rights for small-scale fisheries (level of implementation: 1 lowest to 5 highest) - ER_REG_SSFRAR” [dataset]. Data from multiple sources compiled by the UN [original data].
+
+To update this indicator: 
+1) download the most recent data [**here**](https://ourworldindata.org/sdgs/life-below-water#sdg-indicator-14-b-1-support-small-scale-fishers),
+2) place the downloaded .csv file in: **'data-raw/process-indicators/data-downloaded/small-scale-fisheries-rights'**,
+3) run the R script **'data-raw/process-indicators/scripts/small-scale-fisheries-rights.R'** to process the indicator for each country,
+4) if you are updating other indicators, do that first before then running an R script that combines all of the processed indicators into a single dataframe that can be used in the dashboard application: **'data-raw/process-indicators/export-processed-indicators.R'**.
+
+#### Wealth relative Index
+Data source: https://sedac.ciesin.columbia.edu/data/set/povmap-grdi-v1 (Inverted Relative Deprivation Index)
+
+#### Human Development Index
+Data source: Kummu, M. et al. Gridded global datasets for Gross Domestic Product and Human Development Index over 1990–2015. Sci. Data 5:180004 doi: 10.1038/sdata.2018.4 (2018)
+  
+#### Climate Adaptation Plans
+Data sources:....
