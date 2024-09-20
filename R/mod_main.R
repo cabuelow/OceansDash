@@ -71,7 +71,7 @@ mod_main_server <- function(id){
         }
     })
 
-    #Observing tabpanels --------------------------------------------------------------------
+    # Observing tabpanels --------------------------------------------------------------------
 
     country <- reactive({input$country})
     region <- reactive({input$region})
