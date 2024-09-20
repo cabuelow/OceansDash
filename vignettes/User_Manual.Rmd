@@ -1,9 +1,7 @@
 ---
-title: "Manual for using and maintaining the Oceans Monitoring, Evaluation & Learning Dashboard"
+title: "User's Manual for maintaining the Oceans Monitoring, Evaluation & Learning Dashboard"
 output: 
 rmarkdown::html_vignette:
-   toc: true
-    number_sections: false
 vignette: >
   %\VignetteIndexEntry{User_Manual}
   %\VignetteEngine{knitr::rmarkdown}
@@ -17,10 +15,21 @@ knitr::opts_chunk$set(
 )
 ```
 
+The Oceans Dashboard is an interactive application that displays indicator time-series data to monitor progress towards goals for nature, people, and climate. It has been developed as an R package {OceansDash} to facilitate robust documentation and long-term maintenance of the application using the {golem} framework ([read more here](https://engineering-shiny.org/build-app-golem.html)).
 
-The Oceans Dashboard is an interactive application that displays indicator time-series data to monitor progress towards goals for nature, people, and climate. It has been developed as an R package {OceansDash} to facilitate robust documentation and long-term maintenance of the application. 
+To install it, first open RStudio and install {devtools} if it is not installed already,
 
-You can run the application locally via:
+``` r
+install.packages('devtools')
+```
+
+then install {OceansDash} with,
+
+``` r
+devtools::install_github("cabuelow/OceansDash")
+```
+
+Once you have {OceansDash} installed, you can run the application locally via:
 
 ``` r
 library(OceansDash)
@@ -31,52 +40,60 @@ run_app()
 
 This manual provides instructions for:
 
-1) editing the application user-interface and server code base [**here**](#instructions-for-editing-the-application-user-interface-and-server-codebase), and
-2) updating indicator data displayed in the application [**here**](#instructions-for-updating-indicator-data-displayed-in-the-application).
+1. editing the dashboard application user-interface and server code base [**here**](#instructions-for-editing-the-application-user-interface-and-server-codebase), and
+2. updating indicator data displayed in the dashboard application [**here**](#instructions-for-updating-indicator-data-displayed-in-the-application).
+
+The instructions assume knowledge of how to use [RStudio](https://posit.co/download/rstudio-desktop/) and [Github](https://github.com/).
 
 ## Instructions for editing the application user-interface and server codebase
 
-To begin editing or updating the application:
+To edit the dashboard application:
 
-1. [Fork and clone](https://happygitwithr.com/fork-and-clone) the [github repository](https://github.com/cabuelow/OceansDash) or, if you already have a local {OceansDash} github repository, navigate to the folder on your computer and double-click on the .Rproj file `OceansDash.Rproj`
+1. [Fork and clone](https://happygitwithr.com/fork-and-clone) the [github repository](https://github.com/cabuelow/OceansDash) or, if you already have a local {OceansDash} github repository, navigate to the folder on your computer. Then double-click on the .Rproj file `OceansDash.Rproj` to open it in RStudio
 2. Start a new [development branch](https://happygitwithr.com/git-branches.html?q=branch#create-a-new-branch) in github
-3. Make edits to scripts and files - pull, commit and push regularly to your development branch. Click [**here**](#making-edits) for more information on how to edit.
-4. When your edits are complete, make a [pull request](https://happygitwithr.com/pr-extend.html?q=pull%20request#pr-extend) and merge with the remote github repository if there are no conflicts.
+3. Make edits to R scripts in {OceansDash} while remembering 'pull, commit and push' regularly to your development branch. Click [**here**](#making-edits) for more information on what and how to edit
+4. When your edits are complete, make a [pull request](https://happygitwithr.com/pr-extend.html?q=pull%20request#pr-extend) and merge with the remote github repository if there are no conflicts
 
 ### Making edits
 
-There are three main folders to be aware of to edit...
+#### User-interface and server
 
-*As you can see, there are many other files in the {OceansDash} package that are not discussed here. Those not mentioned are not neccesary for app development, but you can find more information on what they do/how to use them [here](https://engineering-shiny.org/build-app-golem.html)*
+There are two main components to the dashboard application, the **user-interface** and the **server**. 
 
-2. Opening the **'dev/02_dev.R'** script. 
-- This is where you can: 
-  - A) add packages, 
-  - B) add modules, and 
-  - C) add ‘business’ logic (as opposed to application logic) in the form of of functions (add_fct) or utilities (add_utils) - the latter being smaller functions that will be used several times. [Read more here](https://engineering-shiny.org/build-app-golem.html)
+The **user-interface** is what what we see in the dashboard application. It takes inputs and displays outputs, and has been developed as a series of nested [modules](https://engineering-shiny.org/structuring-project.html?q=modules#using-shiny-modules). 
 
-3. Opening the **'data-raw/make-sysdata.R'** script.
-- Here you can import and wrangle processed indicator data to be used internally by the app. Make sure to add it to the 'sysdata.rda' at the bottom of the script. Run through all lines of code in the script to update all internal datasets and overwrite the current 'sysdata.rda'.
+The **server** provides instructions for how the dashboard application reacts to inputs to the user-interface and displays outputs. For example, the server will contain {ggplot} code for creating outputs.
 
-4. Opening the **'R/'** folder.
-- Here you will find the following R scripts and files:
-  - A) The `app_ui.R` and `app_server.R` files that serve to provide the main app structure and integrate modules,
-  - B) Any modules (aka 'sub-apps', e.g., `mod_main.R`), and
-  - C) The `sysdata.rda` file created via Step 2 above
-  
-5. Once you have made changes to any of the above, you can test your edits by running the development version of the app via:
+To edit the code base defining the dashboard application user-interface, modules, and server:      
+1. Open the **'R/'** folder,
+2. edit the user-interface tab panels in `app_ui.R`,
+3. edit the modules (aka 'sub-apps') nested within `app_ui.R` in the following scripts: `mod_main.R` and `mod_ind_timeseries.R`
+
+**TODO** [here insert a screenshot of the web app interface and highlight which ui and mod script correspond to which part of the user interface]
+
+To edit data displayed in the user-interface:
+
+1. Open the **'data-raw/make-sysdata.R'** script,
+2. Here you can import and wrangle processed indicator data to be used internally by the dashboard application. If you add new data, make sure to add it to the 'sysdata.rda' file at the bottom of the script. 
+3. Run through all lines of code in the script to update all internal datasets and overwrite the current 'sysdata.rda'.
+
+Once you have made changes to any of the above, you can test your edits by running the development version of the app via:
 
 ``` r
 golem::run_dev()
 ```
 
-6. If you want to deploy the app to a shinyapps.io server, run the development version as above and hit 'Publish' on the top right corner of the app as it is running.
+If you want to deploy the app to a shinyapps.io server, run the development version as above and hit 'Publish' on the top right corner of the app as it is running.
+
+**TODO** [here insert a screenshot of the 'Publish' button]
+
+*There are many other files in the {OceansDash} package that are not discussed here. Those not mentioned are not necessary for app development, but you can find more information on what they do/how to use them [here](https://engineering-shiny.org/build-app-golem.html)*.
 
 ## Instructions for updating indicator data displayed in the application
 
 All scripts for processing indicator data are located in the **'data-raw/process-indicators/'** folder. Instructions for downloading data and processing the indicators are provided below, organised such that indicators derived from the same data source are described together.
 
-#### Indicators derived from the Ocean Health Index: Marine Red List | Fisheries Stock Condition (OHI Fisheries (subgoal) indicator) | Habitat Condition (OHI Habitat (subgoal) indicator) | Carbon storage (OHI Carbon storage indicator)
+#### Indicators derived from the Ocean Health Index: Marine Red List | Fisheries Stock Condition | Habitat Condition | Carbon storage
 
 The *Marine Red List*, *Fisheries Stock Condition*, *Habitat Condition*, and *Carbon Storage* indicators are all sourced from the [Ocean Health Index](https://oceanhealthindex.org/).
 
@@ -93,20 +110,63 @@ The *Habitat Condition* indicator is the [Ocean Health Index Biodiversity (Habit
 The *Carbon Storage* indicator is the [Ocean Health Index Carbon storage indicator](https://oceanhealthindex.org/global-scores/goal-scores/carbon-storage/). It captures the ability of coastal habitats to store carbon given the amount of carbon they store and their health.
 
 To update these indicators:
-1) download the most recent indicator scores [here](https://oceanhealthindex.org/global-scores/data-download/),
-2) place the downloaded folder in **'data-raw/process-indicators/data-downloaded/ocean-health-index'**,
-3) run the R script **'data-raw/process-indicators/scripts/ocean-health-index.R'** to process the indicator,
-4) if you are updating other indicators, do that first before then running the R script **'data-raw/process-indicators/export-processed-indicators.R'**.
 
-#### Ecosystem indicators
+1. download the most recent national indicator scores [here](https://oceanhealthindex.org/global-scores/data-download/),
+2. place the downloaded folder in **'data-raw/process-indicators/data-downloaded/ocean-health-index'**,
+3. run the R script **'data-raw/process-indicators/scripts/ocean-health-index.R'** to process the indicator,
+4. if you are updating other indicators, do that first before then running the R script **'data-raw/process-indicators/export-processed-indicators.R'**.
+
+#### Indicators using the World Database on Protected Areas and Other Effective Conservation Measures: Effective Protection | Carbon Under Effective Protection 
 
 Ecosystem extent and carbon storage under effective protection are calculated for mangroves, saltmarsh, and coral reef ecosystems (with the exception of carbon storage for coral reefs as global data is not currently available). Global mapping of seagrass and kelp forest ecosystem extent is not of high enough resolution to estimate their effective protection, but can be included when data becomes available.
 
-To update these indicators, 
-1) download and clean the World Database of Protected Areas....
-2) 
+**Note that the spatial data files required to process these indicators are too large to be stored on github, and so instructions below for updating and re-processing each indicator require data to be downloaded and stored locally**.
 
-Download data: ....
+Indicator values are calculated for each country/region using spatial polygon data representing national borders and exclusive economic zone (EEZs). The most recent version of this spatial data can be downloaded [here](https://marineregions.org/downloads.php) - *Marine and land zones: the union of world country boundaries and EEZ's*. As of September 5th, 2024 the current version being used in {OceansDash} is version 3.
+
+This spatial data requires some processing to remove countries that aren't part of the Oceans Dashboard monitoring. To perform this processing:
+
+1.	Download the latest version of the data and save it in the **'data-raw/process-indicators/data-downloaded/effective-protection'** folder.  
+3.	Open **“data-raw/process-indicators/scripts/country_eez_land.R”**. Replace the data path in Line 8 with the path to the new data and run the script. This will save the processed spatial data layer as a geopackage (.gpkg) and is used to process other spatial data layers (see steps for each indicator derived from spatial data below).
+
+Spatial data on protected areas and other effective conservation measures (OECMs) are derived from [World Database on Protected Areas (WDPA)](https://www.protectedplanet.net/en/thematic-areas/wdpa?tab=WDPA) and the [World Database on Other Effective Area-based Conservation Measures (WDOECM)](https://www.protectedplanet.net/en/thematic-areas/oecms?tab=OECMs). We use the R package [{wdpar}](https://joss.theoj.org/papers/10.21105/joss.04594) to download and clean these spatial data layers, following best practice (Butchart et al., 2015; Hanson, 2022) which includes: a) excluding protected areas that do not have the status of “Designated”, “Inscribed” and “Established”, and areas that are UNESCO Biosphere Reserves, b) protected areas represented as points with a reported extent were buffered to a circular area using their reported extent, and c) overlapping protected areas are erased such that areas associated with more effective management categories (i.e. higher IUCN Protected Area Management Categories) and historical precedence are kept (Hanson, 2022).
+
+To download the most recent protected area/OECM data and clean using {wdpar}:
+
+1.	Open and run the script “data-raw/process-indicators/scripts/wdpa_data.R”. 
+
+Once you have processed and cleaned the EEZ and protected area/OECM data (described above), you can update the **Effective protection** and **Carbon under effective protection** indicators following the steps below.
+
+##### Effective Protection
+
+Effective protection was calculated for three habitats: mangroves, coral reefs, and tidal (salt) marshes. Currently (as of September 2024), there is only a single time point available on extent of coral reefs and tidal marshes. Check for the latest data for the extent of each habitat at the following sources:
+
+1.	Mangroves: [Global Mangrove Watch (1996 - 2020)](https://zenodo.org/communities/globalmangrovewatch/records?q=&l=list&p=1&s=10&sort=newest)
+2.	Coral reefs: [Allen Coral Atlas (ACA) - Geomorphic Zonation and Benthic Habitat - v2.0](https://developers.google.com/earth-engine/datasets/catalog/ACA_reef_habitat_v2_0)
+3.	Tidal Marshes: [Global tidal marshes 2020 dataset](https://zenodo.org/records/8420753)
+
+To update the **Effective protection** indicator for each habitat:
+
+1.	For mangroves and tidal marsh, download the latest version of the data and save it in the folder **“data-raw/process-indicators/data-downloaded/effective-protection/”**.  
+2.	For coral, open **“data-raw/process-indicators/scripts/download_coral_extent_from_GEE.R”** to download new data. Replace the path at Line 44 with the new data source and run the script.
+3.	Open **“data-raw/process-indicators/scripts/protected_mangrove.R”**. Replace the data path in Line 24 with the path to the new data and run the script. This step can be skipped if no new data is available.
+5.	Open **“data-raw/process-indicators/scripts/protected_coral.R”**. Replace the data path in Line 31 with the path to the new data and run the script. This step can be skipped if no new data is available.
+6.	Open **“data-raw/process-indicators/scripts/protected_marsh.R”**. Replace the data path in Line 25 with the path to the new data and run the script. This step can be skipped if no new data is available.
+7.	Run **“data-raw/process-indicators/scripts/effective_protection_output.R”** to compile data. Run this step whenever the extent data is updated.
+
+##### Carbon Under Effective Protection
+
+Carbon under effective protection was calculated for mangrove and tidal marshes. Check for the latest data at the sources listed below:
+
+1.	Above-ground biomass (AGB) in mangroves: [Global Mangrove Distribution, Aboveground Biomass, and Canopy Height](https://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=1665)
+2.	Soil organic carbon (SOC) in mangroves: [Global mangrove soil carbon data set](https://zenodo.org/records/7729492)
+3.	Soil organic carbon (SOC) in tidal marsh: [Global soil organic carbon in tidal marshes version 1](https://zenodo.org/records/10940066)
+
+To update the **Carbon Under Effective Protection** indicator for each habitat:
+
+1.	Download the latest version of the data sets above and save in the folder **“data-raw/process-indicators/data-downloaded/effective-protection/”**.  
+2.	For carbon in mangroves, open **“data-raw/process-indicators/scripts/mangrove_carbon.R”**. Replace the data paths in Line 41 and Line 58 with the paths to the new data for AGB and SOC accordingly, and run the script. 
+3.	For carbon in tidal marsh, open **“data-raw/process-indicators/saltmarsh_carbon.R”**. Replace the data paths in Line 36 and Line 53 with the paths to the new data for AGB and SOC accordingly, and run the script.
 
 #### Marine Living Planet Index
 
@@ -135,10 +195,22 @@ To update this indicator:
 4) if you are updating other indicators, do that first before then running an R script that combines all of the processed indicators into a single dataframe that can be used in the dashboard application: **'data-raw/process-indicators/export-processed-indicators.R'**.
 
 #### Wealth relative Index
-Data source: https://sedac.ciesin.columbia.edu/data/set/povmap-grdi-v1 (Inverted Relative Deprivation Index)
+
+The Wealth Relative Index was calculated from the inverted of Global Gridded Relative Deprivation Index (GRDI), v1 (2010–2020). Check for the latest data [here](https://sedac.ciesin.columbia.edu/data/set/povmap-grdi-v1).
+
+To update:
+
+1.	Download the latest version of the data and save it in the folder **“data-raw/process-indicators/data-downloaded/”**.  
+2.	Open **“data-raw/process-indicators/scripts/wealth_relative_index.R”**. Replace the data path in Line 19 with the path to the new data and run the script.
 
 #### Human Development Index
-Data source: Kummu, M. et al. Gridded global datasets for Gross Domestic Product and Human Development Index over 1990–2015. Sci. Data 5:180004 doi: 10.1038/sdata.2018.4 (2018)
-  
+
+The Human Development Index was calculated from the published data: Gridded global datasets for Gross Domestic Product and Human Development Index over 1990–2015. Check for the latest data [here](https://datadryad.org/stash/dataset/doi:10.5061/dryad.dk1j0).
+
+To update:
+
+1.	Download the latest version of the data and save it in the folder **“data-raw/process-indicators/data-downloaded/”**.  
+2.	Open **“data-raw/process-indicators/scripts/human_development_index.R”**. Replace the data path in Line 18 with the path to the new data and run the script.
+
 #### Climate Adaptation Plans
 Data sources:....
