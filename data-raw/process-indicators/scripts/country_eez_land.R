@@ -5,7 +5,7 @@ library(sf)
 
 # read EEZ_land shapefile
 # replace path in quote to path of your downloaded eez_land shapefile if needed
-eez <- st_read("data-raw/process-indicators/data-downloaded/effective-protection/EEZ_land_union_v3_202003/EEZ_Land_v3_202030.shp")
+eez <- st_read("data-raw/process-indicators/data-downloaded/EEZ_land_union_v3_202003/EEZ_Land_v3_202030.shp")
 
 # names of targeted countries
 country <- c("Alaska", "Mexico", "Colombia", "Ecuador", "Peru", 'Chile',
@@ -16,4 +16,4 @@ country <- c("Alaska", "Mexico", "Colombia", "Ecuador", "Peru", 'Chile',
 eez_cty <- eez[eez$UNION %in% country,]
 
 # save file
-st_write(eez_cty, 'data-raw/process-indicators/data-downloaded/effective-protection/targeted_countries_eez_land.gpkg', append = FALSE)
+st_write(eez_cty, 'data-raw/process-indicators/data-downloaded/targeted_countries_eez_land.gpkg', append = FALSE)

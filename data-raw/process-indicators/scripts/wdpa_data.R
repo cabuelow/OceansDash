@@ -4,7 +4,7 @@ library(tidyverse)
 library(wdpar)
 library(sf)
 
-# set sf to not use S2
+# set sf to not use S2 to avoid geometry errors with older spatial data files
 sf_use_s2(FALSE)
 
 # check what is the latest version of data available
@@ -15,7 +15,7 @@ pa <- wdpa_fetch("global", wait = TRUE, download_dir = "data-raw/process-indicat
 
 ## Filter pa that intersects with targeted countries and clean data
 # read countries' EEZ file
-cty <- st_read('data-raw/process-indicators/data-downloaded/effective-protection/targeted_countries_eez_land.gpkg')
+cty <- st_read('data-raw/process-indicators/data-downloaded/targeted_countries_eez_land.gpkg')
 
 # filter data and keep PA's that present as points
 pa_cty <- filter(pa, lengths(st_intersects(pa, cty)) > 0 |
@@ -45,7 +45,7 @@ cty_pa<- st_collection_extract(cty_pa, "POLYGON") %>%
   select(., -1)
 
 # save file
-st_write(cty_pa, 'data-raw/process-indicators/data-downloaded/effective-protection/selected_countries_protected_area.gpkg', append = FALSE)
+st_write(cty_pa, 'data-raw/process-indicators/data-downloaded/selected_countries_protected_area.gpkg', append = FALSE)
 
 ## create country non-pa polygons
 cty_pa_u <- st_union(cty_pa)

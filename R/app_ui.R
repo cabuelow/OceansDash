@@ -19,7 +19,7 @@ app_ui <- function(request) {
              tabPanel("Main",
                       mod_main_ui("main_1")),
              tabPanel("Information",
-                      HTML('What (if any) info do we want here?')))
+                      HTML('To be decided if this tab panel is necessary')))
 }
 
 #' Add external Resources to the Application

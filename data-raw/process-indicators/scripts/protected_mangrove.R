@@ -16,7 +16,7 @@ sf_use_s2(FALSE)
 
 ## calculate total mangrove area
 # read country layer
-cty <- st_read('data-raw/process-indicators/data-downloaded/effective-protection/targeted_countries_eez_land.gpkg')
+cty <- st_read('data-raw/process-indicators/data-downloaded/targeted_countries_eez_land.gpkg')
 
 # read GMW 2020 mangrove extent, replace with path to new data if needed.
 gmw <- st_read('data-raw/process-indicators/data-downloaded/effective-protection/GMW_v3/gmw_v3_2020_vec/gmw_v3_2020_vec.shp')

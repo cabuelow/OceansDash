@@ -19,7 +19,7 @@ sf_use_s2(FALSE)
 grdi <- rast("data-raw/process-indicators/data-downloaded/GRDI_v1/povmap-grdi-v1-geotiff/povmap-grdi-v1.tif")
 
 # read country layer
-cty <- st_read('data-raw/process-indicators/data-downloaded/effective-protection/targeted_countries_eez_land.gpkg')
+cty <- st_read('data-raw/process-indicators/data-downloaded/targeted_countries_eez_land.gpkg')
 
 # extract tiles' values for HDI
 results <- list()
@@ -35,7 +35,7 @@ for (i in 1:nrow(cty)) {
 
 dat <- bind_rows(results, .id = "UNION") %>%
   pivot_longer(., cols = everything(), names_to = "UNION", values_to = "GRDI") %>%
-  mutate(WRI = 100 - GRDI) %>%
+  mutate(WRI = 100 - GRDI) %>% # invert the score to calculate a wealth rather than deprivation index
   select(-GRDI)
 
 write.csv(dat, "data-raw/process-indicators/data-processed/Wealth Relative Index.csv", row.names = FALSE)

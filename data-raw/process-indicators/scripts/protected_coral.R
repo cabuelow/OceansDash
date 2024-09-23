@@ -17,7 +17,7 @@ sf_use_s2(FALSE)
 
 # set terra's temporary folder
 # Replace the path in quotes with path to a temporary folder in your computer
-temp <- "data-raw/process-indicators/data-downloaded/effective-protection/temp"
+temp <- "data-raw/process-indicators/data-downloaded/temp"
 terraOptions(tempdir = temp)
 
 ## read coral raster file
@@ -30,7 +30,7 @@ coral_5m_rast <- lapply(fils, rast)
 names(coral_5m_rast)
 
 # read country layer
-cty <- vect('data-raw/process-indicators/data-downloaded/effective-protection/targeted_countries_eez_land.gpkg')
+cty <- vect('data-raw/process-indicators/data-downloaded/targeted_countries_eez_land.gpkg')
 # exclude countries that have no coral
 cty <- cty[!cty$UNION %in% c("Chile", "Alaska", "Peru", "Ecuador"),]
 
@@ -51,7 +51,7 @@ getvalue <- function(x, y) { # x is country spatVector, y is list of raster file
 
     for (j in 1:length(rast_i)) {
       rast_j <- rast_i[[j]]
-      cell <- cellSize(rast_j, unit = "ha", mask = TRUE, overwrite = TRUE, todisk = TRUE, filename = "data-raw/process-indicators/data-downloaded/effective-protection/temp/c_cell.tif")
+      cell <- cellSize(rast_j, unit = "ha", mask = TRUE, overwrite = TRUE, todisk = TRUE, filename = "data-raw/process-indicators/data-downloaded/temp/c_cell.tif")
       area <- exact_extract(cell, st_as_sf((x_i)), "sum", max_cells_in_memory = 3e+08)
 
       results[[j]] <- area

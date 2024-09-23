@@ -14,7 +14,7 @@ gd_authenticate(auth_mode = "notebook")
 gd_initialize()
 
 # read targeted country polygons
-cty <- st_read('data-raw/process-indicators/data-downloaded/effective-protection/targeted_countries_eez_land.gpkg')
+cty <- st_read('data-raw/process-indicators/data-downloaded/targeted_countries_eez_land.gpkg')
 
 # exclude countries that have no coral
 cty <- cty[!cty$UNION %in% c("Chile", "Alaska", "Peru", "Ecuador"),]

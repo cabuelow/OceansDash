@@ -17,7 +17,7 @@ library(exactextractr)
 sf_use_s2(FALSE)
 
 # set terra's temporary folder
-# Replace the path in quotes with path to a temporary folder in your computer
+#
 temp <- "data-raw/process-indicators/data-downloaded/effective-protection/temp"
 terraOptions(tempdir = temp)
 

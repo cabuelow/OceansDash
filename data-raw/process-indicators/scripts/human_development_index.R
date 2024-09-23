@@ -19,7 +19,7 @@ hdi <- rast("data-raw/process-indicators/data-downloaded/HDI/doi_10_5061_dryad_d
 hdi <- hdi$HDI_26
 
 # read country layer
-cty <- st_read('data-raw/process-indicators/data-downloaded/effective-protection/targeted_countries_eez_land.gpkg')
+cty <- st_read('data-raw/process-indicators/data-downloaded/targeted_countries_eez_land.gpkg')
 
 # extract tiles' values for HDI
 results <- list()

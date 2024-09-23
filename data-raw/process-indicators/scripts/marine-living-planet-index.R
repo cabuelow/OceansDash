@@ -1,5 +1,5 @@
 # process marine living planet index indicator values for each country/region
-# we use {rlpi} tp calculate the index - if not already installed use the below commented out code to install {rlpi}
+# we use {rlpi} to calculate the index - if not already installed use the below commented out code to install {rlpi}
 # install.packages("devtools")
 # library(devtools)
 # install_github("Zoological-Society-of-London/rlpi", dependencies=TRUE)

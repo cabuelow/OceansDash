@@ -13,7 +13,7 @@ library(sf)
 
 # set terra's temporary folder
 # Replace the path in quotes with path to a temporary folder in your computer
-temp <- "data-raw/process-indicators/data-downloaded/effective-protection/temp"
+temp <- "data-raw/process-indicators/data-downloaded/temp"
 terraOptions(tempdir = temp)
 
 # set sf to not use S2
@@ -27,7 +27,7 @@ marsh_rast <- lapply(fils, rast)
 
 ## get tidal march area
 # read country layer
-cty <- vect('data-raw/process-indicators/data-downloaded/effective-protection/targeted_countries_eez_land.gpkg')
+cty <- vect('data-raw/process-indicators/data-downloaded/targeted_countries_eez_land.gpkg')
 
 # function to extract tiles' area
 getvalue <- function(x, y) { # x is spatVector, y is list of raster files
@@ -55,7 +55,7 @@ getvalue <- function(x, y) { # x is spatVector, y is list of raster files
 
       for (j in 1:length(rast_i)) {
         rast_j <- rast_i[[j]]
-        cell <- cellSize(rast_j, unit = "ha", mask = TRUE, overwrite = TRUE, todisk = TRUE, filename = "data-raw/process-indicators/data-downloaded/effective-protection/temp/m_cell.tif")
+        cell <- cellSize(rast_j, unit = "ha", mask = TRUE, overwrite = TRUE, todisk = TRUE, filename = "data-raw/process-indicators/data-downloaded/temp/m_cell.tif")
         area <- exact_extract(cell, st_as_sf((x_i)), "sum", max_cells_in_memory = 3e+08)
 
         results[[j]] <- area
@@ -76,11 +76,11 @@ marsh_area <- getvalue(cty, marsh_rast)
 colnames(marsh_area)[2] <- "marsh_2020_ha"
 
 ## save data
-dat <- read.csv('data-raw/process-indicators/data-downloaded/effective-protection/effective_protection.csv')
+dat <- read.csv('data-raw/process-indicators/data-processed/effective_protection.csv')
 
 dat <- left_join(dat, marsh_area, by = "UNION")
 
-write.csv(dat,'data-raw/process-indicators/data-downloaded/effective-protection/effective_protection.csv', rownames = FALSE)
+write.csv(dat,'data-raw/process-indicators/data-processed/effective_protection.csv', rownames = FALSE)
 
 ## get protected area
 # read wdpa layer
@@ -95,7 +95,6 @@ marsh <- left_join(marsh_area, marsh_pa, by = "UNION") %>%
   mutate(across(2:3, ~ case_when(.x %in% NA ~ 0, .default = .x))) %>%
   mutate(marsh_pa_percentage = marsh_pa_2020_ha / marsh_2020_ha) %>%
   mutate(across(4, ~ case_when(.x %in% NaN ~ NA, .default = .x)))
-
 
 ## save data
 write.csv(marsh,'data-raw/process-indicators/data-downloaded/effective-protection/marsh_protection.csv', row.names = FALSE)

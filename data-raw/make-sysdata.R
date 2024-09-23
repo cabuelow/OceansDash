@@ -1,4 +1,4 @@
-## code to prepare internal lazy-loaded sysdata
+## code to prepare internal lazy-loaded sysdata RDA file
 library(tidyverse)
 library(sf)
 
