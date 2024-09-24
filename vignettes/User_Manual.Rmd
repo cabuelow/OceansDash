@@ -110,9 +110,9 @@ Scripts for processing indicator data are located in the **'data-raw/process-ind
 
 #### Indicators derived from the Ocean Health Index: Marine Red List | Fisheries Stock Condition | Habitat Condition | Carbon storage
 
-The *Marine Red List*, *Fisheries Stock Condition*, *Habitat Condition*, and *Carbon Storage* indicators are all sourced from the [Ocean Health Index](https://oceanhealthindex.org/).
+The *Marine Red List*, *Fisheries Stock Condition*, *Habitat Condition*, and *Carbon Storage* indicators are all sourced from the [Ocean Health Index](https://oceanhealthindex.org/). All indicator values are standardised on a scale from 0 to 100, with higher values indicating better status relative to low values. A description of each indicator is provided below.
 
-Note that data is not available for Alaska.
+*Note that data is not available for Alaska.*
 
 Citation: Ocean Health Index. 2024. ohi-global version: Global scenarios data for Ocean Health Index, [August 26, 2024]. National Center for Ecological Analysis and Synthesis, University of California, Santa Barbara. Available at: https://github.com/OHI-Science/ohi-global/releases
 
@@ -120,7 +120,7 @@ The *Marine Red List* indicator is the [Ocean Health Index Biodiversity (Species
 
 The *Fisheries Stock Condition* indicator is the [Ocean Health Index Food Provision (Wild Caught Fisheries subgoal) indicator](https://oceanhealthindex.org/global-scores/goal-scores/food-provision/wild-caught-fisheries/). It measures ability to sustainably maximize wild-caught fisheries.
 
-The *Habitat Condition* indicator is the [Ocean Health Index Biodiversity (Habitat sub-goal) indicator](https://oceanhealthindex.org/goals/biodiversity/habitats/). This goal assesses the condition of marine habitats that are particularly important in supporting large numbers of marine species. The status of each habitat is its current condition relative to its reference condition, which is often based on historical area. A score of 1 indicates that the condition equals or exceeds the reference point. The subgoal score is then calculated by combining the habitat scores for each region.
+The *Habitat Condition* indicator is the [Ocean Health Index Biodiversity (Habitat sub-goal) indicator](https://oceanhealthindex.org/global-scores/goal-scores/biodiversity/habitats/). This goal assesses the condition of marine habitats that are particularly important in supporting large numbers of marine species. The status of each habitat is its current condition relative to its reference condition, which is based on historical area in the 1980s.
 
 The *Carbon Storage* indicator is the [Ocean Health Index Carbon storage indicator](https://oceanhealthindex.org/global-scores/goal-scores/carbon-storage/). It captures the ability of coastal habitats to store carbon given the amount of carbon they store and their health.
 
@@ -133,7 +133,7 @@ To update these indicators:
 
 #### Indicators using the World Database on Protected Areas and Other Effective Conservation Measures: Effective Protection | Carbon Under Effective Protection 
 
-Ecosystem extent and carbon storage under effective protection are calculated for mangroves, saltmarsh, and coral reef ecosystems (with the exception of carbon storage for coral reefs as global data is not currently available). Global mapping of seagrass and kelp forest ecosystem extent is not of high enough resolution to estimate their effective protection, but can be included when data becomes available.
+The percentage of ecosystem extent and carbon storage under effective protection are calculated for mangroves, saltmarsh, and coral reef ecosystems (with the exception of carbon storage for coral reefs as global data is not currently available). Global mapping of seagrass and kelp forest ecosystem extent is not of high enough resolution to estimate their effective protection, but can be included when data becomes available.
 
 **Note that the spatial data files required to process these indicators are too large to be stored on github, and so instructions below for updating and re-processing each indicator require data to be downloaded and stored locally**.
 
@@ -183,11 +183,12 @@ To update the **Carbon Under Effective Protection** indicator for each habitat:
 1.	Download the latest version of the data sets above and save in the folder **“data-raw/process-indicators/data-downloaded/effective-protection/”**.  
 2.	For carbon in mangroves, open **“data-raw/process-indicators/scripts/mangrove_carbon.R”**. Replace the data paths in Line 41 and Line 58 with the paths to the new data for AGB and SOC accordingly, and run the script. 
 3.	For carbon in tidal marsh, open **“data-raw/process-indicators/saltmarsh_carbon.R”**. Replace the data paths in Line 36 and Line 53 with the paths to the new data for AGB and SOC accordingly, and run the script,
-4. if you are updating other indicators, do that first before then running an R script that combines all of the processed indicators into a single dataframe that can be used in the dashboard application: **'data-raw/process-indicators/scripts/export-processed-indicators.R'**.
+4. Run **“data-raw/process-indicators/scripts/effective_protection_output.R”** to compile data.
+5. if you are updating other indicators, do that first before then running an R script that combines all of the processed indicators into a single dataframe that can be used in the dashboard application: **'data-raw/process-indicators/scripts/export-processed-indicators.R'**.
 
 #### Marine Living Planet Index
 
-The *Marine Living Planet Index* measures trends in marine species populations through time. Index values represent the average rate of change in populations. It is calculated for marine species in each country via the following [*Living Planet Index*](https://www.livingplanetindex.org/) methodology.
+The *Marine Living Planet Index* measures trends in marine species populations through time. Index values represent the average rate of change in populations from 1970 (the reference year). A value of 1 means the population size is the same as in the reference year, a value less than 1 means population size has decreased, and a value greater than 1 means population size has increased. It is calculated for marine species in each country following [*Living Planet Index*](https://www.livingplanetindex.org/) methodology.
 
 Citation: LPI 2024. Living Planet Index database. 2024. < www.livingplanetindex.org/>. Downloaded on 30 August 2024
 
@@ -215,7 +216,7 @@ To update this indicator:
 
 #### Wealth relative Index
 
-The Wealth Relative Index was calculated from the inverted of Global Gridded Relative Deprivation Index (GRDI), v1 (2010–2020). Check for the latest data [here](https://sedac.ciesin.columbia.edu/data/set/povmap-grdi-v1).
+Average Wealth Relative Index within each country/region was calculated by inverting the Global Gridded Relative Deprivation Index (GRDI; v1 (2010–2020)), which characterizes the relative levels of multidimensional deprivation and poverty at 30 arc-second (~1 km) resolution. A value of 100 represents the highest level of deprivation and a value of 0 the lowest. Check for the latest data [here](https://sedac.ciesin.columbia.edu/data/set/povmap-grdi-v1).
 
 To update:
 
@@ -225,7 +226,9 @@ To update:
 
 #### Human Development Index
 
-The Human Development Index was calculated from the published data: Gridded global datasets for Gross Domestic Product and Human Development Index over 1990–2015. Check for the latest data [here](https://datadryad.org/stash/dataset/doi:10.5061/dryad.dk1j0).
+Average Human Development Index within each country/region was calculated from the 'Gridded global datasets for Gross Domestic Product and Human Development Index' from 1990–2015 at 5 arc-min resolution. Check for the latest data [here](https://datadryad.org/stash/dataset/doi:10.5061/dryad.dk1j0).
+
+The Human Development Index (HDI) is a summary measure of average achievement in key dimensions of human development: a long and healthy life, being knowledgeable and having a decent standard of living. It ranges from 0 (low) to 1 (high).
 
 To update:
 
