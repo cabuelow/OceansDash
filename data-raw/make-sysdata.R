@@ -15,7 +15,7 @@ base_targets <- read.csv(file.path("data-raw", "base_targets.csv"))
 Region <- c('Arctic', rep('Eastern Pacific', 5), rep('Southwest Indian Ocean', 3), rep('Western Pacific',4))
 Country <- c('Alaska', 'Mexico', 'Colombia', 'Ecuador', 'Peru', 'Chile', 'Madagascar', 'Mozambique', 'Tanzania', 'Papua New Guinea', 'Indonesia', 'Fiji', 'Solomon Islands')
 country_names <- data.frame(number = c(1:length(Country)), country = Country)
-region_names <- data.frame(number = c(1:4), region = unique(indicators$Region))
+region_names <- data.frame(number = c(1:4), region = unique(Region))
 indnames <- data.frame(text = c("Small Scale Fisheries Rights", "Wealth Relative Index", "Human Development Index", "Marine Red List", "Marine Living Planet", "Fisheries Stock Condition", "Habitat Condition", "Effective Protection", "Climate Adaptation Plans", "Habitat Carbon Storage", "Carbon Under Effective Protection"), ind = c("Small_Scale_Fisheries_Rights", "Wealth_Relative_Index", "Human_Development_Index", "Marine_Red_List", "Marine_Living_Planet", "Fisheries_Stock_Condition", "Habitat_Condition", "Effective_Protection", "Climate_Adaptation_Plans", "Habitat_Carbon_Storage", "Carbon_Under_Effective_Protection"))
 
 # read in and wrangle spatial data -------------------------------------------------
