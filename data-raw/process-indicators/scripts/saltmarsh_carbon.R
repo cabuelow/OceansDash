@@ -86,6 +86,9 @@ dat <- left_join(dat, soc0_pa, by = "UNION") %>%
          marsh_pa_soc30_percentage = marsh_pa_soc30_t / marsh_soc30_t * 100) %>%
   select(c(UNION, marsh_soc0_t, marsh_pa_soc0_t, marsh_pa_soc0_percentage,
            marsh_soc30_t, marsh_pa_soc30_t, marsh_pa_soc30_percentage)) %>%
+  mutate(total_marsh_soc_t = marsh_soc0_t + marsh_soc30_t,
+         total_marsh_pa_soc_t = marsh_pa_soc0_t + marsh_pa_soc30_t,
+         total_marsh_pa_soc_percentage = total_marsh_pa_soc_t / total_marsh_soc_t *100) %>%
   mutate(across(ends_with("_t"), function(x) ifelse(is.na(x), 0, x)))
 
-write.csv(dat, 'data-raw/process-indicators/data-processed/protected tidal marsh carbon.csv', row.names = FALSE)
+write.csv(dat, 'data-raw/process-indicators/data-downloaded/effective-protection/protected tidal marsh carbon.csv', row.names = FALSE)

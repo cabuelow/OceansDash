@@ -5,7 +5,7 @@ library(tidyverse)
 # load data and filter for indicators, countries/regions of interest and year 2020 forward
 
 dat <- read.csv('data-raw/process-indicators/data-downloaded/ocean-health-index/ohi_scores-26_08_2024.csv') %>%
-  filter(long_goal %in% c("Fisheries (subgoal)", "Habitat (subgoal)", "Species condition (subgoal)", "Carbon storage"), region_name %in% c('Mexico', 'Colombia', 'Ecuador', 'Peru', 'Chile', 'Mozambique', 'Papua New Guinea', 'Indonesia', 'Fiji', 'Solomon Islands', 'Tanzania', 'Madagascar') & scenario >= 2020)
+  filter(long_goal %in% c("Fisheries (subgoal)", "Habitat (subgoal)", "Species condition (subgoal)", "Carbon storage"), region_name %in% c('Mexico', 'Colombia', 'Ecuador', 'Peru', 'Chile', 'Mozambique', 'Papua New Guinea', 'Indonesia', 'Fiji', 'Solomon Islands', 'Tanzania', 'Madagascar') & scenario >= 2020 & dimension == 'score')
 
 # rename columns so easy to collate with other indicators later
 

@@ -34,8 +34,10 @@ for (i in 1:nrow(cty)) {
 }
 
 dat <- bind_rows(results, .id = "UNION") %>%
-  pivot_longer(., cols = everything(), names_to = "UNION", values_to = "GRDI") %>%
-  mutate(WRI = 100 - GRDI) %>% # invert the score to calculate a wealth rather than deprivation index
-  select(-GRDI)
+  pivot_longer(., cols = everything(), names_to = "Country", values_to = "GRDI") %>%
+  mutate(Value = 100 - GRDI) %>% # invert the score to calculate a wealth rather than deprivation index
+  select(-GRDI) %>%
+  mutate(Year = 2020,
+         Indicator = 'Wealth_Relative_Index')
 
 write.csv(dat, "data-raw/process-indicators/data-processed/Wealth Relative Index.csv", row.names = FALSE)

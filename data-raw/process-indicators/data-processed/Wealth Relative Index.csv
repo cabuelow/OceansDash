@@ -1,14 +1,14 @@
-"UNION","WRI"
-"Mexico",34.2852783203125
-"Colombia",28.4696884155273
-"Chile",36.6082611083984
-"Papua New Guinea",18.6682662963867
-"Alaska",44.7273864746094
-"Tanzania",11.045768737793
-"Fiji",27.8414154052734
-"Indonesia",33.8008880615234
-"Solomon Islands",16.9373016357422
-"Ecuador",30.5906295776367
-"Mozambique",7.00045776367188
-"Peru",26.0693130493164
-"Madagascar",12.8586120605469
+Country,Value,Year,Indicator
+Mexico,34.28527832,2020,Wealth_Relative_Index
+Colombia,28.46968842,2020,Wealth_Relative_Index
+Chile,36.60826111,2020,Wealth_Relative_Index
+Papua New Guinea,18.6682663,2020,Wealth_Relative_Index
+Alaska,44.72738647,2020,Wealth_Relative_Index
+Tanzania,11.04576874,2020,Wealth_Relative_Index
+Fiji,27.84141541,2020,Wealth_Relative_Index
+Indonesia,33.80088806,2020,Wealth_Relative_Index
+Solomon Islands,16.93730164,2020,Wealth_Relative_Index
+Ecuador,30.59062958,2020,Wealth_Relative_Index
+Mozambique,7.000457764,2020,Wealth_Relative_Index
+Peru,26.06931305,2020,Wealth_Relative_Index
+Madagascar,12.85861206,2020,Wealth_Relative_Index

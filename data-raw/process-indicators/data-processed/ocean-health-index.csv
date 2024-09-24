@@ -1,40 +1,4 @@
 "Country","Year","Indicator","Value"
-"Solomon Islands",2020,"Habitat_Carbon_Storage",74.55
-"Papua New Guinea",2020,"Habitat_Carbon_Storage",71.68
-"Fiji",2020,"Habitat_Carbon_Storage",80.26
-"Mozambique",2020,"Habitat_Carbon_Storage",78.53
-"Madagascar",2020,"Habitat_Carbon_Storage",95.3
-"Colombia",2020,"Habitat_Carbon_Storage",67.3
-"Mexico",2020,"Habitat_Carbon_Storage",94.01
-"Ecuador",2020,"Habitat_Carbon_Storage",74.5
-"Peru",2020,"Habitat_Carbon_Storage",76.53
-"Tanzania",2020,"Habitat_Carbon_Storage",81.18
-"Indonesia",2020,"Habitat_Carbon_Storage",73.42
-"Chile",2020,"Habitat_Carbon_Storage",100
-"Solomon Islands",2020,"Habitat_Carbon_Storage",37.1
-"Papua New Guinea",2020,"Habitat_Carbon_Storage",38.07
-"Fiji",2020,"Habitat_Carbon_Storage",30.08
-"Mozambique",2020,"Habitat_Carbon_Storage",43.64
-"Madagascar",2020,"Habitat_Carbon_Storage",42.91
-"Colombia",2020,"Habitat_Carbon_Storage",35.48
-"Mexico",2020,"Habitat_Carbon_Storage",36.6
-"Ecuador",2020,"Habitat_Carbon_Storage",37.44
-"Peru",2020,"Habitat_Carbon_Storage",33.1
-"Tanzania",2020,"Habitat_Carbon_Storage",44.21
-"Indonesia",2020,"Habitat_Carbon_Storage",37.44
-"Chile",2020,"Habitat_Carbon_Storage",23.36
-"Solomon Islands",2020,"Habitat_Carbon_Storage",57.67
-"Papua New Guinea",2020,"Habitat_Carbon_Storage",39.08
-"Fiji",2020,"Habitat_Carbon_Storage",61.23
-"Mozambique",2020,"Habitat_Carbon_Storage",63.9
-"Madagascar",2020,"Habitat_Carbon_Storage",59.63
-"Colombia",2020,"Habitat_Carbon_Storage",72.6
-"Mexico",2020,"Habitat_Carbon_Storage",73.02
-"Ecuador",2020,"Habitat_Carbon_Storage",76.16
-"Peru",2020,"Habitat_Carbon_Storage",58.69
-"Tanzania",2020,"Habitat_Carbon_Storage",68.2
-"Indonesia",2020,"Habitat_Carbon_Storage",71.73
-"Chile",2020,"Habitat_Carbon_Storage",81.14
 "Solomon Islands",2020,"Habitat_Carbon_Storage",75.74
 "Papua New Guinea",2020,"Habitat_Carbon_Storage",73.12
 "Fiji",2020,"Habitat_Carbon_Storage",81.21
@@ -47,66 +11,6 @@
 "Tanzania",2020,"Habitat_Carbon_Storage",81.99
 "Indonesia",2020,"Habitat_Carbon_Storage",74.01
 "Chile",2020,"Habitat_Carbon_Storage",99.45
-"Solomon Islands",2020,"Habitat_Carbon_Storage",76.93
-"Papua New Guinea",2020,"Habitat_Carbon_Storage",74.56
-"Fiji",2020,"Habitat_Carbon_Storage",82.16
-"Mozambique",2020,"Habitat_Carbon_Storage",79.94
-"Madagascar",2020,"Habitat_Carbon_Storage",94.56
-"Colombia",2020,"Habitat_Carbon_Storage",66.76
-"Mexico",2020,"Habitat_Carbon_Storage",93.58
-"Ecuador",2020,"Habitat_Carbon_Storage",74.55
-"Peru",2020,"Habitat_Carbon_Storage",76.03
-"Tanzania",2020,"Habitat_Carbon_Storage",82.81
-"Indonesia",2020,"Habitat_Carbon_Storage",74.6
-"Chile",2020,"Habitat_Carbon_Storage",98.89
-"Solomon Islands",2020,"Habitat_Carbon_Storage",-0.05
-"Papua New Guinea",2020,"Habitat_Carbon_Storage",-0.06
-"Fiji",2020,"Habitat_Carbon_Storage",-0.03
-"Mozambique",2020,"Habitat_Carbon_Storage",-0.03
-"Madagascar",2020,"Habitat_Carbon_Storage",0.01
-"Colombia",2020,"Habitat_Carbon_Storage",0.01
-"Mexico",2020,"Habitat_Carbon_Storage",0.01
-"Ecuador",2020,"Habitat_Carbon_Storage",0
-"Peru",2020,"Habitat_Carbon_Storage",0.01
-"Tanzania",2020,"Habitat_Carbon_Storage",-0.03
-"Indonesia",2020,"Habitat_Carbon_Storage",-0.02
-"Chile",2020,"Habitat_Carbon_Storage",0.05
-"Solomon Islands",2020,"Fisheries_Stock_Condition",86.16
-"Papua New Guinea",2020,"Fisheries_Stock_Condition",88.38
-"Fiji",2020,"Fisheries_Stock_Condition",45.6
-"Mozambique",2020,"Fisheries_Stock_Condition",41.36
-"Madagascar",2020,"Fisheries_Stock_Condition",50.61
-"Colombia",2020,"Fisheries_Stock_Condition",38.49
-"Mexico",2020,"Fisheries_Stock_Condition",24.78
-"Ecuador",2020,"Fisheries_Stock_Condition",53.95
-"Peru",2020,"Fisheries_Stock_Condition",69.3
-"Tanzania",2020,"Fisheries_Stock_Condition",61.87
-"Indonesia",2020,"Fisheries_Stock_Condition",35.49
-"Chile",2020,"Fisheries_Stock_Condition",62.6
-"Solomon Islands",2020,"Fisheries_Stock_Condition",31.68
-"Papua New Guinea",2020,"Fisheries_Stock_Condition",36.77
-"Fiji",2020,"Fisheries_Stock_Condition",25
-"Mozambique",2020,"Fisheries_Stock_Condition",45.19
-"Madagascar",2020,"Fisheries_Stock_Condition",45.59
-"Colombia",2020,"Fisheries_Stock_Condition",29.88
-"Mexico",2020,"Fisheries_Stock_Condition",36.92
-"Ecuador",2020,"Fisheries_Stock_Condition",32.35
-"Peru",2020,"Fisheries_Stock_Condition",30.02
-"Tanzania",2020,"Fisheries_Stock_Condition",54.34
-"Indonesia",2020,"Fisheries_Stock_Condition",48.35
-"Chile",2020,"Fisheries_Stock_Condition",25.82
-"Solomon Islands",2020,"Fisheries_Stock_Condition",58
-"Papua New Guinea",2020,"Fisheries_Stock_Condition",51.05
-"Fiji",2020,"Fisheries_Stock_Condition",61.62
-"Mozambique",2020,"Fisheries_Stock_Condition",55.37
-"Madagascar",2020,"Fisheries_Stock_Condition",53.4
-"Colombia",2020,"Fisheries_Stock_Condition",64.62
-"Mexico",2020,"Fisheries_Stock_Condition",67.75
-"Ecuador",2020,"Fisheries_Stock_Condition",64.56
-"Peru",2020,"Fisheries_Stock_Condition",59
-"Tanzania",2020,"Fisheries_Stock_Condition",57.48
-"Indonesia",2020,"Fisheries_Stock_Condition",65.07
-"Chile",2020,"Fisheries_Stock_Condition",80.01
 "Solomon Islands",2020,"Fisheries_Stock_Condition",86.43
 "Papua New Guinea",2020,"Fisheries_Stock_Condition",88.39
 "Fiji",2020,"Fisheries_Stock_Condition",46.35
@@ -119,66 +23,6 @@
 "Tanzania",2020,"Fisheries_Stock_Condition",61.93
 "Indonesia",2020,"Fisheries_Stock_Condition",35.6
 "Chile",2020,"Fisheries_Stock_Condition",61.6
-"Solomon Islands",2020,"Fisheries_Stock_Condition",86.7
-"Papua New Guinea",2020,"Fisheries_Stock_Condition",88.4
-"Fiji",2020,"Fisheries_Stock_Condition",47.1
-"Mozambique",2020,"Fisheries_Stock_Condition",41.4
-"Madagascar",2020,"Fisheries_Stock_Condition",50.7
-"Colombia",2020,"Fisheries_Stock_Condition",38.2
-"Mexico",2020,"Fisheries_Stock_Condition",32.4
-"Ecuador",2020,"Fisheries_Stock_Condition",52.8
-"Peru",2020,"Fisheries_Stock_Condition",69.5
-"Tanzania",2020,"Fisheries_Stock_Condition",62
-"Indonesia",2020,"Fisheries_Stock_Condition",35.7
-"Chile",2020,"Fisheries_Stock_Condition",60.6
-"Solomon Islands",2020,"Fisheries_Stock_Condition",-0.01
-"Papua New Guinea",2020,"Fisheries_Stock_Condition",0
-"Fiji",2020,"Fisheries_Stock_Condition",-0.05
-"Mozambique",2020,"Fisheries_Stock_Condition",0
-"Madagascar",2020,"Fisheries_Stock_Condition",0
-"Colombia",2020,"Fisheries_Stock_Condition",0.01
-"Mexico",2020,"Fisheries_Stock_Condition",-0.35
-"Ecuador",2020,"Fisheries_Stock_Condition",0.03
-"Peru",2020,"Fisheries_Stock_Condition",0
-"Tanzania",2020,"Fisheries_Stock_Condition",0
-"Indonesia",2020,"Fisheries_Stock_Condition",-0.01
-"Chile",2020,"Fisheries_Stock_Condition",0.05
-"Solomon Islands",2020,"Habitat_Condition",84.19
-"Papua New Guinea",2020,"Habitat_Condition",86.35
-"Fiji",2020,"Habitat_Condition",91.24
-"Mozambique",2020,"Habitat_Condition",62.09
-"Madagascar",2020,"Habitat_Condition",73.42
-"Colombia",2020,"Habitat_Condition",65.13
-"Mexico",2020,"Habitat_Condition",82.42
-"Ecuador",2020,"Habitat_Condition",77.55
-"Peru",2020,"Habitat_Condition",77.96
-"Tanzania",2020,"Habitat_Condition",68.74
-"Indonesia",2020,"Habitat_Condition",63.39
-"Chile",2020,"Habitat_Condition",62.44
-"Solomon Islands",2020,"Habitat_Condition",33.62
-"Papua New Guinea",2020,"Habitat_Condition",36.23
-"Fiji",2020,"Habitat_Condition",27.42
-"Mozambique",2020,"Habitat_Condition",43.08
-"Madagascar",2020,"Habitat_Condition",42.03
-"Colombia",2020,"Habitat_Condition",32.85
-"Mexico",2020,"Habitat_Condition",35.35
-"Ecuador",2020,"Habitat_Condition",31.26
-"Peru",2020,"Habitat_Condition",31.25
-"Tanzania",2020,"Habitat_Condition",43.57
-"Indonesia",2020,"Habitat_Condition",37.18
-"Chile",2020,"Habitat_Condition",23.06
-"Solomon Islands",2020,"Habitat_Condition",63.37
-"Papua New Guinea",2020,"Habitat_Condition",53.35
-"Fiji",2020,"Habitat_Condition",66.58
-"Mozambique",2020,"Habitat_Condition",61.44
-"Madagascar",2020,"Habitat_Condition",61.92
-"Colombia",2020,"Habitat_Condition",71.71
-"Mexico",2020,"Habitat_Condition",70.93
-"Ecuador",2020,"Habitat_Condition",71.32
-"Peru",2020,"Habitat_Condition",64.72
-"Tanzania",2020,"Habitat_Condition",66.36
-"Indonesia",2020,"Habitat_Condition",70.94
-"Chile",2020,"Habitat_Condition",80.6
 "Solomon Islands",2020,"Habitat_Condition",83.3
 "Papua New Guinea",2020,"Habitat_Condition",88.05
 "Fiji",2020,"Habitat_Condition",91.12
@@ -191,66 +35,6 @@
 "Tanzania",2020,"Habitat_Condition",70.19
 "Indonesia",2020,"Habitat_Condition",67.65
 "Chile",2020,"Habitat_Condition",65.11
-"Solomon Islands",2020,"Habitat_Condition",82.42
-"Papua New Guinea",2020,"Habitat_Condition",89.76
-"Fiji",2020,"Habitat_Condition",91
-"Mozambique",2020,"Habitat_Condition",66.67
-"Madagascar",2020,"Habitat_Condition",77.72
-"Colombia",2020,"Habitat_Condition",69.94
-"Mexico",2020,"Habitat_Condition",85.87
-"Ecuador",2020,"Habitat_Condition",82.71
-"Peru",2020,"Habitat_Condition",80.43
-"Tanzania",2020,"Habitat_Condition",71.64
-"Indonesia",2020,"Habitat_Condition",71.92
-"Chile",2020,"Habitat_Condition",67.79
-"Solomon Islands",2020,"Habitat_Condition",0.03
-"Papua New Guinea",2020,"Habitat_Condition",-0.06
-"Fiji",2020,"Habitat_Condition",0
-"Mozambique",2020,"Habitat_Condition",-0.1
-"Madagascar",2020,"Habitat_Condition",-0.08
-"Colombia",2020,"Habitat_Condition",-0.1
-"Mexico",2020,"Habitat_Condition",-0.06
-"Ecuador",2020,"Habitat_Condition",-0.09
-"Peru",2020,"Habitat_Condition",-0.05
-"Tanzania",2020,"Habitat_Condition",-0.06
-"Indonesia",2020,"Habitat_Condition",-0.18
-"Chile",2020,"Habitat_Condition",-0.12
-"Solomon Islands",2020,"Marine_Red_List",79.61
-"Papua New Guinea",2020,"Marine_Red_List",82.32
-"Fiji",2020,"Marine_Red_List",78.25
-"Mozambique",2020,"Marine_Red_List",83.55
-"Madagascar",2020,"Marine_Red_List",81.64
-"Colombia",2020,"Marine_Red_List",77.34
-"Mexico",2020,"Marine_Red_List",75.19
-"Ecuador",2020,"Marine_Red_List",72.57
-"Peru",2020,"Marine_Red_List",70.7
-"Tanzania",2020,"Marine_Red_List",82.41
-"Indonesia",2020,"Marine_Red_List",82.85
-"Chile",2020,"Marine_Red_List",75.44
-"Solomon Islands",2020,"Marine_Red_List",35.01
-"Papua New Guinea",2020,"Marine_Red_List",39.24
-"Fiji",2020,"Marine_Red_List",28.63
-"Mozambique",2020,"Marine_Red_List",50.8
-"Madagascar",2020,"Marine_Red_List",50.53
-"Colombia",2020,"Marine_Red_List",38.67
-"Mexico",2020,"Marine_Red_List",43.39
-"Ecuador",2020,"Marine_Red_List",35.08
-"Peru",2020,"Marine_Red_List",33.55
-"Tanzania",2020,"Marine_Red_List",53.09
-"Indonesia",2020,"Marine_Red_List",49.55
-"Chile",2020,"Marine_Red_List",31.41
-"Solomon Islands",2020,"Marine_Red_List",60.56
-"Papua New Guinea",2020,"Marine_Red_List",44.87
-"Fiji",2020,"Marine_Red_List",56.43
-"Mozambique",2020,"Marine_Red_List",55.84
-"Madagascar",2020,"Marine_Red_List",56.21
-"Colombia",2020,"Marine_Red_List",68.62
-"Mexico",2020,"Marine_Red_List",69.63
-"Ecuador",2020,"Marine_Red_List",70.22
-"Peru",2020,"Marine_Red_List",58.47
-"Tanzania",2020,"Marine_Red_List",59.82
-"Indonesia",2020,"Marine_Red_List",67.74
-"Chile",2020,"Marine_Red_List",85.28
 "Solomon Islands",2020,"Marine_Red_List",80.05
 "Papua New Guinea",2020,"Marine_Red_List",82.7
 "Fiji",2020,"Marine_Red_List",78.67
@@ -263,66 +47,6 @@
 "Tanzania",2020,"Marine_Red_List",82.81
 "Indonesia",2020,"Marine_Red_List",83.31
 "Chile",2020,"Marine_Red_List",75.32
-"Solomon Islands",2020,"Marine_Red_List",80.48
-"Papua New Guinea",2020,"Marine_Red_List",83.08
-"Fiji",2020,"Marine_Red_List",79.08
-"Mozambique",2020,"Marine_Red_List",84.24
-"Madagascar",2020,"Marine_Red_List",82.28
-"Colombia",2020,"Marine_Red_List",78.44
-"Mexico",2020,"Marine_Red_List",76.27
-"Ecuador",2020,"Marine_Red_List",73.67
-"Peru",2020,"Marine_Red_List",71.55
-"Tanzania",2020,"Marine_Red_List",83.21
-"Indonesia",2020,"Marine_Red_List",83.77
-"Chile",2020,"Marine_Red_List",75.2
-"Solomon Islands",2020,"Marine_Red_List",-0.02
-"Papua New Guinea",2020,"Marine_Red_List",-0.01
-"Fiji",2020,"Marine_Red_List",-0.02
-"Mozambique",2020,"Marine_Red_List",-0.01
-"Madagascar",2020,"Marine_Red_List",-0.01
-"Colombia",2020,"Marine_Red_List",-0.02
-"Mexico",2020,"Marine_Red_List",-0.02
-"Ecuador",2020,"Marine_Red_List",-0.02
-"Peru",2020,"Marine_Red_List",-0.02
-"Tanzania",2020,"Marine_Red_List",-0.01
-"Indonesia",2020,"Marine_Red_List",-0.02
-"Chile",2020,"Marine_Red_List",0
-"Solomon Islands",2021,"Habitat_Carbon_Storage",74.55
-"Papua New Guinea",2021,"Habitat_Carbon_Storage",71.68
-"Fiji",2021,"Habitat_Carbon_Storage",80.26
-"Mozambique",2021,"Habitat_Carbon_Storage",78.53
-"Madagascar",2021,"Habitat_Carbon_Storage",95.3
-"Colombia",2021,"Habitat_Carbon_Storage",67.3
-"Mexico",2021,"Habitat_Carbon_Storage",94.01
-"Ecuador",2021,"Habitat_Carbon_Storage",74.5
-"Peru",2021,"Habitat_Carbon_Storage",76.53
-"Tanzania",2021,"Habitat_Carbon_Storage",81.18
-"Indonesia",2021,"Habitat_Carbon_Storage",73.42
-"Chile",2021,"Habitat_Carbon_Storage",100
-"Solomon Islands",2021,"Habitat_Carbon_Storage",35.83
-"Papua New Guinea",2021,"Habitat_Carbon_Storage",37.23
-"Fiji",2021,"Habitat_Carbon_Storage",30.93
-"Mozambique",2021,"Habitat_Carbon_Storage",44.05
-"Madagascar",2021,"Habitat_Carbon_Storage",43
-"Colombia",2021,"Habitat_Carbon_Storage",35.69
-"Mexico",2021,"Habitat_Carbon_Storage",36.36
-"Ecuador",2021,"Habitat_Carbon_Storage",37.43
-"Peru",2021,"Habitat_Carbon_Storage",33.17
-"Tanzania",2021,"Habitat_Carbon_Storage",44.83
-"Indonesia",2021,"Habitat_Carbon_Storage",36.48
-"Chile",2021,"Habitat_Carbon_Storage",22.82
-"Solomon Islands",2021,"Habitat_Carbon_Storage",58.2
-"Papua New Guinea",2021,"Habitat_Carbon_Storage",39.45
-"Fiji",2021,"Habitat_Carbon_Storage",60.78
-"Mozambique",2021,"Habitat_Carbon_Storage",63.87
-"Madagascar",2021,"Habitat_Carbon_Storage",59.76
-"Colombia",2021,"Habitat_Carbon_Storage",72.5
-"Mexico",2021,"Habitat_Carbon_Storage",72.98
-"Ecuador",2021,"Habitat_Carbon_Storage",76.06
-"Peru",2021,"Habitat_Carbon_Storage",58.36
-"Tanzania",2021,"Habitat_Carbon_Storage",68.18
-"Indonesia",2021,"Habitat_Carbon_Storage",72.07
-"Chile",2021,"Habitat_Carbon_Storage",81.04
 "Solomon Islands",2021,"Habitat_Carbon_Storage",75.74
 "Papua New Guinea",2021,"Habitat_Carbon_Storage",73.12
 "Fiji",2021,"Habitat_Carbon_Storage",81.21
@@ -335,66 +59,6 @@
 "Tanzania",2021,"Habitat_Carbon_Storage",81.99
 "Indonesia",2021,"Habitat_Carbon_Storage",74.01
 "Chile",2021,"Habitat_Carbon_Storage",99.45
-"Solomon Islands",2021,"Habitat_Carbon_Storage",76.93
-"Papua New Guinea",2021,"Habitat_Carbon_Storage",74.56
-"Fiji",2021,"Habitat_Carbon_Storage",82.16
-"Mozambique",2021,"Habitat_Carbon_Storage",79.94
-"Madagascar",2021,"Habitat_Carbon_Storage",94.56
-"Colombia",2021,"Habitat_Carbon_Storage",66.76
-"Mexico",2021,"Habitat_Carbon_Storage",93.58
-"Ecuador",2021,"Habitat_Carbon_Storage",74.55
-"Peru",2021,"Habitat_Carbon_Storage",76.03
-"Tanzania",2021,"Habitat_Carbon_Storage",82.81
-"Indonesia",2021,"Habitat_Carbon_Storage",74.6
-"Chile",2021,"Habitat_Carbon_Storage",98.89
-"Solomon Islands",2021,"Habitat_Carbon_Storage",-0.05
-"Papua New Guinea",2021,"Habitat_Carbon_Storage",-0.06
-"Fiji",2021,"Habitat_Carbon_Storage",-0.03
-"Mozambique",2021,"Habitat_Carbon_Storage",-0.03
-"Madagascar",2021,"Habitat_Carbon_Storage",0.01
-"Colombia",2021,"Habitat_Carbon_Storage",0.01
-"Mexico",2021,"Habitat_Carbon_Storage",0.01
-"Ecuador",2021,"Habitat_Carbon_Storage",0
-"Peru",2021,"Habitat_Carbon_Storage",0.01
-"Tanzania",2021,"Habitat_Carbon_Storage",-0.03
-"Indonesia",2021,"Habitat_Carbon_Storage",-0.02
-"Chile",2021,"Habitat_Carbon_Storage",0.05
-"Solomon Islands",2021,"Fisheries_Stock_Condition",85.91
-"Papua New Guinea",2021,"Fisheries_Stock_Condition",88.22
-"Fiji",2021,"Fisheries_Stock_Condition",45.21
-"Mozambique",2021,"Fisheries_Stock_Condition",41.19
-"Madagascar",2021,"Fisheries_Stock_Condition",50.59
-"Colombia",2021,"Fisheries_Stock_Condition",39.12
-"Mexico",2021,"Fisheries_Stock_Condition",27.17
-"Ecuador",2021,"Fisheries_Stock_Condition",55.14
-"Peru",2021,"Fisheries_Stock_Condition",70.39
-"Tanzania",2021,"Fisheries_Stock_Condition",61.62
-"Indonesia",2021,"Fisheries_Stock_Condition",35.53
-"Chile",2021,"Fisheries_Stock_Condition",67.49
-"Solomon Islands",2021,"Fisheries_Stock_Condition",31.14
-"Papua New Guinea",2021,"Fisheries_Stock_Condition",36.4
-"Fiji",2021,"Fisheries_Stock_Condition",25.38
-"Mozambique",2021,"Fisheries_Stock_Condition",45.2
-"Madagascar",2021,"Fisheries_Stock_Condition",45.56
-"Colombia",2021,"Fisheries_Stock_Condition",29.97
-"Mexico",2021,"Fisheries_Stock_Condition",36.99
-"Ecuador",2021,"Fisheries_Stock_Condition",32.45
-"Peru",2021,"Fisheries_Stock_Condition",30.42
-"Tanzania",2021,"Fisheries_Stock_Condition",54.37
-"Indonesia",2021,"Fisheries_Stock_Condition",48.03
-"Chile",2021,"Fisheries_Stock_Condition",25.96
-"Solomon Islands",2021,"Fisheries_Stock_Condition",58.47
-"Papua New Guinea",2021,"Fisheries_Stock_Condition",51.36
-"Fiji",2021,"Fisheries_Stock_Condition",61.11
-"Mozambique",2021,"Fisheries_Stock_Condition",55.3
-"Madagascar",2021,"Fisheries_Stock_Condition",53.49
-"Colombia",2021,"Fisheries_Stock_Condition",64.44
-"Mexico",2021,"Fisheries_Stock_Condition",67.64
-"Ecuador",2021,"Fisheries_Stock_Condition",64.38
-"Peru",2021,"Fisheries_Stock_Condition",58.62
-"Tanzania",2021,"Fisheries_Stock_Condition",57.42
-"Indonesia",2021,"Fisheries_Stock_Condition",65.35
-"Chile",2021,"Fisheries_Stock_Condition",79.91
 "Solomon Islands",2021,"Fisheries_Stock_Condition",86.2
 "Papua New Guinea",2021,"Fisheries_Stock_Condition",88.26
 "Fiji",2021,"Fisheries_Stock_Condition",45.95
@@ -407,66 +71,6 @@
 "Tanzania",2021,"Fisheries_Stock_Condition",61.76
 "Indonesia",2021,"Fisheries_Stock_Condition",35.61
 "Chile",2021,"Fisheries_Stock_Condition",64.85
-"Solomon Islands",2021,"Fisheries_Stock_Condition",86.5
-"Papua New Guinea",2021,"Fisheries_Stock_Condition",88.3
-"Fiji",2021,"Fisheries_Stock_Condition",46.7
-"Mozambique",2021,"Fisheries_Stock_Condition",41.3
-"Madagascar",2021,"Fisheries_Stock_Condition",50.7
-"Colombia",2021,"Fisheries_Stock_Condition",38.7
-"Mexico",2021,"Fisheries_Stock_Condition",32.5
-"Ecuador",2021,"Fisheries_Stock_Condition",53.5
-"Peru",2021,"Fisheries_Stock_Condition",69.9
-"Tanzania",2021,"Fisheries_Stock_Condition",61.9
-"Indonesia",2021,"Fisheries_Stock_Condition",35.7
-"Chile",2021,"Fisheries_Stock_Condition",62.2
-"Solomon Islands",2021,"Fisheries_Stock_Condition",-0.01
-"Papua New Guinea",2021,"Fisheries_Stock_Condition",0
-"Fiji",2021,"Fisheries_Stock_Condition",-0.05
-"Mozambique",2021,"Fisheries_Stock_Condition",0
-"Madagascar",2021,"Fisheries_Stock_Condition",0
-"Colombia",2021,"Fisheries_Stock_Condition",0.02
-"Mexico",2021,"Fisheries_Stock_Condition",-0.24
-"Ecuador",2021,"Fisheries_Stock_Condition",0.05
-"Peru",2021,"Fisheries_Stock_Condition",0.01
-"Tanzania",2021,"Fisheries_Stock_Condition",-0.01
-"Indonesia",2021,"Fisheries_Stock_Condition",-0.01
-"Chile",2021,"Fisheries_Stock_Condition",0.13
-"Solomon Islands",2021,"Habitat_Condition",84.19
-"Papua New Guinea",2021,"Habitat_Condition",86.35
-"Fiji",2021,"Habitat_Condition",91.24
-"Mozambique",2021,"Habitat_Condition",62.09
-"Madagascar",2021,"Habitat_Condition",73.42
-"Colombia",2021,"Habitat_Condition",65.13
-"Mexico",2021,"Habitat_Condition",82.42
-"Ecuador",2021,"Habitat_Condition",77.55
-"Peru",2021,"Habitat_Condition",77.96
-"Tanzania",2021,"Habitat_Condition",68.74
-"Indonesia",2021,"Habitat_Condition",63.39
-"Chile",2021,"Habitat_Condition",62.44
-"Solomon Islands",2021,"Habitat_Condition",32.57
-"Papua New Guinea",2021,"Habitat_Condition",35.48
-"Fiji",2021,"Habitat_Condition",28.13
-"Mozambique",2021,"Habitat_Condition",43.47
-"Madagascar",2021,"Habitat_Condition",42.04
-"Colombia",2021,"Habitat_Condition",33.13
-"Mexico",2021,"Habitat_Condition",35.06
-"Ecuador",2021,"Habitat_Condition",30.59
-"Peru",2021,"Habitat_Condition",31.15
-"Tanzania",2021,"Habitat_Condition",44.27
-"Indonesia",2021,"Habitat_Condition",36.2
-"Chile",2021,"Habitat_Condition",22.79
-"Solomon Islands",2021,"Habitat_Condition",63.85
-"Papua New Guinea",2021,"Habitat_Condition",53.66
-"Fiji",2021,"Habitat_Condition",66.09
-"Mozambique",2021,"Habitat_Condition",61.38
-"Madagascar",2021,"Habitat_Condition",62.01
-"Colombia",2021,"Habitat_Condition",71.54
-"Mexico",2021,"Habitat_Condition",70.84
-"Ecuador",2021,"Habitat_Condition",71.15
-"Peru",2021,"Habitat_Condition",64.32
-"Tanzania",2021,"Habitat_Condition",66.31
-"Indonesia",2021,"Habitat_Condition",71.22
-"Chile",2021,"Habitat_Condition",80.5
 "Solomon Islands",2021,"Habitat_Condition",83.3
 "Papua New Guinea",2021,"Habitat_Condition",88.05
 "Fiji",2021,"Habitat_Condition",91.12
@@ -479,66 +83,6 @@
 "Tanzania",2021,"Habitat_Condition",70.19
 "Indonesia",2021,"Habitat_Condition",67.65
 "Chile",2021,"Habitat_Condition",65.11
-"Solomon Islands",2021,"Habitat_Condition",82.42
-"Papua New Guinea",2021,"Habitat_Condition",89.76
-"Fiji",2021,"Habitat_Condition",91
-"Mozambique",2021,"Habitat_Condition",66.67
-"Madagascar",2021,"Habitat_Condition",77.72
-"Colombia",2021,"Habitat_Condition",69.94
-"Mexico",2021,"Habitat_Condition",85.87
-"Ecuador",2021,"Habitat_Condition",82.71
-"Peru",2021,"Habitat_Condition",80.43
-"Tanzania",2021,"Habitat_Condition",71.64
-"Indonesia",2021,"Habitat_Condition",71.92
-"Chile",2021,"Habitat_Condition",67.79
-"Solomon Islands",2021,"Habitat_Condition",0.03
-"Papua New Guinea",2021,"Habitat_Condition",-0.06
-"Fiji",2021,"Habitat_Condition",0
-"Mozambique",2021,"Habitat_Condition",-0.1
-"Madagascar",2021,"Habitat_Condition",-0.08
-"Colombia",2021,"Habitat_Condition",-0.1
-"Mexico",2021,"Habitat_Condition",-0.06
-"Ecuador",2021,"Habitat_Condition",-0.09
-"Peru",2021,"Habitat_Condition",-0.05
-"Tanzania",2021,"Habitat_Condition",-0.06
-"Indonesia",2021,"Habitat_Condition",-0.18
-"Chile",2021,"Habitat_Condition",-0.12
-"Solomon Islands",2021,"Marine_Red_List",79.36
-"Papua New Guinea",2021,"Marine_Red_List",82.09
-"Fiji",2021,"Marine_Red_List",78.01
-"Mozambique",2021,"Marine_Red_List",83.34
-"Madagascar",2021,"Marine_Red_List",81.45
-"Colombia",2021,"Marine_Red_List",77.02
-"Mexico",2021,"Marine_Red_List",74.88
-"Ecuador",2021,"Marine_Red_List",72.25
-"Peru",2021,"Marine_Red_List",70.44
-"Tanzania",2021,"Marine_Red_List",82.17
-"Indonesia",2021,"Marine_Red_List",82.58
-"Chile",2021,"Marine_Red_List",75.51
-"Solomon Islands",2021,"Marine_Red_List",34.58
-"Papua New Guinea",2021,"Marine_Red_List",38.92
-"Fiji",2021,"Marine_Red_List",28.97
-"Mozambique",2021,"Marine_Red_List",50.76
-"Madagascar",2021,"Marine_Red_List",50.41
-"Colombia",2021,"Marine_Red_List",38.81
-"Mexico",2021,"Marine_Red_List",43.43
-"Ecuador",2021,"Marine_Red_List",34.94
-"Peru",2021,"Marine_Red_List",33.81
-"Tanzania",2021,"Marine_Red_List",53.11
-"Indonesia",2021,"Marine_Red_List",48.68
-"Chile",2021,"Marine_Red_List",31.58
-"Solomon Islands",2021,"Marine_Red_List",61.1
-"Papua New Guinea",2021,"Marine_Red_List",45.24
-"Fiji",2021,"Marine_Red_List",55.98
-"Mozambique",2021,"Marine_Red_List",55.82
-"Madagascar",2021,"Marine_Red_List",56.35
-"Colombia",2021,"Marine_Red_List",68.52
-"Mexico",2021,"Marine_Red_List",69.6
-"Ecuador",2021,"Marine_Red_List",70.12
-"Peru",2021,"Marine_Red_List",58.16
-"Tanzania",2021,"Marine_Red_List",59.82
-"Indonesia",2021,"Marine_Red_List",68.08
-"Chile",2021,"Marine_Red_List",85.17
 "Solomon Islands",2021,"Marine_Red_List",79.79
 "Papua New Guinea",2021,"Marine_Red_List",82.47
 "Fiji",2021,"Marine_Red_List",78.42
@@ -551,66 +95,6 @@
 "Tanzania",2021,"Marine_Red_List",82.57
 "Indonesia",2021,"Marine_Red_List",83.04
 "Chile",2021,"Marine_Red_List",75.39
-"Solomon Islands",2021,"Marine_Red_List",80.22
-"Papua New Guinea",2021,"Marine_Red_List",82.85
-"Fiji",2021,"Marine_Red_List",78.84
-"Mozambique",2021,"Marine_Red_List",84.03
-"Madagascar",2021,"Marine_Red_List",82.09
-"Colombia",2021,"Marine_Red_List",78.11
-"Mexico",2021,"Marine_Red_List",75.95
-"Ecuador",2021,"Marine_Red_List",73.34
-"Peru",2021,"Marine_Red_List",71.3
-"Tanzania",2021,"Marine_Red_List",82.98
-"Indonesia",2021,"Marine_Red_List",83.5
-"Chile",2021,"Marine_Red_List",75.27
-"Solomon Islands",2021,"Marine_Red_List",-0.02
-"Papua New Guinea",2021,"Marine_Red_List",-0.01
-"Fiji",2021,"Marine_Red_List",-0.02
-"Mozambique",2021,"Marine_Red_List",-0.01
-"Madagascar",2021,"Marine_Red_List",-0.01
-"Colombia",2021,"Marine_Red_List",-0.02
-"Mexico",2021,"Marine_Red_List",-0.02
-"Ecuador",2021,"Marine_Red_List",-0.02
-"Peru",2021,"Marine_Red_List",-0.02
-"Tanzania",2021,"Marine_Red_List",-0.01
-"Indonesia",2021,"Marine_Red_List",-0.02
-"Chile",2021,"Marine_Red_List",0
-"Solomon Islands",2022,"Habitat_Carbon_Storage",74.55
-"Papua New Guinea",2022,"Habitat_Carbon_Storage",71.68
-"Fiji",2022,"Habitat_Carbon_Storage",80.26
-"Mozambique",2022,"Habitat_Carbon_Storage",78.53
-"Madagascar",2022,"Habitat_Carbon_Storage",95.3
-"Colombia",2022,"Habitat_Carbon_Storage",67.3
-"Mexico",2022,"Habitat_Carbon_Storage",94.01
-"Ecuador",2022,"Habitat_Carbon_Storage",74.5
-"Peru",2022,"Habitat_Carbon_Storage",76.53
-"Tanzania",2022,"Habitat_Carbon_Storage",81.18
-"Indonesia",2022,"Habitat_Carbon_Storage",73.42
-"Chile",2022,"Habitat_Carbon_Storage",100
-"Solomon Islands",2022,"Habitat_Carbon_Storage",37.22
-"Papua New Guinea",2022,"Habitat_Carbon_Storage",38.01
-"Fiji",2022,"Habitat_Carbon_Storage",31.51
-"Mozambique",2022,"Habitat_Carbon_Storage",43.87
-"Madagascar",2022,"Habitat_Carbon_Storage",42.31
-"Colombia",2022,"Habitat_Carbon_Storage",36.02
-"Mexico",2022,"Habitat_Carbon_Storage",36.33
-"Ecuador",2022,"Habitat_Carbon_Storage",36.78
-"Peru",2022,"Habitat_Carbon_Storage",33.39
-"Tanzania",2022,"Habitat_Carbon_Storage",44.45
-"Indonesia",2022,"Habitat_Carbon_Storage",37.08
-"Chile",2022,"Habitat_Carbon_Storage",22.47
-"Solomon Islands",2022,"Habitat_Carbon_Storage",57.69
-"Papua New Guinea",2022,"Habitat_Carbon_Storage",39.28
-"Fiji",2022,"Habitat_Carbon_Storage",60.54
-"Mozambique",2022,"Habitat_Carbon_Storage",63.93
-"Madagascar",2022,"Habitat_Carbon_Storage",59.88
-"Colombia",2022,"Habitat_Carbon_Storage",72.15
-"Mexico",2022,"Habitat_Carbon_Storage",72.49
-"Ecuador",2022,"Habitat_Carbon_Storage",76.45
-"Peru",2022,"Habitat_Carbon_Storage",57.75
-"Tanzania",2022,"Habitat_Carbon_Storage",68.66
-"Indonesia",2022,"Habitat_Carbon_Storage",72.32
-"Chile",2022,"Habitat_Carbon_Storage",81.08
 "Solomon Islands",2022,"Habitat_Carbon_Storage",75.74
 "Papua New Guinea",2022,"Habitat_Carbon_Storage",73.12
 "Fiji",2022,"Habitat_Carbon_Storage",81.21
@@ -623,66 +107,6 @@
 "Tanzania",2022,"Habitat_Carbon_Storage",81.99
 "Indonesia",2022,"Habitat_Carbon_Storage",74.01
 "Chile",2022,"Habitat_Carbon_Storage",99.45
-"Solomon Islands",2022,"Habitat_Carbon_Storage",76.93
-"Papua New Guinea",2022,"Habitat_Carbon_Storage",74.56
-"Fiji",2022,"Habitat_Carbon_Storage",82.16
-"Mozambique",2022,"Habitat_Carbon_Storage",79.94
-"Madagascar",2022,"Habitat_Carbon_Storage",94.56
-"Colombia",2022,"Habitat_Carbon_Storage",66.76
-"Mexico",2022,"Habitat_Carbon_Storage",93.58
-"Ecuador",2022,"Habitat_Carbon_Storage",74.55
-"Peru",2022,"Habitat_Carbon_Storage",76.03
-"Tanzania",2022,"Habitat_Carbon_Storage",82.81
-"Indonesia",2022,"Habitat_Carbon_Storage",74.6
-"Chile",2022,"Habitat_Carbon_Storage",98.89
-"Solomon Islands",2022,"Habitat_Carbon_Storage",-0.05
-"Papua New Guinea",2022,"Habitat_Carbon_Storage",-0.06
-"Fiji",2022,"Habitat_Carbon_Storage",-0.03
-"Mozambique",2022,"Habitat_Carbon_Storage",-0.03
-"Madagascar",2022,"Habitat_Carbon_Storage",0.01
-"Colombia",2022,"Habitat_Carbon_Storage",0.01
-"Mexico",2022,"Habitat_Carbon_Storage",0.01
-"Ecuador",2022,"Habitat_Carbon_Storage",0
-"Peru",2022,"Habitat_Carbon_Storage",0.01
-"Tanzania",2022,"Habitat_Carbon_Storage",-0.03
-"Indonesia",2022,"Habitat_Carbon_Storage",-0.02
-"Chile",2022,"Habitat_Carbon_Storage",0.05
-"Solomon Islands",2022,"Fisheries_Stock_Condition",85.86
-"Papua New Guinea",2022,"Fisheries_Stock_Condition",88.18
-"Fiji",2022,"Fisheries_Stock_Condition",45.34
-"Mozambique",2022,"Fisheries_Stock_Condition",40.84
-"Madagascar",2022,"Fisheries_Stock_Condition",50.37
-"Colombia",2022,"Fisheries_Stock_Condition",46.32
-"Mexico",2022,"Fisheries_Stock_Condition",31.62
-"Ecuador",2022,"Fisheries_Stock_Condition",53.46
-"Peru",2022,"Fisheries_Stock_Condition",69.51
-"Tanzania",2022,"Fisheries_Stock_Condition",61.4
-"Indonesia",2022,"Fisheries_Stock_Condition",35.48
-"Chile",2022,"Fisheries_Stock_Condition",71.28
-"Solomon Islands",2022,"Fisheries_Stock_Condition",31.66
-"Papua New Guinea",2022,"Fisheries_Stock_Condition",36.56
-"Fiji",2022,"Fisheries_Stock_Condition",25.47
-"Mozambique",2022,"Fisheries_Stock_Condition",45.13
-"Madagascar",2022,"Fisheries_Stock_Condition",45.38
-"Colombia",2022,"Fisheries_Stock_Condition",30.33
-"Mexico",2022,"Fisheries_Stock_Condition",37.48
-"Ecuador",2022,"Fisheries_Stock_Condition",32.06
-"Peru",2022,"Fisheries_Stock_Condition",31.12
-"Tanzania",2022,"Fisheries_Stock_Condition",53.88
-"Indonesia",2022,"Fisheries_Stock_Condition",47.78
-"Chile",2022,"Fisheries_Stock_Condition",25.91
-"Solomon Islands",2022,"Fisheries_Stock_Condition",58.51
-"Papua New Guinea",2022,"Fisheries_Stock_Condition",51.14
-"Fiji",2022,"Fisheries_Stock_Condition",60.81
-"Mozambique",2022,"Fisheries_Stock_Condition",54.69
-"Madagascar",2022,"Fisheries_Stock_Condition",53.58
-"Colombia",2022,"Fisheries_Stock_Condition",64
-"Mexico",2022,"Fisheries_Stock_Condition",67.07
-"Ecuador",2022,"Fisheries_Stock_Condition",64.72
-"Peru",2022,"Fisheries_Stock_Condition",60.28
-"Tanzania",2022,"Fisheries_Stock_Condition",57.87
-"Indonesia",2022,"Fisheries_Stock_Condition",65.54
-"Chile",2022,"Fisheries_Stock_Condition",79.97
 "Solomon Islands",2022,"Fisheries_Stock_Condition",86.13
 "Papua New Guinea",2022,"Fisheries_Stock_Condition",88.24
 "Fiji",2022,"Fisheries_Stock_Condition",45.97
@@ -695,66 +119,6 @@
 "Tanzania",2022,"Fisheries_Stock_Condition",61.65
 "Indonesia",2022,"Fisheries_Stock_Condition",35.54
 "Chile",2022,"Fisheries_Stock_Condition",67.49
-"Solomon Islands",2022,"Fisheries_Stock_Condition",86.4
-"Papua New Guinea",2022,"Fisheries_Stock_Condition",88.3
-"Fiji",2022,"Fisheries_Stock_Condition",46.6
-"Mozambique",2022,"Fisheries_Stock_Condition",41.2
-"Madagascar",2022,"Fisheries_Stock_Condition",50.7
-"Colombia",2022,"Fisheries_Stock_Condition",43
-"Mexico",2022,"Fisheries_Stock_Condition",32.2
-"Ecuador",2022,"Fisheries_Stock_Condition",52.5
-"Peru",2022,"Fisheries_Stock_Condition",69.2
-"Tanzania",2022,"Fisheries_Stock_Condition",61.9
-"Indonesia",2022,"Fisheries_Stock_Condition",35.6
-"Chile",2022,"Fisheries_Stock_Condition",63.7
-"Solomon Islands",2022,"Fisheries_Stock_Condition",-0.01
-"Papua New Guinea",2022,"Fisheries_Stock_Condition",0
-"Fiji",2022,"Fisheries_Stock_Condition",-0.04
-"Mozambique",2022,"Fisheries_Stock_Condition",-0.01
-"Madagascar",2022,"Fisheries_Stock_Condition",-0.01
-"Colombia",2022,"Fisheries_Stock_Condition",0.12
-"Mexico",2022,"Fisheries_Stock_Condition",-0.03
-"Ecuador",2022,"Fisheries_Stock_Condition",0.03
-"Peru",2022,"Fisheries_Stock_Condition",0.01
-"Tanzania",2022,"Fisheries_Stock_Condition",-0.01
-"Indonesia",2022,"Fisheries_Stock_Condition",0
-"Chile",2022,"Fisheries_Stock_Condition",0.18
-"Solomon Islands",2022,"Habitat_Condition",84.19
-"Papua New Guinea",2022,"Habitat_Condition",86.35
-"Fiji",2022,"Habitat_Condition",91.24
-"Mozambique",2022,"Habitat_Condition",62.09
-"Madagascar",2022,"Habitat_Condition",73.42
-"Colombia",2022,"Habitat_Condition",65.13
-"Mexico",2022,"Habitat_Condition",82.42
-"Ecuador",2022,"Habitat_Condition",77.55
-"Peru",2022,"Habitat_Condition",77.96
-"Tanzania",2022,"Habitat_Condition",68.74
-"Indonesia",2022,"Habitat_Condition",63.39
-"Chile",2022,"Habitat_Condition",62.44
-"Solomon Islands",2022,"Habitat_Condition",33.72
-"Papua New Guinea",2022,"Habitat_Condition",36.22
-"Fiji",2022,"Habitat_Condition",28.61
-"Mozambique",2022,"Habitat_Condition",43.11
-"Madagascar",2022,"Habitat_Condition",41.42
-"Colombia",2022,"Habitat_Condition",33.16
-"Mexico",2022,"Habitat_Condition",34.93
-"Ecuador",2022,"Habitat_Condition",29.77
-"Peru",2022,"Habitat_Condition",31.33
-"Tanzania",2022,"Habitat_Condition",43.87
-"Indonesia",2022,"Habitat_Condition",36.75
-"Chile",2022,"Habitat_Condition",22.56
-"Solomon Islands",2022,"Habitat_Condition",63.39
-"Papua New Guinea",2022,"Habitat_Condition",53.45
-"Fiji",2022,"Habitat_Condition",65.81
-"Mozambique",2022,"Habitat_Condition",61.31
-"Madagascar",2022,"Habitat_Condition",62.09
-"Colombia",2022,"Habitat_Condition",71.12
-"Mexico",2022,"Habitat_Condition",70.29
-"Ecuador",2022,"Habitat_Condition",71.47
-"Peru",2022,"Habitat_Condition",63.89
-"Tanzania",2022,"Habitat_Condition",66.77
-"Indonesia",2022,"Habitat_Condition",71.41
-"Chile",2022,"Habitat_Condition",80.54
 "Solomon Islands",2022,"Habitat_Condition",83.3
 "Papua New Guinea",2022,"Habitat_Condition",88.05
 "Fiji",2022,"Habitat_Condition",91.12
@@ -767,66 +131,6 @@
 "Tanzania",2022,"Habitat_Condition",70.19
 "Indonesia",2022,"Habitat_Condition",67.65
 "Chile",2022,"Habitat_Condition",65.11
-"Solomon Islands",2022,"Habitat_Condition",82.42
-"Papua New Guinea",2022,"Habitat_Condition",89.76
-"Fiji",2022,"Habitat_Condition",91
-"Mozambique",2022,"Habitat_Condition",66.67
-"Madagascar",2022,"Habitat_Condition",77.72
-"Colombia",2022,"Habitat_Condition",69.94
-"Mexico",2022,"Habitat_Condition",85.87
-"Ecuador",2022,"Habitat_Condition",82.71
-"Peru",2022,"Habitat_Condition",80.43
-"Tanzania",2022,"Habitat_Condition",71.64
-"Indonesia",2022,"Habitat_Condition",71.92
-"Chile",2022,"Habitat_Condition",67.79
-"Solomon Islands",2022,"Habitat_Condition",0.03
-"Papua New Guinea",2022,"Habitat_Condition",-0.06
-"Fiji",2022,"Habitat_Condition",0
-"Mozambique",2022,"Habitat_Condition",-0.1
-"Madagascar",2022,"Habitat_Condition",-0.08
-"Colombia",2022,"Habitat_Condition",-0.1
-"Mexico",2022,"Habitat_Condition",-0.06
-"Ecuador",2022,"Habitat_Condition",-0.09
-"Peru",2022,"Habitat_Condition",-0.05
-"Tanzania",2022,"Habitat_Condition",-0.06
-"Indonesia",2022,"Habitat_Condition",-0.18
-"Chile",2022,"Habitat_Condition",-0.12
-"Solomon Islands",2022,"Marine_Red_List",79.11
-"Papua New Guinea",2022,"Marine_Red_List",81.87
-"Fiji",2022,"Marine_Red_List",77.77
-"Mozambique",2022,"Marine_Red_List",83.14
-"Madagascar",2022,"Marine_Red_List",81.26
-"Colombia",2022,"Marine_Red_List",76.69
-"Mexico",2022,"Marine_Red_List",74.56
-"Ecuador",2022,"Marine_Red_List",71.93
-"Peru",2022,"Marine_Red_List",70.19
-"Tanzania",2022,"Marine_Red_List",81.94
-"Indonesia",2022,"Marine_Red_List",82.31
-"Chile",2022,"Marine_Red_List",75.58
-"Solomon Islands",2022,"Marine_Red_List",34.95
-"Papua New Guinea",2022,"Marine_Red_List",39.12
-"Fiji",2022,"Marine_Red_List",28.95
-"Mozambique",2022,"Marine_Red_List",50.6
-"Madagascar",2022,"Marine_Red_List",50.17
-"Colombia",2022,"Marine_Red_List",38.9
-"Mexico",2022,"Marine_Red_List",43.66
-"Ecuador",2022,"Marine_Red_List",34.48
-"Peru",2022,"Marine_Red_List",34.11
-"Tanzania",2022,"Marine_Red_List",52.55
-"Indonesia",2022,"Marine_Red_List",48.34
-"Chile",2022,"Marine_Red_List",31.38
-"Solomon Islands",2022,"Marine_Red_List",61.2
-"Papua New Guinea",2022,"Marine_Red_List",45.07
-"Fiji",2022,"Marine_Red_List",55.75
-"Mozambique",2022,"Marine_Red_List",55.26
-"Madagascar",2022,"Marine_Red_List",56.48
-"Colombia",2022,"Marine_Red_List",68.17
-"Mexico",2022,"Marine_Red_List",69.11
-"Ecuador",2022,"Marine_Red_List",70.54
-"Peru",2022,"Marine_Red_List",59.88
-"Tanzania",2022,"Marine_Red_List",60.33
-"Indonesia",2022,"Marine_Red_List",68.34
-"Chile",2022,"Marine_Red_List",85.2
 "Solomon Islands",2022,"Marine_Red_List",79.54
 "Papua New Guinea",2022,"Marine_Red_List",82.25
 "Fiji",2022,"Marine_Red_List",78.18
@@ -839,66 +143,6 @@
 "Tanzania",2022,"Marine_Red_List",82.34
 "Indonesia",2022,"Marine_Red_List",82.76
 "Chile",2022,"Marine_Red_List",75.46
-"Solomon Islands",2022,"Marine_Red_List",79.97
-"Papua New Guinea",2022,"Marine_Red_List",82.63
-"Fiji",2022,"Marine_Red_List",78.59
-"Mozambique",2022,"Marine_Red_List",83.83
-"Madagascar",2022,"Marine_Red_List",81.9
-"Colombia",2022,"Marine_Red_List",77.79
-"Mexico",2022,"Marine_Red_List",75.63
-"Ecuador",2022,"Marine_Red_List",73.02
-"Peru",2022,"Marine_Red_List",71.05
-"Tanzania",2022,"Marine_Red_List",82.74
-"Indonesia",2022,"Marine_Red_List",83.22
-"Chile",2022,"Marine_Red_List",75.34
-"Solomon Islands",2022,"Marine_Red_List",-0.02
-"Papua New Guinea",2022,"Marine_Red_List",-0.01
-"Fiji",2022,"Marine_Red_List",-0.02
-"Mozambique",2022,"Marine_Red_List",-0.01
-"Madagascar",2022,"Marine_Red_List",-0.01
-"Colombia",2022,"Marine_Red_List",-0.02
-"Mexico",2022,"Marine_Red_List",-0.02
-"Ecuador",2022,"Marine_Red_List",-0.02
-"Peru",2022,"Marine_Red_List",-0.02
-"Tanzania",2022,"Marine_Red_List",-0.01
-"Indonesia",2022,"Marine_Red_List",-0.02
-"Chile",2022,"Marine_Red_List",0
-"Solomon Islands",2023,"Habitat_Carbon_Storage",74.55
-"Papua New Guinea",2023,"Habitat_Carbon_Storage",71.68
-"Fiji",2023,"Habitat_Carbon_Storage",80.26
-"Mozambique",2023,"Habitat_Carbon_Storage",78.53
-"Madagascar",2023,"Habitat_Carbon_Storage",95.3
-"Colombia",2023,"Habitat_Carbon_Storage",67.3
-"Mexico",2023,"Habitat_Carbon_Storage",94.01
-"Ecuador",2023,"Habitat_Carbon_Storage",74.5
-"Peru",2023,"Habitat_Carbon_Storage",76.53
-"Tanzania",2023,"Habitat_Carbon_Storage",81.18
-"Indonesia",2023,"Habitat_Carbon_Storage",73.42
-"Chile",2023,"Habitat_Carbon_Storage",100
-"Solomon Islands",2023,"Habitat_Carbon_Storage",38.98
-"Papua New Guinea",2023,"Habitat_Carbon_Storage",38.93
-"Fiji",2023,"Habitat_Carbon_Storage",32.87
-"Mozambique",2023,"Habitat_Carbon_Storage",43.46
-"Madagascar",2023,"Habitat_Carbon_Storage",41.15
-"Colombia",2023,"Habitat_Carbon_Storage",35.65
-"Mexico",2023,"Habitat_Carbon_Storage",36.08
-"Ecuador",2023,"Habitat_Carbon_Storage",37.1
-"Peru",2023,"Habitat_Carbon_Storage",33.8
-"Tanzania",2023,"Habitat_Carbon_Storage",42.87
-"Indonesia",2023,"Habitat_Carbon_Storage",37.83
-"Chile",2023,"Habitat_Carbon_Storage",22.14
-"Solomon Islands",2023,"Habitat_Carbon_Storage",57.76
-"Papua New Guinea",2023,"Habitat_Carbon_Storage",39.58
-"Fiji",2023,"Habitat_Carbon_Storage",60.46
-"Mozambique",2023,"Habitat_Carbon_Storage",64
-"Madagascar",2023,"Habitat_Carbon_Storage",59.83
-"Colombia",2023,"Habitat_Carbon_Storage",72.5
-"Mexico",2023,"Habitat_Carbon_Storage",72.55
-"Ecuador",2023,"Habitat_Carbon_Storage",76.32
-"Peru",2023,"Habitat_Carbon_Storage",57.46
-"Tanzania",2023,"Habitat_Carbon_Storage",69.16
-"Indonesia",2023,"Habitat_Carbon_Storage",72.46
-"Chile",2023,"Habitat_Carbon_Storage",80.9
 "Solomon Islands",2023,"Habitat_Carbon_Storage",75.74
 "Papua New Guinea",2023,"Habitat_Carbon_Storage",73.12
 "Fiji",2023,"Habitat_Carbon_Storage",81.21
@@ -911,66 +155,6 @@
 "Tanzania",2023,"Habitat_Carbon_Storage",81.99
 "Indonesia",2023,"Habitat_Carbon_Storage",74.01
 "Chile",2023,"Habitat_Carbon_Storage",99.45
-"Solomon Islands",2023,"Habitat_Carbon_Storage",76.93
-"Papua New Guinea",2023,"Habitat_Carbon_Storage",74.56
-"Fiji",2023,"Habitat_Carbon_Storage",82.16
-"Mozambique",2023,"Habitat_Carbon_Storage",79.94
-"Madagascar",2023,"Habitat_Carbon_Storage",94.56
-"Colombia",2023,"Habitat_Carbon_Storage",66.76
-"Mexico",2023,"Habitat_Carbon_Storage",93.58
-"Ecuador",2023,"Habitat_Carbon_Storage",74.55
-"Peru",2023,"Habitat_Carbon_Storage",76.03
-"Tanzania",2023,"Habitat_Carbon_Storage",82.81
-"Indonesia",2023,"Habitat_Carbon_Storage",74.6
-"Chile",2023,"Habitat_Carbon_Storage",98.89
-"Solomon Islands",2023,"Habitat_Carbon_Storage",-0.05
-"Papua New Guinea",2023,"Habitat_Carbon_Storage",-0.06
-"Fiji",2023,"Habitat_Carbon_Storage",-0.03
-"Mozambique",2023,"Habitat_Carbon_Storage",-0.03
-"Madagascar",2023,"Habitat_Carbon_Storage",0.01
-"Colombia",2023,"Habitat_Carbon_Storage",0.01
-"Mexico",2023,"Habitat_Carbon_Storage",0.01
-"Ecuador",2023,"Habitat_Carbon_Storage",0
-"Peru",2023,"Habitat_Carbon_Storage",0.01
-"Tanzania",2023,"Habitat_Carbon_Storage",-0.03
-"Indonesia",2023,"Habitat_Carbon_Storage",-0.02
-"Chile",2023,"Habitat_Carbon_Storage",0.05
-"Solomon Islands",2023,"Fisheries_Stock_Condition",85.97
-"Papua New Guinea",2023,"Fisheries_Stock_Condition",88.15
-"Fiji",2023,"Fisheries_Stock_Condition",45.65
-"Mozambique",2023,"Fisheries_Stock_Condition",40.73
-"Madagascar",2023,"Fisheries_Stock_Condition",50.39
-"Colombia",2023,"Fisheries_Stock_Condition",47.71
-"Mexico",2023,"Fisheries_Stock_Condition",31.71
-"Ecuador",2023,"Fisheries_Stock_Condition",52.27
-"Peru",2023,"Fisheries_Stock_Condition",69.85
-"Tanzania",2023,"Fisheries_Stock_Condition",61.46
-"Indonesia",2023,"Fisheries_Stock_Condition",35.44
-"Chile",2023,"Fisheries_Stock_Condition",70.41
-"Solomon Islands",2023,"Fisheries_Stock_Condition",31.58
-"Papua New Guinea",2023,"Fisheries_Stock_Condition",36.26
-"Fiji",2023,"Fisheries_Stock_Condition",25.38
-"Mozambique",2023,"Fisheries_Stock_Condition",45.06
-"Madagascar",2023,"Fisheries_Stock_Condition",45.6
-"Colombia",2023,"Fisheries_Stock_Condition",29.97
-"Mexico",2023,"Fisheries_Stock_Condition",37.43
-"Ecuador",2023,"Fisheries_Stock_Condition",32.2
-"Peru",2023,"Fisheries_Stock_Condition",31.44
-"Tanzania",2023,"Fisheries_Stock_Condition",53.4
-"Indonesia",2023,"Fisheries_Stock_Condition",47.64
-"Chile",2023,"Fisheries_Stock_Condition",26.1
-"Solomon Islands",2023,"Fisheries_Stock_Condition",58.59
-"Papua New Guinea",2023,"Fisheries_Stock_Condition",51.44
-"Fiji",2023,"Fisheries_Stock_Condition",60.74
-"Mozambique",2023,"Fisheries_Stock_Condition",54.76
-"Madagascar",2023,"Fisheries_Stock_Condition",53.53
-"Colombia",2023,"Fisheries_Stock_Condition",64.36
-"Mexico",2023,"Fisheries_Stock_Condition",67.12
-"Ecuador",2023,"Fisheries_Stock_Condition",66.33
-"Peru",2023,"Fisheries_Stock_Condition",59.99
-"Tanzania",2023,"Fisheries_Stock_Condition",58.36
-"Indonesia",2023,"Fisheries_Stock_Condition",65.68
-"Chile",2023,"Fisheries_Stock_Condition",79.78
 "Solomon Islands",2023,"Fisheries_Stock_Condition",86.19
 "Papua New Guinea",2023,"Fisheries_Stock_Condition",88.22
 "Fiji",2023,"Fisheries_Stock_Condition",46.13
@@ -983,66 +167,6 @@
 "Tanzania",2023,"Fisheries_Stock_Condition",61.68
 "Indonesia",2023,"Fisheries_Stock_Condition",35.52
 "Chile",2023,"Fisheries_Stock_Condition",67.06
-"Solomon Islands",2023,"Fisheries_Stock_Condition",86.4
-"Papua New Guinea",2023,"Fisheries_Stock_Condition",88.3
-"Fiji",2023,"Fisheries_Stock_Condition",46.6
-"Mozambique",2023,"Fisheries_Stock_Condition",41.2
-"Madagascar",2023,"Fisheries_Stock_Condition",50.7
-"Colombia",2023,"Fisheries_Stock_Condition",43
-"Mexico",2023,"Fisheries_Stock_Condition",32.2
-"Ecuador",2023,"Fisheries_Stock_Condition",52.5
-"Peru",2023,"Fisheries_Stock_Condition",69.2
-"Tanzania",2023,"Fisheries_Stock_Condition",61.9
-"Indonesia",2023,"Fisheries_Stock_Condition",35.6
-"Chile",2023,"Fisheries_Stock_Condition",63.7
-"Solomon Islands",2023,"Fisheries_Stock_Condition",-0.01
-"Papua New Guinea",2023,"Fisheries_Stock_Condition",0
-"Fiji",2023,"Fisheries_Stock_Condition",-0.03
-"Mozambique",2023,"Fisheries_Stock_Condition",-0.02
-"Madagascar",2023,"Fisheries_Stock_Condition",-0.01
-"Colombia",2023,"Fisheries_Stock_Condition",0.16
-"Mexico",2023,"Fisheries_Stock_Condition",-0.02
-"Ecuador",2023,"Fisheries_Stock_Condition",-0.01
-"Peru",2023,"Fisheries_Stock_Condition",0.01
-"Tanzania",2023,"Fisheries_Stock_Condition",-0.01
-"Indonesia",2023,"Fisheries_Stock_Condition",-0.01
-"Chile",2023,"Fisheries_Stock_Condition",0.16
-"Solomon Islands",2023,"Habitat_Condition",84.19
-"Papua New Guinea",2023,"Habitat_Condition",86.35
-"Fiji",2023,"Habitat_Condition",91.24
-"Mozambique",2023,"Habitat_Condition",62.09
-"Madagascar",2023,"Habitat_Condition",73.42
-"Colombia",2023,"Habitat_Condition",65.13
-"Mexico",2023,"Habitat_Condition",82.42
-"Ecuador",2023,"Habitat_Condition",77.55
-"Peru",2023,"Habitat_Condition",77.96
-"Tanzania",2023,"Habitat_Condition",68.74
-"Indonesia",2023,"Habitat_Condition",63.39
-"Chile",2023,"Habitat_Condition",62.44
-"Solomon Islands",2023,"Habitat_Condition",35.38
-"Papua New Guinea",2023,"Habitat_Condition",37.12
-"Fiji",2023,"Habitat_Condition",29.86
-"Mozambique",2023,"Habitat_Condition",42.53
-"Madagascar",2023,"Habitat_Condition",40.38
-"Colombia",2023,"Habitat_Condition",32.53
-"Mexico",2023,"Habitat_Condition",34.6
-"Ecuador",2023,"Habitat_Condition",30.05
-"Peru",2023,"Habitat_Condition",31.63
-"Tanzania",2023,"Habitat_Condition",42.09
-"Indonesia",2023,"Habitat_Condition",37.62
-"Chile",2023,"Habitat_Condition",22.44
-"Solomon Islands",2023,"Habitat_Condition",63.47
-"Papua New Guinea",2023,"Habitat_Condition",53.75
-"Fiji",2023,"Habitat_Condition",65.73
-"Mozambique",2023,"Habitat_Condition",61.38
-"Madagascar",2023,"Habitat_Condition",62.05
-"Colombia",2023,"Habitat_Condition",71.48
-"Mexico",2023,"Habitat_Condition",70.34
-"Ecuador",2023,"Habitat_Condition",71.52
-"Peru",2023,"Habitat_Condition",63.6
-"Tanzania",2023,"Habitat_Condition",67.26
-"Indonesia",2023,"Habitat_Condition",71.55
-"Chile",2023,"Habitat_Condition",80.36
 "Solomon Islands",2023,"Habitat_Condition",83.3
 "Papua New Guinea",2023,"Habitat_Condition",88.05
 "Fiji",2023,"Habitat_Condition",91.12
@@ -1055,66 +179,6 @@
 "Tanzania",2023,"Habitat_Condition",70.19
 "Indonesia",2023,"Habitat_Condition",67.65
 "Chile",2023,"Habitat_Condition",65.11
-"Solomon Islands",2023,"Habitat_Condition",82.42
-"Papua New Guinea",2023,"Habitat_Condition",89.76
-"Fiji",2023,"Habitat_Condition",91
-"Mozambique",2023,"Habitat_Condition",66.67
-"Madagascar",2023,"Habitat_Condition",77.72
-"Colombia",2023,"Habitat_Condition",69.94
-"Mexico",2023,"Habitat_Condition",85.87
-"Ecuador",2023,"Habitat_Condition",82.71
-"Peru",2023,"Habitat_Condition",80.43
-"Tanzania",2023,"Habitat_Condition",71.64
-"Indonesia",2023,"Habitat_Condition",71.92
-"Chile",2023,"Habitat_Condition",67.79
-"Solomon Islands",2023,"Habitat_Condition",0.03
-"Papua New Guinea",2023,"Habitat_Condition",-0.06
-"Fiji",2023,"Habitat_Condition",0
-"Mozambique",2023,"Habitat_Condition",-0.1
-"Madagascar",2023,"Habitat_Condition",-0.08
-"Colombia",2023,"Habitat_Condition",-0.1
-"Mexico",2023,"Habitat_Condition",-0.06
-"Ecuador",2023,"Habitat_Condition",-0.09
-"Peru",2023,"Habitat_Condition",-0.05
-"Tanzania",2023,"Habitat_Condition",-0.06
-"Indonesia",2023,"Habitat_Condition",-0.18
-"Chile",2023,"Habitat_Condition",-0.12
-"Solomon Islands",2023,"Marine_Red_List",79.11
-"Papua New Guinea",2023,"Marine_Red_List",81.87
-"Fiji",2023,"Marine_Red_List",77.77
-"Mozambique",2023,"Marine_Red_List",83.14
-"Madagascar",2023,"Marine_Red_List",81.26
-"Colombia",2023,"Marine_Red_List",76.69
-"Mexico",2023,"Marine_Red_List",74.56
-"Ecuador",2023,"Marine_Red_List",71.93
-"Peru",2023,"Marine_Red_List",70.19
-"Tanzania",2023,"Marine_Red_List",81.94
-"Indonesia",2023,"Marine_Red_List",82.31
-"Chile",2023,"Marine_Red_List",75.58
-"Solomon Islands",2023,"Marine_Red_List",35.15
-"Papua New Guinea",2023,"Marine_Red_List",39.05
-"Fiji",2023,"Marine_Red_List",29.06
-"Mozambique",2023,"Marine_Red_List",50.48
-"Madagascar",2023,"Marine_Red_List",50.2
-"Colombia",2023,"Marine_Red_List",38.35
-"Mexico",2023,"Marine_Red_List",43.45
-"Ecuador",2023,"Marine_Red_List",34.56
-"Peru",2023,"Marine_Red_List",34.4
-"Tanzania",2023,"Marine_Red_List",51.95
-"Indonesia",2023,"Marine_Red_List",48.25
-"Chile",2023,"Marine_Red_List",31.54
-"Solomon Islands",2023,"Marine_Red_List",61.28
-"Papua New Guinea",2023,"Marine_Red_List",45.37
-"Fiji",2023,"Marine_Red_List",55.67
-"Mozambique",2023,"Marine_Red_List",55.33
-"Madagascar",2023,"Marine_Red_List",56.44
-"Colombia",2023,"Marine_Red_List",68.53
-"Mexico",2023,"Marine_Red_List",69.16
-"Ecuador",2023,"Marine_Red_List",72.15
-"Peru",2023,"Marine_Red_List",59.59
-"Tanzania",2023,"Marine_Red_List",60.83
-"Indonesia",2023,"Marine_Red_List",68.49
-"Chile",2023,"Marine_Red_List",85.02
 "Solomon Islands",2023,"Marine_Red_List",79.54
 "Papua New Guinea",2023,"Marine_Red_List",82.25
 "Fiji",2023,"Marine_Red_List",78.18
@@ -1127,27 +191,3 @@
 "Tanzania",2023,"Marine_Red_List",82.34
 "Indonesia",2023,"Marine_Red_List",82.76
 "Chile",2023,"Marine_Red_List",75.46
-"Solomon Islands",2023,"Marine_Red_List",79.97
-"Papua New Guinea",2023,"Marine_Red_List",82.63
-"Fiji",2023,"Marine_Red_List",78.59
-"Mozambique",2023,"Marine_Red_List",83.83
-"Madagascar",2023,"Marine_Red_List",81.9
-"Colombia",2023,"Marine_Red_List",77.79
-"Mexico",2023,"Marine_Red_List",75.63
-"Ecuador",2023,"Marine_Red_List",73.02
-"Peru",2023,"Marine_Red_List",71.05
-"Tanzania",2023,"Marine_Red_List",82.74
-"Indonesia",2023,"Marine_Red_List",83.22
-"Chile",2023,"Marine_Red_List",75.34
-"Solomon Islands",2023,"Marine_Red_List",-0.02
-"Papua New Guinea",2023,"Marine_Red_List",-0.01
-"Fiji",2023,"Marine_Red_List",-0.02
-"Mozambique",2023,"Marine_Red_List",-0.01
-"Madagascar",2023,"Marine_Red_List",-0.01
-"Colombia",2023,"Marine_Red_List",-0.02
-"Mexico",2023,"Marine_Red_List",-0.02
-"Ecuador",2023,"Marine_Red_List",-0.02
-"Peru",2023,"Marine_Red_List",-0.02
-"Tanzania",2023,"Marine_Red_List",-0.01
-"Indonesia",2023,"Marine_Red_List",-0.02
-"Chile",2023,"Marine_Red_List",0

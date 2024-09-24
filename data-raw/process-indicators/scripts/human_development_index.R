@@ -34,6 +34,8 @@ for (i in 1:nrow(cty)) {
 }
 
 dat <- bind_rows(results, .id = "UNION") %>%
-  pivot_longer(., cols = everything(), names_to = "UNION", values_to = "HDI_2015")
+  pivot_longer(., cols = everything(), names_to = "Country", values_to = "Value") %>%
+  mutate(Year = 2015,
+         Indicator = 'Human_Development_Index')
 
 write.csv(dat, "data-raw/process-indicators/data-processed/Human Development Index.csv", row.names = FALSE)

@@ -14,6 +14,8 @@
 # Unit: t/ha
 # Source: https://zenodo.org/records/7729492
 
+# note that 1 Megagram (Mg) = 1 metric tonne (t)
+
 library(tidyverse)
 library(terra)
 library(sf)
@@ -90,6 +92,12 @@ dat <- left_join(dat, agb_pa, by = "UNION") %>%
          mangrove_pa_soc_percentage = mangrove_pa_soc_t / mangrove_soc_t * 100) %>%
   select(c(UNION, mangrove_agb_Mg, mangrove_pa_agb_Mg, mangrove_pa_agb_percentage ,
              mangrove_soc_t, mangrove_pa_soc_t, mangrove_pa_soc_percentage)) %>%
+  mutate(across(!ends_with("percentage"), function(x) ifelse(is.na(x), 0, x))) %>%
+  mutate(mangrove_agb_C_Mg = mangrove_agb_Mg*0.451, # convert AGB to carbon using stoichiometric factor of 0.451 (Simard et al. 2019)
+         mangrove_pa_agb_C_Mg = mangrove_pa_agb_Mg*0.451) %>%
+  mutate(total_mangrove_carbon_Mg = mangrove_agb_C_Mg + mangrove_soc_t,
+         total_mangrove_carbon_pa_Mg = mangrove_pa_agb_C_Mg + mangrove_pa_soc_t,
+         total_mangrove_carbon_pa_percentage = total_mangrove_carbon_pa_Mg / total_mangrove_carbon_Mg *100) %>%  # calculate total carbon stored above and below ground (megagrams and metric tonnes are equivalent)
   mutate(across(!ends_with("percentage"), function(x) ifelse(is.na(x), 0, x)))
 
-write.csv(dat, 'data-raw/process-indicators/data-processed/protected mangrove carbon.csv', row.names = FALSE)
+write.csv(dat, 'data-raw/process-indicators/data-downloaded/effective-protection/protected mangrove carbon.csv', row.names = FALSE)

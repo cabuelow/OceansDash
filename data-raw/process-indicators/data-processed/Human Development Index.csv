@@ -1,14 +1,14 @@
-"UNION","HDI_2015"
-"Mexico",0.762056946754456
-"Colombia",0.726937592029572
-"Chile",0.835279107093811
-"Papua New Guinea",0.516009211540222
-"Alaska",0.94819575548172
-"Tanzania",0.530846834182739
-"Fiji",0.736000001430511
-"Indonesia",0.680784285068512
-"Solomon Islands",0.515130043029785
-"Ecuador",0.738987028598785
-"Mozambique",0.418677598237991
-"Peru",0.739690899848938
-"Madagascar",0.512000024318695
+Country,Value,Year,Indicator
+Mexico,0.762056947,2015,Human_Development_Index
+Colombia,0.726937592,2015,Human_Development_Index
+Chile,0.835279107,2015,Human_Development_Index
+Papua New Guinea,0.516009212,2015,Human_Development_Index
+Alaska,0.948195755,2015,Human_Development_Index
+Tanzania,0.530846834,2015,Human_Development_Index
+Fiji,0.736000001,2015,Human_Development_Index
+Indonesia,0.680784285,2015,Human_Development_Index
+Solomon Islands,0.515130043,2015,Human_Development_Index
+Ecuador,0.738987029,2015,Human_Development_Index
+Mozambique,0.418677598,2015,Human_Development_Index
+Peru,0.7396909,2015,Human_Development_Index
+Madagascar,0.512000024,2015,Human_Development_Index
