@@ -8,7 +8,14 @@ col_pal <- c("#000000","#004949","#009292","#ff6db6","#ffb6db",
              "#920000","#924900","#db6d00","#24ff24","#ffff6d", "#000099", 'grey23')
 
 # read in and wrangle data -------------------------------------------------
-indicators <- read.csv(file.path('data-raw', 'indicators.csv'))
+indicators <- read.csv(file.path('data-raw', 'indicators.csv')) %>%
+  mutate(Region = case_when(Country == 'Alaska' ~ 'Arctic',
+                            Country %in% c('Mexico', 'Colombia', 'Ecuador', 'Peru', 'Chile') ~ 'Eastern Pacific',
+                            Country %in% c('Madagascar', 'Mozambique', 'Tanzania') ~ 'Southwest Indian Ocean',
+                            Country %in% c('Papua New Guinea', 'Indonesia', 'Fiji', 'Solomon Islands') ~ 'Western Pacific'),
+         Indicator_category = case_when(Indicator %in% c('Marine_Red_List', 'Marine_Living_Planet', 'Fisheries_Stock_Condition', 'Habitat_Condition', 'Effective_Protection') ~ 'Nature',
+                                        Indicator %in% c('Small_Scale_Fisheries_Rights', 'Wealth_Relative_Index', 'Human_Development_Index') ~ 'People',
+                                        Indicator %in% c('Habitat_Carbon_Storage', 'Climate_Adaptation_Plans', 'Carbon_Under_Effective_Protection') ~ 'Climate'))
 base_targets <- read.csv(file.path("data-raw", "base_targets.csv"))
 
 # make extras for widgets, etc -------------------------------------------------
