@@ -108,6 +108,8 @@ Scripts for processing indicator data are located in the **'data-raw/process-ind
 6. [Human Development Index](#human-development-index)
 7. [Climate Adaptation Plans](#climate-adaptation-plans)
 
+**Important!** After you have updated data for any of the indicators (following the instructions provided below), you will need to make the new data available internally to the dashboard application by running the script: **data-raw/make-sysdata.R**.
+
 #### Indicators derived from the Ocean Health Index: Marine Red List | Fisheries Stock Condition | Habitat Condition | Carbon storage
 
 The *Marine Red List*, *Fisheries Stock Condition*, *Habitat Condition*, and *Carbon Storage* indicators are all sourced from the [Ocean Health Index](https://oceanhealthindex.org/). All indicator values are standardised on a scale from 0 to 100, with higher values indicating better status relative to low values. A description of each indicator is provided below.
