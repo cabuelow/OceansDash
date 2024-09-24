@@ -24,7 +24,7 @@ The Oceans Dashboard displays indicator time-series data to monitor progress tow
 If you wish to run the Oceans Dashboard offline, you can install the development version from Github using:
 
 ``` r
-devtools::install_github("cabuelow/OceansDash")
+devtools::install_github("cabuelow/OceansDash", build_vignettes = TRUE)
 ```
 
 run the application using:
@@ -40,7 +40,7 @@ and access the user manual:
 vignette('User_Manual', package='OceansDash')
 ```
 
-Please note however, that the above download and installation is not required if you simply want to use the Oceans Dashboard. The latest version is available on the [Shiny Server](https://cbuelow.shinyapps.io/OceansDash/)
+The above download and installation is not required if you simply want to use the Oceans Dashboard. The latest version is available on the [Shiny Server](https://cbuelow.shinyapps.io/OceansDash/)
 
 ## Instructions for contributing
 
