@@ -12,19 +12,19 @@
 "Mozambique",2020,"Carbon_Under_Effective_Protection",55.0168381
 "Peru",2020,"Carbon_Under_Effective_Protection",30.3813811
 "Madagascar",2020,"Carbon_Under_Effective_Protection",17.3934828
-"Mexico",2020,"Effective_Protection",78.0714643
-"Colombia",2020,"Effective_Protection",72.6517023
-"Chile",2020,"Effective_Protection",42.612057
-"Papua New Guinea",2020,"Effective_Protection",5.2100158
-"Alaska",2020,"Effective_Protection",25.7594088
-"Tanzania",2020,"Effective_Protection",57.331378
-"Fiji",2020,"Effective_Protection",34.3171747
-"Indonesia",2020,"Effective_Protection",10.2295504
-"Solomon Islands",2020,"Effective_Protection",6.5599745
-"Ecuador",2020,"Effective_Protection",53.135108
-"Mozambique",2020,"Effective_Protection",38.5980777
-"Peru",2020,"Effective_Protection",28.5562537
-"Madagascar",2020,"Effective_Protection",21.2594765
+"Mexico",2020,"Effective_Protection",78.0714643068985
+"Colombia",2020,"Effective_Protection",72.6517023467545
+"Chile",2020,"Effective_Protection",42.6120569700198
+"Papua New Guinea",2020,"Effective_Protection",5.21001580381466
+"Alaska",2020,"Effective_Protection",25.7594088117013
+"Tanzania",2020,"Effective_Protection",57.3313780464402
+"Fiji",2020,"Effective_Protection",34.3171747447705
+"Indonesia",2020,"Effective_Protection",26.6839418495444
+"Solomon Islands",2020,"Effective_Protection",6.55997454772274
+"Ecuador",2020,"Effective_Protection",53.1351080314927
+"Mozambique",2020,"Effective_Protection",38.5980777021111
+"Peru",2020,"Effective_Protection",28.556253737269
+"Madagascar",2020,"Effective_Protection",21.2594764842018
 "Mexico",2015,"Human_Development_Index",0.762056947
 "Colombia",2015,"Human_Development_Index",0.726937592
 "Chile",2015,"Human_Development_Index",0.835279107
@@ -39,7 +39,7 @@
 "Peru",2015,"Human_Development_Index",0.7396909
 "Madagascar",2015,"Human_Development_Index",0.512000024
 "Mexico",2020,"Marine_Living_Planet",0.291788840432599
-"United States",2020,"Marine_Living_Planet",2.59604747400616
+"Alaska",2020,"Marine_Living_Planet",2.59604747400616
 "Peru",2020,"Marine_Living_Planet",0.836746568052242
 "Chile",2020,"Marine_Living_Planet",0.910938378413166
 "Ecuador",2020,"Marine_Living_Planet",0.406811612089558
