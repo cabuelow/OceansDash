@@ -20,7 +20,7 @@ output <- left_join(mangrove, coral, by = "UNION") %>%
   select(UNION, Effective_Protection) %>%
   mutate(Year = 2020) %>%
   pivot_longer(Effective_Protection, names_to = 'Indicator', values_to = 'Value') %>%
-  rename(UNION = Country) %>%
+  rename(Country = UNION) %>%
   mutate(Value = Value *100) # convert to percentage rather than proportion
 
 # save output data
@@ -35,7 +35,7 @@ output2 <- left_join(mangrove_carbon, marsh_carbon, by = "UNION") %>%
   select(UNION, Carbon_Under_Effective_Protection) %>%
   mutate(Year = 2020) %>%
   pivot_longer(Carbon_Under_Effective_Protection, names_to = 'Indicator', values_to = 'Value') %>%
-  rename(UNION = Country) %>%
+  rename(Country = UNION) %>%
   mutate(Value = Value *100) # convert to percentage rather than proportion
 
 # save output data

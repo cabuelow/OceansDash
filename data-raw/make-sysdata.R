@@ -15,7 +15,14 @@ indicators <- read.csv(file.path('data-raw', 'indicators.csv')) %>%
                             Country %in% c('Papua New Guinea', 'Indonesia', 'Fiji', 'Solomon Islands') ~ 'Western Pacific'),
          Indicator_category = case_when(Indicator %in% c('Marine_Red_List', 'Marine_Living_Planet', 'Fisheries_Stock_Condition', 'Habitat_Condition', 'Effective_Protection') ~ 'Nature',
                                         Indicator %in% c('Small_Scale_Fisheries_Rights', 'Wealth_Relative_Index', 'Human_Development_Index') ~ 'People',
-                                        Indicator %in% c('Habitat_Carbon_Storage', 'Climate_Adaptation_Plans', 'Carbon_Under_Effective_Protection') ~ 'Climate'))
+                                        Indicator %in% c('Habitat_Carbon_Storage', 'Climate_Adaptation_Plans', 'Carbon_Under_Effective_Protection') ~ 'Climate'),
+         Units = case_when(Indicator %in% c('Marine_Red_List', 'Marine_Living_Planet', 'Fisheries_Stock_Condition', 'Habitat_Condition', 'Habitat_Carbon_Storage', 'Wealth_Relative_Index') ~ '\n(Standardised value (0 = Low, 100 = High))',
+                           Indicator %in% c('Effective_Protection', 'Carbon_Under_Effective_Protection') ~ '\n(Percent protected)',
+                           Indicator == 'Small_Scale_Fisheries_Rights' ~ '\n(Implementation level (1 = Low, 5 = High))',
+                           Indicator == 'Human_Development_Index' ~ '\n(Standardised value (0 = Low, 1 = High))'),
+         Label = gsub("_", " ", Indicator)
+         )
+indicators$Label <- paste0(indicators$Label, indicators$Units)
 base_targets <- read.csv(file.path("data-raw", "base_targets.csv"))
 
 # make extras for widgets, etc -------------------------------------------------

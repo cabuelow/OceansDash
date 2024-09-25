@@ -54,17 +54,17 @@ mod_ind_timeseries_server <- function(id, country, region, tabPanel){
     })
 
     output$text <- renderText({
-      if(nrow(ind()[[1]])==0){'Please choose Region(s) or Country(s) from panels on the left and Indicators to display from above'}
+      if(nrow(ind()[[1]])==0){'Please choose Region(s) or Country(s) from panels on the left and Indicators to display from above. (Note that choosing Region(s) will calculate and plot an average indicator score for all countries belonging to that region.)'}
     })
 
     output$plot <- plotly::renderPlotly({
       if(nrow(ind()[[1]])>0){
-        if(length(ind()) == 1){
-          ggplot2::ggplot(ind()[[1]]) + ggplot2::aes(x = Year, y = Value, col = RegionCountry) + ggplot2::geom_point() + ggplot2::geom_smooth() + ggplot2::facet_wrap(~Indicator, ncol = 1, scales = 'free') + ggplot2::ylab('Standardised indicator value') + ggplot2::xlab('Year') + ggplot2::scale_color_manual(values = col_pal, name = NULL) + ggplot2::theme_classic() + ggplot2::theme(text = ggplot2::element_text(size = 13))}
-        else if(length(ind()) == 2){
-          ggplot2::ggplot() + ggplot2::geom_point(data = ind()[[1]], ggplot2::aes(x = Year, y = Value, col = RegionCountry)) + ggplot2::geom_smooth(data = ind()[[1]], ggplot2::aes(x = Year, y = Value, col = RegionCountry)) + ggplot2::geom_line(data = ind()[[2]], ggplot2::aes(x = Year, y = Value, col = Country), size = 2, alpha = 0.5, linetype = 'dashed') + ggplot2::facet_wrap(~Indicator, ncol = 1, scales = 'free') + ggplot2::ylab('Standardised indicator value') + ggplot2::xlab('Year') + ggplot2::scale_color_manual(values = col_pal, name = NULL) + ggplot2::theme_classic() + ggplot2::theme(text = ggplot2::element_text(size = 13))
-        }else if(length(ind()) == 3){
-          ggplot2::ggplot() + ggplot2::geom_point(data = ind()[[1]], ggplot2::aes(x = Year, y = Value, col = RegionCountry)) + ggplot2::geom_smooth(data = ind()[[1]], ggplot2::aes(x = Year, y = Value, col = RegionCountry)) + ggplot2::geom_line(data = ind()[[2]], ggplot2::aes(x = Year, y = Value, col = Country), size = 2, alpha = 0.5, linetype = 'dashed') + ggplot2::geom_line(data = ind()[[3]], ggplot2::aes(x = Year, y = Value, col = Country), size = 2, alpha = 0.5, linetype = 'dashed') + ggplot2::facet_wrap(~Indicator, ncol = 1, scales = 'free') + ggplot2::ylab('Standardised indicator value') + ggplot2::xlab('Year') + ggplot2::scale_color_manual(values = col_pal, name = NULL) + ggplot2::theme_classic() + ggplot2::theme(text = ggplot2::element_text(size = 13))
+        if(length(ind()) == 1){ # if length is equal to 1, then there are only indicator values (no baseline or target values) to plot
+          ggplot2::ggplot(ind()[[1]]) + ggplot2::aes(x = Year, y = Value, col = RegionCountry) + ggplot2::geom_point() + ggplot2::geom_smooth() + ggplot2::facet_wrap(~Label, ncol = 1, scales = 'free_y') + ggplot2::ylab(NULL) + ggplot2::xlab('Year') + ggplot2::scale_color_manual(values = col_pal, name = NULL) + ggplot2::theme(text = ggplot2::element_text(size = 13), strip.background = ggplot2::element_blank(), strip.placement = "outside")}
+        else if(length(ind()) == 2){ # if length is equal to 2, then there are indicator values and either baseline or target values to plot
+          ggplot2::ggplot() + ggplot2::geom_point(data = ind()[[1]], ggplot2::aes(x = Year, y = Value, col = RegionCountry)) + ggplot2::geom_smooth(data = ind()[[1]], ggplot2::aes(x = Year, y = Value, col = RegionCountry)) + ggplot2::geom_line(data = ind()[[2]], ggplot2::aes(x = Year, y = Value, col = Country), size = 2, alpha = 0.5, linetype = 'dashed') + ggplot2::facet_wrap(~Label, ncol = 1, scales = 'free_y') + ggplot2::ylab(NULL) + ggplot2::xlab('Year') + ggplot2::scale_color_manual(values = col_pal, name = NULL) + ggplot2::theme(text = ggplot2::element_text(size = 13), strip.background = ggplot2::element_blank(), strip.placement = "outside")
+        }else if(length(ind()) == 3){ # if length is equal to 3, then there are indicator, baseline, and target values to plot
+          ggplot2::ggplot() + ggplot2::geom_point(data = ind()[[1]], ggplot2::aes(x = Year, y = Value, col = RegionCountry)) + ggplot2::geom_smooth(data = ind()[[1]], ggplot2::aes(x = Year, y = Value, col = RegionCountry)) + ggplot2::geom_line(data = ind()[[2]], ggplot2::aes(x = Year, y = Value, col = Country), size = 2, alpha = 0.5, linetype = 'dashed') + ggplot2::geom_line(data = ind()[[3]], ggplot2::aes(x = Year, y = Value, col = Country), size = 2, alpha = 0.5, linetype = 'dashed') + ggplot2::facet_wrap(~Label, ncol = 1, scales = 'free_y') + ggplot2::ylab(NULL) + ggplot2::xlab('Year') + ggplot2::scale_color_manual(values = col_pal, name = NULL) + ggplot2::theme(text = ggplot2::element_text(size = 13), strip.background = ggplot2::element_blank(), strip.placement = "outside")
         }
       }
     })
