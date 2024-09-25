@@ -34,7 +34,8 @@ qtm(dat.alaska[,1]) # map it
 # filter full dataset for marine species only and for countries/regions of interest (note there are no records for Madagascar)
 
 datsub <- dat.sf %>%
-  filter(System == 'Marine' & Country %in% c('Mexico', 'Colombia', 'Ecuador', 'Peru', 'Chile', 'Mozambique', 'Papua New Guinea', 'Indonesia', 'Fiji', 'Solomon Islands', 'Tanzania, United Republic Of', "Madagascar") | System == 'Marine' & ID %in% dat.alaska$ID)
+  filter(System == 'Marine' & Country %in% c('Mexico', 'Colombia', 'Ecuador', 'Peru', 'Chile', 'Mozambique', 'Papua New Guinea', 'Indonesia', 'Fiji', 'Solomon Islands', 'Tanzania, United Republic Of', "Madagascar") | System == 'Marine' & ID %in% dat.alaska$ID) %>%
+  mutate(Country = ifelse(Country == 'United States', 'Alaska', Country))
 qtm(datsub[,1]) # map it
 
 # calculate the LPI for marine species in each country, i.e. average rate of change in marine population sizes between 1970 and 2021
