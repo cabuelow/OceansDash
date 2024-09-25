@@ -164,13 +164,12 @@ The percentage of habitat under effective protection was calculated for mangrove
 
 To update the **Effective protection** indicator for each habitat:
 
-1.	For mangroves and tidal marsh, download the latest version of the data and save it in the folder **“data-raw/process-indicators/data-downloaded/effective-protection/”**.  
-2.	For coral, open **“data-raw/process-indicators/scripts/download_coral_extent_from_GEE.R”** to download new data. Replace the path at Line 44 with the new data source and run the script.
-3.	Open **“data-raw/process-indicators/scripts/protected_mangrove.R”**. Replace the data path in Line 24 with the path to the new data and run the script. This step can be skipped if no new data is available.
-4.	Open **“data-raw/process-indicators/scripts/protected_coral.R”**. Replace the data path in Line 31 with the path to the new data and run the script. This step can be skipped if no new data is available.
-5.	Open **“data-raw/process-indicators/scripts/protected_marsh.R”**. Replace the data path in Line 25 with the path to the new data and run the script. This step can be skipped if no new data is available.
-6.	Run **“data-raw/process-indicators/scripts/effective_protection_output.R”** to compile data. Run this step whenever the extent data is updated.
-7. If you are updating other indicators, do that first before then running an R script that combines all of the processed indicators into a single dataframe that can be used in the dashboard application: **'data-raw/process-indicators/scripts/export-processed-indicators.R'**.
+1.	Download the latest version of the data and save it in the folder **“data-raw/process-indicators/data-downloaded/effective-protection/”**.  
+2.	Open **“data-raw/process-indicators/scripts/protected_mangrove.R”**. Replace the data path in Line 24 with the path to the new data and run the script. This step can be skipped if no new data is available.
+3.	Open **“data-raw/process-indicators/scripts/protected_coral.R”**. Replace the data path in Line 25 with the path to the new data and run the script. This step can be skipped if no new data is available.
+4.	Open **“data-raw/process-indicators/scripts/protected_marsh.R”**. Replace the data path in Line 25 with the path to the new data and run the script. This step can be skipped if no new data is available.
+5.	Run **“data-raw/process-indicators/scripts/effective_protection_output.R”** to compile data. Run this step whenever the extent data is updated.
+6. If you are updating other indicators, do that first before then running an R script that combines all of the processed indicators into a single dataframe that can be used in the dashboard application: **'data-raw/process-indicators/scripts/export-processed-indicators.R'**.
 
 ##### Carbon Under Effective Protection
 
