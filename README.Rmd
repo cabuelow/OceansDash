@@ -87,5 +87,3 @@ golem::run_dev()
 - Declare packages that functions belong to explicitly with `::`, e.g. `dplyr::mutate` or you will get an error message saying that the function cannot be found
 
 ## Development TODO
-
-- Tune server to improve speed - it seems to be the mapping filtering that is slowing things down, not the timeseries filtering
