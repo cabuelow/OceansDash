@@ -14,20 +14,25 @@ If you wish to run the Oceans Dashboard offline, you can install the
 development version from Github using:
 
 ``` r
-devtools::install_github("cabuelow/OceansDash")
+devtools::install_github("cabuelow/OceansDash", build_vignettes = TRUE)
 ```
 
-and run the application using:
+run the application using:
 
 ``` r
 library(OceansDash)
 run_app()
 ```
 
-Please note however, that the above download and installation is not
-required if you simply want to use the Oceans Dashboard. The latest
-version is available on the [Shiny
-Server](https://cbuelow.shinyapps.io/OceansDash/)
+and access the user manual:
+
+``` r
+vignette('User_Manual', package='OceansDash')
+```
+
+The above download and installation is not required if you simply want
+to use the Oceans Dashboard. The latest version is available on the
+[Shiny Server](https://cbuelow.shinyapps.io/OceansDash/)
 
 ## Instructions for contributing
 
@@ -56,9 +61,7 @@ If you are further developing {OceansDash}, start by:
 
 - This is where you can:
   - 1)  add packages,
-
   - 2)  add modules, and
-
   - 3)  add ‘business’ logic (as opposed to application logic) in the
         form of of functions (add_fct) or utilities (add_utils) - the
         latter being smaller functions that will be used several times.
@@ -77,58 +80,30 @@ If you are further developing {OceansDash}, start by:
 - Here you will find the following R scripts and files:
   - 1)  The `app_ui.R` and `app_server.R` files that serve to provide
         the main app structure and integrate modules,
-
   - 2)  Any modules (aka ‘sub-apps’, e.g., `mod_main.R`), and
-
   - 3)  The `sysdata.rda` file created via Step 2 above
 
 5.  Once you have made changes to any of the above, you can run the
     development version of the app via:
 
 ``` r
-golem::run_dev
+golem::run_dev()
 ```
 
 6.  If you want to deploy the app to a shinyapps.io server, run the
-    development version as above and hit ‘Publish’ on the top right
-    corner of the app as it is running.
+    development version as above and click the ‘Publish’ or ‘Re-publish’
+    button on the top right corner of the app as it is running.
 
-*As you can see, there are many other files in the {OceansDash} package
-that are not discussed here. Those not mentioned are not neccesary for
-app development, but you can find more information on what they do/how
-to use them [here](https://engineering-shiny.org/build-app-golem.html)*
+*Note that there are many other files in the {OceansDash} package that
+are not discussed here. Those not mentioned are not necessary for
+editing or updating the dashboard application, but you can find more
+information on what they do/how to use them
+[here](https://engineering-shiny.org/build-app-golem.html)*.
 
 ## Tips and Tricks
 
 - Declare packages that functions belong to explicitly with `::`,
-  e.g. `dplyr::mutate` or you will get an error that it can’t find the
-  function
+  e.g. `dplyr::mutate` or you will get an error message saying that the
+  function cannot be found
 
 ## Development TODO
-
-- See if can eliminate the ‘region’ dropdown but plot still plot
-  regional average if all countries in a region are selected
-
-- Get real data and integrate
-
-- Tune server to improve speed - it seems to be the mapping filtering
-  that is slowing things down, not the timeseries filtering
-
-- Start drafting manual for updating, etc.
-
-- Turn plotting and wrangling code that is repeated within the app into
-  ‘business logic’ functions - either as functions (fct) or utilities
-  (utils)
-
-- Mapping - *to complete when have fully integrated all data into the
-  app*
-
-  - Just use countries (rather than EEZs) for selecting regions and
-    countries
-  - Try EEZ layer as a bsemap
-  - Change name of basemap layers to Gray Canvas, Street Map, Topo Map
-  - Add Ocean basemap.
-  - If these features don’t slow down the app, can you add:
-    - MPAs from the WDPA data set (only when countries are selected)
-    - Coastal ecosystems such as mangroves, coral reefs, saltmarshes,
-      seagrass (when countries are selected)
