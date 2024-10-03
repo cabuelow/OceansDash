@@ -1,0 +1,1431 @@
+"Year","Country","Type","Indicator","Value"
+2020,"Alaska","Baseline_2020","Marine_Red_List",0.041986421495676
+2020,"Alaska","Baseline_2020","Marine_Living_Planet",0.0866653708275408
+2020,"Alaska","Baseline_2020","Fisheries_Stock_Condition",0.0540256182895973
+2020,"Alaska","Baseline_2020","Habitat_Condition",0.00658083211164922
+2020,"Alaska","Baseline_2020","Effective_Protection",0.0679022809490561
+2020,"Alaska","Baseline_2020","Small_Scale_Fisheries_Rights",0.0785348618403077
+2020,"Alaska","Baseline_2020","Wealth_Relative_Index",0.0249684700742364
+2020,"Alaska","Baseline_2020","Human_Development_Index",0.024872636445798
+2020,"Alaska","Baseline_2020","Climate_Adaptation_Plans",0.0735558403655887
+2020,"Alaska","Baseline_2020","Habitat_Carbon_Storage",0.0846195757621899
+2020,"Alaska","Baseline_2020","Carbon_Under_Effective_Protection",0.0843914708122611
+2020,"Mexico","Baseline_2020","Marine_Red_List",0.035543467104435
+2020,"Mexico","Baseline_2020","Marine_Living_Planet",0.052940575638786
+2020,"Mexico","Baseline_2020","Fisheries_Stock_Condition",0.0819682518485934
+2020,"Mexico","Baseline_2020","Habitat_Condition",0.0854369923705235
+2020,"Mexico","Baseline_2020","Effective_Protection",0.0866189130349085
+2020,"Mexico","Baseline_2020","Small_Scale_Fisheries_Rights",0.0542188289808109
+2020,"Mexico","Baseline_2020","Wealth_Relative_Index",0.00431172808166593
+2020,"Mexico","Baseline_2020","Human_Development_Index",0.0614953953772783
+2020,"Mexico","Baseline_2020","Climate_Adaptation_Plans",0.0549279793864116
+2020,"Mexico","Baseline_2020","Habitat_Carbon_Storage",0.0236872595502064
+2020,"Mexico","Baseline_2020","Carbon_Under_Effective_Protection",0.0534759046975523
+2020,"Colombia","Baseline_2020","Marine_Red_List",0.0392331253970042
+2020,"Colombia","Baseline_2020","Marine_Living_Planet",0.0598638546885923
+2020,"Colombia","Baseline_2020","Fisheries_Stock_Condition",0.070297950389795
+2020,"Colombia","Baseline_2020","Habitat_Condition",0.0510411301394925
+2020,"Colombia","Baseline_2020","Effective_Protection",0.079969711555168
+2020,"Colombia","Baseline_2020","Small_Scale_Fisheries_Rights",0.0416547345230356
+2020,"Colombia","Baseline_2020","Wealth_Relative_Index",0.0110678787576035
+2020,"Colombia","Baseline_2020","Human_Development_Index",0.00317573207430542
+2020,"Colombia","Baseline_2020","Climate_Adaptation_Plans",0.0346127043943852
+2020,"Colombia","Baseline_2020","Habitat_Carbon_Storage",0.0704877850599587
+2020,"Colombia","Baseline_2020","Carbon_Under_Effective_Protection",0.0302235261537135
+2020,"Ecuador","Baseline_2020","Marine_Red_List",0.0171936832368374
+2020,"Ecuador","Baseline_2020","Marine_Living_Planet",0.0937632332323119
+2020,"Ecuador","Baseline_2020","Fisheries_Stock_Condition",0.0567748373607174
+2020,"Ecuador","Baseline_2020","Habitat_Condition",0.020999805862084
+2020,"Ecuador","Baseline_2020","Effective_Protection",0.0134996398352087
+2020,"Ecuador","Baseline_2020","Small_Scale_Fisheries_Rights",0.0998882649000734
+2020,"Ecuador","Baseline_2020","Wealth_Relative_Index",0.0703753812005743
+2020,"Ecuador","Baseline_2020","Human_Development_Index",0.0146423544269055
+2020,"Ecuador","Baseline_2020","Climate_Adaptation_Plans",0.0514965634793043
+2020,"Ecuador","Baseline_2020","Habitat_Carbon_Storage",0.0107608830789104
+2020,"Ecuador","Baseline_2020","Carbon_Under_Effective_Protection",0.0456518182065338
+2020,"Peru","Baseline_2020","Marine_Red_List",0.0319642119342461
+2020,"Peru","Baseline_2020","Marine_Living_Planet",0.0950724098365754
+2020,"Peru","Baseline_2020","Fisheries_Stock_Condition",0.0721309266285971
+2020,"Peru","Baseline_2020","Habitat_Condition",0.0375843436690047
+2020,"Peru","Baseline_2020","Effective_Protection",0.0387498257681727
+2020,"Peru","Baseline_2020","Small_Scale_Fisheries_Rights",0.0255673117004335
+2020,"Peru","Baseline_2020","Wealth_Relative_Index",0.0939021238824353
+2020,"Peru","Baseline_2020","Human_Development_Index",0.0703072973992676
+2020,"Peru","Baseline_2020","Climate_Adaptation_Plans",0.0815767947584391
+2020,"Peru","Baseline_2020","Habitat_Carbon_Storage",0.0779068868607283
+2020,"Peru","Baseline_2020","Carbon_Under_Effective_Protection",0.0384342534467578
+2020,"Chile","Baseline_2020","Marine_Red_List",0.0413555064238608
+2020,"Chile","Baseline_2020","Marine_Living_Planet",0.0660532301291823
+2020,"Chile","Baseline_2020","Fisheries_Stock_Condition",0.0752444213489071
+2020,"Chile","Baseline_2020","Habitat_Condition",0.0207365499809384
+2020,"Chile","Baseline_2020","Effective_Protection",0.0788471929030493
+2020,"Chile","Baseline_2020","Small_Scale_Fisheries_Rights",0.0507875671144575
+2020,"Chile","Baseline_2020","Wealth_Relative_Index",0.0311169018037617
+2020,"Chile","Baseline_2020","Human_Development_Index",0.0065560708520934
+2020,"Chile","Baseline_2020","Climate_Adaptation_Plans",0.0526272569317371
+2020,"Chile","Baseline_2020","Habitat_Carbon_Storage",0.025510568334721
+2020,"Chile","Baseline_2020","Carbon_Under_Effective_Protection",0.0249046854674816
+2020,"Madagascar","Baseline_2020","Marine_Red_List",0.0759335696697235
+2020,"Madagascar","Baseline_2020","Marine_Living_Planet",0.00722865809220821
+2020,"Madagascar","Baseline_2020","Fisheries_Stock_Condition",0.0381422596750781
+2020,"Madagascar","Baseline_2020","Habitat_Condition",0.0459240817232058
+2020,"Madagascar","Baseline_2020","Effective_Protection",0.0692913666600361
+2020,"Madagascar","Baseline_2020","Small_Scale_Fisheries_Rights",0.00789711775723845
+2020,"Madagascar","Baseline_2020","Wealth_Relative_Index",0.00784929301589728
+2020,"Madagascar","Baseline_2020","Human_Development_Index",0.0621807062299922
+2020,"Madagascar","Baseline_2020","Climate_Adaptation_Plans",0.0203040049877018
+2020,"Madagascar","Baseline_2020","Habitat_Carbon_Storage",0.0548043326009065
+2020,"Madagascar","Baseline_2020","Carbon_Under_Effective_Protection",0.0654626744799316
+2020,"Mozambique","Baseline_2020","Marine_Red_List",0.0271890205098316
+2020,"Mozambique","Baseline_2020","Marine_Living_Planet",0.0826331578660756
+2020,"Mozambique","Baseline_2020","Fisheries_Stock_Condition",0.028801028127782
+2020,"Mozambique","Baseline_2020","Habitat_Condition",0.0241502250079066
+2020,"Mozambique","Baseline_2020","Effective_Protection",0.059427297138609
+2020,"Mozambique","Baseline_2020","Small_Scale_Fisheries_Rights",0.0813668364426121
+2020,"Mozambique","Baseline_2020","Wealth_Relative_Index",0.0321744091343135
+2020,"Mozambique","Baseline_2020","Human_Development_Index",0.0937327365390956
+2020,"Mozambique","Baseline_2020","Climate_Adaptation_Plans",0.0848107680445537
+2020,"Mozambique","Baseline_2020","Habitat_Carbon_Storage",0.00339015207719058
+2020,"Mozambique","Baseline_2020","Carbon_Under_Effective_Protection",0.095532370172441
+2020,"Tanzania","Baseline_2020","Marine_Red_List",0.0115582457045093
+2020,"Tanzania","Baseline_2020","Marine_Living_Planet",0.047954407799989
+2020,"Tanzania","Baseline_2020","Fisheries_Stock_Condition",0.0531683327164501
+2020,"Tanzania","Baseline_2020","Habitat_Condition",0.0118690322386101
+2020,"Tanzania","Baseline_2020","Effective_Protection",0.0123857651371509
+2020,"Tanzania","Baseline_2020","Small_Scale_Fisheries_Rights",0.038217916013673
+2020,"Tanzania","Baseline_2020","Wealth_Relative_Index",0.0624905536882579
+2020,"Tanzania","Baseline_2020","Human_Development_Index",0.00878946147859097
+2020,"Tanzania","Baseline_2020","Climate_Adaptation_Plans",0.0370494215050712
+2020,"Tanzania","Baseline_2020","Habitat_Carbon_Storage",0.0806109476136044
+2020,"Tanzania","Baseline_2020","Carbon_Under_Effective_Protection",0.0291082957293838
+2020,"Papua New Guinea","Baseline_2020","Marine_Red_List",0.00293366149999201
+2020,"Papua New Guinea","Baseline_2020","Marine_Living_Planet",0.0391228783410043
+2020,"Papua New Guinea","Baseline_2020","Fisheries_Stock_Condition",0.0259646071353927
+2020,"Papua New Guinea","Baseline_2020","Habitat_Condition",0.00724691497161984
+2020,"Papua New Guinea","Baseline_2020","Effective_Protection",0.055507810274139
+2020,"Papua New Guinea","Baseline_2020","Small_Scale_Fisheries_Rights",0.0802182707935572
+2020,"Papua New Guinea","Baseline_2020","Wealth_Relative_Index",0.0440241849515587
+2020,"Papua New Guinea","Baseline_2020","Human_Development_Index",0.0972803509328514
+2020,"Papua New Guinea","Baseline_2020","Climate_Adaptation_Plans",0.0303325170883909
+2020,"Papua New Guinea","Baseline_2020","Habitat_Carbon_Storage",0.0337752807186916
+2020,"Papua New Guinea","Baseline_2020","Carbon_Under_Effective_Protection",0.0650189086562023
+2020,"Indonesia","Baseline_2020","Marine_Red_List",0.0806855297880247
+2020,"Indonesia","Baseline_2020","Marine_Living_Planet",0.0299122775672004
+2020,"Indonesia","Baseline_2020","Fisheries_Stock_Condition",0.083179031778127
+2020,"Indonesia","Baseline_2020","Habitat_Condition",0.0690989849856123
+2020,"Indonesia","Baseline_2020","Effective_Protection",0.0449411387788132
+2020,"Indonesia","Baseline_2020","Small_Scale_Fisheries_Rights",0.0197923636762425
+2020,"Indonesia","Baseline_2020","Wealth_Relative_Index",0.0801345300627872
+2020,"Indonesia","Baseline_2020","Human_Development_Index",0.00260107105132192
+2020,"Indonesia","Baseline_2020","Climate_Adaptation_Plans",0.0770597046939656
+2020,"Indonesia","Baseline_2020","Habitat_Carbon_Storage",0.0916285858023912
+2020,"Indonesia","Baseline_2020","Carbon_Under_Effective_Protection",0.0536359930876643
+2020,"Fiji","Baseline_2020","Marine_Red_List",0.0480126436566934
+2020,"Fiji","Baseline_2020","Marine_Living_Planet",0.0244308249559253
+2020,"Fiji","Baseline_2020","Fisheries_Stock_Condition",0.0405363884754479
+2020,"Fiji","Baseline_2020","Habitat_Condition",0.0286957619246095
+2020,"Fiji","Baseline_2020","Effective_Protection",0.0766166528686881
+2020,"Fiji","Baseline_2020","Small_Scale_Fisheries_Rights",0.0946399770211429
+2020,"Fiji","Baseline_2020","Wealth_Relative_Index",0.0279283805051819
+2020,"Fiji","Baseline_2020","Human_Development_Index",0.0725227952003479
+2020,"Fiji","Baseline_2020","Climate_Adaptation_Plans",0.0733448554994538
+2020,"Fiji","Baseline_2020","Habitat_Carbon_Storage",0.0357106417883188
+2020,"Fiji","Baseline_2020","Carbon_Under_Effective_Protection",0.0597451866604388
+2020,"Solomon Islands","Baseline_2020","Marine_Red_List",0.0806247940286994
+2020,"Solomon Islands","Baseline_2020","Marine_Living_Planet",0.0421810131752864
+2020,"Solomon Islands","Baseline_2020","Fisheries_Stock_Condition",0.00726319255772978
+2020,"Solomon Islands","Baseline_2020","Habitat_Condition",0.0149412495549768
+2020,"Solomon Islands","Baseline_2020","Effective_Protection",0.00260977216530591
+2020,"Solomon Islands","Baseline_2020","Small_Scale_Fisheries_Rights",0.0345672474242747
+2020,"Solomon Islands","Baseline_2020","Wealth_Relative_Index",0.0570713193388656
+2020,"Solomon Islands","Baseline_2020","Human_Development_Index",0.0453706391621381
+2020,"Solomon Islands","Baseline_2020","Climate_Adaptation_Plans",0.0838905998272821
+2020,"Solomon Islands","Baseline_2020","Habitat_Carbon_Storage",0.0975365013116971
+2020,"Solomon Islands","Baseline_2020","Carbon_Under_Effective_Protection",0.00248982694465667
+2020,"Alaska","Target_2030","Marine_Red_List",0.815801136335358
+2020,"Alaska","Target_2030","Marine_Living_Planet",0.987554035382345
+2020,"Alaska","Target_2030","Fisheries_Stock_Condition",0.99075172492303
+2020,"Alaska","Target_2030","Habitat_Condition",0.994486401835456
+2020,"Alaska","Target_2030","Effective_Protection",0.839034286374226
+2020,"Alaska","Target_2030","Small_Scale_Fisheries_Rights",0.904410049458966
+2020,"Alaska","Target_2030","Wealth_Relative_Index",0.808425602409989
+2020,"Alaska","Target_2030","Human_Development_Index",0.913236480997875
+2020,"Alaska","Target_2030","Climate_Adaptation_Plans",0.913809768483043
+2020,"Alaska","Target_2030","Habitat_Carbon_Storage",0.876875704526901
+2020,"Alaska","Target_2030","Carbon_Under_Effective_Protection",0.800968347908929
+2020,"Mexico","Target_2030","Marine_Red_List",0.823067481908947
+2020,"Mexico","Target_2030","Marine_Living_Planet",0.852897023316473
+2020,"Mexico","Target_2030","Fisheries_Stock_Condition",0.843436756590381
+2020,"Mexico","Target_2030","Habitat_Condition",0.88210287806578
+2020,"Mexico","Target_2030","Effective_Protection",0.976246912963688
+2020,"Mexico","Target_2030","Small_Scale_Fisheries_Rights",0.82233760128729
+2020,"Mexico","Target_2030","Wealth_Relative_Index",0.838143491093069
+2020,"Mexico","Target_2030","Human_Development_Index",0.974546209257096
+2020,"Mexico","Target_2030","Climate_Adaptation_Plans",0.805256167659536
+2020,"Mexico","Target_2030","Habitat_Carbon_Storage",0.897734707035124
+2020,"Mexico","Target_2030","Carbon_Under_Effective_Protection",0.826275650877506
+2020,"Colombia","Target_2030","Marine_Red_List",0.825883257901296
+2020,"Colombia","Target_2030","Marine_Living_Planet",0.91371375080198
+2020,"Colombia","Target_2030","Fisheries_Stock_Condition",0.881125053344294
+2020,"Colombia","Target_2030","Habitat_Condition",0.880362770846114
+2020,"Colombia","Target_2030","Effective_Protection",0.821960318693891
+2020,"Colombia","Target_2030","Small_Scale_Fisheries_Rights",0.977194970240816
+2020,"Colombia","Target_2030","Wealth_Relative_Index",0.945417294139043
+2020,"Colombia","Target_2030","Human_Development_Index",0.910912635922432
+2020,"Colombia","Target_2030","Climate_Adaptation_Plans",0.897225445648655
+2020,"Colombia","Target_2030","Habitat_Carbon_Storage",0.898155246255919
+2020,"Colombia","Target_2030","Carbon_Under_Effective_Protection",0.804963420750573
+2020,"Ecuador","Target_2030","Marine_Red_List",0.947749708406627
+2020,"Ecuador","Target_2030","Marine_Living_Planet",0.840436913538724
+2020,"Ecuador","Target_2030","Fisheries_Stock_Condition",0.925133663089946
+2020,"Ecuador","Target_2030","Habitat_Condition",0.929711269726977
+2020,"Ecuador","Target_2030","Effective_Protection",0.993710185587406
+2020,"Ecuador","Target_2030","Small_Scale_Fisheries_Rights",0.990850994642824
+2020,"Ecuador","Target_2030","Wealth_Relative_Index",0.965338010061532
+2020,"Ecuador","Target_2030","Human_Development_Index",0.947530441451818
+2020,"Ecuador","Target_2030","Climate_Adaptation_Plans",0.908536206558347
+2020,"Ecuador","Target_2030","Habitat_Carbon_Storage",0.802450924832374
+2020,"Ecuador","Target_2030","Carbon_Under_Effective_Protection",0.818425890384242
+2020,"Peru","Target_2030","Marine_Red_List",0.951419706689194
+2020,"Peru","Target_2030","Marine_Living_Planet",0.838561125379056
+2020,"Peru","Target_2030","Fisheries_Stock_Condition",0.925680960761383
+2020,"Peru","Target_2030","Habitat_Condition",0.983261147933081
+2020,"Peru","Target_2030","Effective_Protection",0.877039718581364
+2020,"Peru","Target_2030","Small_Scale_Fisheries_Rights",0.808076152624562
+2020,"Peru","Target_2030","Wealth_Relative_Index",0.902144215069711
+2020,"Peru","Target_2030","Human_Development_Index",0.924625832401216
+2020,"Peru","Target_2030","Climate_Adaptation_Plans",0.967332023382187
+2020,"Peru","Target_2030","Habitat_Carbon_Storage",0.92829464012757
+2020,"Peru","Target_2030","Carbon_Under_Effective_Protection",0.89511164482683
+2020,"Chile","Target_2030","Marine_Red_List",0.998491061711684
+2020,"Chile","Target_2030","Marine_Living_Planet",0.94372234903276
+2020,"Chile","Target_2030","Fisheries_Stock_Condition",0.865647732838988
+2020,"Chile","Target_2030","Habitat_Condition",0.843332427786663
+2020,"Chile","Target_2030","Effective_Protection",0.971718281460926
+2020,"Chile","Target_2030","Small_Scale_Fisheries_Rights",0.8987232377287
+2020,"Chile","Target_2030","Wealth_Relative_Index",0.913545233150944
+2020,"Chile","Target_2030","Human_Development_Index",0.86220568115823
+2020,"Chile","Target_2030","Climate_Adaptation_Plans",0.945732907624915
+2020,"Chile","Target_2030","Habitat_Carbon_Storage",0.902514994330704
+2020,"Chile","Target_2030","Carbon_Under_Effective_Protection",0.839331352245063
+2020,"Madagascar","Target_2030","Marine_Red_List",0.924910597456619
+2020,"Madagascar","Target_2030","Marine_Living_Planet",0.862703579105437
+2020,"Madagascar","Target_2030","Fisheries_Stock_Condition",0.827781898388639
+2020,"Madagascar","Target_2030","Habitat_Condition",0.909599774377421
+2020,"Madagascar","Target_2030","Effective_Protection",0.977476950921118
+2020,"Madagascar","Target_2030","Small_Scale_Fisheries_Rights",0.845212740963325
+2020,"Madagascar","Target_2030","Wealth_Relative_Index",0.800231163948774
+2020,"Madagascar","Target_2030","Human_Development_Index",0.878439296921715
+2020,"Madagascar","Target_2030","Climate_Adaptation_Plans",0.911022761370987
+2020,"Madagascar","Target_2030","Habitat_Carbon_Storage",0.864070423645899
+2020,"Madagascar","Target_2030","Carbon_Under_Effective_Protection",0.962934789713472
+2020,"Mozambique","Target_2030","Marine_Red_List",0.857738021714613
+2020,"Mozambique","Target_2030","Marine_Living_Planet",0.827678025467321
+2020,"Mozambique","Target_2030","Fisheries_Stock_Condition",0.98293143408373
+2020,"Mozambique","Target_2030","Habitat_Condition",0.944010091573
+2020,"Mozambique","Target_2030","Effective_Protection",0.897818299708888
+2020,"Mozambique","Target_2030","Small_Scale_Fisheries_Rights",0.971760067855939
+2020,"Mozambique","Target_2030","Wealth_Relative_Index",0.828755620634183
+2020,"Mozambique","Target_2030","Human_Development_Index",0.840417491085827
+2020,"Mozambique","Target_2030","Climate_Adaptation_Plans",0.81468287948519
+2020,"Mozambique","Target_2030","Habitat_Carbon_Storage",0.916286631533876
+2020,"Mozambique","Target_2030","Carbon_Under_Effective_Protection",0.848811845621094
+2020,"Tanzania","Target_2030","Marine_Red_List",0.839982354873791
+2020,"Tanzania","Target_2030","Marine_Living_Planet",0.811606139549986
+2020,"Tanzania","Target_2030","Fisheries_Stock_Condition",0.919823193456978
+2020,"Tanzania","Target_2030","Habitat_Condition",0.879449201049283
+2020,"Tanzania","Target_2030","Effective_Protection",0.943618361791596
+2020,"Tanzania","Target_2030","Small_Scale_Fisheries_Rights",0.906187146762386
+2020,"Tanzania","Target_2030","Wealth_Relative_Index",0.973193416604772
+2020,"Tanzania","Target_2030","Human_Development_Index",0.9705560779199
+2020,"Tanzania","Target_2030","Climate_Adaptation_Plans",0.827300459844992
+2020,"Tanzania","Target_2030","Habitat_Carbon_Storage",0.92346888165921
+2020,"Tanzania","Target_2030","Carbon_Under_Effective_Protection",0.897761527588591
+2020,"Papua New Guinea","Target_2030","Marine_Red_List",0.960183569742367
+2020,"Papua New Guinea","Target_2030","Marine_Living_Planet",0.986219928227365
+2020,"Papua New Guinea","Target_2030","Fisheries_Stock_Condition",0.949921419192105
+2020,"Papua New Guinea","Target_2030","Habitat_Condition",0.818800278520212
+2020,"Papua New Guinea","Target_2030","Effective_Protection",0.897341114515439
+2020,"Papua New Guinea","Target_2030","Small_Scale_Fisheries_Rights",0.800927630160004
+2020,"Papua New Guinea","Target_2030","Wealth_Relative_Index",0.816512212110683
+2020,"Papua New Guinea","Target_2030","Human_Development_Index",0.921366030164063
+2020,"Papua New Guinea","Target_2030","Climate_Adaptation_Plans",0.936921739252284
+2020,"Papua New Guinea","Target_2030","Habitat_Carbon_Storage",0.887654907535762
+2020,"Papua New Guinea","Target_2030","Carbon_Under_Effective_Protection",0.929776495927945
+2020,"Indonesia","Target_2030","Marine_Red_List",0.945552542060614
+2020,"Indonesia","Target_2030","Marine_Living_Planet",0.913667602417991
+2020,"Indonesia","Target_2030","Fisheries_Stock_Condition",0.983790949033573
+2020,"Indonesia","Target_2030","Habitat_Condition",0.926979281008244
+2020,"Indonesia","Target_2030","Effective_Protection",0.997741772187874
+2020,"Indonesia","Target_2030","Small_Scale_Fisheries_Rights",0.855512016033754
+2020,"Indonesia","Target_2030","Wealth_Relative_Index",0.848914136411622
+2020,"Indonesia","Target_2030","Human_Development_Index",0.951219602767378
+2020,"Indonesia","Target_2030","Climate_Adaptation_Plans",0.819924387242645
+2020,"Indonesia","Target_2030","Habitat_Carbon_Storage",0.834073796123266
+2020,"Indonesia","Target_2030","Carbon_Under_Effective_Protection",0.831743294000626
+2020,"Fiji","Target_2030","Marine_Red_List",0.843409594940022
+2020,"Fiji","Target_2030","Marine_Living_Planet",0.823554072109982
+2020,"Fiji","Target_2030","Fisheries_Stock_Condition",0.905753079196438
+2020,"Fiji","Target_2030","Habitat_Condition",0.800495762052015
+2020,"Fiji","Target_2030","Effective_Protection",0.812950225919485
+2020,"Fiji","Target_2030","Small_Scale_Fisheries_Rights",0.865040628612042
+2020,"Fiji","Target_2030","Wealth_Relative_Index",0.996308631496504
+2020,"Fiji","Target_2030","Human_Development_Index",0.912503361748532
+2020,"Fiji","Target_2030","Climate_Adaptation_Plans",0.840757181029767
+2020,"Fiji","Target_2030","Habitat_Carbon_Storage",0.94301609932445
+2020,"Fiji","Target_2030","Carbon_Under_Effective_Protection",0.967395582189783
+2020,"Solomon Islands","Target_2030","Marine_Red_List",0.948847701074556
+2020,"Solomon Islands","Target_2030","Marine_Living_Planet",0.912958896299824
+2020,"Solomon Islands","Target_2030","Fisheries_Stock_Condition",0.874395749205723
+2020,"Solomon Islands","Target_2030","Habitat_Condition",0.842104647960514
+2020,"Solomon Islands","Target_2030","Effective_Protection",0.831532555585727
+2020,"Solomon Islands","Target_2030","Small_Scale_Fisheries_Rights",0.917741255322471
+2020,"Solomon Islands","Target_2030","Wealth_Relative_Index",0.915516255889088
+2020,"Solomon Islands","Target_2030","Human_Development_Index",0.855179802561179
+2020,"Solomon Islands","Target_2030","Climate_Adaptation_Plans",0.873196027660742
+2020,"Solomon Islands","Target_2030","Habitat_Carbon_Storage",0.949557309737429
+2020,"Solomon Islands","Target_2030","Carbon_Under_Effective_Protection",0.887319305958226
+2021,"Alaska","Baseline_2020","Marine_Red_List",0.041986421495676
+2021,"Alaska","Baseline_2020","Marine_Living_Planet",0.0866653708275408
+2021,"Alaska","Baseline_2020","Fisheries_Stock_Condition",0.0540256182895973
+2021,"Alaska","Baseline_2020","Habitat_Condition",0.00658083211164922
+2021,"Alaska","Baseline_2020","Effective_Protection",0.0679022809490561
+2021,"Alaska","Baseline_2020","Small_Scale_Fisheries_Rights",0.0785348618403077
+2021,"Alaska","Baseline_2020","Wealth_Relative_Index",0.0249684700742364
+2021,"Alaska","Baseline_2020","Human_Development_Index",0.024872636445798
+2021,"Alaska","Baseline_2020","Climate_Adaptation_Plans",0.0735558403655887
+2021,"Alaska","Baseline_2020","Habitat_Carbon_Storage",0.0846195757621899
+2021,"Alaska","Baseline_2020","Carbon_Under_Effective_Protection",0.0843914708122611
+2021,"Mexico","Baseline_2020","Marine_Red_List",0.035543467104435
+2021,"Mexico","Baseline_2020","Marine_Living_Planet",0.052940575638786
+2021,"Mexico","Baseline_2020","Fisheries_Stock_Condition",0.0819682518485934
+2021,"Mexico","Baseline_2020","Habitat_Condition",0.0854369923705235
+2021,"Mexico","Baseline_2020","Effective_Protection",0.0866189130349085
+2021,"Mexico","Baseline_2020","Small_Scale_Fisheries_Rights",0.0542188289808109
+2021,"Mexico","Baseline_2020","Wealth_Relative_Index",0.00431172808166593
+2021,"Mexico","Baseline_2020","Human_Development_Index",0.0614953953772783
+2021,"Mexico","Baseline_2020","Climate_Adaptation_Plans",0.0549279793864116
+2021,"Mexico","Baseline_2020","Habitat_Carbon_Storage",0.0236872595502064
+2021,"Mexico","Baseline_2020","Carbon_Under_Effective_Protection",0.0534759046975523
+2021,"Colombia","Baseline_2020","Marine_Red_List",0.0392331253970042
+2021,"Colombia","Baseline_2020","Marine_Living_Planet",0.0598638546885923
+2021,"Colombia","Baseline_2020","Fisheries_Stock_Condition",0.070297950389795
+2021,"Colombia","Baseline_2020","Habitat_Condition",0.0510411301394925
+2021,"Colombia","Baseline_2020","Effective_Protection",0.079969711555168
+2021,"Colombia","Baseline_2020","Small_Scale_Fisheries_Rights",0.0416547345230356
+2021,"Colombia","Baseline_2020","Wealth_Relative_Index",0.0110678787576035
+2021,"Colombia","Baseline_2020","Human_Development_Index",0.00317573207430542
+2021,"Colombia","Baseline_2020","Climate_Adaptation_Plans",0.0346127043943852
+2021,"Colombia","Baseline_2020","Habitat_Carbon_Storage",0.0704877850599587
+2021,"Colombia","Baseline_2020","Carbon_Under_Effective_Protection",0.0302235261537135
+2021,"Ecuador","Baseline_2020","Marine_Red_List",0.0171936832368374
+2021,"Ecuador","Baseline_2020","Marine_Living_Planet",0.0937632332323119
+2021,"Ecuador","Baseline_2020","Fisheries_Stock_Condition",0.0567748373607174
+2021,"Ecuador","Baseline_2020","Habitat_Condition",0.020999805862084
+2021,"Ecuador","Baseline_2020","Effective_Protection",0.0134996398352087
+2021,"Ecuador","Baseline_2020","Small_Scale_Fisheries_Rights",0.0998882649000734
+2021,"Ecuador","Baseline_2020","Wealth_Relative_Index",0.0703753812005743
+2021,"Ecuador","Baseline_2020","Human_Development_Index",0.0146423544269055
+2021,"Ecuador","Baseline_2020","Climate_Adaptation_Plans",0.0514965634793043
+2021,"Ecuador","Baseline_2020","Habitat_Carbon_Storage",0.0107608830789104
+2021,"Ecuador","Baseline_2020","Carbon_Under_Effective_Protection",0.0456518182065338
+2021,"Peru","Baseline_2020","Marine_Red_List",0.0319642119342461
+2021,"Peru","Baseline_2020","Marine_Living_Planet",0.0950724098365754
+2021,"Peru","Baseline_2020","Fisheries_Stock_Condition",0.0721309266285971
+2021,"Peru","Baseline_2020","Habitat_Condition",0.0375843436690047
+2021,"Peru","Baseline_2020","Effective_Protection",0.0387498257681727
+2021,"Peru","Baseline_2020","Small_Scale_Fisheries_Rights",0.0255673117004335
+2021,"Peru","Baseline_2020","Wealth_Relative_Index",0.0939021238824353
+2021,"Peru","Baseline_2020","Human_Development_Index",0.0703072973992676
+2021,"Peru","Baseline_2020","Climate_Adaptation_Plans",0.0815767947584391
+2021,"Peru","Baseline_2020","Habitat_Carbon_Storage",0.0779068868607283
+2021,"Peru","Baseline_2020","Carbon_Under_Effective_Protection",0.0384342534467578
+2021,"Chile","Baseline_2020","Marine_Red_List",0.0413555064238608
+2021,"Chile","Baseline_2020","Marine_Living_Planet",0.0660532301291823
+2021,"Chile","Baseline_2020","Fisheries_Stock_Condition",0.0752444213489071
+2021,"Chile","Baseline_2020","Habitat_Condition",0.0207365499809384
+2021,"Chile","Baseline_2020","Effective_Protection",0.0788471929030493
+2021,"Chile","Baseline_2020","Small_Scale_Fisheries_Rights",0.0507875671144575
+2021,"Chile","Baseline_2020","Wealth_Relative_Index",0.0311169018037617
+2021,"Chile","Baseline_2020","Human_Development_Index",0.0065560708520934
+2021,"Chile","Baseline_2020","Climate_Adaptation_Plans",0.0526272569317371
+2021,"Chile","Baseline_2020","Habitat_Carbon_Storage",0.025510568334721
+2021,"Chile","Baseline_2020","Carbon_Under_Effective_Protection",0.0249046854674816
+2021,"Madagascar","Baseline_2020","Marine_Red_List",0.0759335696697235
+2021,"Madagascar","Baseline_2020","Marine_Living_Planet",0.00722865809220821
+2021,"Madagascar","Baseline_2020","Fisheries_Stock_Condition",0.0381422596750781
+2021,"Madagascar","Baseline_2020","Habitat_Condition",0.0459240817232058
+2021,"Madagascar","Baseline_2020","Effective_Protection",0.0692913666600361
+2021,"Madagascar","Baseline_2020","Small_Scale_Fisheries_Rights",0.00789711775723845
+2021,"Madagascar","Baseline_2020","Wealth_Relative_Index",0.00784929301589728
+2021,"Madagascar","Baseline_2020","Human_Development_Index",0.0621807062299922
+2021,"Madagascar","Baseline_2020","Climate_Adaptation_Plans",0.0203040049877018
+2021,"Madagascar","Baseline_2020","Habitat_Carbon_Storage",0.0548043326009065
+2021,"Madagascar","Baseline_2020","Carbon_Under_Effective_Protection",0.0654626744799316
+2021,"Mozambique","Baseline_2020","Marine_Red_List",0.0271890205098316
+2021,"Mozambique","Baseline_2020","Marine_Living_Planet",0.0826331578660756
+2021,"Mozambique","Baseline_2020","Fisheries_Stock_Condition",0.028801028127782
+2021,"Mozambique","Baseline_2020","Habitat_Condition",0.0241502250079066
+2021,"Mozambique","Baseline_2020","Effective_Protection",0.059427297138609
+2021,"Mozambique","Baseline_2020","Small_Scale_Fisheries_Rights",0.0813668364426121
+2021,"Mozambique","Baseline_2020","Wealth_Relative_Index",0.0321744091343135
+2021,"Mozambique","Baseline_2020","Human_Development_Index",0.0937327365390956
+2021,"Mozambique","Baseline_2020","Climate_Adaptation_Plans",0.0848107680445537
+2021,"Mozambique","Baseline_2020","Habitat_Carbon_Storage",0.00339015207719058
+2021,"Mozambique","Baseline_2020","Carbon_Under_Effective_Protection",0.095532370172441
+2021,"Tanzania","Baseline_2020","Marine_Red_List",0.0115582457045093
+2021,"Tanzania","Baseline_2020","Marine_Living_Planet",0.047954407799989
+2021,"Tanzania","Baseline_2020","Fisheries_Stock_Condition",0.0531683327164501
+2021,"Tanzania","Baseline_2020","Habitat_Condition",0.0118690322386101
+2021,"Tanzania","Baseline_2020","Effective_Protection",0.0123857651371509
+2021,"Tanzania","Baseline_2020","Small_Scale_Fisheries_Rights",0.038217916013673
+2021,"Tanzania","Baseline_2020","Wealth_Relative_Index",0.0624905536882579
+2021,"Tanzania","Baseline_2020","Human_Development_Index",0.00878946147859097
+2021,"Tanzania","Baseline_2020","Climate_Adaptation_Plans",0.0370494215050712
+2021,"Tanzania","Baseline_2020","Habitat_Carbon_Storage",0.0806109476136044
+2021,"Tanzania","Baseline_2020","Carbon_Under_Effective_Protection",0.0291082957293838
+2021,"Papua New Guinea","Baseline_2020","Marine_Red_List",0.00293366149999201
+2021,"Papua New Guinea","Baseline_2020","Marine_Living_Planet",0.0391228783410043
+2021,"Papua New Guinea","Baseline_2020","Fisheries_Stock_Condition",0.0259646071353927
+2021,"Papua New Guinea","Baseline_2020","Habitat_Condition",0.00724691497161984
+2021,"Papua New Guinea","Baseline_2020","Effective_Protection",0.055507810274139
+2021,"Papua New Guinea","Baseline_2020","Small_Scale_Fisheries_Rights",0.0802182707935572
+2021,"Papua New Guinea","Baseline_2020","Wealth_Relative_Index",0.0440241849515587
+2021,"Papua New Guinea","Baseline_2020","Human_Development_Index",0.0972803509328514
+2021,"Papua New Guinea","Baseline_2020","Climate_Adaptation_Plans",0.0303325170883909
+2021,"Papua New Guinea","Baseline_2020","Habitat_Carbon_Storage",0.0337752807186916
+2021,"Papua New Guinea","Baseline_2020","Carbon_Under_Effective_Protection",0.0650189086562023
+2021,"Indonesia","Baseline_2020","Marine_Red_List",0.0806855297880247
+2021,"Indonesia","Baseline_2020","Marine_Living_Planet",0.0299122775672004
+2021,"Indonesia","Baseline_2020","Fisheries_Stock_Condition",0.083179031778127
+2021,"Indonesia","Baseline_2020","Habitat_Condition",0.0690989849856123
+2021,"Indonesia","Baseline_2020","Effective_Protection",0.0449411387788132
+2021,"Indonesia","Baseline_2020","Small_Scale_Fisheries_Rights",0.0197923636762425
+2021,"Indonesia","Baseline_2020","Wealth_Relative_Index",0.0801345300627872
+2021,"Indonesia","Baseline_2020","Human_Development_Index",0.00260107105132192
+2021,"Indonesia","Baseline_2020","Climate_Adaptation_Plans",0.0770597046939656
+2021,"Indonesia","Baseline_2020","Habitat_Carbon_Storage",0.0916285858023912
+2021,"Indonesia","Baseline_2020","Carbon_Under_Effective_Protection",0.0536359930876643
+2021,"Fiji","Baseline_2020","Marine_Red_List",0.0480126436566934
+2021,"Fiji","Baseline_2020","Marine_Living_Planet",0.0244308249559253
+2021,"Fiji","Baseline_2020","Fisheries_Stock_Condition",0.0405363884754479
+2021,"Fiji","Baseline_2020","Habitat_Condition",0.0286957619246095
+2021,"Fiji","Baseline_2020","Effective_Protection",0.0766166528686881
+2021,"Fiji","Baseline_2020","Small_Scale_Fisheries_Rights",0.0946399770211429
+2021,"Fiji","Baseline_2020","Wealth_Relative_Index",0.0279283805051819
+2021,"Fiji","Baseline_2020","Human_Development_Index",0.0725227952003479
+2021,"Fiji","Baseline_2020","Climate_Adaptation_Plans",0.0733448554994538
+2021,"Fiji","Baseline_2020","Habitat_Carbon_Storage",0.0357106417883188
+2021,"Fiji","Baseline_2020","Carbon_Under_Effective_Protection",0.0597451866604388
+2021,"Solomon Islands","Baseline_2020","Marine_Red_List",0.0806247940286994
+2021,"Solomon Islands","Baseline_2020","Marine_Living_Planet",0.0421810131752864
+2021,"Solomon Islands","Baseline_2020","Fisheries_Stock_Condition",0.00726319255772978
+2021,"Solomon Islands","Baseline_2020","Habitat_Condition",0.0149412495549768
+2021,"Solomon Islands","Baseline_2020","Effective_Protection",0.00260977216530591
+2021,"Solomon Islands","Baseline_2020","Small_Scale_Fisheries_Rights",0.0345672474242747
+2021,"Solomon Islands","Baseline_2020","Wealth_Relative_Index",0.0570713193388656
+2021,"Solomon Islands","Baseline_2020","Human_Development_Index",0.0453706391621381
+2021,"Solomon Islands","Baseline_2020","Climate_Adaptation_Plans",0.0838905998272821
+2021,"Solomon Islands","Baseline_2020","Habitat_Carbon_Storage",0.0975365013116971
+2021,"Solomon Islands","Baseline_2020","Carbon_Under_Effective_Protection",0.00248982694465667
+2021,"Alaska","Target_2030","Marine_Red_List",0.815801136335358
+2021,"Alaska","Target_2030","Marine_Living_Planet",0.987554035382345
+2021,"Alaska","Target_2030","Fisheries_Stock_Condition",0.99075172492303
+2021,"Alaska","Target_2030","Habitat_Condition",0.994486401835456
+2021,"Alaska","Target_2030","Effective_Protection",0.839034286374226
+2021,"Alaska","Target_2030","Small_Scale_Fisheries_Rights",0.904410049458966
+2021,"Alaska","Target_2030","Wealth_Relative_Index",0.808425602409989
+2021,"Alaska","Target_2030","Human_Development_Index",0.913236480997875
+2021,"Alaska","Target_2030","Climate_Adaptation_Plans",0.913809768483043
+2021,"Alaska","Target_2030","Habitat_Carbon_Storage",0.876875704526901
+2021,"Alaska","Target_2030","Carbon_Under_Effective_Protection",0.800968347908929
+2021,"Mexico","Target_2030","Marine_Red_List",0.823067481908947
+2021,"Mexico","Target_2030","Marine_Living_Planet",0.852897023316473
+2021,"Mexico","Target_2030","Fisheries_Stock_Condition",0.843436756590381
+2021,"Mexico","Target_2030","Habitat_Condition",0.88210287806578
+2021,"Mexico","Target_2030","Effective_Protection",0.976246912963688
+2021,"Mexico","Target_2030","Small_Scale_Fisheries_Rights",0.82233760128729
+2021,"Mexico","Target_2030","Wealth_Relative_Index",0.838143491093069
+2021,"Mexico","Target_2030","Human_Development_Index",0.974546209257096
+2021,"Mexico","Target_2030","Climate_Adaptation_Plans",0.805256167659536
+2021,"Mexico","Target_2030","Habitat_Carbon_Storage",0.897734707035124
+2021,"Mexico","Target_2030","Carbon_Under_Effective_Protection",0.826275650877506
+2021,"Colombia","Target_2030","Marine_Red_List",0.825883257901296
+2021,"Colombia","Target_2030","Marine_Living_Planet",0.91371375080198
+2021,"Colombia","Target_2030","Fisheries_Stock_Condition",0.881125053344294
+2021,"Colombia","Target_2030","Habitat_Condition",0.880362770846114
+2021,"Colombia","Target_2030","Effective_Protection",0.821960318693891
+2021,"Colombia","Target_2030","Small_Scale_Fisheries_Rights",0.977194970240816
+2021,"Colombia","Target_2030","Wealth_Relative_Index",0.945417294139043
+2021,"Colombia","Target_2030","Human_Development_Index",0.910912635922432
+2021,"Colombia","Target_2030","Climate_Adaptation_Plans",0.897225445648655
+2021,"Colombia","Target_2030","Habitat_Carbon_Storage",0.898155246255919
+2021,"Colombia","Target_2030","Carbon_Under_Effective_Protection",0.804963420750573
+2021,"Ecuador","Target_2030","Marine_Red_List",0.947749708406627
+2021,"Ecuador","Target_2030","Marine_Living_Planet",0.840436913538724
+2021,"Ecuador","Target_2030","Fisheries_Stock_Condition",0.925133663089946
+2021,"Ecuador","Target_2030","Habitat_Condition",0.929711269726977
+2021,"Ecuador","Target_2030","Effective_Protection",0.993710185587406
+2021,"Ecuador","Target_2030","Small_Scale_Fisheries_Rights",0.990850994642824
+2021,"Ecuador","Target_2030","Wealth_Relative_Index",0.965338010061532
+2021,"Ecuador","Target_2030","Human_Development_Index",0.947530441451818
+2021,"Ecuador","Target_2030","Climate_Adaptation_Plans",0.908536206558347
+2021,"Ecuador","Target_2030","Habitat_Carbon_Storage",0.802450924832374
+2021,"Ecuador","Target_2030","Carbon_Under_Effective_Protection",0.818425890384242
+2021,"Peru","Target_2030","Marine_Red_List",0.951419706689194
+2021,"Peru","Target_2030","Marine_Living_Planet",0.838561125379056
+2021,"Peru","Target_2030","Fisheries_Stock_Condition",0.925680960761383
+2021,"Peru","Target_2030","Habitat_Condition",0.983261147933081
+2021,"Peru","Target_2030","Effective_Protection",0.877039718581364
+2021,"Peru","Target_2030","Small_Scale_Fisheries_Rights",0.808076152624562
+2021,"Peru","Target_2030","Wealth_Relative_Index",0.902144215069711
+2021,"Peru","Target_2030","Human_Development_Index",0.924625832401216
+2021,"Peru","Target_2030","Climate_Adaptation_Plans",0.967332023382187
+2021,"Peru","Target_2030","Habitat_Carbon_Storage",0.92829464012757
+2021,"Peru","Target_2030","Carbon_Under_Effective_Protection",0.89511164482683
+2021,"Chile","Target_2030","Marine_Red_List",0.998491061711684
+2021,"Chile","Target_2030","Marine_Living_Planet",0.94372234903276
+2021,"Chile","Target_2030","Fisheries_Stock_Condition",0.865647732838988
+2021,"Chile","Target_2030","Habitat_Condition",0.843332427786663
+2021,"Chile","Target_2030","Effective_Protection",0.971718281460926
+2021,"Chile","Target_2030","Small_Scale_Fisheries_Rights",0.8987232377287
+2021,"Chile","Target_2030","Wealth_Relative_Index",0.913545233150944
+2021,"Chile","Target_2030","Human_Development_Index",0.86220568115823
+2021,"Chile","Target_2030","Climate_Adaptation_Plans",0.945732907624915
+2021,"Chile","Target_2030","Habitat_Carbon_Storage",0.902514994330704
+2021,"Chile","Target_2030","Carbon_Under_Effective_Protection",0.839331352245063
+2021,"Madagascar","Target_2030","Marine_Red_List",0.924910597456619
+2021,"Madagascar","Target_2030","Marine_Living_Planet",0.862703579105437
+2021,"Madagascar","Target_2030","Fisheries_Stock_Condition",0.827781898388639
+2021,"Madagascar","Target_2030","Habitat_Condition",0.909599774377421
+2021,"Madagascar","Target_2030","Effective_Protection",0.977476950921118
+2021,"Madagascar","Target_2030","Small_Scale_Fisheries_Rights",0.845212740963325
+2021,"Madagascar","Target_2030","Wealth_Relative_Index",0.800231163948774
+2021,"Madagascar","Target_2030","Human_Development_Index",0.878439296921715
+2021,"Madagascar","Target_2030","Climate_Adaptation_Plans",0.911022761370987
+2021,"Madagascar","Target_2030","Habitat_Carbon_Storage",0.864070423645899
+2021,"Madagascar","Target_2030","Carbon_Under_Effective_Protection",0.962934789713472
+2021,"Mozambique","Target_2030","Marine_Red_List",0.857738021714613
+2021,"Mozambique","Target_2030","Marine_Living_Planet",0.827678025467321
+2021,"Mozambique","Target_2030","Fisheries_Stock_Condition",0.98293143408373
+2021,"Mozambique","Target_2030","Habitat_Condition",0.944010091573
+2021,"Mozambique","Target_2030","Effective_Protection",0.897818299708888
+2021,"Mozambique","Target_2030","Small_Scale_Fisheries_Rights",0.971760067855939
+2021,"Mozambique","Target_2030","Wealth_Relative_Index",0.828755620634183
+2021,"Mozambique","Target_2030","Human_Development_Index",0.840417491085827
+2021,"Mozambique","Target_2030","Climate_Adaptation_Plans",0.81468287948519
+2021,"Mozambique","Target_2030","Habitat_Carbon_Storage",0.916286631533876
+2021,"Mozambique","Target_2030","Carbon_Under_Effective_Protection",0.848811845621094
+2021,"Tanzania","Target_2030","Marine_Red_List",0.839982354873791
+2021,"Tanzania","Target_2030","Marine_Living_Planet",0.811606139549986
+2021,"Tanzania","Target_2030","Fisheries_Stock_Condition",0.919823193456978
+2021,"Tanzania","Target_2030","Habitat_Condition",0.879449201049283
+2021,"Tanzania","Target_2030","Effective_Protection",0.943618361791596
+2021,"Tanzania","Target_2030","Small_Scale_Fisheries_Rights",0.906187146762386
+2021,"Tanzania","Target_2030","Wealth_Relative_Index",0.973193416604772
+2021,"Tanzania","Target_2030","Human_Development_Index",0.9705560779199
+2021,"Tanzania","Target_2030","Climate_Adaptation_Plans",0.827300459844992
+2021,"Tanzania","Target_2030","Habitat_Carbon_Storage",0.92346888165921
+2021,"Tanzania","Target_2030","Carbon_Under_Effective_Protection",0.897761527588591
+2021,"Papua New Guinea","Target_2030","Marine_Red_List",0.960183569742367
+2021,"Papua New Guinea","Target_2030","Marine_Living_Planet",0.986219928227365
+2021,"Papua New Guinea","Target_2030","Fisheries_Stock_Condition",0.949921419192105
+2021,"Papua New Guinea","Target_2030","Habitat_Condition",0.818800278520212
+2021,"Papua New Guinea","Target_2030","Effective_Protection",0.897341114515439
+2021,"Papua New Guinea","Target_2030","Small_Scale_Fisheries_Rights",0.800927630160004
+2021,"Papua New Guinea","Target_2030","Wealth_Relative_Index",0.816512212110683
+2021,"Papua New Guinea","Target_2030","Human_Development_Index",0.921366030164063
+2021,"Papua New Guinea","Target_2030","Climate_Adaptation_Plans",0.936921739252284
+2021,"Papua New Guinea","Target_2030","Habitat_Carbon_Storage",0.887654907535762
+2021,"Papua New Guinea","Target_2030","Carbon_Under_Effective_Protection",0.929776495927945
+2021,"Indonesia","Target_2030","Marine_Red_List",0.945552542060614
+2021,"Indonesia","Target_2030","Marine_Living_Planet",0.913667602417991
+2021,"Indonesia","Target_2030","Fisheries_Stock_Condition",0.983790949033573
+2021,"Indonesia","Target_2030","Habitat_Condition",0.926979281008244
+2021,"Indonesia","Target_2030","Effective_Protection",0.997741772187874
+2021,"Indonesia","Target_2030","Small_Scale_Fisheries_Rights",0.855512016033754
+2021,"Indonesia","Target_2030","Wealth_Relative_Index",0.848914136411622
+2021,"Indonesia","Target_2030","Human_Development_Index",0.951219602767378
+2021,"Indonesia","Target_2030","Climate_Adaptation_Plans",0.819924387242645
+2021,"Indonesia","Target_2030","Habitat_Carbon_Storage",0.834073796123266
+2021,"Indonesia","Target_2030","Carbon_Under_Effective_Protection",0.831743294000626
+2021,"Fiji","Target_2030","Marine_Red_List",0.843409594940022
+2021,"Fiji","Target_2030","Marine_Living_Planet",0.823554072109982
+2021,"Fiji","Target_2030","Fisheries_Stock_Condition",0.905753079196438
+2021,"Fiji","Target_2030","Habitat_Condition",0.800495762052015
+2021,"Fiji","Target_2030","Effective_Protection",0.812950225919485
+2021,"Fiji","Target_2030","Small_Scale_Fisheries_Rights",0.865040628612042
+2021,"Fiji","Target_2030","Wealth_Relative_Index",0.996308631496504
+2021,"Fiji","Target_2030","Human_Development_Index",0.912503361748532
+2021,"Fiji","Target_2030","Climate_Adaptation_Plans",0.840757181029767
+2021,"Fiji","Target_2030","Habitat_Carbon_Storage",0.94301609932445
+2021,"Fiji","Target_2030","Carbon_Under_Effective_Protection",0.967395582189783
+2021,"Solomon Islands","Target_2030","Marine_Red_List",0.948847701074556
+2021,"Solomon Islands","Target_2030","Marine_Living_Planet",0.912958896299824
+2021,"Solomon Islands","Target_2030","Fisheries_Stock_Condition",0.874395749205723
+2021,"Solomon Islands","Target_2030","Habitat_Condition",0.842104647960514
+2021,"Solomon Islands","Target_2030","Effective_Protection",0.831532555585727
+2021,"Solomon Islands","Target_2030","Small_Scale_Fisheries_Rights",0.917741255322471
+2021,"Solomon Islands","Target_2030","Wealth_Relative_Index",0.915516255889088
+2021,"Solomon Islands","Target_2030","Human_Development_Index",0.855179802561179
+2021,"Solomon Islands","Target_2030","Climate_Adaptation_Plans",0.873196027660742
+2021,"Solomon Islands","Target_2030","Habitat_Carbon_Storage",0.949557309737429
+2021,"Solomon Islands","Target_2030","Carbon_Under_Effective_Protection",0.887319305958226
+2022,"Alaska","Baseline_2020","Marine_Red_List",0.041986421495676
+2022,"Alaska","Baseline_2020","Marine_Living_Planet",0.0866653708275408
+2022,"Alaska","Baseline_2020","Fisheries_Stock_Condition",0.0540256182895973
+2022,"Alaska","Baseline_2020","Habitat_Condition",0.00658083211164922
+2022,"Alaska","Baseline_2020","Effective_Protection",0.0679022809490561
+2022,"Alaska","Baseline_2020","Small_Scale_Fisheries_Rights",0.0785348618403077
+2022,"Alaska","Baseline_2020","Wealth_Relative_Index",0.0249684700742364
+2022,"Alaska","Baseline_2020","Human_Development_Index",0.024872636445798
+2022,"Alaska","Baseline_2020","Climate_Adaptation_Plans",0.0735558403655887
+2022,"Alaska","Baseline_2020","Habitat_Carbon_Storage",0.0846195757621899
+2022,"Alaska","Baseline_2020","Carbon_Under_Effective_Protection",0.0843914708122611
+2022,"Mexico","Baseline_2020","Marine_Red_List",0.035543467104435
+2022,"Mexico","Baseline_2020","Marine_Living_Planet",0.052940575638786
+2022,"Mexico","Baseline_2020","Fisheries_Stock_Condition",0.0819682518485934
+2022,"Mexico","Baseline_2020","Habitat_Condition",0.0854369923705235
+2022,"Mexico","Baseline_2020","Effective_Protection",0.0866189130349085
+2022,"Mexico","Baseline_2020","Small_Scale_Fisheries_Rights",0.0542188289808109
+2022,"Mexico","Baseline_2020","Wealth_Relative_Index",0.00431172808166593
+2022,"Mexico","Baseline_2020","Human_Development_Index",0.0614953953772783
+2022,"Mexico","Baseline_2020","Climate_Adaptation_Plans",0.0549279793864116
+2022,"Mexico","Baseline_2020","Habitat_Carbon_Storage",0.0236872595502064
+2022,"Mexico","Baseline_2020","Carbon_Under_Effective_Protection",0.0534759046975523
+2022,"Colombia","Baseline_2020","Marine_Red_List",0.0392331253970042
+2022,"Colombia","Baseline_2020","Marine_Living_Planet",0.0598638546885923
+2022,"Colombia","Baseline_2020","Fisheries_Stock_Condition",0.070297950389795
+2022,"Colombia","Baseline_2020","Habitat_Condition",0.0510411301394925
+2022,"Colombia","Baseline_2020","Effective_Protection",0.079969711555168
+2022,"Colombia","Baseline_2020","Small_Scale_Fisheries_Rights",0.0416547345230356
+2022,"Colombia","Baseline_2020","Wealth_Relative_Index",0.0110678787576035
+2022,"Colombia","Baseline_2020","Human_Development_Index",0.00317573207430542
+2022,"Colombia","Baseline_2020","Climate_Adaptation_Plans",0.0346127043943852
+2022,"Colombia","Baseline_2020","Habitat_Carbon_Storage",0.0704877850599587
+2022,"Colombia","Baseline_2020","Carbon_Under_Effective_Protection",0.0302235261537135
+2022,"Ecuador","Baseline_2020","Marine_Red_List",0.0171936832368374
+2022,"Ecuador","Baseline_2020","Marine_Living_Planet",0.0937632332323119
+2022,"Ecuador","Baseline_2020","Fisheries_Stock_Condition",0.0567748373607174
+2022,"Ecuador","Baseline_2020","Habitat_Condition",0.020999805862084
+2022,"Ecuador","Baseline_2020","Effective_Protection",0.0134996398352087
+2022,"Ecuador","Baseline_2020","Small_Scale_Fisheries_Rights",0.0998882649000734
+2022,"Ecuador","Baseline_2020","Wealth_Relative_Index",0.0703753812005743
+2022,"Ecuador","Baseline_2020","Human_Development_Index",0.0146423544269055
+2022,"Ecuador","Baseline_2020","Climate_Adaptation_Plans",0.0514965634793043
+2022,"Ecuador","Baseline_2020","Habitat_Carbon_Storage",0.0107608830789104
+2022,"Ecuador","Baseline_2020","Carbon_Under_Effective_Protection",0.0456518182065338
+2022,"Peru","Baseline_2020","Marine_Red_List",0.0319642119342461
+2022,"Peru","Baseline_2020","Marine_Living_Planet",0.0950724098365754
+2022,"Peru","Baseline_2020","Fisheries_Stock_Condition",0.0721309266285971
+2022,"Peru","Baseline_2020","Habitat_Condition",0.0375843436690047
+2022,"Peru","Baseline_2020","Effective_Protection",0.0387498257681727
+2022,"Peru","Baseline_2020","Small_Scale_Fisheries_Rights",0.0255673117004335
+2022,"Peru","Baseline_2020","Wealth_Relative_Index",0.0939021238824353
+2022,"Peru","Baseline_2020","Human_Development_Index",0.0703072973992676
+2022,"Peru","Baseline_2020","Climate_Adaptation_Plans",0.0815767947584391
+2022,"Peru","Baseline_2020","Habitat_Carbon_Storage",0.0779068868607283
+2022,"Peru","Baseline_2020","Carbon_Under_Effective_Protection",0.0384342534467578
+2022,"Chile","Baseline_2020","Marine_Red_List",0.0413555064238608
+2022,"Chile","Baseline_2020","Marine_Living_Planet",0.0660532301291823
+2022,"Chile","Baseline_2020","Fisheries_Stock_Condition",0.0752444213489071
+2022,"Chile","Baseline_2020","Habitat_Condition",0.0207365499809384
+2022,"Chile","Baseline_2020","Effective_Protection",0.0788471929030493
+2022,"Chile","Baseline_2020","Small_Scale_Fisheries_Rights",0.0507875671144575
+2022,"Chile","Baseline_2020","Wealth_Relative_Index",0.0311169018037617
+2022,"Chile","Baseline_2020","Human_Development_Index",0.0065560708520934
+2022,"Chile","Baseline_2020","Climate_Adaptation_Plans",0.0526272569317371
+2022,"Chile","Baseline_2020","Habitat_Carbon_Storage",0.025510568334721
+2022,"Chile","Baseline_2020","Carbon_Under_Effective_Protection",0.0249046854674816
+2022,"Madagascar","Baseline_2020","Marine_Red_List",0.0759335696697235
+2022,"Madagascar","Baseline_2020","Marine_Living_Planet",0.00722865809220821
+2022,"Madagascar","Baseline_2020","Fisheries_Stock_Condition",0.0381422596750781
+2022,"Madagascar","Baseline_2020","Habitat_Condition",0.0459240817232058
+2022,"Madagascar","Baseline_2020","Effective_Protection",0.0692913666600361
+2022,"Madagascar","Baseline_2020","Small_Scale_Fisheries_Rights",0.00789711775723845
+2022,"Madagascar","Baseline_2020","Wealth_Relative_Index",0.00784929301589728
+2022,"Madagascar","Baseline_2020","Human_Development_Index",0.0621807062299922
+2022,"Madagascar","Baseline_2020","Climate_Adaptation_Plans",0.0203040049877018
+2022,"Madagascar","Baseline_2020","Habitat_Carbon_Storage",0.0548043326009065
+2022,"Madagascar","Baseline_2020","Carbon_Under_Effective_Protection",0.0654626744799316
+2022,"Mozambique","Baseline_2020","Marine_Red_List",0.0271890205098316
+2022,"Mozambique","Baseline_2020","Marine_Living_Planet",0.0826331578660756
+2022,"Mozambique","Baseline_2020","Fisheries_Stock_Condition",0.028801028127782
+2022,"Mozambique","Baseline_2020","Habitat_Condition",0.0241502250079066
+2022,"Mozambique","Baseline_2020","Effective_Protection",0.059427297138609
+2022,"Mozambique","Baseline_2020","Small_Scale_Fisheries_Rights",0.0813668364426121
+2022,"Mozambique","Baseline_2020","Wealth_Relative_Index",0.0321744091343135
+2022,"Mozambique","Baseline_2020","Human_Development_Index",0.0937327365390956
+2022,"Mozambique","Baseline_2020","Climate_Adaptation_Plans",0.0848107680445537
+2022,"Mozambique","Baseline_2020","Habitat_Carbon_Storage",0.00339015207719058
+2022,"Mozambique","Baseline_2020","Carbon_Under_Effective_Protection",0.095532370172441
+2022,"Tanzania","Baseline_2020","Marine_Red_List",0.0115582457045093
+2022,"Tanzania","Baseline_2020","Marine_Living_Planet",0.047954407799989
+2022,"Tanzania","Baseline_2020","Fisheries_Stock_Condition",0.0531683327164501
+2022,"Tanzania","Baseline_2020","Habitat_Condition",0.0118690322386101
+2022,"Tanzania","Baseline_2020","Effective_Protection",0.0123857651371509
+2022,"Tanzania","Baseline_2020","Small_Scale_Fisheries_Rights",0.038217916013673
+2022,"Tanzania","Baseline_2020","Wealth_Relative_Index",0.0624905536882579
+2022,"Tanzania","Baseline_2020","Human_Development_Index",0.00878946147859097
+2022,"Tanzania","Baseline_2020","Climate_Adaptation_Plans",0.0370494215050712
+2022,"Tanzania","Baseline_2020","Habitat_Carbon_Storage",0.0806109476136044
+2022,"Tanzania","Baseline_2020","Carbon_Under_Effective_Protection",0.0291082957293838
+2022,"Papua New Guinea","Baseline_2020","Marine_Red_List",0.00293366149999201
+2022,"Papua New Guinea","Baseline_2020","Marine_Living_Planet",0.0391228783410043
+2022,"Papua New Guinea","Baseline_2020","Fisheries_Stock_Condition",0.0259646071353927
+2022,"Papua New Guinea","Baseline_2020","Habitat_Condition",0.00724691497161984
+2022,"Papua New Guinea","Baseline_2020","Effective_Protection",0.055507810274139
+2022,"Papua New Guinea","Baseline_2020","Small_Scale_Fisheries_Rights",0.0802182707935572
+2022,"Papua New Guinea","Baseline_2020","Wealth_Relative_Index",0.0440241849515587
+2022,"Papua New Guinea","Baseline_2020","Human_Development_Index",0.0972803509328514
+2022,"Papua New Guinea","Baseline_2020","Climate_Adaptation_Plans",0.0303325170883909
+2022,"Papua New Guinea","Baseline_2020","Habitat_Carbon_Storage",0.0337752807186916
+2022,"Papua New Guinea","Baseline_2020","Carbon_Under_Effective_Protection",0.0650189086562023
+2022,"Indonesia","Baseline_2020","Marine_Red_List",0.0806855297880247
+2022,"Indonesia","Baseline_2020","Marine_Living_Planet",0.0299122775672004
+2022,"Indonesia","Baseline_2020","Fisheries_Stock_Condition",0.083179031778127
+2022,"Indonesia","Baseline_2020","Habitat_Condition",0.0690989849856123
+2022,"Indonesia","Baseline_2020","Effective_Protection",0.0449411387788132
+2022,"Indonesia","Baseline_2020","Small_Scale_Fisheries_Rights",0.0197923636762425
+2022,"Indonesia","Baseline_2020","Wealth_Relative_Index",0.0801345300627872
+2022,"Indonesia","Baseline_2020","Human_Development_Index",0.00260107105132192
+2022,"Indonesia","Baseline_2020","Climate_Adaptation_Plans",0.0770597046939656
+2022,"Indonesia","Baseline_2020","Habitat_Carbon_Storage",0.0916285858023912
+2022,"Indonesia","Baseline_2020","Carbon_Under_Effective_Protection",0.0536359930876643
+2022,"Fiji","Baseline_2020","Marine_Red_List",0.0480126436566934
+2022,"Fiji","Baseline_2020","Marine_Living_Planet",0.0244308249559253
+2022,"Fiji","Baseline_2020","Fisheries_Stock_Condition",0.0405363884754479
+2022,"Fiji","Baseline_2020","Habitat_Condition",0.0286957619246095
+2022,"Fiji","Baseline_2020","Effective_Protection",0.0766166528686881
+2022,"Fiji","Baseline_2020","Small_Scale_Fisheries_Rights",0.0946399770211429
+2022,"Fiji","Baseline_2020","Wealth_Relative_Index",0.0279283805051819
+2022,"Fiji","Baseline_2020","Human_Development_Index",0.0725227952003479
+2022,"Fiji","Baseline_2020","Climate_Adaptation_Plans",0.0733448554994538
+2022,"Fiji","Baseline_2020","Habitat_Carbon_Storage",0.0357106417883188
+2022,"Fiji","Baseline_2020","Carbon_Under_Effective_Protection",0.0597451866604388
+2022,"Solomon Islands","Baseline_2020","Marine_Red_List",0.0806247940286994
+2022,"Solomon Islands","Baseline_2020","Marine_Living_Planet",0.0421810131752864
+2022,"Solomon Islands","Baseline_2020","Fisheries_Stock_Condition",0.00726319255772978
+2022,"Solomon Islands","Baseline_2020","Habitat_Condition",0.0149412495549768
+2022,"Solomon Islands","Baseline_2020","Effective_Protection",0.00260977216530591
+2022,"Solomon Islands","Baseline_2020","Small_Scale_Fisheries_Rights",0.0345672474242747
+2022,"Solomon Islands","Baseline_2020","Wealth_Relative_Index",0.0570713193388656
+2022,"Solomon Islands","Baseline_2020","Human_Development_Index",0.0453706391621381
+2022,"Solomon Islands","Baseline_2020","Climate_Adaptation_Plans",0.0838905998272821
+2022,"Solomon Islands","Baseline_2020","Habitat_Carbon_Storage",0.0975365013116971
+2022,"Solomon Islands","Baseline_2020","Carbon_Under_Effective_Protection",0.00248982694465667
+2022,"Alaska","Target_2030","Marine_Red_List",0.815801136335358
+2022,"Alaska","Target_2030","Marine_Living_Planet",0.987554035382345
+2022,"Alaska","Target_2030","Fisheries_Stock_Condition",0.99075172492303
+2022,"Alaska","Target_2030","Habitat_Condition",0.994486401835456
+2022,"Alaska","Target_2030","Effective_Protection",0.839034286374226
+2022,"Alaska","Target_2030","Small_Scale_Fisheries_Rights",0.904410049458966
+2022,"Alaska","Target_2030","Wealth_Relative_Index",0.808425602409989
+2022,"Alaska","Target_2030","Human_Development_Index",0.913236480997875
+2022,"Alaska","Target_2030","Climate_Adaptation_Plans",0.913809768483043
+2022,"Alaska","Target_2030","Habitat_Carbon_Storage",0.876875704526901
+2022,"Alaska","Target_2030","Carbon_Under_Effective_Protection",0.800968347908929
+2022,"Mexico","Target_2030","Marine_Red_List",0.823067481908947
+2022,"Mexico","Target_2030","Marine_Living_Planet",0.852897023316473
+2022,"Mexico","Target_2030","Fisheries_Stock_Condition",0.843436756590381
+2022,"Mexico","Target_2030","Habitat_Condition",0.88210287806578
+2022,"Mexico","Target_2030","Effective_Protection",0.976246912963688
+2022,"Mexico","Target_2030","Small_Scale_Fisheries_Rights",0.82233760128729
+2022,"Mexico","Target_2030","Wealth_Relative_Index",0.838143491093069
+2022,"Mexico","Target_2030","Human_Development_Index",0.974546209257096
+2022,"Mexico","Target_2030","Climate_Adaptation_Plans",0.805256167659536
+2022,"Mexico","Target_2030","Habitat_Carbon_Storage",0.897734707035124
+2022,"Mexico","Target_2030","Carbon_Under_Effective_Protection",0.826275650877506
+2022,"Colombia","Target_2030","Marine_Red_List",0.825883257901296
+2022,"Colombia","Target_2030","Marine_Living_Planet",0.91371375080198
+2022,"Colombia","Target_2030","Fisheries_Stock_Condition",0.881125053344294
+2022,"Colombia","Target_2030","Habitat_Condition",0.880362770846114
+2022,"Colombia","Target_2030","Effective_Protection",0.821960318693891
+2022,"Colombia","Target_2030","Small_Scale_Fisheries_Rights",0.977194970240816
+2022,"Colombia","Target_2030","Wealth_Relative_Index",0.945417294139043
+2022,"Colombia","Target_2030","Human_Development_Index",0.910912635922432
+2022,"Colombia","Target_2030","Climate_Adaptation_Plans",0.897225445648655
+2022,"Colombia","Target_2030","Habitat_Carbon_Storage",0.898155246255919
+2022,"Colombia","Target_2030","Carbon_Under_Effective_Protection",0.804963420750573
+2022,"Ecuador","Target_2030","Marine_Red_List",0.947749708406627
+2022,"Ecuador","Target_2030","Marine_Living_Planet",0.840436913538724
+2022,"Ecuador","Target_2030","Fisheries_Stock_Condition",0.925133663089946
+2022,"Ecuador","Target_2030","Habitat_Condition",0.929711269726977
+2022,"Ecuador","Target_2030","Effective_Protection",0.993710185587406
+2022,"Ecuador","Target_2030","Small_Scale_Fisheries_Rights",0.990850994642824
+2022,"Ecuador","Target_2030","Wealth_Relative_Index",0.965338010061532
+2022,"Ecuador","Target_2030","Human_Development_Index",0.947530441451818
+2022,"Ecuador","Target_2030","Climate_Adaptation_Plans",0.908536206558347
+2022,"Ecuador","Target_2030","Habitat_Carbon_Storage",0.802450924832374
+2022,"Ecuador","Target_2030","Carbon_Under_Effective_Protection",0.818425890384242
+2022,"Peru","Target_2030","Marine_Red_List",0.951419706689194
+2022,"Peru","Target_2030","Marine_Living_Planet",0.838561125379056
+2022,"Peru","Target_2030","Fisheries_Stock_Condition",0.925680960761383
+2022,"Peru","Target_2030","Habitat_Condition",0.983261147933081
+2022,"Peru","Target_2030","Effective_Protection",0.877039718581364
+2022,"Peru","Target_2030","Small_Scale_Fisheries_Rights",0.808076152624562
+2022,"Peru","Target_2030","Wealth_Relative_Index",0.902144215069711
+2022,"Peru","Target_2030","Human_Development_Index",0.924625832401216
+2022,"Peru","Target_2030","Climate_Adaptation_Plans",0.967332023382187
+2022,"Peru","Target_2030","Habitat_Carbon_Storage",0.92829464012757
+2022,"Peru","Target_2030","Carbon_Under_Effective_Protection",0.89511164482683
+2022,"Chile","Target_2030","Marine_Red_List",0.998491061711684
+2022,"Chile","Target_2030","Marine_Living_Planet",0.94372234903276
+2022,"Chile","Target_2030","Fisheries_Stock_Condition",0.865647732838988
+2022,"Chile","Target_2030","Habitat_Condition",0.843332427786663
+2022,"Chile","Target_2030","Effective_Protection",0.971718281460926
+2022,"Chile","Target_2030","Small_Scale_Fisheries_Rights",0.8987232377287
+2022,"Chile","Target_2030","Wealth_Relative_Index",0.913545233150944
+2022,"Chile","Target_2030","Human_Development_Index",0.86220568115823
+2022,"Chile","Target_2030","Climate_Adaptation_Plans",0.945732907624915
+2022,"Chile","Target_2030","Habitat_Carbon_Storage",0.902514994330704
+2022,"Chile","Target_2030","Carbon_Under_Effective_Protection",0.839331352245063
+2022,"Madagascar","Target_2030","Marine_Red_List",0.924910597456619
+2022,"Madagascar","Target_2030","Marine_Living_Planet",0.862703579105437
+2022,"Madagascar","Target_2030","Fisheries_Stock_Condition",0.827781898388639
+2022,"Madagascar","Target_2030","Habitat_Condition",0.909599774377421
+2022,"Madagascar","Target_2030","Effective_Protection",0.977476950921118
+2022,"Madagascar","Target_2030","Small_Scale_Fisheries_Rights",0.845212740963325
+2022,"Madagascar","Target_2030","Wealth_Relative_Index",0.800231163948774
+2022,"Madagascar","Target_2030","Human_Development_Index",0.878439296921715
+2022,"Madagascar","Target_2030","Climate_Adaptation_Plans",0.911022761370987
+2022,"Madagascar","Target_2030","Habitat_Carbon_Storage",0.864070423645899
+2022,"Madagascar","Target_2030","Carbon_Under_Effective_Protection",0.962934789713472
+2022,"Mozambique","Target_2030","Marine_Red_List",0.857738021714613
+2022,"Mozambique","Target_2030","Marine_Living_Planet",0.827678025467321
+2022,"Mozambique","Target_2030","Fisheries_Stock_Condition",0.98293143408373
+2022,"Mozambique","Target_2030","Habitat_Condition",0.944010091573
+2022,"Mozambique","Target_2030","Effective_Protection",0.897818299708888
+2022,"Mozambique","Target_2030","Small_Scale_Fisheries_Rights",0.971760067855939
+2022,"Mozambique","Target_2030","Wealth_Relative_Index",0.828755620634183
+2022,"Mozambique","Target_2030","Human_Development_Index",0.840417491085827
+2022,"Mozambique","Target_2030","Climate_Adaptation_Plans",0.81468287948519
+2022,"Mozambique","Target_2030","Habitat_Carbon_Storage",0.916286631533876
+2022,"Mozambique","Target_2030","Carbon_Under_Effective_Protection",0.848811845621094
+2022,"Tanzania","Target_2030","Marine_Red_List",0.839982354873791
+2022,"Tanzania","Target_2030","Marine_Living_Planet",0.811606139549986
+2022,"Tanzania","Target_2030","Fisheries_Stock_Condition",0.919823193456978
+2022,"Tanzania","Target_2030","Habitat_Condition",0.879449201049283
+2022,"Tanzania","Target_2030","Effective_Protection",0.943618361791596
+2022,"Tanzania","Target_2030","Small_Scale_Fisheries_Rights",0.906187146762386
+2022,"Tanzania","Target_2030","Wealth_Relative_Index",0.973193416604772
+2022,"Tanzania","Target_2030","Human_Development_Index",0.9705560779199
+2022,"Tanzania","Target_2030","Climate_Adaptation_Plans",0.827300459844992
+2022,"Tanzania","Target_2030","Habitat_Carbon_Storage",0.92346888165921
+2022,"Tanzania","Target_2030","Carbon_Under_Effective_Protection",0.897761527588591
+2022,"Papua New Guinea","Target_2030","Marine_Red_List",0.960183569742367
+2022,"Papua New Guinea","Target_2030","Marine_Living_Planet",0.986219928227365
+2022,"Papua New Guinea","Target_2030","Fisheries_Stock_Condition",0.949921419192105
+2022,"Papua New Guinea","Target_2030","Habitat_Condition",0.818800278520212
+2022,"Papua New Guinea","Target_2030","Effective_Protection",0.897341114515439
+2022,"Papua New Guinea","Target_2030","Small_Scale_Fisheries_Rights",0.800927630160004
+2022,"Papua New Guinea","Target_2030","Wealth_Relative_Index",0.816512212110683
+2022,"Papua New Guinea","Target_2030","Human_Development_Index",0.921366030164063
+2022,"Papua New Guinea","Target_2030","Climate_Adaptation_Plans",0.936921739252284
+2022,"Papua New Guinea","Target_2030","Habitat_Carbon_Storage",0.887654907535762
+2022,"Papua New Guinea","Target_2030","Carbon_Under_Effective_Protection",0.929776495927945
+2022,"Indonesia","Target_2030","Marine_Red_List",0.945552542060614
+2022,"Indonesia","Target_2030","Marine_Living_Planet",0.913667602417991
+2022,"Indonesia","Target_2030","Fisheries_Stock_Condition",0.983790949033573
+2022,"Indonesia","Target_2030","Habitat_Condition",0.926979281008244
+2022,"Indonesia","Target_2030","Effective_Protection",0.997741772187874
+2022,"Indonesia","Target_2030","Small_Scale_Fisheries_Rights",0.855512016033754
+2022,"Indonesia","Target_2030","Wealth_Relative_Index",0.848914136411622
+2022,"Indonesia","Target_2030","Human_Development_Index",0.951219602767378
+2022,"Indonesia","Target_2030","Climate_Adaptation_Plans",0.819924387242645
+2022,"Indonesia","Target_2030","Habitat_Carbon_Storage",0.834073796123266
+2022,"Indonesia","Target_2030","Carbon_Under_Effective_Protection",0.831743294000626
+2022,"Fiji","Target_2030","Marine_Red_List",0.843409594940022
+2022,"Fiji","Target_2030","Marine_Living_Planet",0.823554072109982
+2022,"Fiji","Target_2030","Fisheries_Stock_Condition",0.905753079196438
+2022,"Fiji","Target_2030","Habitat_Condition",0.800495762052015
+2022,"Fiji","Target_2030","Effective_Protection",0.812950225919485
+2022,"Fiji","Target_2030","Small_Scale_Fisheries_Rights",0.865040628612042
+2022,"Fiji","Target_2030","Wealth_Relative_Index",0.996308631496504
+2022,"Fiji","Target_2030","Human_Development_Index",0.912503361748532
+2022,"Fiji","Target_2030","Climate_Adaptation_Plans",0.840757181029767
+2022,"Fiji","Target_2030","Habitat_Carbon_Storage",0.94301609932445
+2022,"Fiji","Target_2030","Carbon_Under_Effective_Protection",0.967395582189783
+2022,"Solomon Islands","Target_2030","Marine_Red_List",0.948847701074556
+2022,"Solomon Islands","Target_2030","Marine_Living_Planet",0.912958896299824
+2022,"Solomon Islands","Target_2030","Fisheries_Stock_Condition",0.874395749205723
+2022,"Solomon Islands","Target_2030","Habitat_Condition",0.842104647960514
+2022,"Solomon Islands","Target_2030","Effective_Protection",0.831532555585727
+2022,"Solomon Islands","Target_2030","Small_Scale_Fisheries_Rights",0.917741255322471
+2022,"Solomon Islands","Target_2030","Wealth_Relative_Index",0.915516255889088
+2022,"Solomon Islands","Target_2030","Human_Development_Index",0.855179802561179
+2022,"Solomon Islands","Target_2030","Climate_Adaptation_Plans",0.873196027660742
+2022,"Solomon Islands","Target_2030","Habitat_Carbon_Storage",0.949557309737429
+2022,"Solomon Islands","Target_2030","Carbon_Under_Effective_Protection",0.887319305958226
+2023,"Alaska","Baseline_2020","Marine_Red_List",0.041986421495676
+2023,"Alaska","Baseline_2020","Marine_Living_Planet",0.0866653708275408
+2023,"Alaska","Baseline_2020","Fisheries_Stock_Condition",0.0540256182895973
+2023,"Alaska","Baseline_2020","Habitat_Condition",0.00658083211164922
+2023,"Alaska","Baseline_2020","Effective_Protection",0.0679022809490561
+2023,"Alaska","Baseline_2020","Small_Scale_Fisheries_Rights",0.0785348618403077
+2023,"Alaska","Baseline_2020","Wealth_Relative_Index",0.0249684700742364
+2023,"Alaska","Baseline_2020","Human_Development_Index",0.024872636445798
+2023,"Alaska","Baseline_2020","Climate_Adaptation_Plans",0.0735558403655887
+2023,"Alaska","Baseline_2020","Habitat_Carbon_Storage",0.0846195757621899
+2023,"Alaska","Baseline_2020","Carbon_Under_Effective_Protection",0.0843914708122611
+2023,"Mexico","Baseline_2020","Marine_Red_List",0.035543467104435
+2023,"Mexico","Baseline_2020","Marine_Living_Planet",0.052940575638786
+2023,"Mexico","Baseline_2020","Fisheries_Stock_Condition",0.0819682518485934
+2023,"Mexico","Baseline_2020","Habitat_Condition",0.0854369923705235
+2023,"Mexico","Baseline_2020","Effective_Protection",0.0866189130349085
+2023,"Mexico","Baseline_2020","Small_Scale_Fisheries_Rights",0.0542188289808109
+2023,"Mexico","Baseline_2020","Wealth_Relative_Index",0.00431172808166593
+2023,"Mexico","Baseline_2020","Human_Development_Index",0.0614953953772783
+2023,"Mexico","Baseline_2020","Climate_Adaptation_Plans",0.0549279793864116
+2023,"Mexico","Baseline_2020","Habitat_Carbon_Storage",0.0236872595502064
+2023,"Mexico","Baseline_2020","Carbon_Under_Effective_Protection",0.0534759046975523
+2023,"Colombia","Baseline_2020","Marine_Red_List",0.0392331253970042
+2023,"Colombia","Baseline_2020","Marine_Living_Planet",0.0598638546885923
+2023,"Colombia","Baseline_2020","Fisheries_Stock_Condition",0.070297950389795
+2023,"Colombia","Baseline_2020","Habitat_Condition",0.0510411301394925
+2023,"Colombia","Baseline_2020","Effective_Protection",0.079969711555168
+2023,"Colombia","Baseline_2020","Small_Scale_Fisheries_Rights",0.0416547345230356
+2023,"Colombia","Baseline_2020","Wealth_Relative_Index",0.0110678787576035
+2023,"Colombia","Baseline_2020","Human_Development_Index",0.00317573207430542
+2023,"Colombia","Baseline_2020","Climate_Adaptation_Plans",0.0346127043943852
+2023,"Colombia","Baseline_2020","Habitat_Carbon_Storage",0.0704877850599587
+2023,"Colombia","Baseline_2020","Carbon_Under_Effective_Protection",0.0302235261537135
+2023,"Ecuador","Baseline_2020","Marine_Red_List",0.0171936832368374
+2023,"Ecuador","Baseline_2020","Marine_Living_Planet",0.0937632332323119
+2023,"Ecuador","Baseline_2020","Fisheries_Stock_Condition",0.0567748373607174
+2023,"Ecuador","Baseline_2020","Habitat_Condition",0.020999805862084
+2023,"Ecuador","Baseline_2020","Effective_Protection",0.0134996398352087
+2023,"Ecuador","Baseline_2020","Small_Scale_Fisheries_Rights",0.0998882649000734
+2023,"Ecuador","Baseline_2020","Wealth_Relative_Index",0.0703753812005743
+2023,"Ecuador","Baseline_2020","Human_Development_Index",0.0146423544269055
+2023,"Ecuador","Baseline_2020","Climate_Adaptation_Plans",0.0514965634793043
+2023,"Ecuador","Baseline_2020","Habitat_Carbon_Storage",0.0107608830789104
+2023,"Ecuador","Baseline_2020","Carbon_Under_Effective_Protection",0.0456518182065338
+2023,"Peru","Baseline_2020","Marine_Red_List",0.0319642119342461
+2023,"Peru","Baseline_2020","Marine_Living_Planet",0.0950724098365754
+2023,"Peru","Baseline_2020","Fisheries_Stock_Condition",0.0721309266285971
+2023,"Peru","Baseline_2020","Habitat_Condition",0.0375843436690047
+2023,"Peru","Baseline_2020","Effective_Protection",0.0387498257681727
+2023,"Peru","Baseline_2020","Small_Scale_Fisheries_Rights",0.0255673117004335
+2023,"Peru","Baseline_2020","Wealth_Relative_Index",0.0939021238824353
+2023,"Peru","Baseline_2020","Human_Development_Index",0.0703072973992676
+2023,"Peru","Baseline_2020","Climate_Adaptation_Plans",0.0815767947584391
+2023,"Peru","Baseline_2020","Habitat_Carbon_Storage",0.0779068868607283
+2023,"Peru","Baseline_2020","Carbon_Under_Effective_Protection",0.0384342534467578
+2023,"Chile","Baseline_2020","Marine_Red_List",0.0413555064238608
+2023,"Chile","Baseline_2020","Marine_Living_Planet",0.0660532301291823
+2023,"Chile","Baseline_2020","Fisheries_Stock_Condition",0.0752444213489071
+2023,"Chile","Baseline_2020","Habitat_Condition",0.0207365499809384
+2023,"Chile","Baseline_2020","Effective_Protection",0.0788471929030493
+2023,"Chile","Baseline_2020","Small_Scale_Fisheries_Rights",0.0507875671144575
+2023,"Chile","Baseline_2020","Wealth_Relative_Index",0.0311169018037617
+2023,"Chile","Baseline_2020","Human_Development_Index",0.0065560708520934
+2023,"Chile","Baseline_2020","Climate_Adaptation_Plans",0.0526272569317371
+2023,"Chile","Baseline_2020","Habitat_Carbon_Storage",0.025510568334721
+2023,"Chile","Baseline_2020","Carbon_Under_Effective_Protection",0.0249046854674816
+2023,"Madagascar","Baseline_2020","Marine_Red_List",0.0759335696697235
+2023,"Madagascar","Baseline_2020","Marine_Living_Planet",0.00722865809220821
+2023,"Madagascar","Baseline_2020","Fisheries_Stock_Condition",0.0381422596750781
+2023,"Madagascar","Baseline_2020","Habitat_Condition",0.0459240817232058
+2023,"Madagascar","Baseline_2020","Effective_Protection",0.0692913666600361
+2023,"Madagascar","Baseline_2020","Small_Scale_Fisheries_Rights",0.00789711775723845
+2023,"Madagascar","Baseline_2020","Wealth_Relative_Index",0.00784929301589728
+2023,"Madagascar","Baseline_2020","Human_Development_Index",0.0621807062299922
+2023,"Madagascar","Baseline_2020","Climate_Adaptation_Plans",0.0203040049877018
+2023,"Madagascar","Baseline_2020","Habitat_Carbon_Storage",0.0548043326009065
+2023,"Madagascar","Baseline_2020","Carbon_Under_Effective_Protection",0.0654626744799316
+2023,"Mozambique","Baseline_2020","Marine_Red_List",0.0271890205098316
+2023,"Mozambique","Baseline_2020","Marine_Living_Planet",0.0826331578660756
+2023,"Mozambique","Baseline_2020","Fisheries_Stock_Condition",0.028801028127782
+2023,"Mozambique","Baseline_2020","Habitat_Condition",0.0241502250079066
+2023,"Mozambique","Baseline_2020","Effective_Protection",0.059427297138609
+2023,"Mozambique","Baseline_2020","Small_Scale_Fisheries_Rights",0.0813668364426121
+2023,"Mozambique","Baseline_2020","Wealth_Relative_Index",0.0321744091343135
+2023,"Mozambique","Baseline_2020","Human_Development_Index",0.0937327365390956
+2023,"Mozambique","Baseline_2020","Climate_Adaptation_Plans",0.0848107680445537
+2023,"Mozambique","Baseline_2020","Habitat_Carbon_Storage",0.00339015207719058
+2023,"Mozambique","Baseline_2020","Carbon_Under_Effective_Protection",0.095532370172441
+2023,"Tanzania","Baseline_2020","Marine_Red_List",0.0115582457045093
+2023,"Tanzania","Baseline_2020","Marine_Living_Planet",0.047954407799989
+2023,"Tanzania","Baseline_2020","Fisheries_Stock_Condition",0.0531683327164501
+2023,"Tanzania","Baseline_2020","Habitat_Condition",0.0118690322386101
+2023,"Tanzania","Baseline_2020","Effective_Protection",0.0123857651371509
+2023,"Tanzania","Baseline_2020","Small_Scale_Fisheries_Rights",0.038217916013673
+2023,"Tanzania","Baseline_2020","Wealth_Relative_Index",0.0624905536882579
+2023,"Tanzania","Baseline_2020","Human_Development_Index",0.00878946147859097
+2023,"Tanzania","Baseline_2020","Climate_Adaptation_Plans",0.0370494215050712
+2023,"Tanzania","Baseline_2020","Habitat_Carbon_Storage",0.0806109476136044
+2023,"Tanzania","Baseline_2020","Carbon_Under_Effective_Protection",0.0291082957293838
+2023,"Papua New Guinea","Baseline_2020","Marine_Red_List",0.00293366149999201
+2023,"Papua New Guinea","Baseline_2020","Marine_Living_Planet",0.0391228783410043
+2023,"Papua New Guinea","Baseline_2020","Fisheries_Stock_Condition",0.0259646071353927
+2023,"Papua New Guinea","Baseline_2020","Habitat_Condition",0.00724691497161984
+2023,"Papua New Guinea","Baseline_2020","Effective_Protection",0.055507810274139
+2023,"Papua New Guinea","Baseline_2020","Small_Scale_Fisheries_Rights",0.0802182707935572
+2023,"Papua New Guinea","Baseline_2020","Wealth_Relative_Index",0.0440241849515587
+2023,"Papua New Guinea","Baseline_2020","Human_Development_Index",0.0972803509328514
+2023,"Papua New Guinea","Baseline_2020","Climate_Adaptation_Plans",0.0303325170883909
+2023,"Papua New Guinea","Baseline_2020","Habitat_Carbon_Storage",0.0337752807186916
+2023,"Papua New Guinea","Baseline_2020","Carbon_Under_Effective_Protection",0.0650189086562023
+2023,"Indonesia","Baseline_2020","Marine_Red_List",0.0806855297880247
+2023,"Indonesia","Baseline_2020","Marine_Living_Planet",0.0299122775672004
+2023,"Indonesia","Baseline_2020","Fisheries_Stock_Condition",0.083179031778127
+2023,"Indonesia","Baseline_2020","Habitat_Condition",0.0690989849856123
+2023,"Indonesia","Baseline_2020","Effective_Protection",0.0449411387788132
+2023,"Indonesia","Baseline_2020","Small_Scale_Fisheries_Rights",0.0197923636762425
+2023,"Indonesia","Baseline_2020","Wealth_Relative_Index",0.0801345300627872
+2023,"Indonesia","Baseline_2020","Human_Development_Index",0.00260107105132192
+2023,"Indonesia","Baseline_2020","Climate_Adaptation_Plans",0.0770597046939656
+2023,"Indonesia","Baseline_2020","Habitat_Carbon_Storage",0.0916285858023912
+2023,"Indonesia","Baseline_2020","Carbon_Under_Effective_Protection",0.0536359930876643
+2023,"Fiji","Baseline_2020","Marine_Red_List",0.0480126436566934
+2023,"Fiji","Baseline_2020","Marine_Living_Planet",0.0244308249559253
+2023,"Fiji","Baseline_2020","Fisheries_Stock_Condition",0.0405363884754479
+2023,"Fiji","Baseline_2020","Habitat_Condition",0.0286957619246095
+2023,"Fiji","Baseline_2020","Effective_Protection",0.0766166528686881
+2023,"Fiji","Baseline_2020","Small_Scale_Fisheries_Rights",0.0946399770211429
+2023,"Fiji","Baseline_2020","Wealth_Relative_Index",0.0279283805051819
+2023,"Fiji","Baseline_2020","Human_Development_Index",0.0725227952003479
+2023,"Fiji","Baseline_2020","Climate_Adaptation_Plans",0.0733448554994538
+2023,"Fiji","Baseline_2020","Habitat_Carbon_Storage",0.0357106417883188
+2023,"Fiji","Baseline_2020","Carbon_Under_Effective_Protection",0.0597451866604388
+2023,"Solomon Islands","Baseline_2020","Marine_Red_List",0.0806247940286994
+2023,"Solomon Islands","Baseline_2020","Marine_Living_Planet",0.0421810131752864
+2023,"Solomon Islands","Baseline_2020","Fisheries_Stock_Condition",0.00726319255772978
+2023,"Solomon Islands","Baseline_2020","Habitat_Condition",0.0149412495549768
+2023,"Solomon Islands","Baseline_2020","Effective_Protection",0.00260977216530591
+2023,"Solomon Islands","Baseline_2020","Small_Scale_Fisheries_Rights",0.0345672474242747
+2023,"Solomon Islands","Baseline_2020","Wealth_Relative_Index",0.0570713193388656
+2023,"Solomon Islands","Baseline_2020","Human_Development_Index",0.0453706391621381
+2023,"Solomon Islands","Baseline_2020","Climate_Adaptation_Plans",0.0838905998272821
+2023,"Solomon Islands","Baseline_2020","Habitat_Carbon_Storage",0.0975365013116971
+2023,"Solomon Islands","Baseline_2020","Carbon_Under_Effective_Protection",0.00248982694465667
+2023,"Alaska","Target_2030","Marine_Red_List",0.815801136335358
+2023,"Alaska","Target_2030","Marine_Living_Planet",0.987554035382345
+2023,"Alaska","Target_2030","Fisheries_Stock_Condition",0.99075172492303
+2023,"Alaska","Target_2030","Habitat_Condition",0.994486401835456
+2023,"Alaska","Target_2030","Effective_Protection",0.839034286374226
+2023,"Alaska","Target_2030","Small_Scale_Fisheries_Rights",0.904410049458966
+2023,"Alaska","Target_2030","Wealth_Relative_Index",0.808425602409989
+2023,"Alaska","Target_2030","Human_Development_Index",0.913236480997875
+2023,"Alaska","Target_2030","Climate_Adaptation_Plans",0.913809768483043
+2023,"Alaska","Target_2030","Habitat_Carbon_Storage",0.876875704526901
+2023,"Alaska","Target_2030","Carbon_Under_Effective_Protection",0.800968347908929
+2023,"Mexico","Target_2030","Marine_Red_List",0.823067481908947
+2023,"Mexico","Target_2030","Marine_Living_Planet",0.852897023316473
+2023,"Mexico","Target_2030","Fisheries_Stock_Condition",0.843436756590381
+2023,"Mexico","Target_2030","Habitat_Condition",0.88210287806578
+2023,"Mexico","Target_2030","Effective_Protection",0.976246912963688
+2023,"Mexico","Target_2030","Small_Scale_Fisheries_Rights",0.82233760128729
+2023,"Mexico","Target_2030","Wealth_Relative_Index",0.838143491093069
+2023,"Mexico","Target_2030","Human_Development_Index",0.974546209257096
+2023,"Mexico","Target_2030","Climate_Adaptation_Plans",0.805256167659536
+2023,"Mexico","Target_2030","Habitat_Carbon_Storage",0.897734707035124
+2023,"Mexico","Target_2030","Carbon_Under_Effective_Protection",0.826275650877506
+2023,"Colombia","Target_2030","Marine_Red_List",0.825883257901296
+2023,"Colombia","Target_2030","Marine_Living_Planet",0.91371375080198
+2023,"Colombia","Target_2030","Fisheries_Stock_Condition",0.881125053344294
+2023,"Colombia","Target_2030","Habitat_Condition",0.880362770846114
+2023,"Colombia","Target_2030","Effective_Protection",0.821960318693891
+2023,"Colombia","Target_2030","Small_Scale_Fisheries_Rights",0.977194970240816
+2023,"Colombia","Target_2030","Wealth_Relative_Index",0.945417294139043
+2023,"Colombia","Target_2030","Human_Development_Index",0.910912635922432
+2023,"Colombia","Target_2030","Climate_Adaptation_Plans",0.897225445648655
+2023,"Colombia","Target_2030","Habitat_Carbon_Storage",0.898155246255919
+2023,"Colombia","Target_2030","Carbon_Under_Effective_Protection",0.804963420750573
+2023,"Ecuador","Target_2030","Marine_Red_List",0.947749708406627
+2023,"Ecuador","Target_2030","Marine_Living_Planet",0.840436913538724
+2023,"Ecuador","Target_2030","Fisheries_Stock_Condition",0.925133663089946
+2023,"Ecuador","Target_2030","Habitat_Condition",0.929711269726977
+2023,"Ecuador","Target_2030","Effective_Protection",0.993710185587406
+2023,"Ecuador","Target_2030","Small_Scale_Fisheries_Rights",0.990850994642824
+2023,"Ecuador","Target_2030","Wealth_Relative_Index",0.965338010061532
+2023,"Ecuador","Target_2030","Human_Development_Index",0.947530441451818
+2023,"Ecuador","Target_2030","Climate_Adaptation_Plans",0.908536206558347
+2023,"Ecuador","Target_2030","Habitat_Carbon_Storage",0.802450924832374
+2023,"Ecuador","Target_2030","Carbon_Under_Effective_Protection",0.818425890384242
+2023,"Peru","Target_2030","Marine_Red_List",0.951419706689194
+2023,"Peru","Target_2030","Marine_Living_Planet",0.838561125379056
+2023,"Peru","Target_2030","Fisheries_Stock_Condition",0.925680960761383
+2023,"Peru","Target_2030","Habitat_Condition",0.983261147933081
+2023,"Peru","Target_2030","Effective_Protection",0.877039718581364
+2023,"Peru","Target_2030","Small_Scale_Fisheries_Rights",0.808076152624562
+2023,"Peru","Target_2030","Wealth_Relative_Index",0.902144215069711
+2023,"Peru","Target_2030","Human_Development_Index",0.924625832401216
+2023,"Peru","Target_2030","Climate_Adaptation_Plans",0.967332023382187
+2023,"Peru","Target_2030","Habitat_Carbon_Storage",0.92829464012757
+2023,"Peru","Target_2030","Carbon_Under_Effective_Protection",0.89511164482683
+2023,"Chile","Target_2030","Marine_Red_List",0.998491061711684
+2023,"Chile","Target_2030","Marine_Living_Planet",0.94372234903276
+2023,"Chile","Target_2030","Fisheries_Stock_Condition",0.865647732838988
+2023,"Chile","Target_2030","Habitat_Condition",0.843332427786663
+2023,"Chile","Target_2030","Effective_Protection",0.971718281460926
+2023,"Chile","Target_2030","Small_Scale_Fisheries_Rights",0.8987232377287
+2023,"Chile","Target_2030","Wealth_Relative_Index",0.913545233150944
+2023,"Chile","Target_2030","Human_Development_Index",0.86220568115823
+2023,"Chile","Target_2030","Climate_Adaptation_Plans",0.945732907624915
+2023,"Chile","Target_2030","Habitat_Carbon_Storage",0.902514994330704
+2023,"Chile","Target_2030","Carbon_Under_Effective_Protection",0.839331352245063
+2023,"Madagascar","Target_2030","Marine_Red_List",0.924910597456619
+2023,"Madagascar","Target_2030","Marine_Living_Planet",0.862703579105437
+2023,"Madagascar","Target_2030","Fisheries_Stock_Condition",0.827781898388639
+2023,"Madagascar","Target_2030","Habitat_Condition",0.909599774377421
+2023,"Madagascar","Target_2030","Effective_Protection",0.977476950921118
+2023,"Madagascar","Target_2030","Small_Scale_Fisheries_Rights",0.845212740963325
+2023,"Madagascar","Target_2030","Wealth_Relative_Index",0.800231163948774
+2023,"Madagascar","Target_2030","Human_Development_Index",0.878439296921715
+2023,"Madagascar","Target_2030","Climate_Adaptation_Plans",0.911022761370987
+2023,"Madagascar","Target_2030","Habitat_Carbon_Storage",0.864070423645899
+2023,"Madagascar","Target_2030","Carbon_Under_Effective_Protection",0.962934789713472
+2023,"Mozambique","Target_2030","Marine_Red_List",0.857738021714613
+2023,"Mozambique","Target_2030","Marine_Living_Planet",0.827678025467321
+2023,"Mozambique","Target_2030","Fisheries_Stock_Condition",0.98293143408373
+2023,"Mozambique","Target_2030","Habitat_Condition",0.944010091573
+2023,"Mozambique","Target_2030","Effective_Protection",0.897818299708888
+2023,"Mozambique","Target_2030","Small_Scale_Fisheries_Rights",0.971760067855939
+2023,"Mozambique","Target_2030","Wealth_Relative_Index",0.828755620634183
+2023,"Mozambique","Target_2030","Human_Development_Index",0.840417491085827
+2023,"Mozambique","Target_2030","Climate_Adaptation_Plans",0.81468287948519
+2023,"Mozambique","Target_2030","Habitat_Carbon_Storage",0.916286631533876
+2023,"Mozambique","Target_2030","Carbon_Under_Effective_Protection",0.848811845621094
+2023,"Tanzania","Target_2030","Marine_Red_List",0.839982354873791
+2023,"Tanzania","Target_2030","Marine_Living_Planet",0.811606139549986
+2023,"Tanzania","Target_2030","Fisheries_Stock_Condition",0.919823193456978
+2023,"Tanzania","Target_2030","Habitat_Condition",0.879449201049283
+2023,"Tanzania","Target_2030","Effective_Protection",0.943618361791596
+2023,"Tanzania","Target_2030","Small_Scale_Fisheries_Rights",0.906187146762386
+2023,"Tanzania","Target_2030","Wealth_Relative_Index",0.973193416604772
+2023,"Tanzania","Target_2030","Human_Development_Index",0.9705560779199
+2023,"Tanzania","Target_2030","Climate_Adaptation_Plans",0.827300459844992
+2023,"Tanzania","Target_2030","Habitat_Carbon_Storage",0.92346888165921
+2023,"Tanzania","Target_2030","Carbon_Under_Effective_Protection",0.897761527588591
+2023,"Papua New Guinea","Target_2030","Marine_Red_List",0.960183569742367
+2023,"Papua New Guinea","Target_2030","Marine_Living_Planet",0.986219928227365
+2023,"Papua New Guinea","Target_2030","Fisheries_Stock_Condition",0.949921419192105
+2023,"Papua New Guinea","Target_2030","Habitat_Condition",0.818800278520212
+2023,"Papua New Guinea","Target_2030","Effective_Protection",0.897341114515439
+2023,"Papua New Guinea","Target_2030","Small_Scale_Fisheries_Rights",0.800927630160004
+2023,"Papua New Guinea","Target_2030","Wealth_Relative_Index",0.816512212110683
+2023,"Papua New Guinea","Target_2030","Human_Development_Index",0.921366030164063
+2023,"Papua New Guinea","Target_2030","Climate_Adaptation_Plans",0.936921739252284
+2023,"Papua New Guinea","Target_2030","Habitat_Carbon_Storage",0.887654907535762
+2023,"Papua New Guinea","Target_2030","Carbon_Under_Effective_Protection",0.929776495927945
+2023,"Indonesia","Target_2030","Marine_Red_List",0.945552542060614
+2023,"Indonesia","Target_2030","Marine_Living_Planet",0.913667602417991
+2023,"Indonesia","Target_2030","Fisheries_Stock_Condition",0.983790949033573
+2023,"Indonesia","Target_2030","Habitat_Condition",0.926979281008244
+2023,"Indonesia","Target_2030","Effective_Protection",0.997741772187874
+2023,"Indonesia","Target_2030","Small_Scale_Fisheries_Rights",0.855512016033754
+2023,"Indonesia","Target_2030","Wealth_Relative_Index",0.848914136411622
+2023,"Indonesia","Target_2030","Human_Development_Index",0.951219602767378
+2023,"Indonesia","Target_2030","Climate_Adaptation_Plans",0.819924387242645
+2023,"Indonesia","Target_2030","Habitat_Carbon_Storage",0.834073796123266
+2023,"Indonesia","Target_2030","Carbon_Under_Effective_Protection",0.831743294000626
+2023,"Fiji","Target_2030","Marine_Red_List",0.843409594940022
+2023,"Fiji","Target_2030","Marine_Living_Planet",0.823554072109982
+2023,"Fiji","Target_2030","Fisheries_Stock_Condition",0.905753079196438
+2023,"Fiji","Target_2030","Habitat_Condition",0.800495762052015
+2023,"Fiji","Target_2030","Effective_Protection",0.812950225919485
+2023,"Fiji","Target_2030","Small_Scale_Fisheries_Rights",0.865040628612042
+2023,"Fiji","Target_2030","Wealth_Relative_Index",0.996308631496504
+2023,"Fiji","Target_2030","Human_Development_Index",0.912503361748532
+2023,"Fiji","Target_2030","Climate_Adaptation_Plans",0.840757181029767
+2023,"Fiji","Target_2030","Habitat_Carbon_Storage",0.94301609932445
+2023,"Fiji","Target_2030","Carbon_Under_Effective_Protection",0.967395582189783
+2023,"Solomon Islands","Target_2030","Marine_Red_List",0.948847701074556
+2023,"Solomon Islands","Target_2030","Marine_Living_Planet",0.912958896299824
+2023,"Solomon Islands","Target_2030","Fisheries_Stock_Condition",0.874395749205723
+2023,"Solomon Islands","Target_2030","Habitat_Condition",0.842104647960514
+2023,"Solomon Islands","Target_2030","Effective_Protection",0.831532555585727
+2023,"Solomon Islands","Target_2030","Small_Scale_Fisheries_Rights",0.917741255322471
+2023,"Solomon Islands","Target_2030","Wealth_Relative_Index",0.915516255889088
+2023,"Solomon Islands","Target_2030","Human_Development_Index",0.855179802561179
+2023,"Solomon Islands","Target_2030","Climate_Adaptation_Plans",0.873196027660742
+2023,"Solomon Islands","Target_2030","Habitat_Carbon_Storage",0.949557309737429
+2023,"Solomon Islands","Target_2030","Carbon_Under_Effective_Protection",0.887319305958226
+2024,"Alaska","Baseline_2020","Marine_Red_List",0.041986421495676
+2024,"Alaska","Baseline_2020","Marine_Living_Planet",0.0866653708275408
+2024,"Alaska","Baseline_2020","Fisheries_Stock_Condition",0.0540256182895973
+2024,"Alaska","Baseline_2020","Habitat_Condition",0.00658083211164922
+2024,"Alaska","Baseline_2020","Effective_Protection",0.0679022809490561
+2024,"Alaska","Baseline_2020","Small_Scale_Fisheries_Rights",0.0785348618403077
+2024,"Alaska","Baseline_2020","Wealth_Relative_Index",0.0249684700742364
+2024,"Alaska","Baseline_2020","Human_Development_Index",0.024872636445798
+2024,"Alaska","Baseline_2020","Climate_Adaptation_Plans",0.0735558403655887
+2024,"Alaska","Baseline_2020","Habitat_Carbon_Storage",0.0846195757621899
+2024,"Alaska","Baseline_2020","Carbon_Under_Effective_Protection",0.0843914708122611
+2024,"Mexico","Baseline_2020","Marine_Red_List",0.035543467104435
+2024,"Mexico","Baseline_2020","Marine_Living_Planet",0.052940575638786
+2024,"Mexico","Baseline_2020","Fisheries_Stock_Condition",0.0819682518485934
+2024,"Mexico","Baseline_2020","Habitat_Condition",0.0854369923705235
+2024,"Mexico","Baseline_2020","Effective_Protection",0.0866189130349085
+2024,"Mexico","Baseline_2020","Small_Scale_Fisheries_Rights",0.0542188289808109
+2024,"Mexico","Baseline_2020","Wealth_Relative_Index",0.00431172808166593
+2024,"Mexico","Baseline_2020","Human_Development_Index",0.0614953953772783
+2024,"Mexico","Baseline_2020","Climate_Adaptation_Plans",0.0549279793864116
+2024,"Mexico","Baseline_2020","Habitat_Carbon_Storage",0.0236872595502064
+2024,"Mexico","Baseline_2020","Carbon_Under_Effective_Protection",0.0534759046975523
+2024,"Colombia","Baseline_2020","Marine_Red_List",0.0392331253970042
+2024,"Colombia","Baseline_2020","Marine_Living_Planet",0.0598638546885923
+2024,"Colombia","Baseline_2020","Fisheries_Stock_Condition",0.070297950389795
+2024,"Colombia","Baseline_2020","Habitat_Condition",0.0510411301394925
+2024,"Colombia","Baseline_2020","Effective_Protection",0.079969711555168
+2024,"Colombia","Baseline_2020","Small_Scale_Fisheries_Rights",0.0416547345230356
+2024,"Colombia","Baseline_2020","Wealth_Relative_Index",0.0110678787576035
+2024,"Colombia","Baseline_2020","Human_Development_Index",0.00317573207430542
+2024,"Colombia","Baseline_2020","Climate_Adaptation_Plans",0.0346127043943852
+2024,"Colombia","Baseline_2020","Habitat_Carbon_Storage",0.0704877850599587
+2024,"Colombia","Baseline_2020","Carbon_Under_Effective_Protection",0.0302235261537135
+2024,"Ecuador","Baseline_2020","Marine_Red_List",0.0171936832368374
+2024,"Ecuador","Baseline_2020","Marine_Living_Planet",0.0937632332323119
+2024,"Ecuador","Baseline_2020","Fisheries_Stock_Condition",0.0567748373607174
+2024,"Ecuador","Baseline_2020","Habitat_Condition",0.020999805862084
+2024,"Ecuador","Baseline_2020","Effective_Protection",0.0134996398352087
+2024,"Ecuador","Baseline_2020","Small_Scale_Fisheries_Rights",0.0998882649000734
+2024,"Ecuador","Baseline_2020","Wealth_Relative_Index",0.0703753812005743
+2024,"Ecuador","Baseline_2020","Human_Development_Index",0.0146423544269055
+2024,"Ecuador","Baseline_2020","Climate_Adaptation_Plans",0.0514965634793043
+2024,"Ecuador","Baseline_2020","Habitat_Carbon_Storage",0.0107608830789104
+2024,"Ecuador","Baseline_2020","Carbon_Under_Effective_Protection",0.0456518182065338
+2024,"Peru","Baseline_2020","Marine_Red_List",0.0319642119342461
+2024,"Peru","Baseline_2020","Marine_Living_Planet",0.0950724098365754
+2024,"Peru","Baseline_2020","Fisheries_Stock_Condition",0.0721309266285971
+2024,"Peru","Baseline_2020","Habitat_Condition",0.0375843436690047
+2024,"Peru","Baseline_2020","Effective_Protection",0.0387498257681727
+2024,"Peru","Baseline_2020","Small_Scale_Fisheries_Rights",0.0255673117004335
+2024,"Peru","Baseline_2020","Wealth_Relative_Index",0.0939021238824353
+2024,"Peru","Baseline_2020","Human_Development_Index",0.0703072973992676
+2024,"Peru","Baseline_2020","Climate_Adaptation_Plans",0.0815767947584391
+2024,"Peru","Baseline_2020","Habitat_Carbon_Storage",0.0779068868607283
+2024,"Peru","Baseline_2020","Carbon_Under_Effective_Protection",0.0384342534467578
+2024,"Chile","Baseline_2020","Marine_Red_List",0.0413555064238608
+2024,"Chile","Baseline_2020","Marine_Living_Planet",0.0660532301291823
+2024,"Chile","Baseline_2020","Fisheries_Stock_Condition",0.0752444213489071
+2024,"Chile","Baseline_2020","Habitat_Condition",0.0207365499809384
+2024,"Chile","Baseline_2020","Effective_Protection",0.0788471929030493
+2024,"Chile","Baseline_2020","Small_Scale_Fisheries_Rights",0.0507875671144575
+2024,"Chile","Baseline_2020","Wealth_Relative_Index",0.0311169018037617
+2024,"Chile","Baseline_2020","Human_Development_Index",0.0065560708520934
+2024,"Chile","Baseline_2020","Climate_Adaptation_Plans",0.0526272569317371
+2024,"Chile","Baseline_2020","Habitat_Carbon_Storage",0.025510568334721
+2024,"Chile","Baseline_2020","Carbon_Under_Effective_Protection",0.0249046854674816
+2024,"Madagascar","Baseline_2020","Marine_Red_List",0.0759335696697235
+2024,"Madagascar","Baseline_2020","Marine_Living_Planet",0.00722865809220821
+2024,"Madagascar","Baseline_2020","Fisheries_Stock_Condition",0.0381422596750781
+2024,"Madagascar","Baseline_2020","Habitat_Condition",0.0459240817232058
+2024,"Madagascar","Baseline_2020","Effective_Protection",0.0692913666600361
+2024,"Madagascar","Baseline_2020","Small_Scale_Fisheries_Rights",0.00789711775723845
+2024,"Madagascar","Baseline_2020","Wealth_Relative_Index",0.00784929301589728
+2024,"Madagascar","Baseline_2020","Human_Development_Index",0.0621807062299922
+2024,"Madagascar","Baseline_2020","Climate_Adaptation_Plans",0.0203040049877018
+2024,"Madagascar","Baseline_2020","Habitat_Carbon_Storage",0.0548043326009065
+2024,"Madagascar","Baseline_2020","Carbon_Under_Effective_Protection",0.0654626744799316
+2024,"Mozambique","Baseline_2020","Marine_Red_List",0.0271890205098316
+2024,"Mozambique","Baseline_2020","Marine_Living_Planet",0.0826331578660756
+2024,"Mozambique","Baseline_2020","Fisheries_Stock_Condition",0.028801028127782
+2024,"Mozambique","Baseline_2020","Habitat_Condition",0.0241502250079066
+2024,"Mozambique","Baseline_2020","Effective_Protection",0.059427297138609
+2024,"Mozambique","Baseline_2020","Small_Scale_Fisheries_Rights",0.0813668364426121
+2024,"Mozambique","Baseline_2020","Wealth_Relative_Index",0.0321744091343135
+2024,"Mozambique","Baseline_2020","Human_Development_Index",0.0937327365390956
+2024,"Mozambique","Baseline_2020","Climate_Adaptation_Plans",0.0848107680445537
+2024,"Mozambique","Baseline_2020","Habitat_Carbon_Storage",0.00339015207719058
+2024,"Mozambique","Baseline_2020","Carbon_Under_Effective_Protection",0.095532370172441
+2024,"Tanzania","Baseline_2020","Marine_Red_List",0.0115582457045093
+2024,"Tanzania","Baseline_2020","Marine_Living_Planet",0.047954407799989
+2024,"Tanzania","Baseline_2020","Fisheries_Stock_Condition",0.0531683327164501
+2024,"Tanzania","Baseline_2020","Habitat_Condition",0.0118690322386101
+2024,"Tanzania","Baseline_2020","Effective_Protection",0.0123857651371509
+2024,"Tanzania","Baseline_2020","Small_Scale_Fisheries_Rights",0.038217916013673
+2024,"Tanzania","Baseline_2020","Wealth_Relative_Index",0.0624905536882579
+2024,"Tanzania","Baseline_2020","Human_Development_Index",0.00878946147859097
+2024,"Tanzania","Baseline_2020","Climate_Adaptation_Plans",0.0370494215050712
+2024,"Tanzania","Baseline_2020","Habitat_Carbon_Storage",0.0806109476136044
+2024,"Tanzania","Baseline_2020","Carbon_Under_Effective_Protection",0.0291082957293838
+2024,"Papua New Guinea","Baseline_2020","Marine_Red_List",0.00293366149999201
+2024,"Papua New Guinea","Baseline_2020","Marine_Living_Planet",0.0391228783410043
+2024,"Papua New Guinea","Baseline_2020","Fisheries_Stock_Condition",0.0259646071353927
+2024,"Papua New Guinea","Baseline_2020","Habitat_Condition",0.00724691497161984
+2024,"Papua New Guinea","Baseline_2020","Effective_Protection",0.055507810274139
+2024,"Papua New Guinea","Baseline_2020","Small_Scale_Fisheries_Rights",0.0802182707935572
+2024,"Papua New Guinea","Baseline_2020","Wealth_Relative_Index",0.0440241849515587
+2024,"Papua New Guinea","Baseline_2020","Human_Development_Index",0.0972803509328514
+2024,"Papua New Guinea","Baseline_2020","Climate_Adaptation_Plans",0.0303325170883909
+2024,"Papua New Guinea","Baseline_2020","Habitat_Carbon_Storage",0.0337752807186916
+2024,"Papua New Guinea","Baseline_2020","Carbon_Under_Effective_Protection",0.0650189086562023
+2024,"Indonesia","Baseline_2020","Marine_Red_List",0.0806855297880247
+2024,"Indonesia","Baseline_2020","Marine_Living_Planet",0.0299122775672004
+2024,"Indonesia","Baseline_2020","Fisheries_Stock_Condition",0.083179031778127
+2024,"Indonesia","Baseline_2020","Habitat_Condition",0.0690989849856123
+2024,"Indonesia","Baseline_2020","Effective_Protection",0.0449411387788132
+2024,"Indonesia","Baseline_2020","Small_Scale_Fisheries_Rights",0.0197923636762425
+2024,"Indonesia","Baseline_2020","Wealth_Relative_Index",0.0801345300627872
+2024,"Indonesia","Baseline_2020","Human_Development_Index",0.00260107105132192
+2024,"Indonesia","Baseline_2020","Climate_Adaptation_Plans",0.0770597046939656
+2024,"Indonesia","Baseline_2020","Habitat_Carbon_Storage",0.0916285858023912
+2024,"Indonesia","Baseline_2020","Carbon_Under_Effective_Protection",0.0536359930876643
+2024,"Fiji","Baseline_2020","Marine_Red_List",0.0480126436566934
+2024,"Fiji","Baseline_2020","Marine_Living_Planet",0.0244308249559253
+2024,"Fiji","Baseline_2020","Fisheries_Stock_Condition",0.0405363884754479
+2024,"Fiji","Baseline_2020","Habitat_Condition",0.0286957619246095
+2024,"Fiji","Baseline_2020","Effective_Protection",0.0766166528686881
+2024,"Fiji","Baseline_2020","Small_Scale_Fisheries_Rights",0.0946399770211429
+2024,"Fiji","Baseline_2020","Wealth_Relative_Index",0.0279283805051819
+2024,"Fiji","Baseline_2020","Human_Development_Index",0.0725227952003479
+2024,"Fiji","Baseline_2020","Climate_Adaptation_Plans",0.0733448554994538
+2024,"Fiji","Baseline_2020","Habitat_Carbon_Storage",0.0357106417883188
+2024,"Fiji","Baseline_2020","Carbon_Under_Effective_Protection",0.0597451866604388
+2024,"Solomon Islands","Baseline_2020","Marine_Red_List",0.0806247940286994
+2024,"Solomon Islands","Baseline_2020","Marine_Living_Planet",0.0421810131752864
+2024,"Solomon Islands","Baseline_2020","Fisheries_Stock_Condition",0.00726319255772978
+2024,"Solomon Islands","Baseline_2020","Habitat_Condition",0.0149412495549768
+2024,"Solomon Islands","Baseline_2020","Effective_Protection",0.00260977216530591
+2024,"Solomon Islands","Baseline_2020","Small_Scale_Fisheries_Rights",0.0345672474242747
+2024,"Solomon Islands","Baseline_2020","Wealth_Relative_Index",0.0570713193388656
+2024,"Solomon Islands","Baseline_2020","Human_Development_Index",0.0453706391621381
+2024,"Solomon Islands","Baseline_2020","Climate_Adaptation_Plans",0.0838905998272821
+2024,"Solomon Islands","Baseline_2020","Habitat_Carbon_Storage",0.0975365013116971
+2024,"Solomon Islands","Baseline_2020","Carbon_Under_Effective_Protection",0.00248982694465667
+2024,"Alaska","Target_2030","Marine_Red_List",0.815801136335358
+2024,"Alaska","Target_2030","Marine_Living_Planet",0.987554035382345
+2024,"Alaska","Target_2030","Fisheries_Stock_Condition",0.99075172492303
+2024,"Alaska","Target_2030","Habitat_Condition",0.994486401835456
+2024,"Alaska","Target_2030","Effective_Protection",0.839034286374226
+2024,"Alaska","Target_2030","Small_Scale_Fisheries_Rights",0.904410049458966
+2024,"Alaska","Target_2030","Wealth_Relative_Index",0.808425602409989
+2024,"Alaska","Target_2030","Human_Development_Index",0.913236480997875
+2024,"Alaska","Target_2030","Climate_Adaptation_Plans",0.913809768483043
+2024,"Alaska","Target_2030","Habitat_Carbon_Storage",0.876875704526901
+2024,"Alaska","Target_2030","Carbon_Under_Effective_Protection",0.800968347908929
+2024,"Mexico","Target_2030","Marine_Red_List",0.823067481908947
+2024,"Mexico","Target_2030","Marine_Living_Planet",0.852897023316473
+2024,"Mexico","Target_2030","Fisheries_Stock_Condition",0.843436756590381
+2024,"Mexico","Target_2030","Habitat_Condition",0.88210287806578
+2024,"Mexico","Target_2030","Effective_Protection",0.976246912963688
+2024,"Mexico","Target_2030","Small_Scale_Fisheries_Rights",0.82233760128729
+2024,"Mexico","Target_2030","Wealth_Relative_Index",0.838143491093069
+2024,"Mexico","Target_2030","Human_Development_Index",0.974546209257096
+2024,"Mexico","Target_2030","Climate_Adaptation_Plans",0.805256167659536
+2024,"Mexico","Target_2030","Habitat_Carbon_Storage",0.897734707035124
+2024,"Mexico","Target_2030","Carbon_Under_Effective_Protection",0.826275650877506
+2024,"Colombia","Target_2030","Marine_Red_List",0.825883257901296
+2024,"Colombia","Target_2030","Marine_Living_Planet",0.91371375080198
+2024,"Colombia","Target_2030","Fisheries_Stock_Condition",0.881125053344294
+2024,"Colombia","Target_2030","Habitat_Condition",0.880362770846114
+2024,"Colombia","Target_2030","Effective_Protection",0.821960318693891
+2024,"Colombia","Target_2030","Small_Scale_Fisheries_Rights",0.977194970240816
+2024,"Colombia","Target_2030","Wealth_Relative_Index",0.945417294139043
+2024,"Colombia","Target_2030","Human_Development_Index",0.910912635922432
+2024,"Colombia","Target_2030","Climate_Adaptation_Plans",0.897225445648655
+2024,"Colombia","Target_2030","Habitat_Carbon_Storage",0.898155246255919
+2024,"Colombia","Target_2030","Carbon_Under_Effective_Protection",0.804963420750573
+2024,"Ecuador","Target_2030","Marine_Red_List",0.947749708406627
+2024,"Ecuador","Target_2030","Marine_Living_Planet",0.840436913538724
+2024,"Ecuador","Target_2030","Fisheries_Stock_Condition",0.925133663089946
+2024,"Ecuador","Target_2030","Habitat_Condition",0.929711269726977
+2024,"Ecuador","Target_2030","Effective_Protection",0.993710185587406
+2024,"Ecuador","Target_2030","Small_Scale_Fisheries_Rights",0.990850994642824
+2024,"Ecuador","Target_2030","Wealth_Relative_Index",0.965338010061532
+2024,"Ecuador","Target_2030","Human_Development_Index",0.947530441451818
+2024,"Ecuador","Target_2030","Climate_Adaptation_Plans",0.908536206558347
+2024,"Ecuador","Target_2030","Habitat_Carbon_Storage",0.802450924832374
+2024,"Ecuador","Target_2030","Carbon_Under_Effective_Protection",0.818425890384242
+2024,"Peru","Target_2030","Marine_Red_List",0.951419706689194
+2024,"Peru","Target_2030","Marine_Living_Planet",0.838561125379056
+2024,"Peru","Target_2030","Fisheries_Stock_Condition",0.925680960761383
+2024,"Peru","Target_2030","Habitat_Condition",0.983261147933081
+2024,"Peru","Target_2030","Effective_Protection",0.877039718581364
+2024,"Peru","Target_2030","Small_Scale_Fisheries_Rights",0.808076152624562
+2024,"Peru","Target_2030","Wealth_Relative_Index",0.902144215069711
+2024,"Peru","Target_2030","Human_Development_Index",0.924625832401216
+2024,"Peru","Target_2030","Climate_Adaptation_Plans",0.967332023382187
+2024,"Peru","Target_2030","Habitat_Carbon_Storage",0.92829464012757
+2024,"Peru","Target_2030","Carbon_Under_Effective_Protection",0.89511164482683
+2024,"Chile","Target_2030","Marine_Red_List",0.998491061711684
+2024,"Chile","Target_2030","Marine_Living_Planet",0.94372234903276
+2024,"Chile","Target_2030","Fisheries_Stock_Condition",0.865647732838988
+2024,"Chile","Target_2030","Habitat_Condition",0.843332427786663
+2024,"Chile","Target_2030","Effective_Protection",0.971718281460926
+2024,"Chile","Target_2030","Small_Scale_Fisheries_Rights",0.8987232377287
+2024,"Chile","Target_2030","Wealth_Relative_Index",0.913545233150944
+2024,"Chile","Target_2030","Human_Development_Index",0.86220568115823
+2024,"Chile","Target_2030","Climate_Adaptation_Plans",0.945732907624915
+2024,"Chile","Target_2030","Habitat_Carbon_Storage",0.902514994330704
+2024,"Chile","Target_2030","Carbon_Under_Effective_Protection",0.839331352245063
+2024,"Madagascar","Target_2030","Marine_Red_List",0.924910597456619
+2024,"Madagascar","Target_2030","Marine_Living_Planet",0.862703579105437
+2024,"Madagascar","Target_2030","Fisheries_Stock_Condition",0.827781898388639
+2024,"Madagascar","Target_2030","Habitat_Condition",0.909599774377421
+2024,"Madagascar","Target_2030","Effective_Protection",0.977476950921118
+2024,"Madagascar","Target_2030","Small_Scale_Fisheries_Rights",0.845212740963325
+2024,"Madagascar","Target_2030","Wealth_Relative_Index",0.800231163948774
+2024,"Madagascar","Target_2030","Human_Development_Index",0.878439296921715
+2024,"Madagascar","Target_2030","Climate_Adaptation_Plans",0.911022761370987
+2024,"Madagascar","Target_2030","Habitat_Carbon_Storage",0.864070423645899
+2024,"Madagascar","Target_2030","Carbon_Under_Effective_Protection",0.962934789713472
+2024,"Mozambique","Target_2030","Marine_Red_List",0.857738021714613
+2024,"Mozambique","Target_2030","Marine_Living_Planet",0.827678025467321
+2024,"Mozambique","Target_2030","Fisheries_Stock_Condition",0.98293143408373
+2024,"Mozambique","Target_2030","Habitat_Condition",0.944010091573
+2024,"Mozambique","Target_2030","Effective_Protection",0.897818299708888
+2024,"Mozambique","Target_2030","Small_Scale_Fisheries_Rights",0.971760067855939
+2024,"Mozambique","Target_2030","Wealth_Relative_Index",0.828755620634183
+2024,"Mozambique","Target_2030","Human_Development_Index",0.840417491085827
+2024,"Mozambique","Target_2030","Climate_Adaptation_Plans",0.81468287948519
+2024,"Mozambique","Target_2030","Habitat_Carbon_Storage",0.916286631533876
+2024,"Mozambique","Target_2030","Carbon_Under_Effective_Protection",0.848811845621094
+2024,"Tanzania","Target_2030","Marine_Red_List",0.839982354873791
+2024,"Tanzania","Target_2030","Marine_Living_Planet",0.811606139549986
+2024,"Tanzania","Target_2030","Fisheries_Stock_Condition",0.919823193456978
+2024,"Tanzania","Target_2030","Habitat_Condition",0.879449201049283
+2024,"Tanzania","Target_2030","Effective_Protection",0.943618361791596
+2024,"Tanzania","Target_2030","Small_Scale_Fisheries_Rights",0.906187146762386
+2024,"Tanzania","Target_2030","Wealth_Relative_Index",0.973193416604772
+2024,"Tanzania","Target_2030","Human_Development_Index",0.9705560779199
+2024,"Tanzania","Target_2030","Climate_Adaptation_Plans",0.827300459844992
+2024,"Tanzania","Target_2030","Habitat_Carbon_Storage",0.92346888165921
+2024,"Tanzania","Target_2030","Carbon_Under_Effective_Protection",0.897761527588591
+2024,"Papua New Guinea","Target_2030","Marine_Red_List",0.960183569742367
+2024,"Papua New Guinea","Target_2030","Marine_Living_Planet",0.986219928227365
+2024,"Papua New Guinea","Target_2030","Fisheries_Stock_Condition",0.949921419192105
+2024,"Papua New Guinea","Target_2030","Habitat_Condition",0.818800278520212
+2024,"Papua New Guinea","Target_2030","Effective_Protection",0.897341114515439
+2024,"Papua New Guinea","Target_2030","Small_Scale_Fisheries_Rights",0.800927630160004
+2024,"Papua New Guinea","Target_2030","Wealth_Relative_Index",0.816512212110683
+2024,"Papua New Guinea","Target_2030","Human_Development_Index",0.921366030164063
+2024,"Papua New Guinea","Target_2030","Climate_Adaptation_Plans",0.936921739252284
+2024,"Papua New Guinea","Target_2030","Habitat_Carbon_Storage",0.887654907535762
+2024,"Papua New Guinea","Target_2030","Carbon_Under_Effective_Protection",0.929776495927945
+2024,"Indonesia","Target_2030","Marine_Red_List",0.945552542060614
+2024,"Indonesia","Target_2030","Marine_Living_Planet",0.913667602417991
+2024,"Indonesia","Target_2030","Fisheries_Stock_Condition",0.983790949033573
+2024,"Indonesia","Target_2030","Habitat_Condition",0.926979281008244
+2024,"Indonesia","Target_2030","Effective_Protection",0.997741772187874
+2024,"Indonesia","Target_2030","Small_Scale_Fisheries_Rights",0.855512016033754
+2024,"Indonesia","Target_2030","Wealth_Relative_Index",0.848914136411622
+2024,"Indonesia","Target_2030","Human_Development_Index",0.951219602767378
+2024,"Indonesia","Target_2030","Climate_Adaptation_Plans",0.819924387242645
+2024,"Indonesia","Target_2030","Habitat_Carbon_Storage",0.834073796123266
+2024,"Indonesia","Target_2030","Carbon_Under_Effective_Protection",0.831743294000626
+2024,"Fiji","Target_2030","Marine_Red_List",0.843409594940022
+2024,"Fiji","Target_2030","Marine_Living_Planet",0.823554072109982
+2024,"Fiji","Target_2030","Fisheries_Stock_Condition",0.905753079196438
+2024,"Fiji","Target_2030","Habitat_Condition",0.800495762052015
+2024,"Fiji","Target_2030","Effective_Protection",0.812950225919485
+2024,"Fiji","Target_2030","Small_Scale_Fisheries_Rights",0.865040628612042
+2024,"Fiji","Target_2030","Wealth_Relative_Index",0.996308631496504
+2024,"Fiji","Target_2030","Human_Development_Index",0.912503361748532
+2024,"Fiji","Target_2030","Climate_Adaptation_Plans",0.840757181029767
+2024,"Fiji","Target_2030","Habitat_Carbon_Storage",0.94301609932445
+2024,"Fiji","Target_2030","Carbon_Under_Effective_Protection",0.967395582189783
+2024,"Solomon Islands","Target_2030","Marine_Red_List",0.948847701074556
+2024,"Solomon Islands","Target_2030","Marine_Living_Planet",0.912958896299824
+2024,"Solomon Islands","Target_2030","Fisheries_Stock_Condition",0.874395749205723
+2024,"Solomon Islands","Target_2030","Habitat_Condition",0.842104647960514
+2024,"Solomon Islands","Target_2030","Effective_Protection",0.831532555585727
+2024,"Solomon Islands","Target_2030","Small_Scale_Fisheries_Rights",0.917741255322471
+2024,"Solomon Islands","Target_2030","Wealth_Relative_Index",0.915516255889088
+2024,"Solomon Islands","Target_2030","Human_Development_Index",0.855179802561179
+2024,"Solomon Islands","Target_2030","Climate_Adaptation_Plans",0.873196027660742
+2024,"Solomon Islands","Target_2030","Habitat_Carbon_Storage",0.949557309737429
+2024,"Solomon Islands","Target_2030","Carbon_Under_Effective_Protection",0.887319305958226

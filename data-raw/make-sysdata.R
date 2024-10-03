@@ -33,13 +33,20 @@ targets <- read.csv(file.path("data-raw", "indicator-targets_2030.csv")) %>%
 baseline <- indicators %>%
   filter(Year <= 2020) %>%
   mutate(Year = 2020) %>%
-  select(Country, Year, Indicator, Value) %>%
+  select(Year, Country, Indicator, Value) %>%
   pivot_wider(names_from = 'Indicator', values_from = 'Value') %>%
   bind_rows(do.call(rbind, rep(list(.), length(unique(2020:2030))-1))) %>% # repeat indicator baseline values for every year to 2030 so can plot
   mutate(Year = rep(2020:2030, each = length(unique(.$Country))),
-         Type = 'Baseline_2030') %>%
-  pivot_longer(-c(Country, Year, Type), names_to = 'Indicator', values_to = 'Value')
-base_targets <- bind_rows(baseline, targets) # bind into a single data frame
+         Type = 'Baseline_2020') %>%
+  pivot_longer(-c(Year, Country, Type), names_to = 'Indicator', values_to = 'Value')
+base_targets <- bind_rows(baseline, targets) %>% # bind into a single data frame
+  mutate( Units = case_when(Indicator %in% c('Marine_Red_List', 'Marine_Living_Planet', 'Fisheries_Stock_Condition', 'Habitat_Condition', 'Habitat_Carbon_Storage', 'Wealth_Relative_Index') ~ '\n(Standardised value (0 = Low, 100 = High))',
+                            Indicator %in% c('Effective_Protection', 'Carbon_Under_Effective_Protection') ~ '\n(Percent protected)',
+                            Indicator == 'Small_Scale_Fisheries_Rights' ~ '\n(Implementation level (1 = Low, 5 = High))',
+                            Indicator == 'Human_Development_Index' ~ '\n(Standardised value (0 = Low, 1 = High))'),
+          Label = gsub("_", " ", Indicator)) %>%
+  na.omit()
+base_targets$Label <- paste0(base_targets$Label, base_targets$Units)
 
 # make extras for widgets, etc -------------------------------------------------
 Region <- c('Arctic', rep('Eastern Pacific', 5), rep('Southwest Indian Ocean', 3), rep('Western Pacific',4))
@@ -49,7 +56,6 @@ region_names <- data.frame(number = c(1:4), region = unique(Region))
 indnames <- data.frame(text = c("Small Scale Fisheries Rights", "Wealth Relative Index", "Human Development Index", "Marine Red List", "Marine Living Planet", "Fisheries Stock Condition", "Habitat Condition", "Effective Protection", "Climate Adaptation Plans", "Habitat Carbon Storage", "Carbon Under Effective Protection"), ind = c("Small_Scale_Fisheries_Rights", "Wealth_Relative_Index", "Human_Development_Index", "Marine_Red_List", "Marine_Living_Planet", "Fisheries_Stock_Condition", "Habitat_Condition", "Effective_Protection", "Climate_Adaptation_Plans", "Habitat_Carbon_Storage", "Carbon_Under_Effective_Protection"))
 
 # read in and wrangle spatial data -------------------------------------------------
-#World <- st_read(file.path('data-raw', 'world.gpkg')) |> mutate(name = as.character(name)) |> mutate(name = ifelse(name == 'United States', 'Alaska', name)) |> mutate(name = ifelse(name == 'Solomon Is.', 'Solomon Islands', name)) |> filter(name != 'Antarctica')
 regions <- st_read(file.path('data-raw', 'EEZ_Land_v3_202030_sub_regions.gpkg'))
 eez <- st_read(file.path('data-raw', 'EEZ_Land_v3_202030_sub.gpkg'))
 
