@@ -252,3 +252,12 @@ To update:
 #### Climate Adaptation Plans
 
 **TODO**
+
+##### Instructions for updating baseline (2020) and target (2030) indicator values
+
+Baseline (year 2020) indicator values for each country/region are extracted from the indicator data processed as described in the above sections. Target (year 2030) values for each country/region are provided in a '.csv' file. The baseline and target values are wrangled into a single dataframe for plotting in the **'data-raw/make-sysdata.R'** script.
+
+To update the target indicator values: 
+
+1. directly edit the values for each country/region in **'data-raw/indicator-targets_2030.csv'**.
+2. Once you have saved the **'data-raw/indicator-targets_2030.csv'** with updated indicator values, run the **'data-raw/make-sysdata.R'** script to make the updated values available to the dashboard application.
