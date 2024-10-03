@@ -7,7 +7,7 @@ col_pal <- c("#000000","#004949","#009292","#ff6db6","#ffb6db",
              "#490092","#006ddb","#b66dff","#6db6ff","#b6dbff",
              "#920000","#924900","#db6d00","#24ff24","#ffff6d", "#000099", 'grey23')
 
-# read in and wrangle data -------------------------------------------------
+# read in and wrangle indicator data -------------------------------------------------
 indicators <- read.csv(file.path('data-raw', 'indicators.csv')) %>%
   mutate(Region = case_when(Country == 'Alaska' ~ 'Arctic',
                             Country %in% c('Mexico', 'Colombia', 'Ecuador', 'Peru', 'Chile') ~ 'Eastern Pacific',
@@ -23,7 +23,23 @@ indicators <- read.csv(file.path('data-raw', 'indicators.csv')) %>%
          Label = gsub("_", " ", Indicator)
          )
 indicators$Label <- paste0(indicators$Label, indicators$Units)
-base_targets <- read.csv(file.path("data-raw", "base_targets.csv"))
+
+# read in target (year 2030) indicator values and make dataframe with baseline (year 2020) indicator values -------------------------------------------------
+targets <- read.csv(file.path("data-raw", "indicator-targets_2030.csv")) %>%
+  bind_rows(do.call(rbind, rep(list(.), length(unique(2020:2030))-1))) %>% # repeat indicator target values for every year to 2030 so can plot
+  mutate(Year = rep(2020:2030, each = length(unique(.$Country))),
+         Type = 'Target_2030') %>%
+  pivot_longer(-c(Country, Year, Type), names_to = 'Indicator', values_to = 'Value')
+baseline <- indicators %>%
+  filter(Year <= 2020) %>%
+  mutate(Year = 2020) %>%
+  select(Country, Year, Indicator, Value) %>%
+  pivot_wider(names_from = 'Indicator', values_from = 'Value') %>%
+  bind_rows(do.call(rbind, rep(list(.), length(unique(2020:2030))-1))) %>% # repeat indicator baseline values for every year to 2030 so can plot
+  mutate(Year = rep(2020:2030, each = length(unique(.$Country))),
+         Type = 'Baseline_2030') %>%
+  pivot_longer(-c(Country, Year, Type), names_to = 'Indicator', values_to = 'Value')
+base_targets <- bind_rows(baseline, targets) # bind into a single data frame
 
 # make extras for widgets, etc -------------------------------------------------
 Region <- c('Arctic', rep('Eastern Pacific', 5), rep('Southwest Indian Ocean', 3), rep('Western Pacific',4))
