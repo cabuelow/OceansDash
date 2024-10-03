@@ -29,12 +29,14 @@ then install {OceansDash} with,
 devtools::install_github("cabuelow/OceansDash")
 ```
 
-Once you have {OceansDash} installed, you can run the application locally via:
+Once you have {OceansDash} installed, you can run the dashboard application locally via:
 
 ``` r
 library(OceansDash)
 run_app()
 ```
+
+To deploy the dashboard application on a remote [shiny server](https://www.shinyapps.io/), follow the instructions [**here**](#deploying-the-dashboard-application-to-a-remote-server).
 
 ## Table of contents
 
@@ -90,9 +92,19 @@ Once you have made changes to any of the above, you can test your edits by runni
 golem::run_dev()
 ```
 
-If you want to deploy or re-deploy the app to a shinyapps.io server, run the development version as above and hit **'Publish' or 'Re-publish'** button on the top right corner of the app as it is running.
+##### Deploying the dashboard application to a remote server
+
+If you want to deploy or re-deploy the app to a remote [shiny server](https://www.shinyapps.io/), run the development version as above and hit **'Publish' or 'Re-publish'** button on the top right corner of the app as it is running. For more detailed explanations regarding shiny application deployment, go [here](https://engineering-shiny.org/deploy.html).
 
 ![](images/publish-button.png)
+
+The following server settings are recommended to make the deployed dashboard application as responsive as possible:
+
+**General settings**
+![](images/server-settings_general.png)
+
+**Advanced settings**
+![](images/server-settings_advanced.png)
 
 *Note that there are many other files in the {OceansDash} package that are not discussed here. Those not mentioned are not necessary for editing or updating the dashboard application, but you can find more information on what they do/how to use them [here](https://engineering-shiny.org/build-app-golem.html)*.
 
