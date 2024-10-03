@@ -58,7 +58,8 @@ out[[i]] <- data.frame(Country = countries[i], Marine_Living_Planet = filter(mlp
 final_out <- do.call(rbind, out) %>%
   mutate(Indicator = 'Marine_Living_Planet') %>%
   rename(Year = Marine_Living_Planet.Year, Value = Marine_Living_Planet.LPI_final) %>%
-  select(Country, Year, Indicator, Value)
+  select(Country, Year, Indicator, Value) %>%
+  mutate(Country = ifelse(Country == 'Tanzania, United Republic Of', 'Tanzania', Country))
 
 # save
 
