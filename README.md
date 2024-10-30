@@ -27,8 +27,11 @@ run_app()
 and access the user manual:
 
 ``` r
-vignette('User_Manual', package='OceansDash')
+vignette('User_Manual', package ='OceansDash')
 ```
+
+The user manual vignette is also published
+[here](https://rpubs.com/cabuelow/1224376) for easy access.
 
 The above download and installation is not required if you simply want
 to use the Oceans Dashboard. The latest version is available on the
