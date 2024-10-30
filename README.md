@@ -6,7 +6,7 @@
 The Oceans Dashboard displays indicator time-series data to monitor
 progress towards goals for nature, people, and climate.
 
-## [Installation](#installation) \| [Instructions for contributing](#instructions-for-contributing) \| [Navigating and editing OceansDash](#navigating-and-editing-oceansdash) \| [Development TODO](#development-todo)
+## [Installation](#installation) \| [Instructions for contributing](#instructions-for-contributing) \| [Navigating and editing OceansDash](#navigating-and-editing-oceansdash)
 
 ## Installation
 
@@ -104,6 +104,4 @@ information on what they do/how to use them
 
 - Declare packages that functions belong to explicitly with `::`,
   e.g. `dplyr::mutate` or you will get an error message saying that the
-  function cannot be found
-
-## Development TODO
+  function cannot be found.
