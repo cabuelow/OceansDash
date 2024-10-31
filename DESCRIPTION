@@ -21,6 +21,7 @@ Imports:
     pkgload,
     plotly,
     shiny (>= 1.8.0),
+    shinycssloaders,
     shinyWidgets,
     tidyr,
     tmap
