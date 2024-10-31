@@ -26,7 +26,7 @@ install.packages('devtools')
 then install {OceansDash} with,
 
 ``` r
-devtools::install_github("cabuelow/OceansDash")
+devtools::install_github("cabuelow/OceansDash", build_vignettes = TRUE)
 ```
 
 Once you have {OceansDash} installed, you can run the dashboard application locally via:
